@@ -10,6 +10,7 @@ import org.eclipse.jgit.revwalk.LastCommitsOfChildren.Value;
 import org.junit.Test;
 
 import io.onedev.server.git.AbstractGitTest;
+import org.powermock.core.classloader.annotations.PowerMockIgnore;
 
 public class LastCommitsOfChildrenTest extends AbstractGitTest {
 
@@ -29,6 +30,7 @@ public class LastCommitsOfChildrenTest extends AbstractGitTest {
 	}
 
 	@Test
+	@PowerMockIgnore("jdk.internal.reflect.*")
 	public void testMergeTouchingSameFile() throws Exception {
 		addFileAndCommit("file", "1\n2\n3\n4\n5\n", "initial commit");
 		git.checkout().setName("dev").setCreateBranch(true).call();
