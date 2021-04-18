@@ -591,6 +591,7 @@
 		<servlet.version>3.1.0</servlet.version>
 		<sonar.projectKey>daviddratwa_oneDev</sonar.projectKey>
 		<sonar.organization>daviddratwa</sonar.organization>
-	 	<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.moduleKey>${artifactId}</sonar.moduleKey>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 </project>
