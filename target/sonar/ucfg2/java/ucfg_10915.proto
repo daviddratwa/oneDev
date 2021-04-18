@@ -1,0 +1,83 @@
+
+‰io.onedev.server.entitymanager.impl.DefaultPullRequestManager#queryOpenTo(Lio/onedev/server/util/ProjectAndBranch;)Ljava/util/Collection;§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaÚ  Ú(+"startingBlock*ù
+startingBlock§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaÚ+ Ú(Dª
+§
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaØ Ø(
+%6"
+__annotate*53
+1io.onedev.server.persistence.annotation.Sessional*2
+0
+target&io.onedev.server.util.ProjectAndBranch‹
+ˆ
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaÙ Ù(
+
+%7"
+__annotate*
+java.lang.Override*2
+0
+target&io.onedev.server.util.ProjectAndBranchı
+ú
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaÚ= Ú(C0
+target&io.onedev.server.util.ProjectAndBranch"__annotation*
+
+%6*
+
+%7*
+1*ˆ
+1§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaÛ) Û(7™
+–
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaÛ) Û(M5
+%0/io.onedev.server.persistence.dao.EntityCriteria"vio.onedev.server.persistence.dao.EntityCriteria#of(Ljava/lang/Class;)Lio/onedev/server/persistence/dao/EntityCriteria;*3"1
+/io.onedev.server.persistence.dao.EntityCriteria*
+""©
+¦
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaÛ Û(N;
+criteria/io.onedev.server.persistence.dao.EntityCriteria"__id*7
+5
+%0/io.onedev.server.persistence.dao.EntityCriteriaÍ
+Ê
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaÜ Ü('
+%1!org.hibernate.criterion.Criterion"ˆio.onedev.server.model.PullRequest$CriterionHelper#ofTarget(Lio/onedev/server/util/ProjectAndBranch;)Lorg/hibernate/criterion/Criterion;*6"4
+2io.onedev.server.model.PullRequest$CriterionHelper*2
+0
+target&io.onedev.server.util.ProjectAndBranch„
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaÜ Ü( 5
+%2/io.onedev.server.persistence.dao.EntityCriteria"‰io.onedev.server.persistence.dao.EntityCriteria#add(Lorg/hibernate/criterion/Criterion;)Lio/onedev/server/persistence/dao/EntityCriteria;*=
+;
+criteria/io.onedev.server.persistence.dao.EntityCriteria*)
+'
+%1!org.hibernate.criterion.Criterion2(add(Lorg/hibernate/criterion/Criterion;)î
+ë
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaİ İ('
+%3!org.hibernate.criterion.Criterion"^io.onedev.server.model.PullRequest$CriterionHelper#ofOpen()Lorg/hibernate/criterion/Criterion;*6"4
+2io.onedev.server.model.PullRequest$CriterionHelper„
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaİ İ(5
+%4/io.onedev.server.persistence.dao.EntityCriteria"‰io.onedev.server.persistence.dao.EntityCriteria#add(Lorg/hibernate/criterion/Criterion;)Lio/onedev/server/persistence/dao/EntityCriteria;*=
+;
+criteria/io.onedev.server.persistence.dao.EntityCriteria*)
+'
+%3!org.hibernate.criterion.Criterion2(add(Lorg/hibernate/criterion/Criterion;)üù
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaŞ	 Ş(
+%5java.util.List"{io.onedev.server.persistence.dao.BaseEntityManager#query(Lio/onedev/server/persistence/dao/EntityCriteria;)Ljava/util/List;*A?
+=io.onedev.server.entitymanager.impl.DefaultPullRequestManager*=
+;
+criteria/io.onedev.server.persistence.dao.EntityCriteria28query(Lio/onedev/server/persistence/dao/EntityCriteria;)"Â
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaŞ Ş(
+
+%5java.util.List:0
+target&io.onedev.server.util.ProjectAndBranchBA?
+=io.onedev.server.entitymanager.impl.DefaultPullRequestManager

@@ -1,0 +1,1284 @@
+
+€org.eclipse.jgit.merge.MergeAlgorithm#merge(Lorg/eclipse/jgit/diff/SequenceComparator;Lorg/eclipse/jgit/diff/Sequence;Lorg/eclipse/jgit/diff/Sequence;Lorg/eclipse/jgit/diff/Sequence;)Lorg/eclipse/jgit/merge/MergeResult;ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaG, G(1"66*¥
+24è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java· ·(˛˚
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java· ·(%
+%115int"%org.eclipse.jgit.diff.Edit#getEndA()I*(
+&
+oursEditorg.eclipse.jgit.diff.Edit2	getEndA()Ä˝
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java·( ·(<
+%116int"%org.eclipse.jgit.diff.Edit#getEndA()I**
+(
+
+theirsEditorg.eclipse.jgit.diff.Edit2	getEndA()*
+15
+4
+5
+7
+19
+8
+12*¥
+25è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaﬂ ﬂ(Ä˝
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaﬂ ﬂ(%
+%113int"%org.eclipse.jgit.diff.Edit#getEndA()I**
+(
+
+theirsEditorg.eclipse.jgit.diff.Edit2	getEndA()˛˚
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaﬂ( ﬂ(:
+%114int"%org.eclipse.jgit.diff.Edit#getEndA()I*(
+&
+oursEditorg.eclipse.jgit.diff.Edit2	getEndA()*
+15
+4
+5
+7
+19
+8
+12*®	
+26è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java‹ ‹(˛˚
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java‹ ‹(%
+%109int"%org.eclipse.jgit.diff.Edit#getEndB()I*(
+&
+oursEditorg.eclipse.jgit.diff.Edit2	getEndB()Ä˝
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java› ›()
+%110int"%org.eclipse.jgit.diff.Edit#getEndB()I**
+(
+
+theirsEditorg.eclipse.jgit.diff.Edit2	getEndB()˛˚
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaﬁ ﬁ(
+%111int"%org.eclipse.jgit.diff.Edit#getEndA()I*(
+&
+oursEditorg.eclipse.jgit.diff.Edit2	getEndA()Ä˝
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaﬁ ﬁ(1
+%112int"%org.eclipse.jgit.diff.Edit#getEndA()I**
+(
+
+theirsEditorg.eclipse.jgit.diff.Edit2	getEndA()*
+24
+25*Ì
+28è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java‘ ‘(Ò
+Ó
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java‘ ‘(&
+oursEditorg.eclipse.jgit.diff.Edit"__id*,
+*
+nextOursEditorg.eclipse.jgit.diff.EditÍ
+Á
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java’ ’()"
+%108org.eclipse.jgit.diff.Edit"`org.eclipse.jgit.merge.MergeAlgorithm#nextEdit(Ljava/util/Iterator;)Lorg/eclipse/jgit/diff/Edit;*)"'
+%org.eclipse.jgit.merge.MergeAlgorithm*"
+ 
+
+baseToOursjava.util.IteratorÌ
+Í
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java’ ’()*
+nextOursEditorg.eclipse.jgit.diff.Edit"__id*$
+"
+%108org.eclipse.jgit.diff.Edit*
+31*¨
+29è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java” ”(Ä˝
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java” ”($
+%106int"%org.eclipse.jgit.diff.Edit#getEndA()I**
+(
+
+theirsEditorg.eclipse.jgit.diff.Edit2	getEndA()ÜÉ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java”( ”(@
+%107int"'org.eclipse.jgit.diff.Edit#getBeginA()I*,
+*
+nextOursEditorg.eclipse.jgit.diff.Edit2getBeginA()*
+26
+28*ı
+30è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java— —(!ı
+Ú
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java— —(!(
+
+theirsEditorg.eclipse.jgit.diff.Edit"__id*.
+,
+nextTheirsEditorg.eclipse.jgit.diff.EditÏ
+È
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java“ “(-"
+%105org.eclipse.jgit.diff.Edit"`org.eclipse.jgit.merge.MergeAlgorithm#nextEdit(Ljava/util/Iterator;)Lorg/eclipse/jgit/diff/Edit;*)"'
+%org.eclipse.jgit.merge.MergeAlgorithm*$
+"
+baseToTheirsjava.util.IteratorÔ
+Ï
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java“ “(-,
+nextTheirsEditorg.eclipse.jgit.diff.Edit"__id*$
+"
+%105org.eclipse.jgit.diff.Edit*
+31*¨
+31è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java–	 –(˛˚
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java–	 –(
+%103int"%org.eclipse.jgit.diff.Edit#getEndA()I*(
+&
+oursEditorg.eclipse.jgit.diff.Edit2	getEndA()àÖ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java– –(9
+%104int"'org.eclipse.jgit.diff.Edit#getBeginA()I*.
+,
+nextTheirsEditorg.eclipse.jgit.diff.Edit2getBeginA()*
+29
+30*⁄
+
+33è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaÕ Õ( Í
+Á
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaÕ Õ(,"
+%101org.eclipse.jgit.diff.Edit"`org.eclipse.jgit.merge.MergeAlgorithm#nextEdit(Ljava/util/Iterator;)Lorg/eclipse/jgit/diff/Edit;*)"'
+%org.eclipse.jgit.merge.MergeAlgorithm*"
+ 
+
+baseToOursjava.util.IteratorÌ
+Í
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaÕ Õ(-*
+nextOursEditorg.eclipse.jgit.diff.Edit"__id*$
+"
+%101org.eclipse.jgit.diff.EditÏ
+È
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaŒ Œ(0"
+%102org.eclipse.jgit.diff.Edit"`org.eclipse.jgit.merge.MergeAlgorithm#nextEdit(Ljava/util/Iterator;)Lorg/eclipse/jgit/diff/Edit;*)"'
+%org.eclipse.jgit.merge.MergeAlgorithm*$
+"
+baseToTheirsjava.util.IteratorÔ
+Ï
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaŒ Œ(1,
+nextTheirsEditorg.eclipse.jgit.diff.Edit"__id*$
+"
+%102org.eclipse.jgit.diff.Edit*
+31*ß
+34è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaØ Ø(Å˛
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaØ Ø('
+
+%99int"'org.eclipse.jgit.diff.Edit#getBeginA()I*(
+&
+oursEditorg.eclipse.jgit.diff.Edit2getBeginA()ÑÅ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaØ* Ø(@
+%100int"'org.eclipse.jgit.diff.Edit#getBeginA()I**
+(
+
+theirsEditorg.eclipse.jgit.diff.Edit2getBeginA()*
+33*¶
+35è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java¨ ¨(ÉÄ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java¨ ¨(+
+
+%97int"'org.eclipse.jgit.diff.Edit#getBeginA()I**
+(
+
+theirsEditorg.eclipse.jgit.diff.Edit2getBeginA()Å˛
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java≠	 ≠(
+
+%98int"'org.eclipse.jgit.diff.Edit#getBeginA()I*(
+&
+oursEditorg.eclipse.jgit.diff.Edit2getBeginA()*
+33*¥	
+36è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java® ®(Å˛
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java® ®()
+
+%93int"'org.eclipse.jgit.diff.Edit#getBeginB()I*(
+&
+oursEditorg.eclipse.jgit.diff.Edit2getBeginB()ÉÄ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java© ©(-
+
+%94int"'org.eclipse.jgit.diff.Edit#getBeginB()I**
+(
+
+theirsEditorg.eclipse.jgit.diff.Edit2getBeginB()Å˛
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java´ ´(
+
+%95int"'org.eclipse.jgit.diff.Edit#getBeginA()I*(
+&
+oursEditorg.eclipse.jgit.diff.Edit2getBeginA()ÉÄ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java´ ´(5
+
+%96int"'org.eclipse.jgit.diff.Edit#getBeginA()I**
+(
+
+theirsEditorg.eclipse.jgit.diff.Edit2getBeginA()*
+35
+34*í
+37è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java¢ ¢(Å˛
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java¢% ¢(9
+
+%87int"'org.eclipse.jgit.diff.Edit#getBeginA()I*(
+&
+oursEditorg.eclipse.jgit.diff.Edit2getBeginA()ÉÄ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java£ £(
+
+%88int"'org.eclipse.jgit.diff.Edit#getBeginA()I**
+(
+
+theirsEditorg.eclipse.jgit.diff.Edit2getBeginA()Í
+Á
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java¢ £(
+
+%89int"java.lang.Math#min(II)I*"
+java.lang.Math*
+
+
+%87int*
+
+
+%88int€
+ÿ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java£  £(-6
+%90/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""€
+ÿ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java£  £(96
+%91/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""¿Ω
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java¢ £(:
+%92void"]org.eclipse.jgit.merge.MergeResult#add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)V*.
+,
+result"org.eclipse.jgit.merge.MergeResult*2 *
+""*
+
+
+%89int*8
+6
+%91/org.eclipse.jgit.merge.MergeChunk$ConflictState29add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)*
+36*¶
+38è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java°	 °(ÉÄ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java°	 °(
+
+%86int"'org.eclipse.jgit.diff.Edit#getBeginA()I**
+(
+
+theirsEditorg.eclipse.jgit.diff.Edit2getBeginA()*
+36
+37*§
+39è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java† †(Å˛
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java† †(
+
+%85int"'org.eclipse.jgit.diff.Edit#getBeginA()I*(
+&
+oursEditorg.eclipse.jgit.diff.Edit2getBeginA()*
+36
+38*à
+40è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaò ò(
+ÉÄ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaò ò((
+
+%78int"'org.eclipse.jgit.diff.Edit#getBeginB()I**
+(
+
+theirsEditorg.eclipse.jgit.diff.Edit2getBeginB()ˇ¸
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaò* ò(>
+
+%79int"%org.eclipse.jgit.diff.Edit#getEndB()I**
+(
+
+theirsEditorg.eclipse.jgit.diff.Edit2	getEndB()€
+ÿ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaô ô(6
+%80/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""€
+ÿ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaô ô(6
+%81/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""»≈
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaò ô( 
+%82void"]org.eclipse.jgit.merge.MergeResult#add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)V*.
+,
+result"org.eclipse.jgit.merge.MergeResult*2*
+
+
+%78int*
+
+
+%79int*8
+6
+%81/org.eclipse.jgit.merge.MergeChunk$ConflictState29add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)ˇ¸
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaö ö("
+
+%83int"%org.eclipse.jgit.diff.Edit#getEndA()I**
+(
+
+theirsEditorg.eclipse.jgit.diff.Edit2	getEndA()Î
+Ë
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaõ õ('!
+%84org.eclipse.jgit.diff.Edit"`org.eclipse.jgit.merge.MergeAlgorithm#nextEdit(Ljava/util/Iterator;)Lorg/eclipse/jgit/diff/Edit;*)"'
+%org.eclipse.jgit.merge.MergeAlgorithm*$
+"
+baseToTheirsjava.util.IteratorÍ
+Á
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaõ õ('(
+
+theirsEditorg.eclipse.jgit.diff.Edit"__id*#
+!
+%84org.eclipse.jgit.diff.Edit*
+49*°
+
+41è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaï ï(ÉÄ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaï ï(2
+
+%74int"'org.eclipse.jgit.diff.Edit#getBeginA()I**
+(
+
+theirsEditorg.eclipse.jgit.diff.Edit2getBeginA()€
+ÿ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javañ ñ(6
+%75/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""€
+ÿ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javañ ñ( 6
+%76/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""¿Ω
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaï ñ(!
+%77void"]org.eclipse.jgit.merge.MergeResult#add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)V*.
+,
+result"org.eclipse.jgit.merge.MergeResult*2 *
+""*
+
+
+%74int*8
+6
+%76/org.eclipse.jgit.merge.MergeChunk$ConflictState29add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)*
+40*¶
+42è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaî î(ÉÄ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaî î()
+
+%73int"'org.eclipse.jgit.diff.Edit#getBeginA()I**
+(
+
+theirsEditorg.eclipse.jgit.diff.Edit2getBeginA()*
+40
+41*¶
+43è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaê ê(ˇ¸
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaê ê("
+
+%71int"%org.eclipse.jgit.diff.Edit#getEndA()I**
+(
+
+theirsEditorg.eclipse.jgit.diff.Edit2	getEndA()Å˛
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaê% ê(9
+
+%72int"'org.eclipse.jgit.diff.Edit#getBeginA()I*(
+&
+oursEditorg.eclipse.jgit.diff.Edit2getBeginA()*
+39
+42*˛
+44è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaå å(
+Å˛
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaå å(&
+
+%64int"'org.eclipse.jgit.diff.Edit#getBeginB()I*(
+&
+oursEditorg.eclipse.jgit.diff.Edit2getBeginB()˝˙
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaå( å(:
+
+%65int"%org.eclipse.jgit.diff.Edit#getEndB()I*(
+&
+oursEditorg.eclipse.jgit.diff.Edit2	getEndB()€
+ÿ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaç ç(6
+%66/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""€
+ÿ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaç ç(6
+%67/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""»≈
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaå ç( 
+%68void"]org.eclipse.jgit.merge.MergeResult#add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)V*.
+,
+result"org.eclipse.jgit.merge.MergeResult*2*
+
+
+%64int*
+
+
+%65int*8
+6
+%67/org.eclipse.jgit.merge.MergeChunk$ConflictState29add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)˝˙
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaé é( 
+
+%69int"%org.eclipse.jgit.diff.Edit#getEndA()I*(
+&
+oursEditorg.eclipse.jgit.diff.Edit2	getEndA()È
+Ê
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaè è(#!
+%70org.eclipse.jgit.diff.Edit"`org.eclipse.jgit.merge.MergeAlgorithm#nextEdit(Ljava/util/Iterator;)Lorg/eclipse/jgit/diff/Edit;*)"'
+%org.eclipse.jgit.merge.MergeAlgorithm*"
+ 
+
+baseToOursjava.util.IteratorË
+Â
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaè è(#&
+oursEditorg.eclipse.jgit.diff.Edit"__id*#
+!
+%70org.eclipse.jgit.diff.Edit*
+49*ü
+
+45è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaâ â(Å˛
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaâ â(0
+
+%60int"'org.eclipse.jgit.diff.Edit#getBeginA()I*(
+&
+oursEditorg.eclipse.jgit.diff.Edit2getBeginA()€
+ÿ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaä ä(6
+%61/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""€
+ÿ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaä ä( 6
+%62/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""¿Ω
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaâ ä(!
+%63void"]org.eclipse.jgit.merge.MergeResult#add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)V*.
+,
+result"org.eclipse.jgit.merge.MergeResult*2 *
+""*
+
+
+%60int*8
+6
+%62/org.eclipse.jgit.merge.MergeChunk$ConflictState29add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)*
+44*§
+46è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaà à(Å˛
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaà à('
+
+%59int"'org.eclipse.jgit.diff.Edit#getBeginA()I*(
+&
+oursEditorg.eclipse.jgit.diff.Edit2getBeginA()*
+44
+45*¶
+47è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaÑ Ñ(˝˙
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaÑ Ñ(
+
+%57int"%org.eclipse.jgit.diff.Edit#getEndA()I*(
+&
+oursEditorg.eclipse.jgit.diff.Edit2	getEndA()ÉÄ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaÑ Ñ(2
+
+%58int"'org.eclipse.jgit.diff.Edit#getBeginA()I**
+(
+
+theirsEditorg.eclipse.jgit.diff.Edit2getBeginA()*
+46
+43*Ï
+48è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaÉ$ É(- 
+«
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaÉ$ É(7
+%56boolean"Norg.eclipse.jgit.merge.MergeAlgorithm#isEndEdit(Lorg/eclipse/jgit/diff/Edit;)Z*)"'
+%org.eclipse.jgit.merge.MergeAlgorithm*(
+&
+oursEditorg.eclipse.jgit.diff.Edit*
+3
+47*Ô
+49è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaÉ
+ É(Ã
+…
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaÉ
+ É(
+%55boolean"Norg.eclipse.jgit.merge.MergeAlgorithm#isEndEdit(Lorg/eclipse/jgit/diff/Edit;)Z*)"'
+%org.eclipse.jgit.merge.MergeAlgorithm**
+(
+
+theirsEditorg.eclipse.jgit.diff.Edit*
+47
+48*Ë#
+50ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaw w(˝
+˙
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaw w(*
+%47#org.eclipse.jgit.diff.DiffAlgorithm"__id*6*4'
+%org.eclipse.jgit.merge.MergeAlgorithm"	
+diffAlgﬁ€
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaw w(4%
+%48org.eclipse.jgit.diff.EditList"¥org.eclipse.jgit.diff.DiffAlgorithm#diff(Lorg/eclipse/jgit/diff/SequenceComparator;Lorg/eclipse/jgit/diff/Sequence;Lorg/eclipse/jgit/diff/Sequence;)Lorg/eclipse/jgit/diff/EditList;*,
+*
+%47#org.eclipse.jgit.diff.DiffAlgorithm*1
+/
+cmp(org.eclipse.jgit.diff.SequenceComparator*
+	
+baseS*
+	
+oursS2pdiff(Lorg/eclipse/jgit/diff/SequenceComparator;Lorg/eclipse/jgit/diff/Sequence;Lorg/eclipse/jgit/diff/Sequence;)Ô
+Ï
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaw w(5+
+	oursEditsorg.eclipse.jgit.diff.EditList"__id*'
+%
+%48org.eclipse.jgit.diff.EditListùö
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javax x(2
+%49java.util.Iterator"2java.util.ArrayList#iterator()Ljava/util/Iterator;*-
++
+	oursEditsorg.eclipse.jgit.diff.EditList2
+iterator()ÿ
+’
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javax x(3 
+
+baseToOursjava.util.Iterator"__id*
+
+%49java.util.Iterator˝
+˙
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javay y( *
+%50#org.eclipse.jgit.diff.DiffAlgorithm"__id*6*4'
+%org.eclipse.jgit.merge.MergeAlgorithm"	
+diffAlg‡›
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javay y(8%
+%51org.eclipse.jgit.diff.EditList"¥org.eclipse.jgit.diff.DiffAlgorithm#diff(Lorg/eclipse/jgit/diff/SequenceComparator;Lorg/eclipse/jgit/diff/Sequence;Lorg/eclipse/jgit/diff/Sequence;)Lorg/eclipse/jgit/diff/EditList;*,
+*
+%50#org.eclipse.jgit.diff.DiffAlgorithm*1
+/
+cmp(org.eclipse.jgit.diff.SequenceComparator*
+	
+baseS*
+
+theirsS2pdiff(Lorg/eclipse/jgit/diff/SequenceComparator;Lorg/eclipse/jgit/diff/Sequence;Lorg/eclipse/jgit/diff/Sequence;)Ò
+Ó
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javay y(9-
+theirsEditsorg.eclipse.jgit.diff.EditList"__id*'
+%
+%51org.eclipse.jgit.diff.EditListüú
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaz  z(6
+%52java.util.Iterator"2java.util.ArrayList#iterator()Ljava/util/Iterator;*/
+-
+theirsEditsorg.eclipse.jgit.diff.EditList2
+iterator()⁄
+◊
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaz z(7"
+baseToTheirsjava.util.Iterator"__id*
+
+%52java.util.IteratorÁ
+‰
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java} }(&!
+%53org.eclipse.jgit.diff.Edit"`org.eclipse.jgit.merge.MergeAlgorithm#nextEdit(Ljava/util/Iterator;)Lorg/eclipse/jgit/diff/Edit;*)"'
+%org.eclipse.jgit.merge.MergeAlgorithm*"
+ 
+
+baseToOursjava.util.IteratorÊ
+„
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java} }('&
+oursEditorg.eclipse.jgit.diff.Edit"__id*#
+!
+%53org.eclipse.jgit.diff.EditÈ
+Ê
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java~ ~(*!
+%54org.eclipse.jgit.diff.Edit"`org.eclipse.jgit.merge.MergeAlgorithm#nextEdit(Ljava/util/Iterator;)Lorg/eclipse/jgit/diff/Edit;*)"'
+%org.eclipse.jgit.merge.MergeAlgorithm*$
+"
+baseToTheirsjava.util.IteratorË
+Â
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java~ ~(+(
+
+theirsEditorg.eclipse.jgit.diff.Edit"__id*#
+!
+%54org.eclipse.jgit.diff.Edit*
+49*◊
+51ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javat
+ t("¿
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javat t(.
+,
+result"org.eclipse.jgit.merge.MergeResult*á
+52ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javas s(
+Ÿ
+÷
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javas s(%6
+%44/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""Ÿ
+÷
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javas s(16
+%45/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""≤Ø
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javas s(2
+%46void"]org.eclipse.jgit.merge.MergeResult#add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)V*.
+,
+result"org.eclipse.jgit.merge.MergeResult*2*2 *2 *8
+6
+%45/org.eclipse.jgit.merge.MergeChunk$ConflictState29add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)*
+51*›
+53ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javam m(‹Ÿ
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javam m(!
+
+%37int"&org.eclipse.jgit.diff.Sequence#size()I*
+	
+oursS2size()Ÿ
+÷
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javan n(6
+%38/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""Ÿ
+÷
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javan n(,6
+%39/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""ºπ
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javam n(-
+%40void"]org.eclipse.jgit.merge.MergeResult#add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)V*.
+,
+result"org.eclipse.jgit.merge.MergeResult*2*2 *
+
+
+%37int*8
+6
+%39/org.eclipse.jgit.merge.MergeChunk$ConflictState29add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)Ÿ
+÷
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javao o(&6
+%41/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""Ÿ
+÷
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javao o(=6
+%42/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""≤Ø
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javao o(>
+%43void"]org.eclipse.jgit.merge.MergeResult#add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)V*.
+,
+result"org.eclipse.jgit.merge.MergeResult*2*2 *2 *8
+6
+%42/org.eclipse.jgit.merge.MergeChunk$ConflictState29add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)*
+51*	
+54ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javak k(‹Ÿ
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javak k(!
+
+%33int"&org.eclipse.jgit.diff.Sequence#size()I*
+	
+oursS2size()Ÿ
+÷
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javak# k(06
+%34/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""Ÿ
+÷
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javak# k(<6
+%35/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""ºπ
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javak k(=
+%36void"]org.eclipse.jgit.merge.MergeResult#add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)V*.
+,
+result"org.eclipse.jgit.merge.MergeResult*2*2 *
+
+
+%33int*8
+6
+%35/org.eclipse.jgit.merge.MergeChunk$ConflictState29add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)*
+51*ı
+56ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaf f(˝
+˙
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaf f(*
+%30#org.eclipse.jgit.diff.DiffAlgorithm"__id*6*4'
+%org.eclipse.jgit.merge.MergeAlgorithm"	
+diffAlgﬁ€
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaf f(5%
+%31org.eclipse.jgit.diff.EditList"¥org.eclipse.jgit.diff.DiffAlgorithm#diff(Lorg/eclipse/jgit/diff/SequenceComparator;Lorg/eclipse/jgit/diff/Sequence;Lorg/eclipse/jgit/diff/Sequence;)Lorg/eclipse/jgit/diff/EditList;*,
+*
+%30#org.eclipse.jgit.diff.DiffAlgorithm*1
+/
+cmp(org.eclipse.jgit.diff.SequenceComparator*
+	
+baseS*
+	
+oursS2pdiff(Lorg/eclipse/jgit/diff/SequenceComparator;Lorg/eclipse/jgit/diff/Sequence;Lorg/eclipse/jgit/diff/Sequence;)Ô
+Ï
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaf f(6+
+	oursEditsorg.eclipse.jgit.diff.EditList"__id*'
+%
+%31org.eclipse.jgit.diff.EditList˝˙
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javag g(
+%32boolean"java.util.ArrayList#isEmpty()Z*-
++
+	oursEditsorg.eclipse.jgit.diff.EditList2	isEmpty()*
+52
+53
+54*£
+12è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaÇ Ç(‹
+Ÿ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaÉ É(7
+%119/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""‹
+Ÿ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaÉ É( 7
+%120/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""æª
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaÇ É(!
+%121void"]org.eclipse.jgit.merge.MergeResult#add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)V*.
+,
+result"org.eclipse.jgit.merge.MergeResult*2*
+""*
+""*9
+7
+%120/org.eclipse.jgit.merge.MergeChunk$ConflictState29add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)*
+4
+5
+7
+8*ˇ
+57ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javae e(ﬁ€
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javae e(
+
+%29int"&org.eclipse.jgit.diff.Sequence#size()I*
+
+theirsS2size()*
+50
+56*◊
+58ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javad
+ d("¿
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javad d(.
+,
+result"org.eclipse.jgit.merge.MergeResult*á
+59ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javac c(
+Ÿ
+÷
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javac c(%6
+%26/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""Ÿ
+÷
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javac c(16
+%27/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""≤Ø
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javac c(2
+%28void"]org.eclipse.jgit.merge.MergeResult#add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)V*.
+,
+result"org.eclipse.jgit.merge.MergeResult*2*2 *2 *8
+6
+%27/org.eclipse.jgit.merge.MergeChunk$ConflictState29add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)*
+58*ˆ
+15è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java˚	 ˚(«ƒ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java˚	 ¸(&
+%118boolean"torg.eclipse.jgit.diff.SequenceComparator#equals(Lorg/eclipse/jgit/diff/Sequence;ILorg/eclipse/jgit/diff/Sequence;I)Z*1
+/
+cmp(org.eclipse.jgit.diff.SequenceComparator*
+	
+oursS*
+""*
+
+theirsS*
+""2Jequals(Lorg/eclipse/jgit/diff/Sequence;ILorg/eclipse/jgit/diff/Sequence;I)*
+15
+4
+5
+7
+8
+12*˙
+19è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaı	 ı(«ƒ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaı	 ˆ($
+%117boolean"torg.eclipse.jgit.diff.SequenceComparator#equals(Lorg/eclipse/jgit/diff/Sequence;ILorg/eclipse/jgit/diff/Sequence;I)Z*1
+/
+cmp(org.eclipse.jgit.diff.SequenceComparator*
+	
+oursS*
+""*
+
+theirsS*
+""2Jequals(Lorg/eclipse/jgit/diff/Sequence;ILorg/eclipse/jgit/diff/Sequence;I)*
+15
+4
+5
+7
+19
+8
+12*⁄
+1è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java§	 §("¬
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java§ §(.
+,
+result"org.eclipse.jgit.merge.MergeResult*Ä
+
+2è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java¢ ¢(	ﬂ‹
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java¢ ¢(%
+%138int"&org.eclipse.jgit.diff.Sequence#size()I*
+	
+baseS2size()‹
+Ÿ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java¢' ¢(47
+%139/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""‹
+Ÿ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java¢' ¢(@7
+%140/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""√¿
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java¢ ¢(A
+%141void"]org.eclipse.jgit.merge.MergeResult#add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)V*.
+,
+result"org.eclipse.jgit.merge.MergeResult*2 *
+""*
+
+%138int*9
+7
+%140/org.eclipse.jgit.merge.MergeChunk$ConflictState29add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)*
+1*ˇ
+3è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java° °(ﬂ‹
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java° °(
+%137int"&org.eclipse.jgit.diff.Sequence#size()I*
+	
+baseS2size()*
+2
+1*˚
+
+4è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaö ö(˛˚
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaö ö()
+%134int"%org.eclipse.jgit.diff.Edit#getEndA()I*(
+&
+oursEditorg.eclipse.jgit.diff.Edit2	getEndA()Ä˝
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaö+ ö(?
+%135int"%org.eclipse.jgit.diff.Edit#getEndA()I**
+(
+
+theirsEditorg.eclipse.jgit.diff.Edit2	getEndA()Ì
+Í
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaö ö(@
+%136int"java.lang.Math#max(II)I*"
+java.lang.Math*
+
+%134int*
+
+%135intÒ
+Ó
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaõ õ(&
+oursEditorg.eclipse.jgit.diff.Edit"__id*,
+*
+nextOursEditorg.eclipse.jgit.diff.Editı
+Ú
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaú ú((
+
+theirsEditorg.eclipse.jgit.diff.Edit"__id*.
+,
+nextTheirsEditorg.eclipse.jgit.diff.Edit*
+49*ô
+5è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaó ó(‹
+Ÿ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaò ò(7
+%131/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""‹
+Ÿ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaò ò( 7
+%132/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""æª
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaó ò(!
+%133void"]org.eclipse.jgit.merge.MergeResult#add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)V*.
+,
+result"org.eclipse.jgit.merge.MergeResult*2*
+""*
+""*9
+7
+%132/org.eclipse.jgit.merge.MergeChunk$ConflictState29add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)*
+4*õ
+7è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaå å(‹
+Ÿ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaé é(7
+%125/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""‹
+Ÿ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaé é(-7
+%126/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""æª
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaå é(.
+%127void"]org.eclipse.jgit.merge.MergeResult#add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)V*.
+,
+result"org.eclipse.jgit.merge.MergeResult*2*
+""*
+""*9
+7
+%126/org.eclipse.jgit.merge.MergeChunk$ConflictState29add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)‹
+Ÿ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaë ë(7
+%128/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""‹
+Ÿ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaë ë(,7
+%129/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""æª
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaè ë(-
+%130void"]org.eclipse.jgit.merge.MergeResult#add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)V*.
+,
+result"org.eclipse.jgit.merge.MergeResult*2*
+""*
+""*9
+7
+%129/org.eclipse.jgit.merge.MergeChunk$ConflictState29add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)*
+4
+5*ú
+8è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaà à(‹
+Ÿ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaä ä(7
+%122/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""‹
+Ÿ
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaä ä(!7
+%123/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""æª
+è
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaà ä("
+%124void"]org.eclipse.jgit.merge.MergeResult#add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)V*.
+,
+result"org.eclipse.jgit.merge.MergeResult*2*
+""*
+""*9
+7
+%123/org.eclipse.jgit.merge.MergeChunk$ConflictState29add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)*
+4
+5*á
+60ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java` `(Ÿ
+÷
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java` `(&6
+%23/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""Ÿ
+÷
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java` `(26
+%24/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""≤Ø
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java` `(3
+%25void"]org.eclipse.jgit.merge.MergeResult#add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)V*.
+,
+result"org.eclipse.jgit.merge.MergeResult*2*2 *2 *8
+6
+%24/org.eclipse.jgit.merge.MergeChunk$ConflictState29add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)*
+58*ﬂ
+61ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaZ Z(Ÿ
+÷
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaZ Z('6
+%16/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""Ÿ
+÷
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaZ Z(?6
+%17/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""≤Ø
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaZ Z(@
+%18void"]org.eclipse.jgit.merge.MergeResult#add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)V*.
+,
+result"org.eclipse.jgit.merge.MergeResult*2*2 *2 *8
+6
+%17/org.eclipse.jgit.merge.MergeChunk$ConflictState29add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)ﬁ€
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java[ [($
+
+%19int"&org.eclipse.jgit.diff.Sequence#size()I*
+
+theirsS2size()Ÿ
+÷
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java\ \(6
+%20/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""Ÿ
+÷
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java\ \(,6
+%21/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""ºπ
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.java[ \(-
+%22void"]org.eclipse.jgit.merge.MergeResult#add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)V*.
+,
+result"org.eclipse.jgit.merge.MergeResult*2*2 *
+
+
+%19int*8
+6
+%21/org.eclipse.jgit.merge.MergeChunk$ConflictState29add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)*
+58*á
+62ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaX X(Ÿ
+÷
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaX X('6
+%13/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""Ÿ
+÷
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaX X(36
+%14/org.eclipse.jgit.merge.MergeChunk$ConflictState"__id*
+""≤Ø
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaX X(4
+%15void"]org.eclipse.jgit.merge.MergeResult#add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)V*.
+,
+result"org.eclipse.jgit.merge.MergeResult*2*2 *2 *8
+6
+%14/org.eclipse.jgit.merge.MergeChunk$ConflictState29add(IIILorg/eclipse/jgit/merge/MergeChunk$ConflictState;)*
+58*˚
+64ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaS S("˝
+˙
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaS S("*
+%10#org.eclipse.jgit.diff.DiffAlgorithm"__id*6*4'
+%org.eclipse.jgit.merge.MergeAlgorithm"	
+diffAlg‡›
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaS S(:%
+%11org.eclipse.jgit.diff.EditList"¥org.eclipse.jgit.diff.DiffAlgorithm#diff(Lorg/eclipse/jgit/diff/SequenceComparator;Lorg/eclipse/jgit/diff/Sequence;Lorg/eclipse/jgit/diff/Sequence;)Lorg/eclipse/jgit/diff/EditList;*,
+*
+%10#org.eclipse.jgit.diff.DiffAlgorithm*1
+/
+cmp(org.eclipse.jgit.diff.SequenceComparator*
+	
+baseS*
+
+theirsS2pdiff(Lorg/eclipse/jgit/diff/SequenceComparator;Lorg/eclipse/jgit/diff/Sequence;Lorg/eclipse/jgit/diff/Sequence;)Ò
+Ó
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaS S(;-
+theirsEditsorg.eclipse.jgit.diff.EditList"__id*'
+%
+%11org.eclipse.jgit.diff.EditListˇ¸
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaT	 T(
+%12boolean"java.util.ArrayList#isEmpty()Z*/
+-
+theirsEditsorg.eclipse.jgit.diff.EditList2	isEmpty()*
+60
+61
+62*˛
+65ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaR R(›⁄
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaR R(	
+%9int"&org.eclipse.jgit.diff.Sequence#size()I*
+
+theirsS2size()*
+59
+64*õ
+66ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaI& I('√¿
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaI I(%
+%0java.util.ArrayList"java.util.ArrayList‹
+Ÿ
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaI I((
+%1"java.util.ArrayList#<init>(I)V*
+
+%0java.util.ArrayList*2”
+–
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaI I()
+	sequencesjava.util.List"__id*
+
+%0java.util.ArrayListﬁ
+€
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaJ J(
+%2boolean"
+__arrayAdd*
+
+	sequencesjava.util.List*: *
+	
+baseSﬁ
+€
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaK K(
+%3boolean"
+__arrayAdd*
+
+	sequencesjava.util.List*: *
+	
+oursS‡
+›
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaL L(
+%4boolean"
+__arrayAdd*
+
+	sequencesjava.util.List*: *
+
+theirsS·ﬁ
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaM M(+(
+%5"org.eclipse.jgit.merge.MergeResult""org.eclipse.jgit.merge.MergeResult¢
+ü
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaM M(6
+%6"<org.eclipse.jgit.merge.MergeResult#<init>(Ljava/util/List;)V**
+(
+%5"org.eclipse.jgit.merge.MergeResult*
+
+	sequencesjava.util.ListÛ
+
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaM M(7,
+result"org.eclipse.jgit.merge.MergeResult"__id**
+(
+%5"org.eclipse.jgit.merge.MergeResult˝
+˙
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaO O(5
+%7boolean"-io.onedev.server.git.UseOursOnConflict#get()Z**"(
+&io.onedev.server.git.UseOursOnConflict€ÿ
+ç
+ÇC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeAlgorithm.javaQ Q(	
+%8int"&org.eclipse.jgit.diff.Sequence#size()I*
+	
+oursS2size()*
+57
+65:/
+cmp(org.eclipse.jgit.diff.SequenceComparator:	
+baseS:	
+oursS:
+theirsSB)'
+%org.eclipse.jgit.merge.MergeAlgorithm

@@ -1,0 +1,102 @@
+
+}io.onedev.server.web.page.admin.mailsetting.MailSettingPage$2#runTask(Lio/onedev/server/util/SimpleLogger;)Ljava/lang/String;£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/admin/mailsetting/MailSettingPage.javaF F("startingBlock*∞
+startingBlock£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/admin/mailsetting/MailSettingPage.javaF F(0É
+Ä
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/admin/mailsetting/MailSettingPage.javaE E(
+%9"
+__annotate*
+java.lang.Override*.
+,
+logger"io.onedev.server.util.SimpleLoggerÌ
+Í
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/admin/mailsetting/MailSettingPage.javaF) F(/,
+logger"io.onedev.server.util.SimpleLogger"__annotation*
+
+%9*
+1*ƒ 
+1£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/admin/mailsetting/MailSettingPage.javaG G(…
+∆
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/admin/mailsetting/MailSettingPage.javaG G('!
+%0io.onedev.server.model.User"Nio.onedev.server.security.SecurityUtils#getUser()Lio/onedev/server/model/User;*+")
+'io.onedev.server.security.SecurityUtils˘
+ˆ
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/admin/mailsetting/MailSettingPage.javaG G((#
+userio.onedev.server.model.User"__id*#
+!
+%0io.onedev.server.model.UserÛ
+
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/admin/mailsetting/MailSettingPage.javaI I(9
+bodyjava.lang.String"__id*(&
+$Great, your mail setting is working!…
+∆
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/admin/mailsetting/MailSettingPage.javaJ J()/
+%1)io.onedev.server.notification.MailManager"Hio.onedev.server.OneDev#getInstance(Ljava/lang/Class;)Ljava/lang/Object;*"
+io.onedev.server.OneDev*
+""êç
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/admin/mailsetting/MailSettingPage.javaJ3 J(U?
+%29io.onedev.server.model.support.administration.MailSetting"âio.onedev.server.web.page.admin.mailsetting.MailSettingHolder#getMailSetting()Lio/onedev/server/model/support/administration/MailSetting;*
+""2getMailSetting()Æ´
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/admin/mailsetting/MailSettingPage.javaK K(%
+%3java.lang.String"8io.onedev.server.model.User#getEmail()Ljava/lang/String;*%
+#
+userio.onedev.server.model.User2
+getEmail()”
+–
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/admin/mailsetting/MailSettingPage.javaK K(&
+%4java.util.HashSet"Qcom.google.common.collect.Sets#newHashSet([Ljava/lang/Object;)Ljava/util/HashSet;*"" 
+com.google.common.collect.Sets*
+
+%3java.lang.StringÌÍ
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/admin/mailsetting/MailSettingPage.javaJ K(M
+
+%5void"ºio.onedev.server.notification.MailManager#sendMail(Lio/onedev/server/model/support/administration/MailSetting;Ljava/util/Collection;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*1
+/
+%1)io.onedev.server.notification.MailManager*A
+?
+%29io.onedev.server.model.support.administration.MailSetting*
+
+%4java.util.HashSet*
+Test email from OneDev*
+
+bodyjava.lang.String*
+
+bodyjava.lang.String2ësendMail(Lio/onedev/server/model/support/administration/MailSetting;Ljava/util/Collection;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Æ´
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/admin/mailsetting/MailSettingPage.javaL+ L(:
+%6java.lang.String"8io.onedev.server.model.User#getEmail()Ljava/lang/String;*%
+#
+userio.onedev.server.model.User2
+getEmail()Ü
+É
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/admin/mailsetting/MailSettingPage.javaL L(:
+%7java.lang.String"__concat*
+Test mail has been sent to *
+
+%6java.lang.Stringá
+Ñ
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/admin/mailsetting/MailSettingPage.javaL L([
+%8java.lang.String"__concat*
+
+%7java.lang.String* 
+, please check your mail box"¿
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/admin/mailsetting/MailSettingPage.javaL L(\
+
+%8java.lang.String:,
+logger"io.onedev.server.util.SimpleLoggerBA?
+=io.onedev.server.web.page.admin.mailsetting.MailSettingPage$2

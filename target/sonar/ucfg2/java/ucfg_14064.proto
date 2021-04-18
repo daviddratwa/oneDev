@@ -1,0 +1,680 @@
+
+cio.onedev.server.entitymanager.impl.DefaultProjectManager#delete(Lio/onedev/server/model/Project;)V£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java÷ ÷("startingBlock*Ú
+13£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java‰ ‰(¿Ω
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java‰ ‰(*
+%18java.util.Collection"?io.onedev.server.model.Project#getForks()Ljava/util/Collection;*+
+)
+projectio.onedev.server.model.Project2
+getForks()*
+8*∏
+
+14£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java‚ ‚(
+∂≥
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java‚$ ‚(5
+%14java.lang.String":io.onedev.server.model.Project#getName()Ljava/lang/String;*+
+)
+projectio.onedev.server.model.Project2	getName()ˆ
+Û
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java‚ ‚(5
+%15java.lang.String"__concat*
+	Project '*
+
+%14java.lang.StringÓ
+Î
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java‚ ‚(;
+%16java.lang.String"__concat*
+
+%15java.lang.String*
+'‚ﬂ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java‚ ‚(<
+%17void"Aio.onedev.server.util.usage.Usage#checkInUse(Ljava/lang/String;)V*,
+*
+usage!io.onedev.server.util.usage.Usage*
+
+%16java.lang.String2checkInUse(Ljava/lang/String;)*
+13*ﬁ
+15£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java›
+ ›(#É
+Ä
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java›
+ ›(#J
+groovyScript:io.onedev.server.model.support.administration.GroovyScript"__id*
+""°
+û
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java›
+ ›(#J
+groovyScript:io.onedev.server.model.support.administration.GroovyScript"
+__arrayGet*
+
+%9java.util.List*
+""*
+14
+16*∑
+16£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaﬁ ﬁ(∂≥
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaﬁ- ﬁ(>
+%10java.lang.String":io.onedev.server.model.Project#getName()Ljava/lang/String;*+
+)
+projectio.onedev.server.model.Project2	getName()ÔÏ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaﬁ ﬁ(F(
+%11!io.onedev.server.util.usage.Usage"Çio.onedev.server.model.support.administration.GroovyScript#onDeleteProject(Ljava/lang/String;I)Lio/onedev/server/util/usage/Usage;*L
+J
+groovyScript:io.onedev.server.model.support.administration.GroovyScript*
+
+%10java.lang.String*
+""2$onDeleteProject(Ljava/lang/String;I)êç
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaﬁ ﬁ(_(
+%12!io.onedev.server.util.usage.Usage"_io.onedev.server.util.usage.Usage#prefix(Ljava/lang/String;)Lio/onedev/server/util/usage/Usage;**
+(
+%11!io.onedev.server.util.usage.Usage*
+administration2prefix(Ljava/lang/String;)∆√
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaﬁ ﬁ(`(
+%13!io.onedev.server.util.usage.Usage"mio.onedev.server.util.usage.Usage#add(Lio/onedev/server/util/usage/Usage;)Lio/onedev/server/util/usage/Usage;*,
+*
+usage!io.onedev.server.util.usage.Usage**
+(
+%12!io.onedev.server.util.usage.Usage2(add(Lio/onedev/server/util/usage/Usage;)*
+15*…
+17£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java›% ›(3∑
+¥
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java›% ›(33
+%8-io.onedev.server.entitymanager.SettingManager"__id*Q*O;
+9io.onedev.server.entitymanager.impl.DefaultProjectManager"
+settingManager‹Ÿ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java›% ›(F
+%9java.util.List"Pio.onedev.server.entitymanager.SettingManager#getGroovyScripts()Ljava/util/List;*5
+3
+%8-io.onedev.server.entitymanager.SettingManager2getGroovyScripts()*
+15*Ú
+18£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaŸ
+ Ÿ(!ç
+ä
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaŸ
+ Ÿ(!T
+jobExecutorEio.onedev.server.model.support.administration.jobexecutor.JobExecutor"__id*
+""´
+®
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaŸ
+ Ÿ(!T
+jobExecutorEio.onedev.server.model.support.administration.jobexecutor.JobExecutor"
+__arrayGet*
+
+%3java.util.List*
+""*
+17
+19*≈
+19£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java⁄ ⁄(µ≤
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java⁄, ⁄(=
+%4java.lang.String":io.onedev.server.model.Project#getName()Ljava/lang/String;*+
+)
+projectio.onedev.server.model.Project2	getName()Çˇ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java⁄ ⁄(E'
+%5!io.onedev.server.util.usage.Usage"çio.onedev.server.model.support.administration.jobexecutor.JobExecutor#onDeleteProject(Ljava/lang/String;I)Lio/onedev/server/util/usage/Usage;*V
+T
+jobExecutorEio.onedev.server.model.support.administration.jobexecutor.JobExecutor*
+
+%4java.lang.String*
+""2$onDeleteProject(Ljava/lang/String;I)éã
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java⁄ ⁄(^'
+%6!io.onedev.server.util.usage.Usage"_io.onedev.server.util.usage.Usage#prefix(Ljava/lang/String;)Lio/onedev/server/util/usage/Usage;*)
+'
+%5!io.onedev.server.util.usage.Usage*
+administration2prefix(Ljava/lang/String;)ƒ¡
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java⁄ ⁄(_'
+%7!io.onedev.server.util.usage.Usage"mio.onedev.server.util.usage.Usage#add(Lio/onedev/server/util/usage/Usage;)Lio/onedev/server/util/usage/Usage;*,
+*
+usage!io.onedev.server.util.usage.Usage*)
+'
+%6!io.onedev.server.util.usage.Usage2(add(Lio/onedev/server/util/usage/Usage;)*
+18*√
+0 "ª
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaê ê(
+implicit return*À
+1£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaé é(öó
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaé é(
+%68void"(org.eclipse.jgit.lib.Repository#close()V*/
+-
+
+repositoryorg.eclipse.jgit.lib.Repository2close()*
+0*¢
+
+2£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaå å(*ô
+ñ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaå å(*
+%65java.util.Map"__id*R*P;
+9io.onedev.server.entitymanager.impl.DefaultProjectManager"
+repositoryCacheµ≤
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaå2 å(A
+%66java.lang.Long"=io.onedev.server.model.AbstractEntity#getId()Ljava/lang/Long;*+
+)
+projectio.onedev.server.model.Project2getId()è
+å
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaå å(B&
+%67org.eclipse.jgit.lib.Repository"__mapRemove*
+
+%65java.util.Map*
+
+%66java.lang.Longà
+Ö
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaå å(C-
+
+repositoryorg.eclipse.jgit.lib.Repository"__id*(
+&
+%67org.eclipse.jgit.lib.Repository*
+0
+1*é	
+3£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaâ â(§
+°
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaâ â(+
+%62$io.onedev.server.persistence.dao.Dao"__id*F*D;
+9io.onedev.server.entitymanager.impl.DefaultProjectManager"
+daoöó
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaâ â(
+%63void"Uio.onedev.server.persistence.dao.Dao#remove(Lio/onedev/server/model/AbstractEntity;)V*-
++
+%62$io.onedev.server.persistence.dao.Dao*+
+)
+projectio.onedev.server.model.Project2/remove(Lio/onedev/server/model/AbstractEntity;)ô
+ñ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaã ã("
+%64java.util.Map"__id*R*P;
+9io.onedev.server.entitymanager.impl.DefaultProjectManager"
+repositoryCache*
+2*›
+startingBlock£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java÷ ÷('§
+°
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java‘ ‘(
+%69"
+__annotate*97
+5io.onedev.server.persistence.annotation.Transactional*+
+)
+projectio.onedev.server.model.ProjectÅ
+˛
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java’ ’(
+%70"
+__annotate*
+java.lang.Override*+
+)
+projectio.onedev.server.model.ProjectÙ
+Ò
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java÷ ÷(&)
+projectio.onedev.server.model.Project"__annotation*
+
+%69*
+
+%70*
+21*ò
+4£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÜ
+ Ü(ﬁ
+€
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÜ
+ Ü(%
+buildio.onedev.server.model.Build"__id*
+""É
+Ä
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÜ
+ Ü(%
+buildio.onedev.server.model.Build"
+__arrayGet*
+
+%59java.util.Collection*
+""*
+3
+5*è
+5£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaá á(¥
+±
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaá á(2
+%60+io.onedev.server.entitymanager.BuildManager"__id*O*M;
+9io.onedev.server.entitymanager.impl.DefaultProjectManager"
+buildManagerß§
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaá á( 
+%61void"_io.onedev.server.persistence.dao.EntityManager#delete(Lio/onedev/server/model/AbstractEntity;)V*4
+2
+%60+io.onedev.server.entitymanager.BuildManager*'
+%
+buildio.onedev.server.model.Build2/delete(Lio/onedev/server/model/AbstractEntity;)*
+4*Û
+6£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÜ Ü(¬ø
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÜ Ü(*
+%59java.util.Collection"@io.onedev.server.model.Project#getBuilds()Ljava/util/Collection;*+
+)
+projectio.onedev.server.model.Project2getBuilds()*
+4*Ë)
+7£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java¸ ¸( ÏÈ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java¸ ¸("
+%45org.hibernate.Session"Vio.onedev.server.persistence.dao.BaseEntityManager#getSession()Lorg/hibernate/Session;*=;
+9io.onedev.server.entitymanager.impl.DefaultProjectManager2getSession()–
+Õ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java˝ ˝(
+%46java.lang.String"__id*
+""–
+Õ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java˝! ˝(9
+%47java.lang.String"__id*
+""ï
+í
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java¸/ ˝(:
+%48java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*31
+/update Project set %s=null where %s=:forkedFrom*
+
+%46java.lang.String*
+
+%47java.lang.StringáÑ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java¸ ˝(; 
+%49org.hibernate.query.Query"^org.hibernate.SharedSessionContract#createQuery(Ljava/lang/String;)Lorg/hibernate/query/Query;*
+
+%45org.hibernate.Session*
+
+%48java.lang.String2createQuery(Ljava/lang/String;)˜
+Ù
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java¸ ˝(<"
+queryorg.hibernate.query.Query"__id*"
+ 
+%49org.hibernate.query.QueryÀ»
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java˛ ˛(. 
+%50org.hibernate.query.Query"gorg.hibernate.query.Query#setParameter(Ljava/lang/String;Ljava/lang/Object;)Lorg/hibernate/query/Query;*$
+"
+queryorg.hibernate.query.Query*
+
+forkedFrom*+
+)
+projectio.onedev.server.model.Project22setParameter(Ljava/lang/String;Ljava/lang/Object;)ñì
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaˇ ˇ(
+
+%51int"(javax.persistence.Query#executeUpdate()I*$
+"
+queryorg.hibernate.query.Query2executeUpdate()ÏÈ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÅ Å(
+%52org.hibernate.Session"Vio.onedev.server.persistence.dao.BaseEntityManager#getSession()Lorg/hibernate/Session;*=;
+9io.onedev.server.entitymanager.impl.DefaultProjectManager2getSession()–
+Õ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÇ Ç(&
+%53java.lang.String"__id*
+""–
+Õ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÇ( Ç(G
+%54java.lang.String"__id*
+""ú
+ô
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÅ& Ç(H
+%55java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*:8
+6update PullRequest set %s=null where %s=:sourceProject*
+
+%53java.lang.String*
+
+%54java.lang.StringáÑ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÅ Ç(I 
+%56org.hibernate.query.Query"^org.hibernate.SharedSessionContract#createQuery(Ljava/lang/String;)Lorg/hibernate/query/Query;*
+
+%52org.hibernate.Session*
+
+%55java.lang.String2createQuery(Ljava/lang/String;)˜
+Ù
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÅ Ç(I"
+queryorg.hibernate.query.Query"__id*"
+ 
+%56org.hibernate.query.QueryŒÀ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÉ É(1 
+%57org.hibernate.query.Query"gorg.hibernate.query.Query#setParameter(Ljava/lang/String;Ljava/lang/Object;)Lorg/hibernate/query/Query;*$
+"
+queryorg.hibernate.query.Query*
+sourceProject*+
+)
+projectio.onedev.server.model.Project22setParameter(Ljava/lang/String;Ljava/lang/Object;)ñì
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÑ Ñ(
+
+%58int"(javax.persistence.Query#executeUpdate()I*$
+"
+queryorg.hibernate.query.Query2executeUpdate()*
+6*õ
+8£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java‰
+ ‰(ﬂ
+‹
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java‰
+ ‰(&
+forkio.onedev.server.model.Project"__id*
+""Ñ
+Å
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java‰
+ ‰(&
+forkio.onedev.server.model.Project"
+__arrayGet*
+
+%18java.util.Collection*
+""*
+7
+12*Ø
+9£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÁ Á(Â
+‚
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÁ Á(,
+
+descendantio.onedev.server.model.Project"__id*
+""í
+è
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÁ Á(,
+
+descendantio.onedev.server.model.Project"
+__arrayGet*%
+#
+descendantsjava.util.Collection*
+""*
+8
+10*«
+20£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaŸ# Ÿ(1∑
+¥
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaŸ# Ÿ(13
+%2-io.onedev.server.entitymanager.SettingManager"__id*Q*O;
+9io.onedev.server.entitymanager.impl.DefaultProjectManager"
+settingManager⁄◊
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaŸ# Ÿ(C
+%3java.util.List"Oio.onedev.server.entitymanager.SettingManager#getJobExecutors()Ljava/util/List;*5
+3
+%2-io.onedev.server.entitymanager.SettingManager2getJobExecutors()*
+18*ª
+21£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java◊ ◊(ıÚ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java◊ ◊('
+%0!io.onedev.server.util.usage.Usage"!io.onedev.server.util.usage.Usageá
+Ñ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java◊ ◊(
+%1"+io.onedev.server.util.usage.Usage#<init>()V*)
+'
+%0!io.onedev.server.util.usage.UsageÜ
+É
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java◊ ◊(*
+usage!io.onedev.server.util.usage.Usage"__id*)
+'
+%0!io.onedev.server.util.usage.Usage*
+20*“H
+10£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaË Ë((ÏÈ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaË Ë(*
+%21org.hibernate.Session"Vio.onedev.server.persistence.dao.BaseEntityManager#getSession()Lorg/hibernate/Session;*=;
+9io.onedev.server.entitymanager.impl.DefaultProjectManager2getSession()–
+Õ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÈ È(&
+%22java.lang.String"__id*
+""–
+Õ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÈ( È(:
+%23java.lang.String"__id*
+""î
+ë
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaË7 È(;
+%24java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*20
+.update Issue set %s=:fork where %s=:descendant*
+
+%22java.lang.String*
+
+%23java.lang.StringáÑ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaË È(< 
+%25org.hibernate.query.Query"^org.hibernate.SharedSessionContract#createQuery(Ljava/lang/String;)Lorg/hibernate/query/Query;*
+
+%21org.hibernate.Session*
+
+%24java.lang.String2createQuery(Ljava/lang/String;)˜
+Ù
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaË È(="
+queryorg.hibernate.query.Query"__id*"
+ 
+%25org.hibernate.query.Query¬ø
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÍ Í(- 
+%26org.hibernate.query.Query"gorg.hibernate.query.Query#setParameter(Ljava/lang/String;Ljava/lang/Object;)Lorg/hibernate/query/Query;*$
+"
+queryorg.hibernate.query.Query*
+fork*(
+&
+forkio.onedev.server.model.Project22setParameter(Ljava/lang/String;Ljava/lang/Object;)ŒÀ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÎ Î(9 
+%27org.hibernate.query.Query"gorg.hibernate.query.Query#setParameter(Ljava/lang/String;Ljava/lang/Object;)Lorg/hibernate/query/Query;*$
+"
+queryorg.hibernate.query.Query*
+
+descendant*.
+,
+
+descendantio.onedev.server.model.Project22setParameter(Ljava/lang/String;Ljava/lang/Object;)ñì
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÏ Ï("
+
+%28int"(javax.persistence.Query#executeUpdate()I*$
+"
+queryorg.hibernate.query.Query2executeUpdate()ÏÈ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÓ Ó(!
+%29org.hibernate.Session"Vio.onedev.server.persistence.dao.BaseEntityManager#getSession()Lorg/hibernate/Session;*=;
+9io.onedev.server.entitymanager.impl.DefaultProjectManager2getSession()–
+Õ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÔ Ô(&
+%30java.lang.String"__id*
+""–
+Õ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÔ( Ô(:
+%31java.lang.String"__id*
+""î
+ë
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÓ. Ô(;
+%32java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*20
+.update Build set %s=:fork where %s=:descendant*
+
+%30java.lang.String*
+
+%31java.lang.StringáÑ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÓ Ô(< 
+%33org.hibernate.query.Query"^org.hibernate.SharedSessionContract#createQuery(Ljava/lang/String;)Lorg/hibernate/query/Query;*
+
+%29org.hibernate.Session*
+
+%32java.lang.String2createQuery(Ljava/lang/String;)˜
+Ù
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÓ Ô(<"
+queryorg.hibernate.query.Query"__id*"
+ 
+%33org.hibernate.query.Query¬ø
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java (- 
+%34org.hibernate.query.Query"gorg.hibernate.query.Query#setParameter(Ljava/lang/String;Ljava/lang/Object;)Lorg/hibernate/query/Query;*$
+"
+queryorg.hibernate.query.Query*
+fork*(
+&
+forkio.onedev.server.model.Project22setParameter(Ljava/lang/String;Ljava/lang/Object;)ŒÀ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÒ Ò(9 
+%35org.hibernate.query.Query"gorg.hibernate.query.Query#setParameter(Ljava/lang/String;Ljava/lang/Object;)Lorg/hibernate/query/Query;*$
+"
+queryorg.hibernate.query.Query*
+
+descendant*.
+,
+
+descendantio.onedev.server.model.Project22setParameter(Ljava/lang/String;Ljava/lang/Object;)ñì
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÚ Ú("
+
+%36int"(javax.persistence.Query#executeUpdate()I*$
+"
+queryorg.hibernate.query.Query2executeUpdate()ÏÈ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÙ Ù(!
+%37org.hibernate.Session"Vio.onedev.server.persistence.dao.BaseEntityManager#getSession()Lorg/hibernate/Session;*=;
+9io.onedev.server.entitymanager.impl.DefaultProjectManager2getSession()–
+Õ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaı ı(,
+%38java.lang.String"__id*
+""–
+Õ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaı. ı(M
+%39java.lang.String"__id*
+""ö
+ó
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÙ. ı(N
+%40java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*86
+4update PullRequest set %s=:fork where %s=:descendant*
+
+%38java.lang.String*
+
+%39java.lang.StringáÑ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÙ ı(O 
+%41org.hibernate.query.Query"^org.hibernate.SharedSessionContract#createQuery(Ljava/lang/String;)Lorg/hibernate/query/Query;*
+
+%37org.hibernate.Session*
+
+%40java.lang.String2createQuery(Ljava/lang/String;)˜
+Ù
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÙ ı(O"
+queryorg.hibernate.query.Query"__id*"
+ 
+%41org.hibernate.query.Query¬ø
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaˆ ˆ(- 
+%42org.hibernate.query.Query"gorg.hibernate.query.Query#setParameter(Ljava/lang/String;Ljava/lang/Object;)Lorg/hibernate/query/Query;*$
+"
+queryorg.hibernate.query.Query*
+fork*(
+&
+forkio.onedev.server.model.Project22setParameter(Ljava/lang/String;Ljava/lang/Object;)ŒÀ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java˜ ˜(9 
+%43org.hibernate.query.Query"gorg.hibernate.query.Query#setParameter(Ljava/lang/String;Ljava/lang/Object;)Lorg/hibernate/query/Query;*$
+"
+queryorg.hibernate.query.Query*
+
+descendant*.
+,
+
+descendantio.onedev.server.model.Project22setParameter(Ljava/lang/String;Ljava/lang/Object;)ñì
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java¯ ¯("
+
+%44int"(javax.persistence.Query#executeUpdate()I*$
+"
+queryorg.hibernate.query.Query2executeUpdate()*
+9*˛
+12£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÂ( Â(,øº
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÂ( Â(>
+%19java.util.List"@io.onedev.server.model.Project#getForkChildren()Ljava/util/List;*(
+&
+forkio.onedev.server.model.Project2getForkChildren()Ì
+Í
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÂ Â(?#
+descendantsjava.util.Collection"__id*
+
+%19java.util.Listö
+ó
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÊ Ê(
+%20boolean"
+__arrayAdd*%
+#
+descendantsjava.util.Collection*: *(
+&
+forkio.onedev.server.model.Project*
+9:)
+projectio.onedev.server.model.ProjectB=;
+9io.onedev.server.entitymanager.impl.DefaultProjectManager

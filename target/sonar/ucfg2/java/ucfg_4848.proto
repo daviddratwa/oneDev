@@ -1,0 +1,90 @@
+
+™io.onedev.server.buildspec.job.gitcredential.HttpCredential#newCloneInfo(Lio/onedev/server/model/Build;Ljava/lang/String;)Lio/onedev/k8shelper/CloneInfo;£
+˜C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/gitcredential/HttpCredential.java* *("startingBlock*ø
+startingBlock£
+˜C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/gitcredential/HttpCredential.java* *(<ü
+ù
+£
+˜C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/gitcredential/HttpCredential.java) )(
+
+%7"
+__annotate*
+java.lang.Override*'
+%
+buildio.onedev.server.model.Buildæ
+ã
+£
+˜C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/gitcredential/HttpCredential.java*% *(*%
+buildio.onedev.server.model.Build"__annotation*
+
+%7ó
+ð
+£
+˜C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/gitcredential/HttpCredential.java) )(
+
+%8"
+__annotate*
+java.lang.Override*
+
+jobTokenjava.lang.StringÝ
+Ú
+£
+˜C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/gitcredential/HttpCredential.java*3 *(;
+jobTokenjava.lang.String"__annotation*
+
+%8*
+1*Ú
+1£
+˜C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/gitcredential/HttpCredential.java+ +(!É
+Æ
+£
+˜C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/gitcredential/HttpCredential.java+ +(?/
+%0)io.onedev.server.entitymanager.UrlManager"Hio.onedev.server.OneDev#getInstance(Ljava/lang/Class;)Ljava/lang/Object;*"
+io.onedev.server.OneDev*
+""ÑÎ
+£
+˜C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/gitcredential/HttpCredential.java+L +(^$
+%1io.onedev.server.model.Project"Iio.onedev.server.model.Build#getProject()Lio/onedev/server/model/Project;*'
+%
+buildio.onedev.server.model.Build2getProject()À½
+£
+˜C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/gitcredential/HttpCredential.java+ +(f
+%2java.lang.String"jio.onedev.server.entitymanager.UrlManager#cloneUrlFor(Lio/onedev/server/model/Project;Z)Ljava/lang/String;*1
+/
+%0)io.onedev.server.entitymanager.UrlManager*&
+$
+%1io.onedev.server.model.Project*
+""2.cloneUrlFor(Lio/onedev/server/model/Project;Z)Ÿ
+œ
+£
+˜C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/gitcredential/HttpCredential.java, ,(*
+%3java.lang.String"__id*V*T=
+;io.onedev.server.buildspec.job.gitcredential.HttpCredential"
+accessTokenSecretûø
+£
+˜C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/gitcredential/HttpCredential.java, ,(+
+%4java.lang.String"Qio.onedev.server.model.Build#getSecretValue(Ljava/lang/String;)Ljava/lang/String;*'
+%
+buildio.onedev.server.model.Build*
+
+%3java.lang.String2"getSecretValue(Ljava/lang/String;)õò
+£
+˜C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/gitcredential/HttpCredential.java+ +('
+%5!io.onedev.k8shelper.HttpCloneInfo"!io.onedev.k8shelper.HttpCloneInfoß
+Ü
+£
+˜C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/gitcredential/HttpCredential.java+	 ,(,
+%6"Oio.onedev.k8shelper.HttpCloneInfo#<init>(Ljava/lang/String;Ljava/lang/String;)V*)
+'
+%5!io.onedev.k8shelper.HttpCloneInfo*
+
+%2java.lang.String*
+
+%4java.lang.String"Ñ
+£
+˜C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/gitcredential/HttpCredential.java+ ,(-)
+'
+%5!io.onedev.k8shelper.HttpCloneInfo:%
+buildio.onedev.server.model.Build:
+jobTokenjava.lang.StringB?=
+;io.onedev.server.buildspec.job.gitcredential.HttpCredential

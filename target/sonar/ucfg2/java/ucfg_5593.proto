@@ -1,0 +1,59 @@
+
+yio.onedev.server.web.util.SuggestionUtils#suggestJobs(Lio/onedev/server/model/Project;Ljava/lang/String;)Ljava/util/List;ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaÃ% Ã(0"1*⁄
+1ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaÕ* Õ(0ª
+∏
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaÕ* Õ(P1
+%0+io.onedev.server.entitymanager.BuildManager"Hio.onedev.server.OneDev#getInstance(Ljava/lang/Class;)Ljava/lang/Object;*"
+io.onedev.server.OneDev*
+""À»
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaÕ* Œ(#
+%1java.util.Collection"yio.onedev.server.entitymanager.BuildManager#getAccessibleJobNames(Lio/onedev/server/model/Project;)Ljava/util/Collection;*3
+1
+%0+io.onedev.server.entitymanager.BuildManager*+
+)
+projectio.onedev.server.model.Project27getAccessibleJobNames(Lio/onedev/server/model/Project;)…∆
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaÕ Õ()
+%2java.util.ArrayList"java.util.ArrayListè
+å
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaÕ Œ($
+%3"3java.util.ArrayList#<init>(Ljava/util/Collection;)V*
+
+%2java.util.ArrayList*
+
+%1java.util.Collectionÿ
+’
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaÕ Œ(%
+jobNamesjava.util.List"__id*
+
+%2java.util.ArrayList¡
+æ
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaœ œ(
+
+%4void"Gedu.emory.mathcs.backport.java.util.Collections#sort(Ljava/util/List;)V*3"1
+/edu.emory.mathcs.backport.java.util.Collections*
+
+jobNamesjava.util.ListÑ
+Å
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.java–	 –(%
+%5java.util.List"eio.onedev.server.web.util.SuggestionUtils#suggest(Ljava/util/List;Ljava/lang/String;)Ljava/util/List;*-"+
+)io.onedev.server.web.util.SuggestionUtils*
+
+jobNamesjava.util.List*
+
+	matchWithjava.lang.String"Æ
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.java– –(&
+
+%5java.util.List:)
+projectio.onedev.server.model.Project:
+	matchWithjava.lang.StringB-"+
+)io.onedev.server.web.util.SuggestionUtils

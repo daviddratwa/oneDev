@@ -1,0 +1,48 @@
+
+àio.onedev.server.model.PullRequest$CriterionHelper#ofTarget(Lio/onedev/server/util/ProjectAndBranch;)Lorg/hibernate/criterion/Criterion;ã
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/PullRequest.javaí í(""1*Å
+1ã
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/PullRequest.javaì
+ ì(–Õ
+ã
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/PullRequest.javaî& î(9$
+%0io.onedev.server.model.Project"Uio.onedev.server.util.ProjectAndRevision#getProject()Lio/onedev/server/model/Project;*2
+0
+target&io.onedev.server.util.ProjectAndBranch2getProject()ü
+ú
+ã
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/PullRequest.javaî î(:.
+%1(org.hibernate.criterion.SimpleExpression"worg.hibernate.criterion.Restrictions#eq(Ljava/lang/String;Ljava/lang/Object;)Lorg/hibernate/criterion/SimpleExpression;*("&
+$org.hibernate.criterion.Restrictions*
+targetProject*&
+$
+%0io.onedev.server.model.Project∞≠
+ã
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/PullRequest.javaï% ï(7
+%2java.lang.String"Dio.onedev.server.util.ProjectAndBranch#getBranch()Ljava/lang/String;*2
+0
+target&io.onedev.server.util.ProjectAndBranch2getBranch()ê
+ç
+ã
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/PullRequest.javaï ï(8.
+%3(org.hibernate.criterion.SimpleExpression"worg.hibernate.criterion.Restrictions#eq(Ljava/lang/String;Ljava/lang/Object;)Lorg/hibernate/criterion/SimpleExpression;*("&
+$org.hibernate.criterion.Restrictions*
+targetBranch*
+
+%2java.lang.StringÓ
+Î
+ã
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/PullRequest.javaì
+ ï(9/
+%4)org.hibernate.criterion.LogicalExpression"õorg.hibernate.criterion.Restrictions#and(Lorg/hibernate/criterion/Criterion;Lorg/hibernate/criterion/Criterion;)Lorg/hibernate/criterion/LogicalExpression;*("&
+$org.hibernate.criterion.Restrictions*0
+.
+%1(org.hibernate.criterion.SimpleExpression*0
+.
+%3(org.hibernate.criterion.SimpleExpression"¡
+ã
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/PullRequest.javaì ï(:1
+/
+%4)org.hibernate.criterion.LogicalExpression:0
+target&io.onedev.server.util.ProjectAndBranchB6"4
+2io.onedev.server.model.PullRequest$CriterionHelper

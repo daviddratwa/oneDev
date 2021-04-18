@@ -1,0 +1,55 @@
+
+]io.onedev.server.web.component.issue.list.BuiltInFieldsBean#getStateChoices()Ljava/util/List;£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/issue/list/BuiltInFieldsBean.java/ /(,"1*ï
+1£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/issue/list/BuiltInFieldsBean.java0$ 0(*Õ
+ 
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/issue/list/BuiltInFieldsBean.java0$ 0(L3
+%0-io.onedev.server.entitymanager.SettingManager"Hio.onedev.server.OneDev#getInstance(Ljava/lang/Class;)Ljava/lang/Object;*"
+io.onedev.server.OneDev*
+""øº
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/issue/list/BuiltInFieldsBean.java0$ 0(^F
+%1@io.onedev.server.model.support.administration.GlobalIssueSetting"Åio.onedev.server.entitymanager.SettingManager#getIssueSetting()Lio/onedev/server/model/support/administration/GlobalIssueSetting;*5
+3
+%0-io.onedev.server.entitymanager.SettingManager2getIssueSetting()À
+»
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/issue/list/BuiltInFieldsBean.java0 0(_P
+issueSetting@io.onedev.server.model.support.administration.GlobalIssueSetting"__id*H
+F
+%1@io.onedev.server.model.support.administration.GlobalIssueSettingÜÉ
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/issue/list/BuiltInFieldsBean.java1	 1(%
+%2java.util.List"`io.onedev.server.model.support.administration.GlobalIssueSetting#getStateSpecs()Ljava/util/List;*R
+P
+issueSetting@io.onedev.server.model.support.administration.GlobalIssueSetting2getStateSpecs()¢ü
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/issue/list/BuiltInFieldsBean.java1	 1(.
+%3java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*
+
+%2java.util.List2stream()ÍÁ
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/issue/list/BuiltInFieldsBean.java1	 1(D
+%4java.util.stream.Stream"Sjava.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;*
+
+%3java.util.stream.Stream*
+""2"map(Ljava/util/function/Function;)Æ
+´
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/issue/list/BuiltInFieldsBean.java1M 1(` 
+%5java.util.stream.Collector"@java.util.stream.Collectors#toList()Ljava/util/stream/Collector;*"
+java.util.stream.Collectors¸˘
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/issue/list/BuiltInFieldsBean.java1	 1(a
+%6java.util.List"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;*
+
+%4java.util.stream.Stream*"
+ 
+%5java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)"æ
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/issue/list/BuiltInFieldsBean.java1 1(b
+
+%6java.util.ListB?"=
+;io.onedev.server.web.component.issue.list.BuiltInFieldsBean

@@ -1,0 +1,134 @@
+
+Jio.onedev.server.persistence.DefaultIdManager#getMaxId(Ljava/lang/Class;)Jï
+äC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/DefaultIdManager.java! !("4*ﬂ
+2ï
+äC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/DefaultIdManager.java') '(*º
+π
+ï
+äC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/DefaultIdManager.java') '(*
+%12long"__id*
+
+
+%14int*
+1*’
+3ï
+äC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/DefaultIdManager.java' '(ÚÔ
+ï
+äC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/DefaultIdManager.java' '((
+%13long"java.lang.Number#longValue()J*
+
+resultjava.lang.Number2longValue()Ω
+∫
+ï
+äC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/DefaultIdManager.java' '((
+%12long"__id*
+
+%13long*
+1*£,
+4ï
+äC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/DefaultIdManager.java" "(*õ
+ò
+ï
+äC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/DefaultIdManager.java" "(*1
+%0+io.onedev.server.persistence.PersistManager"__id*E*C/
+-io.onedev.server.persistence.DefaultIdManager"
+persistManagerËÂ
+ï
+äC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/DefaultIdManager.java" "(>"
+%1org.hibernate.SessionFactory"]io.onedev.server.persistence.PersistManager#getSessionFactory()Lorg/hibernate/SessionFactory;*3
+1
+%0+io.onedev.server.persistence.PersistManager2getSessionFactory()ÚÔ
+ï
+äC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/DefaultIdManager.java" "(S0
+%2*javax.persistence.criteria.CriteriaBuilder"gjavax.persistence.EntityManagerFactory#getCriteriaBuilder()Ljavax/persistence/criteria/CriteriaBuilder;*$
+"
+%1org.hibernate.SessionFactory2getCriteriaBuilder()å
+â
+ï
+äC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/DefaultIdManager.java" "(T5
+builder*javax.persistence.criteria.CriteriaBuilder"__id*2
+0
+%2*javax.persistence.criteria.CriteriaBuilder°û
+ï
+äC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/DefaultIdManager.java#  #(A.
+%3(javax.persistence.criteria.CriteriaQuery"sjavax.persistence.criteria.CriteriaBuilder#createQuery(Ljava/lang/Class;)Ljavax/persistence/criteria/CriteriaQuery;*7
+5
+builder*javax.persistence.criteria.CriteriaBuilder*
+""2createQuery(Ljava/lang/Class;)Ü
+É
+ï
+äC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/DefaultIdManager.java# #(B1
+query(javax.persistence.criteria.CriteriaQuery"__id*0
+.
+%3(javax.persistence.criteria.CriteriaQueryïí
+ï
+äC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/DefaultIdManager.java$ $((%
+%4javax.persistence.criteria.Root"ajavax.persistence.criteria.AbstractQuery#from(Ljava/lang/Class;)Ljavax/persistence/criteria/Root;*3
+1
+query(javax.persistence.criteria.CriteriaQuery* 
+
+entityClassjava.lang.Class2from(Ljava/lang/Class;)Û
+
+ï
+äC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/DefaultIdManager.java$ $()'
+rootjavax.persistence.criteria.Root"__id*'
+%
+%4javax.persistence.criteria.RootËÂ
+ï
+äC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/DefaultIdManager.java% %()%
+%5javax.persistence.criteria.Path"Xjavax.persistence.criteria.Path#get(Ljava/lang/String;)Ljavax/persistence/criteria/Path;*)
+'
+rootjavax.persistence.criteria.Root*
+id2get(Ljava/lang/String;)ÿ’
+ï
+äC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/DefaultIdManager.java% %(*+
+%6%javax.persistence.criteria.Expression"~javax.persistence.criteria.CriteriaBuilder#max(Ljavax/persistence/criteria/Expression;)Ljavax/persistence/criteria/Expression;*7
+5
+builder*javax.persistence.criteria.CriteriaBuilder*'
+%
+%5javax.persistence.criteria.Path2,max(Ljavax/persistence/criteria/Expression;)„‡
+ï
+äC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/DefaultIdManager.java% %(+.
+%7(javax.persistence.criteria.CriteriaQuery"Åjavax.persistence.criteria.CriteriaQuery#select(Ljavax/persistence/criteria/Selection;)Ljavax/persistence/criteria/CriteriaQuery;*3
+1
+query(javax.persistence.criteria.CriteriaQuery*-
++
+%6%javax.persistence.criteria.Expression2.select(Ljavax/persistence/criteria/Selection;)â
+Ü
+ï
+äC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/DefaultIdManager.java& &(*
+%8$io.onedev.server.persistence.dao.Dao"__id*:*8/
+-io.onedev.server.persistence.DefaultIdManager"
+daoæª
+ï
+äC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/DefaultIdManager.java& &("
+%9org.hibernate.Session"Hio.onedev.server.persistence.dao.Dao#getSession()Lorg/hibernate/Session;*,
+*
+%8$io.onedev.server.persistence.dao.Dao2getSession()¥±
+ï
+äC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/DefaultIdManager.java& &(5 
+%10org.hibernate.query.Query"horg.hibernate.Session#createQuery(Ljavax/persistence/criteria/CriteriaQuery;)Lorg/hibernate/query/Query;*
+
+%9org.hibernate.Session*3
+1
+query(javax.persistence.criteria.CriteriaQuery27createQuery(Ljavax/persistence/criteria/CriteriaQuery;)™ß
+ï
+äC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/DefaultIdManager.java& &(G
+%11java.lang.Number"=org.hibernate.query.Query#getSingleResult()Ljava/lang/Object;*"
+ 
+%10org.hibernate.query.Query2getSingleResult()ÿ
+’
+ï
+äC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/DefaultIdManager.java& &(H
+resultjava.lang.Number"__id*
+
+%11java.lang.Number*
+2
+3*æ
+1ï
+äC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/DefaultIdManager.java' '(+"†
+ï
+äC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/DefaultIdManager.java' '(+
+"":
+entityClassjava.lang.ClassB1/
+-io.onedev.server.persistence.DefaultIdManager

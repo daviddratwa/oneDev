@@ -1,0 +1,553 @@
+
+√io.onedev.server.notification.DefaultMailManager#sendMail(Lio/onedev/server/model/support/administration/MailSetting;Ljava/util/Collection;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Vò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaE E("startingBlock*˘
+24ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaj j(Ó
+Î
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaj j(&
+%24java.lang.String"__concat*	
+onedev@*
+
+hostNamejava.lang.String‡
+›
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaj j(&
+senderEmailjava.lang.String"__id*
+
+%24java.lang.String*
+22*≈
+47ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaH H(
+"£
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaH H(
+
+""*Ö
+25ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaf f(8›
+⁄
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaf f(8
+hostNamejava.lang.String"__id*
+
+%23java.lang.String*
+24*Æ
+48ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaG G(˚¯
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaG G(
+%0boolean"java.util.Collection#isEmpty()Z* 
+
+toListjava.util.Collection2	isEmpty()*
+47
+43
+45
+1*√
+27ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaf f(8õò
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaf f(8
+%23java.lang.String"4java.net.InetAddress#getHostName()Ljava/lang/String;*
+
+%22java.net.InetAddress2getHostName()*
+25*∏
+28ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaf f(ê
+ç
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaf f(*
+%22java.net.InetAddress"9java.net.InetAddress#getLocalHost()Ljava/net/InetAddress;*"
+java.net.InetAddress*
+27*Ú
+29ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javad d( 
+«
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javad d(
+hostNamejava.lang.String"__id*
+""*
+28*§
+30ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.java^	 ^(›⁄
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.java^" ^(@
+%17boolean"Mio.onedev.server.model.support.administration.MailSetting#isEnableStartTLS()Z*J
+H
+mailSetting9io.onedev.server.model.support.administration.MailSetting2isEnableStartTLS()ÎË
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.java^	 ^(A$
+%18org.apache.commons.mail.Email"Rorg.apache.commons.mail.Email#setStartTLSEnabled(Z)Lorg/apache/commons/mail/Email;*(
+&
+emailorg.apache.commons.mail.Email*
+
+%17boolean2setStartTLSEnabled(Z)€ÿ
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.java_	 _(%$
+%19org.apache.commons.mail.Email"Oorg.apache.commons.mail.Email#setSSLOnConnect(Z)Lorg/apache/commons/mail/Email;*(
+&
+emailorg.apache.commons.mail.Email*
+""2setSSLOnConnect(Z)ÔÏ
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.java`	 `(/$
+%20org.apache.commons.mail.Email"Yorg.apache.commons.mail.Email#setSSLCheckServerIdentity(Z)Lorg/apache/commons/mail/Email;*(
+&
+emailorg.apache.commons.mail.Email*
+""2setSSLCheckServerIdentity(Z)˜Ù
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javab b(6
+%21java.lang.String"^io.onedev.server.model.support.administration.MailSetting#getSenderAddress()Ljava/lang/String;*J
+H
+mailSetting9io.onedev.server.model.support.administration.MailSetting2getSenderAddress()‡
+›
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javab b(7
+senderEmailjava.lang.String"__id*
+
+%21java.lang.String*
+29
+22*û
+31ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.java\
+ \(Õ 
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.java\! \(9
+
+%15int"Gio.onedev.server.model.support.administration.MailSetting#getTimeout()I*J
+H
+mailSetting9io.onedev.server.model.support.administration.MailSetting2getTimeout()¶£
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.java\
+ \(?
+%16void"2org.apache.commons.mail.Email#setSocketTimeout(I)V*(
+&
+emailorg.apache.commons.mail.Email*
+""2setSocketTimeout(I)*
+30*˜
+32ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaY	 Y(∏
+µ
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaY* Y(J
+
+%12int"__id*
+""¿Ω
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaY	 Y(K
+%13void"<org.apache.commons.mail.Email#setSocketConnectionTimeout(I)V*(
+&
+emailorg.apache.commons.mail.Email*
+
+
+%12int2setSocketConnectionTimeout(I)Õ 
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.java[ [(%
+
+%14int"Gio.onedev.server.model.support.administration.MailSetting#getTimeout()I*J
+H
+mailSetting9io.onedev.server.model.support.administration.MailSetting2getTimeout()*
+30
+31*á
+10ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javat
+ t(6›
+⁄
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javat
+ t(6
+smtpUserjava.lang.String"__id*
+
+%34java.lang.String*
+7
+9*ï
+11ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javat t('ÌÍ
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javat t(5
+%34java.lang.String"Yio.onedev.server.model.support.administration.MailSetting#getSmtpUser()Ljava/lang/String;*J
+H
+mailSetting9io.onedev.server.model.support.administration.MailSetting2getSmtpUser()*
+10*ˇ
+12ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javas s(C◊‘
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javas s(C
+%33void"Aorg.apache.commons.mail.Email#setSslSmtpPort(Ljava/lang/String;)V*(
+&
+emailorg.apache.commons.mail.Email*
+
+%32java.lang.String2"setSslSmtpPort(Ljava/lang/String;)*
+11*õ
+35ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaT T(/Û
+
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaT T(/&
+emailorg.apache.commons.mail.Email"__id*%
+#
+%9org.apache.commons.mail.Email*
+32*≤
+13ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javas s(Bä
+á
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javas s(B
+%32java.lang.String"-java.lang.String#valueOf(I)Ljava/lang/String;*"
+java.lang.String*
+
+
+%31int*
+12*≥
+36ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaT& T(.ãà
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaT T(/#
+%9org.apache.commons.mail.Email"]org.apache.commons.mail.SimpleEmail#setMsg(Ljava/lang/String;)Lorg/apache/commons/mail/Email;*+
+)
+%7#org.apache.commons.mail.SimpleEmail*
+
+textBodyjava.lang.String2setMsg(Ljava/lang/String;)*
+35*˜
+14ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javas s(	œÃ
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javas( s(A
+
+%31int"Hio.onedev.server.model.support.administration.MailSetting#getSmtpPort()I*J
+H
+mailSetting9io.onedev.server.model.support.administration.MailSetting2getSmtpPort()*
+13*ô
+37ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaT T(ÓÎ
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaT T()
+%7#org.apache.commons.mail.SimpleEmail"#org.apache.commons.mail.SimpleEmailÄ
+˝
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaT T(
+%8"-org.apache.commons.mail.SimpleEmail#<init>()V*+
+)
+%7#org.apache.commons.mail.SimpleEmail*
+36* 
+15ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javar r(0¢ü
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javar r(0
+%30void"-org.apache.commons.mail.Email#setSmtpPort(I)V*(
+&
+emailorg.apache.commons.mail.Email*
+
+
+%29int2setSmtpPort(I)*
+14*ü
+38ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaR R(1˜
+Ù
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaR R(1&
+emailorg.apache.commons.mail.Email"__id*)
+'
+%6!org.apache.commons.mail.HtmlEmail*
+32*˜
+16ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javar r(	œÃ
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javar r(/
+
+%29int"Hio.onedev.server.model.support.administration.MailSetting#getSmtpPort()I*J
+H
+mailSetting9io.onedev.server.model.support.administration.MailSetting2getSmtpPort()*
+15*ø
+39ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaR( R(0óî
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaR R(1'
+%6!org.apache.commons.mail.HtmlEmail"corg.apache.commons.mail.HtmlEmail#setHtmlMsg(Ljava/lang/String;)Lorg/apache/commons/mail/HtmlEmail;*)
+'
+%4!org.apache.commons.mail.HtmlEmail*
+
+htmlBodyjava.lang.String2setHtmlMsg(Ljava/lang/String;)*
+38*˘
+17ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaq q(0—Œ
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaq q(0
+%28void">org.apache.commons.mail.Email#setHostName(Ljava/lang/String;)V*(
+&
+emailorg.apache.commons.mail.Email*
+
+%27java.lang.String2setHostName(Ljava/lang/String;)*
+16*ï
+18ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaq q(	ÌÍ
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaq q(/
+%27java.lang.String"Yio.onedev.server.model.support.administration.MailSetting#getSmtpHost()Ljava/lang/String;*J
+H
+mailSetting9io.onedev.server.model.support.administration.MailSetting2getSmtpHost()*
+17*È
+19ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javan	 n(…
+∆
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javan	 n(
+addressjava.lang.String"__id*
+""Ò
+Ó
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javan	 n(
+addressjava.lang.String"
+__arrayGet* 
+
+toListjava.util.Collection*
+""*
+18
+20*∫
+0 "≤
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaÉ É(
+implicit return*∫
+1ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaÅ Å(	«
+ƒ
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaÅ Å(	
+%45org.slf4j.Logger"__id*
+""»≈
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaÅ Å(F
+%46void"*org.slf4j.Logger#warn(Ljava/lang/String;)V*
+
+%45org.slf4j.Logger*86
+4Unable to send mail as mail setting is not specified2warn(Ljava/lang/String;)*
+0*‘
+startingBlockò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaE F($ï
+í
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaD D(
+
+%47"
+__annotate*
+java.lang.Override*J
+H
+mailSetting9io.onedev.server.model.support.administration.MailSettingˇ
+¸
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaE" E(-H
+mailSetting9io.onedev.server.model.support.administration.MailSetting"__annotation*
+
+%47Î
+Ë
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaD D(
+
+%48"
+__annotate*
+java.lang.Override* 
+
+toListjava.util.Collection’
+“
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaEB E(H
+toListjava.util.Collection"__annotation*
+
+%48Ë
+Â
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaD D(
+
+%49"
+__annotate*
+java.lang.Override*
+
+subjectjava.lang.String“
+œ
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaEQ E(X
+subjectjava.lang.String"__annotation*
+
+%49È
+Ê
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaD D(
+
+%50"
+__annotate*
+java.lang.Override*
+
+htmlBodyjava.lang.String”
+–
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaF
+ F(
+htmlBodyjava.lang.String"__annotation*
+
+%50È
+Ê
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaD D(
+
+%51"
+__annotate*
+java.lang.Override*
+
+textBodyjava.lang.String”
+–
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaF F(#
+textBodyjava.lang.String"__annotation*
+
+%51*
+48*«
+4ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.java| |(	°û
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.java| |(
+%42java.lang.String"6org.apache.commons.mail.Email#send()Ljava/lang/String;*(
+&
+emailorg.apache.commons.mail.Email2send()*
+0*≤
+5ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.java{ {(
+≈
+¬
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.java{ {(
+
+%40org.slf4j.Logger"__id*
+""ƒ¡
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.java{ {(L
+%41void"Oorg.slf4j.Logger#debug(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
+
+%40org.slf4j.Logger*+)
+'Sending email (to: {}, subject: {})... * 
+
+toListjava.util.Collection*
+
+subjectjava.lang.String2=debug(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)*
+4*∞
+6ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javay y(	äá
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javay y($
+%39org.apache.commons.mail.Email"[org.apache.commons.mail.Email#setSubject(Ljava/lang/String;)Lorg/apache/commons/mail/Email;*(
+&
+emailorg.apache.commons.mail.Email*
+
+subjectjava.lang.String2setSubject(Ljava/lang/String;)*
+5*Ω
+7ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaw w(	≈
+¬
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaw w('
+%37java.lang.String"__id*
+""œÃ
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaw w((
+%38void"=org.apache.commons.mail.Email#setCharset(Ljava/lang/String;)V*(
+&
+emailorg.apache.commons.mail.Email*
+
+%37java.lang.String2setCharset(Ljava/lang/String;)*
+6*«
+8ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javav v(E°û
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javav v(E
+%36void"Vorg.apache.commons.mail.Email#setAuthentication(Ljava/lang/String;Ljava/lang/String;)V*(
+&
+emailorg.apache.commons.mail.Email*
+
+smtpUserjava.lang.String*
+
+%35java.lang.String27setAuthentication(Ljava/lang/String;Ljava/lang/String;)*
+7*õ
+9ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javav v(
+ıÚ
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javav' v(D
+%35java.lang.String"]io.onedev.server.model.support.administration.MailSetting#getSmtpPassword()Ljava/lang/String;*J
+H
+mailSetting9io.onedev.server.model.support.administration.MailSetting2getSmtpPassword()*
+8*ë
+40ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaR R(ÍÁ
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaR R('
+%4!org.apache.commons.mail.HtmlEmail"!org.apache.commons.mail.HtmlEmail¸
+˘
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaR R(
+%5"+org.apache.commons.mail.HtmlEmail#<init>()V*)
+'
+%4!org.apache.commons.mail.HtmlEmail*
+39*Ä
+42ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaQ Q(‘—
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaQ Q("
+%3boolean"Iio.onedev.server.model.support.administration.MailSetting#isSendAsHtml()Z*J
+H
+mailSetting9io.onedev.server.model.support.administration.MailSetting2isSendAsHtml()*
+37
+40*®
+20ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javao o(
+Ä˝
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javao o($
+%26org.apache.commons.mail.Email"Vorg.apache.commons.mail.Email#addTo(Ljava/lang/String;)Lorg/apache/commons/mail/Email;*(
+&
+emailorg.apache.commons.mail.Email*
+
+addressjava.lang.String2addTo(Ljava/lang/String;)*
+19*¸
+43ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaN N(‘
+—
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaN N(&
+emailorg.apache.commons.mail.Email"__id*
+""*
+42*∞
+22ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javam m(	àÖ
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javam m($
+%25org.apache.commons.mail.Email"Xorg.apache.commons.mail.Email#setFrom(Ljava/lang/String;)Lorg/apache/commons/mail/Email;*(
+&
+emailorg.apache.commons.mail.Email*!
+
+senderEmailjava.lang.String2setFrom(Ljava/lang/String;)*
+19*®	
+45ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaK K(£
+†
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaK K(3
+%1-io.onedev.server.entitymanager.SettingManager"__id*H*F2
+0io.onedev.server.notification.DefaultMailManager"
+settingManager£†
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaK K(0?
+%29io.onedev.server.model.support.administration.MailSetting"yio.onedev.server.entitymanager.SettingManager#getMailSetting()Lio/onedev/server/model/support/administration/MailSetting;*5
+3
+%1-io.onedev.server.entitymanager.SettingManager2getMailSetting()±
+Æ
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/DefaultMailManager.javaK K(0H
+mailSetting9io.onedev.server.model.support.administration.MailSetting"__id*A
+?
+%29io.onedev.server.model.support.administration.MailSetting*
+43
+1:H
+mailSetting9io.onedev.server.model.support.administration.MailSetting:
+toListjava.util.Collection:
+subjectjava.lang.String:
+htmlBodyjava.lang.String:
+textBodyjava.lang.StringB42
+0io.onedev.server.notification.DefaultMailManager

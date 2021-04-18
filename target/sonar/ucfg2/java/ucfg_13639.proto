@@ -1,0 +1,44 @@
+
+\io.onedev.server.buildspec.job.paramspec.UserChoiceParam#getPossibleValues()Ljava/util/List; 
+•C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/paramspec/UserChoiceParam.javaO O(&"1*¨
+1 
+•C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/paramspec/UserChoiceParam.javaP	 P(Ç
+Ä
+ 
+•C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/paramspec/UserChoiceParam.javaP	 P(.0
+%0*io.onedev.server.entitymanager.UserManager"Hio.onedev.server.OneDev#getInstance(Ljava/lang/Class;)Ljava/lang/Object;*"
+io.onedev.server.OneDev*
+""Á¾
+ 
+•C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/paramspec/UserChoiceParam.javaP	 P(6
+%1java.util.List"Fio.onedev.server.persistence.dao.EntityManager#query()Ljava/util/List;*2
+0
+%0*io.onedev.server.entitymanager.UserManager2query()Ÿœ
+ 
+•C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/paramspec/UserChoiceParam.javaP	 P(?
+%2java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*
+
+%1java.util.List2stream()çä
+ 
+•C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/paramspec/UserChoiceParam.javaP	 P(Y
+%3java.util.stream.Stream"Sjava.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;*
+
+%2java.util.stream.Stream*
+""2"map(Ljava/util/function/Function;)«
+¨
+ 
+•C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/paramspec/UserChoiceParam.javaPb P(u 
+%4java.util.stream.Collector"@java.util.stream.Collectors#toList()Ljava/util/stream/Collector;*"
+java.util.stream.Collectorsùö
+ 
+•C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/paramspec/UserChoiceParam.javaP	 P(v
+%5java.util.List"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;*
+
+%3java.util.stream.Stream*"
+ 
+%4java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)"»
+ 
+•C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/paramspec/UserChoiceParam.javaP P(w
+
+%5java.util.ListB<:
+8io.onedev.server.buildspec.job.paramspec.UserChoiceParam

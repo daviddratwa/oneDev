@@ -1,0 +1,107 @@
+
+kio.onedev.server.entitymanager.impl.DefaultProjectManager#isGitHookValid(Ljava/io/File;Ljava/lang/String;)Z£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaØ Ø("13*ã
+13£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java∞! ∞('˜
+Ù
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java∞) ∞(<
+%0java.lang.String"__concat*
+
+hooks/*
+
+hookNamejava.lang.StringÀ»
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java∞ ∞( 
+%1java.io.File"java.io.File±
+Æ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java∞ ∞(=
+%2"6java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V*
+
+%1java.io.File*
+
+gitDirjava.io.File*
+
+%0java.lang.Stringﬂ
+‹
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java∞ ∞(>
+hookFilejava.io.File"__id*
+
+%1java.io.FileˆÛ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java± ±(
+%3boolean"java.io.File#exists()Z*
+
+hookFilejava.io.File2exists()*
+10
+12*⁄
+2£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaΩ Ω("Æ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaΩ	 Ω(
+""*≤
+3£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaº º(˛˚
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaº º("
+%9boolean"java.io.File#canExecute()Z*
+
+hookFilejava.io.File2canExecute()*
+2
+1*⁄
+6£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java∑ ∑("Æ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java∑ ∑(
+""*¯
+8£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaµ µ(SÊ
+„
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaµ µ(S
+contentjava.lang.String"__id*
+
+%5java.lang.String€ÿ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java∂ ∂(@
+%6boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*
+
+contentjava.lang.String*(&
+$ENV_GIT_ALTERNATE_OBJECT_DIRECTORIES2"contains(Ljava/lang/CharSequence;)*
+3
+6*√
+9£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaµ µ(Rí
+è
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaµ µ(R
+%5java.lang.String"lorg.apache.commons.io.FileUtils#readFileToString(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/lang/String;*#"!
+org.apache.commons.io.FileUtils*
+
+hookFilejava.io.File* 
+
+%4java.nio.charset.Charset*
+8*ﬁ
+10£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaµ µ(¨
+©
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaµ9 µ(Q
+%4java.nio.charset.Charset"Cjava.nio.charset.Charset#defaultCharset()Ljava/nio/charset/Charset;*"
+java.nio.charset.Charset*
+9*€
+12£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java≤ ≤("Æ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java≤	 ≤(
+""*⁄
+1£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaø ø("Æ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaø ø(
+"":
+gitDirjava.io.File:
+hookNamejava.lang.StringB=;
+9io.onedev.server.entitymanager.impl.DefaultProjectManager

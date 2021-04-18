@@ -1,0 +1,1920 @@
+
+-io.onedev.server.maintenance.Upgrade#start()Vå
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javan n("134*å
+68é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaı ı(º
+π
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaı ı(
+%130org.slf4j.Logger"__id*
+""Ø¨
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaı ı(:
+%131void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
+
+%130org.slf4j.Logger*)'
+%Cleaning database with old program...2info(Ljava/lang/String;)*
+67*›
+70é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java‰ Ú(Ø¨
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java‰ Ú(
+%129int"@io.onedev.commons.utils.command.ExecutionResult#getReturnCode()I*9
+7
+%128/io.onedev.commons.utils.command.ExecutionResult2getReturnCode()*
+68
+15
+49
+39
+60*Ç
+71é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java‰ Ú(‰·
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java‰ Ú(7
+%128/io.onedev.commons.utils.command.ExecutionResult"™io.onedev.commons.utils.command.Commandline#execute(Ljava/io/OutputStream;Lio/onedev/commons/utils/command/LineConsumer;)Lio/onedev/commons/utils/command/ExecutionResult;*5
+3
+%123+io.onedev.commons.utils.command.Commandline*0
+.
+%124&io.onedev.server.maintenance.Upgrade$3*0
+.
+%126&io.onedev.server.maintenance.Upgrade$42Mexecute(Ljava/io/OutputStream;Lio/onedev/commons/utils/command/LineConsumer;)*
+70*ì
+72é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÎ Ú(ÏÈ
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÎ Î(.
+%126&io.onedev.server.maintenance.Upgrade$4"&io.onedev.server.maintenance.Upgrade$4Ü
+É
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÎ Ú(
+%127"6io.onedev.commons.utils.command.LineConsumer#<init>()V*0
+.
+%126&io.onedev.server.maintenance.Upgrade$4*
+71*ì
+73é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java‰] Î(ÏÈ
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java‰a ‰(m.
+%124&io.onedev.server.maintenance.Upgrade$3"&io.onedev.server.maintenance.Upgrade$3Ü
+É
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java‰] Î(
+%125"6io.onedev.commons.utils.command.LineConsumer#<init>()V*0
+.
+%124&io.onedev.server.maintenance.Upgrade$3*
+72*ª
+74é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java‰ ‰(Tùö
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java‰ ‰(T3
+%123+io.onedev.commons.utils.command.Commandline"óio.onedev.server.maintenance.Upgrade#buildCommandline(Ljava/io/File;Ljava/lang/String;[Ljava/lang/String;)Lio/onedev/commons/utils/command/Commandline;*(&
+$io.onedev.server.maintenance.Upgrade*
+
+
+upgradeDirjava.io.File*
+	backup-db*
+
+%122java.lang.String2EbuildCommandline(Ljava/io/File;Ljava/lang/String;[Ljava/lang/String;)*
+73*±
+75é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java‰ ‰(ìê
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java‰5 ‰(S
+%122java.lang.String"0java.io.File#getAbsolutePath()Ljava/lang/String;*
+
+dbBackupFilejava.io.File2getAbsolutePath()*
+74*Ω
+76é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java‚ ‚(6ü
+ú
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java‚ ‚(6
+%121void"<io.onedev.commons.utils.FileUtils#createDir(Ljava/io/File;)V*%"#
+!io.onedev.commons.utils.FileUtils*
+
+%120java.io.File*
+75*•
+77é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java‚ ‚(áÑ
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java‚ ‚(5
+%120java.io.File"*java.io.File#getParentFile()Ljava/io/File;*
+
+dbBackupFilejava.io.File2getParentFile()*
+76*Ñ
+78é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java‡ ‡(PÊ„
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java‡ ‡(P
+%119void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%117org.slf4j.Logger* 
+Backing up database as {}...*
+
+%118java.lang.String2*info(Ljava/lang/String;Ljava/lang/Object;)*
+77*√
+79é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaﬂ ﬂ(\–
+Õ
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaﬂ ﬂ(\
+dbBackupFilejava.io.File"__id*
+
+%115java.io.Fileº
+π
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java‡ ‡(
+%117org.slf4j.Logger"__id*
+""ìê
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java‡1 ‡(O
+%118java.lang.String"0java.io.File#getAbsolutePath()Ljava/lang/String;*
+
+dbBackupFilejava.io.File2getAbsolutePath()*
+78*Ö
+100é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java√ √(¡
+æ
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java√) √(W
+%80java.lang.String"Zio.onedev.server.migration.MigrationHelper#getVersion(Ljava/lang/Class;)Ljava/lang/String;*.",
+*io.onedev.server.migration.MigrationHelper*
+""É
+Ä
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java√ √(X
+
+%81int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
+java.lang.Integer*
+
+%80java.lang.Stringòï
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java≈ ≈(
+
+%82int"0java.util.concurrent.atomic.AtomicInteger#get()I*=
+;
+oldDataVersion)java.util.concurrent.atomic.AtomicInteger2get()*
+98
+99*˛
+101é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaø ø(
+ª
+∏
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaø ø(
+
+%77org.slf4j.Logger"__id*
+""≈¬
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaø ø(O
+%78void"+org.slf4j.Logger#error(Ljava/lang/String;)V*
+
+%77org.slf4j.Logger*?=
+;Unable to upgrade specified installation due to above error2error(Ljava/lang/String;)ÿ
+’
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java¿ ¿(
+%79void"java.lang.System#exit(I)V*"
+java.lang.System*2*
+100*π
+102é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java¶4 ¶(5ÒÓ
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java¶& ¶(30
+%68)java.util.concurrent.atomic.AtomicInteger")java.util.concurrent.atomic.AtomicIntegerâ
+Ü
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java¶" ¶(6
+%69"4java.util.concurrent.atomic.AtomicInteger#<init>(I)V*2
+0
+%68)java.util.concurrent.atomic.AtomicInteger*2 ã
+à
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java¶ ¶(7;
+oldDataVersion)java.util.concurrent.atomic.AtomicInteger"__id*2
+0
+%68)java.util.concurrent.atomic.AtomicIntegerâÜ
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java® ®(?2
+%70+io.onedev.commons.utils.command.Commandline"óio.onedev.server.maintenance.Upgrade#buildCommandline(Ljava/io/File;Ljava/lang/String;[Ljava/lang/String;)Lio/onedev/commons/utils/command/Commandline;*(&
+$io.onedev.server.maintenance.Upgrade*
+
+
+upgradeDirjava.io.File*
+check-data-version2EbuildCommandline(Ljava/io/File;Ljava/lang/String;[Ljava/lang/String;)ÎË
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java®L ®(X-
+%71&io.onedev.server.maintenance.Upgrade$1"&io.onedev.server.maintenance.Upgrade$1Ñ
+Å
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java®H µ(
+%72"6io.onedev.commons.utils.command.LineConsumer#<init>()V*/
+-
+%71&io.onedev.server.maintenance.Upgrade$1ÎË
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaµ
+ µ(-
+%73&io.onedev.server.maintenance.Upgrade$2"&io.onedev.server.maintenance.Upgrade$2Ñ
+Å
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaµ ∫(
+%74"6io.onedev.commons.utils.command.LineConsumer#<init>()V*/
+-
+%73&io.onedev.server.maintenance.Upgrade$2‡›
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java® º(6
+%75/io.onedev.commons.utils.command.ExecutionResult"™io.onedev.commons.utils.command.Commandline#execute(Ljava/io/OutputStream;Lio/onedev/commons/utils/command/LineConsumer;)Lio/onedev/commons/utils/command/ExecutionResult;*4
+2
+%70+io.onedev.commons.utils.command.Commandline*/
+-
+%71&io.onedev.server.maintenance.Upgrade$1*/
+-
+%73&io.onedev.server.maintenance.Upgrade$22Mexecute(Ljava/io/OutputStream;Lio/onedev/commons/utils/command/LineConsumer;)≠™
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java® º(
+
+%76int"@io.onedev.commons.utils.command.ExecutionResult#getReturnCode()I*8
+6
+%75/io.onedev.commons.utils.command.ExecutionResult2getReturnCode()*
+
+101
+100*∑
+103é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaó ó(∏
+µ
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaó ó(
+filejava.io.File"__id*
+""◊
+‘
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaó ó(
+filejava.io.File"
+__arrayGet*
+
+%50java.io.File[]*
+""*
+
+102
+115*ø
+106é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaü ü(ü
+ú
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaü ü( 
+%65void"=io.onedev.commons.utils.FileUtils#deleteFile(Ljava/io/File;)V*%"#
+!io.onedev.commons.utils.FileUtils*
+
+filejava.io.File*
+103*Ì
+107é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaû û(Õ
+ 
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaû û(2
+%64void"Rorg.apache.commons.io.FileUtils#copyFileToDirectory(Ljava/io/File;Ljava/io/File;)V*#"!
+org.apache.commons.io.FileUtils*
+
+filejava.io.File*
+
+destDirjava.io.File*
+106*◊
+80é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaﬂ ﬂ('º
+π
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaﬂ3 ﬂ(@
+%110java.lang.String"__id*
+""ﬂ
+‹
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaﬂ) ﬂ(@
+%111java.lang.String"__concat*	
+site/*
+
+%110java.lang.String€
+ÿ
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaﬂ) ﬂ(F
+%112java.lang.String"__concat*
+
+%111java.lang.String*
+/ı
+Ú
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaﬂ) ﬂ(R
+%113java.lang.String"__concat*
+
+%112java.lang.String*
+
+	timestampjava.lang.Stringﬁ
+€
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaﬂ) ﬂ([
+%114java.lang.String"__concat*
+
+%113java.lang.String*
+.zip∏µ
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaﬂ ﬂ(
+%115java.io.File"java.io.File¶
+£
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaﬂ ﬂ(\
+%116"6java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V*
+
+%115java.io.File*
+
+
+upgradeDirjava.io.File*
+
+%114java.lang.String*
+79*é
+108é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaú ú(6 
+«
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaú ú(6
+destDirjava.io.File"__id*
+
+%61java.io.File°
+û
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaù ù("
+%63void"<io.onedev.commons.utils.FileUtils#createDir(Ljava/io/File;)V*%"#
+!io.onedev.commons.utils.FileUtils*
+
+destDirjava.io.File*
+107*
+109é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaú ú((∑¥
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaú ú(
+%61java.io.File"java.io.Fileñ
+ì
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaú ú(5
+%62"6java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V*
+
+%61java.io.File*
+
+
+upgradeDirjava.io.File*
+
+site/lib*
+108*ª
+82é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaﬁ ﬁ(ôñ
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaﬁ ﬁ(
+%109int"0java.util.concurrent.atomic.AtomicInteger#get()I*=
+;
+oldDataVersion)java.util.concurrent.atomic.AtomicInteger2get()*
+46
+80*ò
+83é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaŸ Ÿ(∑
+¥
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaŸ Ÿ($
+%108void"Hio.onedev.server.maintenance.Upgrade#restoreExecutables(Ljava/io/File;)V*(&
+$io.onedev.server.maintenance.Upgrade*
+
+programBackupjava.io.File¿
+Ω
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java€ €(
+dbBackupFilejava.io.File"__id*
+""*
+82*¥
+86é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java–	 –(∏
+µ
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java–	 –(
+eachjava.io.File"__id*
+""◊
+‘
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java–	 –(
+eachjava.io.File"
+__arrayGet*
+
+%98java.io.File[]*
+""*
+83
+96*˜
+87é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java‘ ‘(Ÿ
+÷
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java‘ ‘(=
+%105void"Worg.apache.commons.io.FileUtils#copyDirectoryToDirectory(Ljava/io/File;Ljava/io/File;)V*#"!
+org.apache.commons.io.FileUtils*
+
+eachjava.io.File*
+
+programBackupjava.io.File*
+86*∑
+89é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java”G ”(Mïí
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java”1 ”(N
+%104boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%103java.lang.String*
+site2equals(Ljava/lang/Object;)*
+86
+87*»
+111é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaö	 ö(˙˜
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaö	 ö(
+%59java.lang.String"(java.io.File#getName()Ljava/lang/String;*
+
+filejava.io.File2	getName()¶£
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaö	 ö(+
+%60boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*
+
+%59java.lang.String*	
+sqljdbc2"contains(Ljava/lang/CharSequence;)*
+
+103
+109*À
+112é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaô- ô(1˙˜
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaô- ô(;
+%57java.lang.String"(java.io.File#getName()Ljava/lang/String;*
+
+filejava.io.File2	getName()©¶
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaô- ô(R
+%58boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*
+
+%57java.lang.String*
+
+postgresql2"contains(Ljava/lang/CharSequence;)*
+
+109
+111*∆
+113é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaô	 ô(˙˜
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaô	 ô(
+%55java.lang.String"(java.io.File#getName()Ljava/lang/String;*
+
+filejava.io.File2	getName()§°
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaô	 ô()
+%56boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*
+
+%55java.lang.String*	
+ojdbc2"contains(Ljava/lang/CharSequence;)*
+
+112
+109*∆
+114é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaò. ò(2˙˜
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaò. ò(<
+%53java.lang.String"(java.io.File#getName()Ljava/lang/String;*
+
+filejava.io.File2	getName()§°
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaò. ò(N
+%54boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*
+
+%53java.lang.String*	
+mysql2"contains(Ljava/lang/CharSequence;)*
+
+113
+109*»
+115é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaò ò(˙˜
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaò ò(
+%51java.lang.String"(java.io.File#getName()Ljava/lang/String;*
+
+filejava.io.File2	getName()¶£
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaò ò(*
+%52boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*
+
+%51java.lang.String*	
+mariadb2"contains(Ljava/lang/CharSequence;)*
+
+114
+109*Ê
+116é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaó ó(&∑¥
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaó ó(
+%48java.io.File"java.io.Fileë
+é
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaó ó(.
+%49"6java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V*
+
+%48java.io.File*
+
+
+upgradeDirjava.io.File*
+lib¯ı
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaó ó(:
+%50java.io.File[]"'java.io.File#listFiles()[Ljava/io/File;*
+
+%48java.io.File2listFiles()*
+103*π
+117é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaì ì(
+ª
+∏
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaì ì(
+
+%43org.slf4j.Logger"__id*
+""Û
+
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaìJ ì(^
+%44java.io.File"__id*B*@0
+.io.onedev.commons.launcher.bootstrap.Bootstrap"
+
+installDirâÜ
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaìJ ì(p
+%45java.lang.String"0java.io.File#getAbsolutePath()Ljava/lang/String;*
+
+%44java.io.File2getAbsolutePath()˛˚
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaì ì(q
+%46void"=org.slf4j.Logger#error(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%43org.slf4j.Logger*97
+5Please stop server running at \"{}\" before upgrading*
+
+%45java.lang.String2+error(Ljava/lang/String;Ljava/lang/Object;)ÿ
+’
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaî î(
+%47void"java.lang.System#exit(I)V*"
+java.lang.System*2*
+116*ô
+90é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java”1 ”(5˚¯
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java”1 ”(?
+%103java.lang.String"(java.io.File#getName()Ljava/lang/String;*
+
+eachjava.io.File2	getName()*
+89*€
+118é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaí í(Û
+
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaí! í(5
+%41java.io.File"__id*B*@0
+.io.onedev.commons.launcher.bootstrap.Bootstrap"
+
+installDir¿
+Ω
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaí í(6
+%42boolean"Oio.onedev.commons.launcher.bootstrap.Bootstrap#isServerRunning(Ljava/io/File;)Z*2"0
+.io.onedev.commons.launcher.bootstrap.Bootstrap*
+
+%41java.io.File*
+
+116
+117* 	
+119é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaè è(
+ª
+∏
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaè è(
+
+%37org.slf4j.Logger"__id*
+""êç
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaèJ è(f
+%38java.lang.String"0java.io.File#getAbsolutePath()Ljava/lang/String;*
+
+
+upgradeDirjava.io.File2getAbsolutePath()˛˚
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaè è(g
+%39void"=org.slf4j.Logger#error(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%37org.slf4j.Logger*97
+5Please stop server running at \"{}\" before upgrading*
+
+%38java.lang.String2+error(Ljava/lang/String;Ljava/lang/Object;)ÿ
+’
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaê ê(
+%40void"java.lang.System#exit(I)V*"
+java.lang.System*2*
+118*∑
+92é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java”% ”(+ïí
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java” ”(,
+%102boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%101java.lang.String*
+temp2equals(Ljava/lang/Object;)*
+90
+86*ô
+93é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java” ”(˚¯
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java” ”(
+%101java.lang.String"(java.io.File#getName()Ljava/lang/String;*
+
+eachjava.io.File2	getName()*
+92*Ú
+94é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java“ “(‘
+—
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java“ “(8
+%100void"Rorg.apache.commons.io.FileUtils#copyFileToDirectory(Ljava/io/File;Ljava/io/File;)V*#"!
+org.apache.commons.io.FileUtils*
+
+eachjava.io.File*
+
+programBackupjava.io.File*
+86*Ä
+96é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java—	 —(ﬁ€
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java—	 —(
+%99boolean"java.io.File#isFile()Z*
+
+eachjava.io.File2isFile()*
+93
+94*ù
+97é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java– –(ˇ¸
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java– –(*
+%98java.io.File[]"'java.io.File#listFiles()[Ljava/io/File;*
+
+
+upgradeDirjava.io.File2listFiles()*
+86*ı
+98é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java   ($ª
+∏
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java 0  (F
+%86java.lang.String"__id*
+""Û
+
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java   (G-
+%87&org.joda.time.format.DateTimeFormatter"jorg.joda.time.format.DateTimeFormat#forPattern(Ljava/lang/String;)Lorg/joda/time/format/DateTimeFormatter;*'"%
+#org.joda.time.format.DateTimeFormat*
+
+%86java.lang.StringÀ»
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java R  (Z
+%88org.joda.time.DateTime"org.joda.time.DateTimeﬁ
+€
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java N  (\
+%89" org.joda.time.DateTime#<init>()V*
+
+%88org.joda.time.DateTimeàÖ
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java   (]
+%90java.lang.String"_org.joda.time.format.DateTimeFormatter#print(Lorg/joda/time/ReadableInstant;)Ljava/lang/String;*/
+-
+%87&org.joda.time.format.DateTimeFormatter*
+
+%88org.joda.time.DateTime2&print(Lorg/joda/time/ReadableInstant;)‘
+—
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java   (^
+	timestampjava.lang.String"__id*
+
+%90java.lang.StringÚ
+Ô
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÀ- À(O
+%91java.lang.String"__concat*
+site/program-backup/*
+
+	timestampjava.lang.String∑¥
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÀ À( 
+%92java.io.File"java.io.File£
+†
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÀ À(P
+%93"6java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V*
+
+%92java.io.File*
+
+
+upgradeDirjava.io.File*
+
+%91java.lang.String–
+Õ
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÀ À(Q
+programBackupjava.io.File"__id*
+
+%92java.io.Fileß
+§
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÃ Ã(%
+%94void"<io.onedev.commons.utils.FileUtils#createDir(Ljava/io/File;)V*%"#
+!io.onedev.commons.utils.FileUtils*
+
+programBackupjava.io.Fileª
+∏
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaŒ Œ(	
+%95org.slf4j.Logger"__id*
+""ìê
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaŒ8 Œ(W
+%96java.lang.String"0java.io.File#getAbsolutePath()Ljava/lang/String;*
+
+programBackupjava.io.File2getAbsolutePath()ÏÈ
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaŒ Œ(X
+%97void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%95org.slf4j.Logger*)'
+%Backing up old program files as {}...*
+
+%96java.lang.String2*info(Ljava/lang/String;Ljava/lang/Object;)*
+97*ø
+11é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaﬂ ﬂ(
+º
+π
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaﬂ ﬂ(
+
+%231org.slf4j.Logger"__id*
+""Ù
+Ò
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaﬂK ﬂ(_
+%232java.io.File"__id*B*@0
+.io.onedev.commons.launcher.bootstrap.Bootstrap"
+
+installDirãà
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaﬂK ﬂ(q
+%233java.lang.String"0java.io.File#getAbsolutePath()Ljava/lang/String;*
+
+%232java.io.File2getAbsolutePath()Çˇ
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaﬂ ﬂ(r
+%234void"=org.slf4j.Logger#error(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%231org.slf4j.Logger*:8
+6Please stop server running at \"{}\" before populating*
+
+%233java.lang.String2+error(Ljava/lang/String;Ljava/lang/Object;)Ÿ
+÷
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java‡ ‡(
+%235void"java.lang.System#exit(I)V*"
+java.lang.System*2*
+9*˚
+99é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java∆ ∆(
+ª
+∏
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java∆ ∆(
+
+%83org.slf4j.Logger"__id*
+""ƒ¡
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java∆ ∆(N
+%84void"+org.slf4j.Logger#error(Ljava/lang/String;)V*
+
+%83org.slf4j.Logger*><
+:Unable to upgrade as specified installation is more recent2error(Ljava/lang/String;)ÿ
+’
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java« «(
+%85void"java.lang.System#exit(I)V*"
+java.lang.System*2*
+98*ä
+12é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java‹ ‹(	º
+π
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java‹ ‹(	
+%226org.slf4j.Logger"__id*
+""ëé
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java‹# ‹(?
+%227java.lang.String"0java.io.File#getAbsolutePath()Ljava/lang/String;*
+
+
+upgradeDirjava.io.File2getAbsolutePath()⁄◊
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java‹ ‹(@
+%228void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%226org.slf4j.Logger*
+Populating {}...*
+
+%227java.lang.String2*info(Ljava/lang/String;Ljava/lang/Object;)Ù
+Ò
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaﬁ! ﬁ(5
+%229java.io.File"__id*B*@0
+.io.onedev.commons.launcher.bootstrap.Bootstrap"
+
+installDir¬
+ø
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaﬁ ﬁ(6
+%230boolean"Oio.onedev.commons.launcher.bootstrap.Bootstrap#isServerRunning(Ljava/io/File;)Z*2"0
+.io.onedev.commons.launcher.bootstrap.Bootstrap*
+
+%229java.io.File*
+9
+11*ü
+13é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÿ ÿ(®
+•
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÿ ÿ(&
+%224void"<io.onedev.commons.utils.FileUtils#deleteDir(Ljava/io/File;)V*%"#
+!io.onedev.commons.utils.FileUtils*
+
+programBackupjava.io.File◊
+‘
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaŸ Ÿ(
+%225void"java.lang.System#exit(I)V*"
+java.lang.System*2 *
+0*⁄
+14é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaœ œ(º
+π
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaœ œ(
+%215org.slf4j.Logger"__id*
+""å
+â
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaœ –(Q
+%216java.lang.String"__concat*
+\n*JH
+F************************* IMPORTANT NOTICE *************************\nü
+ú
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaœ —(P
+%217java.lang.String"__concat*
+
+%216java.lang.String*IG
+E* OneDev password hash algorithm has been changed for security    *\n†
+ù
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaœ “(Q
+%218java.lang.String"__concat*
+
+%217java.lang.String*JH
+F* reason. Please reset administrator password with the             *\n†
+ù
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaœ ”(Q
+%219java.lang.String"__concat*
+
+%218java.lang.String*JH
+F* reset_admin_password command. Other users' password will be      *\n†
+ù
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaœ ‘(Q
+%220java.lang.String"__concat*
+
+%219java.lang.String*JH
+F* reset and sent to their mail box automatically when they logs    *\nü
+ú
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaœ ’(P
+%221java.lang.String"__concat*
+
+%220java.lang.String*IG
+E* into OneDev.                                                    *\nû
+õ
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaœ ÷(O
+%222java.lang.String"__concat*
+
+%221java.lang.String*HF
+D********************************************************************†ù
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaœ ÷(P
+%223void"*org.slf4j.Logger#warn(Ljava/lang/String;)V*
+
+%215org.slf4j.Logger*
+
+%222java.lang.String2warn(Ljava/lang/String;)*
+13*Û	
+15é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÃ Ã(
+º
+π
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÃ Ã(
+
+%211org.slf4j.Logger"__id*
+""ëé
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÃ, Ã(H
+%212java.lang.String"0java.io.File#getAbsolutePath()Ljava/lang/String;*
+
+
+upgradeDirjava.io.File2getAbsolutePath()‚ﬂ
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÃ Ã(I
+%213void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%211org.slf4j.Logger*
+Successfully upgraded {}*
+
+%212java.lang.String2*info(Ljava/lang/String;Ljava/lang/Object;)ôñ
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaŒ Œ(
+%214int"0java.util.concurrent.atomic.AtomicInteger#get()I*=
+;
+oldDataVersion)java.util.concurrent.atomic.AtomicInteger2get()*
+13
+14*ˆ
+16é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java   (
+Ÿ
+÷
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java   (
+%210void"java.lang.System#exit(I)V*"
+java.lang.System*2*
+0*Ã
+17é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java« «(º
+π
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java« «(
+%199org.slf4j.Logger"__id*
+""ëé
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java« «(.
+%200java.lang.String"0java.io.File#getAbsolutePath()Ljava/lang/String;*
+
+
+upgradeDirjava.io.File2getAbsolutePath()º
+π
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java«1 «(?
+%201java.lang.String"__id*
+""
+Ì
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java« «(?
+%202java.lang.String"__concat*
+
+%200java.lang.String*
+
+%201java.lang.String›
+⁄
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java« «(G
+%203java.lang.String"__concat*
+
+%202java.lang.String*
+binº
+π
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java«J «(X
+%204java.lang.String"__id*
+""
+Ì
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java« «(X
+%205java.lang.String"__concat*
+
+%203java.lang.String*
+
+%204java.lang.StringË
+Â
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java« «(k
+%206java.lang.String"__concat*
+
+%205java.lang.String*
+restore-db.sh îë
+è
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java«n «(å
+%207java.lang.String"0java.io.File#getAbsolutePath()Ljava/lang/String;*
+
+dbBackupFilejava.io.File2getAbsolutePath()Ò
+Ó
+è
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java« «(å
+%208java.lang.String"__concat*
+
+%206java.lang.String*
+
+%207java.lang.String°û
+è
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java« «(ç
+%209void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
+
+%199org.slf4j.Logger*
+
+%208java.lang.String2info(Ljava/lang/String;)*
+16*Õ
+18é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java≈ ≈(º
+π
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java≈ ≈(
+%188org.slf4j.Logger"__id*
+""ëé
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java≈ ≈(.
+%189java.lang.String"0java.io.File#getAbsolutePath()Ljava/lang/String;*
+
+
+upgradeDirjava.io.File2getAbsolutePath()º
+π
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java≈1 ≈(?
+%190java.lang.String"__id*
+""
+Ì
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java≈ ≈(?
+%191java.lang.String"__concat*
+
+%189java.lang.String*
+
+%190java.lang.String›
+⁄
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java≈ ≈(G
+%192java.lang.String"__concat*
+
+%191java.lang.String*
+binº
+π
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java≈J ≈(X
+%193java.lang.String"__id*
+""
+Ì
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java≈ ≈(X
+%194java.lang.String"__concat*
+
+%192java.lang.String*
+
+%193java.lang.StringÈ
+Ê
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java≈ ≈(l
+%195java.lang.String"__concat*
+
+%194java.lang.String*
+restore-db.bat îë
+è
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java≈o ≈(ç
+%196java.lang.String"0java.io.File#getAbsolutePath()Ljava/lang/String;*
+
+dbBackupFilejava.io.File2getAbsolutePath()Ò
+Ó
+è
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java≈ ≈(ç
+%197java.lang.String"__concat*
+
+%195java.lang.String*
+
+%196java.lang.String°û
+è
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java≈ ≈(é
+%198void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
+
+%188org.slf4j.Logger*
+
+%197java.lang.String2info(Ljava/lang/String;)*
+16*©	
+19é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java¬ ¬(º
+π
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java¬ ¬(
+%184org.slf4j.Logger"__id*
+""Ô
+Ï
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java¬ √(a
+%185java.lang.String"__concat*YW
+UThe database might be in an inconsistent state due to upgrade failure. In that case, *ZX
+Vyou need to restore the database by first cleaning it, and then running below command:†ù
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java¬ √(b
+%186void"*org.slf4j.Logger#warn(Ljava/lang/String;)V*
+
+%184org.slf4j.Logger*
+
+%185java.lang.String2warn(Ljava/lang/String;)≥
+∞
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaƒ	 ƒ("
+%187boolean"__id*
+""*
+17
+18*ñ
+
+120é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaå å(	ª
+∏
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaå å(	
+%33org.slf4j.Logger"__id*
+""êç
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaå" å(>
+%34java.lang.String"0java.io.File#getAbsolutePath()Ljava/lang/String;*
+
+
+upgradeDirjava.io.File2getAbsolutePath()÷”
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaå å(?
+%35void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%33org.slf4j.Logger*
+Upgrading {}...*
+
+%34java.lang.String2*info(Ljava/lang/String;Ljava/lang/Object;)«
+ƒ
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaé é(,
+%36boolean"Oio.onedev.commons.launcher.bootstrap.Bootstrap#isServerRunning(Ljava/io/File;)Z*2"0
+.io.onedev.commons.launcher.bootstrap.Bootstrap*
+
+
+upgradeDirjava.io.File*
+
+118
+119*£
+121é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÜ Ü(
+ª
+∏
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÜ Ü(
+
+%28org.slf4j.Logger"__id*
+""ˆ
+Û
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÜ á(g
+%29java.lang.String"__concat*ZX
+VInvalid OneDev installation directory: {}, make sure you are specifying the top level *a_
+]installation directory (it contains sub directories such as \"bin\", \"boot\", \"conf\", etc)êç
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaà à("
+%30java.lang.String"0java.io.File#getAbsolutePath()Ljava/lang/String;*
+
+
+upgradeDirjava.io.File2getAbsolutePath()ﬁ€
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÜ à(#
+%31void"=org.slf4j.Logger#error(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%28org.slf4j.Logger*
+
+%29java.lang.String*
+
+%30java.lang.String2+error(Ljava/lang/String;Ljava/lang/Object;)ÿ
+’
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaâ â(
+%32void"java.lang.System#exit(I)V*"
+java.lang.System*2*
+120*Æ
+0 "¶
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÓ Ó(
+implicit return*‡
+122é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÖ Ö(∑¥
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÖ Ö(
+%25java.io.File"java.io.File°
+û
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÖ Ö(3
+%26"6java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V*
+
+%25java.io.File*
+
+
+upgradeDirjava.io.File*
+boot/bootstrap.keys›⁄
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÖ Ö(<
+%27boolean"java.io.File#exists()Z*
+
+%25java.io.File2exists()*
+
+120
+121*µ
+124å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java~ ~(∂
+≥
+å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java~ ~(
+filejava.io.File"__id*
+""’
+“
+å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java~ ~(
+filejava.io.File"
+__arrayGet*
+
+%22java.io.File[]*
+""*
+126
+12
+122*π
+126å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java (¯ı
+å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java (
+%23java.lang.String"(java.io.File#getName()Ljava/lang/String;*
+
+filejava.io.File2	getName()óî
+å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java (+
+%24boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%23java.lang.String*
+
+lost+found2equals(Ljava/lang/Object;)*
+124
+12
+122*Û
+5é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÁ Á(
+◊
+‘
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÁ Á(
+%242void"java.lang.System#exit(I)V*"
+java.lang.System*2 *
+0*õ
+127å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java~ ~(˝˙
+å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java~ ~((
+%22java.io.File[]"'java.io.File#listFiles()[Ljava/io/File;*
+
+
+upgradeDirjava.io.File2listFiles()*
+124*ˇ
+6é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÊ Ê(J„‡
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÊ Ê(J
+%241void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%239org.slf4j.Logger*
+Successfully populated {}*
+
+%240java.lang.String2*info(Ljava/lang/String;Ljava/lang/Object;)*
+5*Ï
+7é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÊ Ê(
+º
+π
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÊ Ê(
+
+%239org.slf4j.Logger"__id*
+""ëé
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÊ- Ê(I
+%240java.lang.String"0java.io.File#getAbsolutePath()Ljava/lang/String;*
+
+
+upgradeDirjava.io.File2getAbsolutePath()*
+6*ß	
+129å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javay y(	π
+∂
+å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javay y(	
+%18org.slf4j.Logger"__id*
+""éã
+å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javay0 y(L
+%19java.lang.String"0java.io.File#getAbsolutePath()Ljava/lang/String;*
+
+
+upgradeDirjava.io.File2getAbsolutePath()„‡
+å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javay y(M
+%20void"=org.slf4j.Logger#error(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%18org.slf4j.Logger* 
+Unable to find directory: {}*
+
+%19java.lang.String2+error(Ljava/lang/String;Ljava/lang/Object;)÷
+”
+å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaz z(
+%21void"java.lang.System#exit(I)V*"
+java.lang.System*2*
+127*–
+8é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÂ Â(¥
+±
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÂ Â("
+%238void"Hio.onedev.server.maintenance.Upgrade#restoreExecutables(Ljava/io/File;)V*(&
+$io.onedev.server.maintenance.Upgrade*
+
+
+upgradeDirjava.io.File*
+7*ﬁ
+9é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java‰ ‰(Ù
+Ò
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java‰ ‰(0
+%236java.io.File"__id*B*@0
+.io.onedev.commons.launcher.bootstrap.Bootstrap"
+
+installDirÀ
+»
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java‰ ‰(=
+%237void"Lorg.apache.commons.io.FileUtils#copyDirectory(Ljava/io/File;Ljava/io/File;)V*#"!
+org.apache.commons.io.FileUtils*
+
+%236java.io.File*
+
+
+upgradeDirjava.io.File*
+8* 
+24é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaº º(®
+•
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaº º('
+%178void"<io.onedev.commons.utils.FileUtils#deleteDir(Ljava/io/File;)V*%"#
+!io.onedev.commons.utils.FileUtils*
+
+programBackupjava.io.File*
+16
+19*Å
+25é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaª ª(º
+π
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaª ª(
+%176org.slf4j.Logger"__id*
+""§°
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaª ª(.
+%177void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
+
+%176org.slf4j.Logger*
+Old program files restored2info(Ljava/lang/String;)*
+24*“
+26é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java∫ ∫(¥
+±
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java∫ ∫(#
+%175void"Hio.onedev.server.maintenance.Upgrade#restoreExecutables(Ljava/io/File;)V*(&
+$io.onedev.server.maintenance.Upgrade*
+
+
+upgradeDirjava.io.File*
+25*∑
+27é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÆ
+ Æ(π
+∂
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÆ
+ Æ(
+childjava.io.File"__id*
+""Ÿ
+÷
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÆ
+ Æ(
+childjava.io.File"
+__arrayGet*
+
+%165java.io.File[]*
+""*
+26
+37*·
+28é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaµ µ(√
+¿
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaµ µ()
+%174void"Gorg.apache.commons.io.FileUtils#copyFile(Ljava/io/File;Ljava/io/File;)V*#"!
+org.apache.commons.io.FileUtils*
+
+childjava.io.File*
+
+targetjava.io.File*
+27*Ê
+29é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java≥ ≥(»
+≈
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java≥ ≥(.
+%173void"Lorg.apache.commons.io.FileUtils#copyDirectory(Ljava/io/File;Ljava/io/File;)V*#"!
+org.apache.commons.io.FileUtils*
+
+childjava.io.File*
+
+targetjava.io.File*
+27*Ö
+130å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javax x(‚ﬂ
+å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javax x(
+%17boolean"java.io.File#exists()Z*
+
+
+upgradeDirjava.io.File2exists()*
+
+127
+129*Á
+
+131å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javav v("•
+¢
+å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javav v(.
+%13java.io.File"Hio.onedev.commons.launcher.bootstrap.Bootstrap#getBinDir()Ljava/io/File;*2"0
+.io.onedev.commons.launcher.bootstrap.Bootstrap˛˚
+å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javav0 v(D
+%14java.lang.String"(java.io.File#getPath()Ljava/lang/String;*
+
+
+upgradeDirjava.io.File2	getPath()µ≤
+å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javav v(
+%15java.io.File"java.io.Fileö
+ó
+å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javav v(E
+%16"6java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V*
+
+%15java.io.File*
+
+%13java.io.File*
+
+%14java.lang.StringÀ
+»
+å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javav v(E
+
+upgradeDirjava.io.File"__id*
+
+%15java.io.File*
+130*Æ
+132å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javat t(&ç
+ä
+å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javat t(.2
+%7,io.onedev.commons.launcher.bootstrap.Command"__id*?*=0
+.io.onedev.commons.launcher.bootstrap.Bootstrap"	
+command∏µ
+å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javat t(8
+%8java.lang.String[]"Iio.onedev.commons.launcher.bootstrap.Command#getArgs()[Ljava/lang/String;*4
+2
+%7,io.onedev.commons.launcher.bootstrap.Command2	getArgs()÷
+”
+å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javat t(;
+%9java.lang.String"
+__arrayGet*
+
+%8java.lang.String[]*2 µ≤
+å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javat t(
+%10java.io.File"java.io.FileÙ
+Ò
+å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javat t(<
+%11"(java.io.File#<init>(Ljava/lang/String;)V*
+
+%10java.io.File*
+
+%9java.lang.StringÀ
+»
+å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javat t(=
+
+upgradeDirjava.io.File"__id*
+
+%10java.io.FileÍÁ
+å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javau u(
+%12boolean"java.io.File#isAbsolute()Z*
+
+
+upgradeDirjava.io.File2isAbsolute()*
+
+130
+131*å
+133å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javap p(	∏
+µ
+å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javap p(	
+%2org.slf4j.Logger"__id*
+""ç
+ä
+å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaq q(2
+%3,io.onedev.commons.launcher.bootstrap.Command"__id*?*=0
+.io.onedev.commons.launcher.bootstrap.Bootstrap"	
+commandπ∂
+å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaq q("
+%4java.lang.String"Jio.onedev.commons.launcher.bootstrap.Command#getScript()Ljava/lang/String;*4
+2
+%3,io.onedev.commons.launcher.bootstrap.Command2getScript()èå
+å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javap q(#
+
+%5void"=org.slf4j.Logger#error(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%2org.slf4j.Logger*OM
+KMissing upgrade target parameter. Usage: {} <OneDev installation directory>*
+
+%4java.lang.String2+error(Ljava/lang/String;Ljava/lang/Object;)’
+“
+å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javar r(
+
+%6void"java.lang.System#exit(I)V*"
+java.lang.System*2*
+132*Î
+134å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javao o(ç
+ä
+å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javao o(2
+%0,io.onedev.commons.launcher.bootstrap.Command"__id*?*=0
+.io.onedev.commons.launcher.bootstrap.Bootstrap"	
+command∏µ
+å
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javao o(!
+%1java.lang.String[]"Iio.onedev.commons.launcher.bootstrap.Command#getArgs()[Ljava/lang/String;*4
+2
+%0,io.onedev.commons.launcher.bootstrap.Command2	getArgs()*
+
+132
+133*æ
+30é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java≤ ≤(†
+ù
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java≤ ≤("
+%172void";io.onedev.commons.utils.FileUtils#cleanDir(Ljava/io/File;)V*%"#
+!io.onedev.commons.utils.FileUtils*
+
+targetjava.io.File*
+29*⁄
+32é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java∞ ∞(; 
+«
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java∞ ∞(;
+targetjava.io.File"__id*
+
+%169java.io.FileÎË
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java± ±(
+%171boolean"java.io.File#isDirectory()Z*
+
+targetjava.io.File2isDirectory()*
+28
+30*ˇ
+33é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java∞ ∞(:∏µ
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java∞ ∞(
+%169java.io.File"java.io.File¶
+£
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java∞ ∞(:
+%170"6java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V*
+
+%169java.io.File*
+
+
+upgradeDirjava.io.File*
+
+%168java.lang.String*
+32*ö
+34é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java∞ ∞((¸˘
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java∞* ∞(9
+%168java.lang.String"(java.io.File#getName()Ljava/lang/String;*
+
+childjava.io.File2	getName()*
+33*∑
+36é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaØ" Ø((ïí
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaØ Ø()
+%167boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%166java.lang.String*
+site2equals(Ljava/lang/Object;)*
+27
+34*ö
+37é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaØ Ø(¸˘
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaØ Ø(
+%166java.lang.String"(java.io.File#getName()Ljava/lang/String;*
+
+childjava.io.File2	getName()*
+36*°
+38é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÆ Æ(#ÉÄ
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaÆ Æ(/
+%165java.io.File[]"'java.io.File#listFiles()[Ljava/io/File;*
+
+programBackupjava.io.File2listFiles()*
+27*ú
+39é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java¨ ¨(
+º
+π
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java¨ ¨(
+
+%163org.slf4j.Logger"__id*
+""øº
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java¨ ¨(H
+%164void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
+
+%163org.slf4j.Logger*97
+5Restoring old program files due to upgrade failure...2info(Ljava/lang/String;)*
+38*˙
+44é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java§ §(ÿ’
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java§ §(#
+%158void"Hio.onedev.server.maintenance.Upgrade#updateProgramFiles(Ljava/io/File;)V*(&
+$io.onedev.server.maintenance.Upgrade*
+
+
+upgradeDirjava.io.File2"updateProgramFiles(Ljava/io/File;)*
+15
+39*å
+45é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java£ £(VÓÎ
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java£ £(V
+%157void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%155org.slf4j.Logger*(&
+$Copying new program files into {}...*
+
+%156java.lang.String2*info(Ljava/lang/String;Ljava/lang/Object;)*
+44*Ó
+46é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java£ £(º
+π
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java£ £(
+%155org.slf4j.Logger"__id*
+""ëé
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java£9 £(U
+%156java.lang.String"0java.io.File#getAbsolutePath()Ljava/lang/String;*
+
+
+upgradeDirjava.io.File2getAbsolutePath()*
+45*Ç
+48é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaû û(H‡›
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaû û(H
+%154void"=org.slf4j.Logger#error(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%152org.slf4j.Logger*
+Failed to upgrade {}*
+
+%153java.lang.String2+error(Ljava/lang/String;Ljava/lang/Object;)*
+15
+39*Ó
+49é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaû û(º
+π
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaû û(
+%152org.slf4j.Logger"__id*
+""ëé
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaû+ û(G
+%153java.lang.String"0java.io.File#getAbsolutePath()Ljava/lang/String;*
+
+
+upgradeDirjava.io.File2getAbsolutePath()*
+48*’
+52é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaå ö(Ø¨
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaå ö(
+%151int"@io.onedev.commons.utils.command.ExecutionResult#getReturnCode()I*9
+7
+%150/io.onedev.commons.utils.command.ExecutionResult2getReturnCode()*
+15
+49
+39*Ç
+53é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaå ö(‰·
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaå ö(7
+%150/io.onedev.commons.utils.command.ExecutionResult"™io.onedev.commons.utils.command.Commandline#execute(Ljava/io/OutputStream;Lio/onedev/commons/utils/command/LineConsumer;)Lio/onedev/commons/utils/command/ExecutionResult;*5
+3
+%145+io.onedev.commons.utils.command.Commandline*0
+.
+%146&io.onedev.server.maintenance.Upgrade$7*0
+.
+%148&io.onedev.server.maintenance.Upgrade$82Mexecute(Ljava/io/OutputStream;Lio/onedev/commons/utils/command/LineConsumer;)*
+52*ì
+54é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaì	 ö(ÏÈ
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaì ì(.
+%148&io.onedev.server.maintenance.Upgrade$8"&io.onedev.server.maintenance.Upgrade$8Ü
+É
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaì	 ö(
+%149"6io.onedev.commons.utils.command.LineConsumer#<init>()V*0
+.
+%148&io.onedev.server.maintenance.Upgrade$8*
+53*ì
+55é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaå_ ì(ÏÈ
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaåc å(o.
+%146&io.onedev.server.maintenance.Upgrade$7"&io.onedev.server.maintenance.Upgrade$7Ü
+É
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaå_ ì(
+%147"6io.onedev.commons.utils.command.LineConsumer#<init>()V*0
+.
+%146&io.onedev.server.maintenance.Upgrade$7*
+54*º
+56é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaå å(Vûõ
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaå å(V3
+%145+io.onedev.commons.utils.command.Commandline"óio.onedev.server.maintenance.Upgrade#buildCommandline(Ljava/io/File;Ljava/lang/String;[Ljava/lang/String;)Lio/onedev/commons/utils/command/Commandline;*(&
+$io.onedev.server.maintenance.Upgrade*
+
+
+upgradeDirjava.io.File*
+
+restore-db*
+
+%144java.lang.String2EbuildCommandline(Ljava/io/File;Ljava/lang/String;[Ljava/lang/String;)*
+55*±
+57é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaå å(ìê
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaå7 å(U
+%144java.lang.String"0java.io.File#getAbsolutePath()Ljava/lang/String;*
+
+dbBackupFilejava.io.File2getAbsolutePath()*
+56*ç
+58é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaã ã(º
+π
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaã ã(
+%142org.slf4j.Logger"__id*
+""∞≠
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaã ã(;
+%143void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
+
+%142org.slf4j.Logger**(
+&Restoring database with new program...2info(Ljava/lang/String;)*
+57*ˆ
+59é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaâ â(ÿ’
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaâ â($
+%141void"Hio.onedev.server.maintenance.Upgrade#updateProgramFiles(Ljava/io/File;)V*(&
+$io.onedev.server.maintenance.Upgrade*
+
+
+upgradeDirjava.io.File2"updateProgramFiles(Ljava/io/File;)*
+58*Ä
+60é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaà à(º
+π
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaà à(
+%139org.slf4j.Logger"__id*
+""£†
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaà à(.
+%140void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
+
+%139org.slf4j.Logger*
+Updating program files...2info(Ljava/lang/String;)*
+59*Ÿ
+63é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaˆ Ñ(Ø¨
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaˆ Ñ(
+%138int"@io.onedev.commons.utils.command.ExecutionResult#getReturnCode()I*9
+7
+%137/io.onedev.commons.utils.command.ExecutionResult2getReturnCode()*
+15
+49
+39
+60*Ç
+64é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaˆ Ñ(‰·
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaˆ Ñ(7
+%137/io.onedev.commons.utils.command.ExecutionResult"™io.onedev.commons.utils.command.Commandline#execute(Ljava/io/OutputStream;Lio/onedev/commons/utils/command/LineConsumer;)Lio/onedev/commons/utils/command/ExecutionResult;*5
+3
+%132+io.onedev.commons.utils.command.Commandline*0
+.
+%133&io.onedev.server.maintenance.Upgrade$5*0
+.
+%135&io.onedev.server.maintenance.Upgrade$62Mexecute(Ljava/io/OutputStream;Lio/onedev/commons/utils/command/LineConsumer;)*
+63*ì
+65é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java˝	 Ñ(ÏÈ
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java˝ ˝(.
+%135&io.onedev.server.maintenance.Upgrade$6"&io.onedev.server.maintenance.Upgrade$6Ü
+É
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java˝	 Ñ(
+%136"6io.onedev.commons.utils.command.LineConsumer#<init>()V*0
+.
+%135&io.onedev.server.maintenance.Upgrade$6*
+64*ì
+66é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaˆ= ˝(ÏÈ
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaˆA ˆ(M.
+%133&io.onedev.server.maintenance.Upgrade$5"&io.onedev.server.maintenance.Upgrade$5Ü
+É
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaˆ= ˝(
+%134"6io.onedev.commons.utils.command.LineConsumer#<init>()V*0
+.
+%133&io.onedev.server.maintenance.Upgrade$5*
+65*û
+67é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaˆ ˆ(Ä˝
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/maintenance/Upgrade.javaˆ ˆ(43
+%132+io.onedev.commons.utils.command.Commandline"óio.onedev.server.maintenance.Upgrade#buildCommandline(Ljava/io/File;Ljava/lang/String;[Ljava/lang/String;)Lio/onedev/commons/utils/command/Commandline;*(&
+$io.onedev.server.maintenance.Upgrade*
+
+
+upgradeDirjava.io.File*
+
+clean-db2EbuildCommandline(Ljava/io/File;Ljava/lang/String;[Ljava/lang/String;)*
+66B(&
+$io.onedev.server.maintenance.Upgrade

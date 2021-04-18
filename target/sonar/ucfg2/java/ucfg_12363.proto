@@ -1,0 +1,112 @@
+
+sio.onedev.server.migration.VersionedXmlDoc#fromBean(Ljava/lang/Object;)Lio/onedev/server/migration/VersionedXmlDoc;”
+‡C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/VersionedXmlDoc.java¯ ¯('"startingBlock*Ô	
+2”
+‡C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/VersionedXmlDoc.java´ ´(ë
+è
+”
+‡C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/VersionedXmlDoc.java´6 ´(q
+%7java.lang.Class"norg.hibernate.proxy.HibernateProxyHelper#getClassWithoutInitializingProxy(Ljava/lang/Object;)Ljava/lang/Class;*,"*
+(org.hibernate.proxy.HibernateProxyHelper*
+
+beanjava.lang.Object×
+Ô
+”
+‡C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/VersionedXmlDoc.java´ ´(r
+%8java.lang.String"Zio.onedev.server.migration.MigrationHelper#getVersion(Ljava/lang/Class;)Ljava/lang/String;*.",
+*io.onedev.server.migration.MigrationHelper*
+
+%7java.lang.Classêç
+”
+‡C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/VersionedXmlDoc.java´ ´(s
+
+%9void"Jio.onedev.server.migration.VersionedXmlDoc#setVersion(Ljava/lang/String;)V*<
+:
+versionedDom*io.onedev.server.migration.VersionedXmlDoc*
+
+%8java.lang.String2setVersion(Ljava/lang/String;)*
+1*ß
+3”
+‡C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/VersionedXmlDoc.java° °(‘
+Ž
+”
+‡C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/VersionedXmlDoc.java° °(0
+%0org.dom4j.Document"=org.dom4j.DocumentHelper#createDocument()Lorg/dom4j/Document;*"
+org.dom4j.DocumentHelper×
+Ô
+”
+‡C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/VersionedXmlDoc.java° °(1
+domorg.dom4j.Document"__id*
+
+%0org.dom4j.DocumentÙ
+Ö
+”
+‡C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/VersionedXmlDoc.java± ±(&&
+%1 com.thoughtworks.xstream.XStream"\io.onedev.commons.launcher.loader.AppLoader#getInstance(Ljava/lang/Class;)Ljava/lang/Object;*/"-
++io.onedev.commons.launcher.loader.AppLoader*
+""ú÷
+”
+‡C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/VersionedXmlDoc.java±9 ±(D1
+%2+com.thoughtworks.xstream.io.xml.Dom4JWriter"+com.thoughtworks.xstream.io.xml.Dom4JWriter»
+¸
+”
+‡C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/VersionedXmlDoc.java±5 ±(I
+%3"Gcom.thoughtworks.xstream.io.xml.Dom4JWriter#<init>(Lorg/dom4j/Branch;)V*3
+1
+%2+com.thoughtworks.xstream.io.xml.Dom4JWriter*
+
+domorg.dom4j.Documentéæ
+”
+‡C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/VersionedXmlDoc.java± ±(J
+
+%4void"scom.thoughtworks.xstream.XStream#marshal(Ljava/lang/Object;Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;)V*(
+&
+%1 com.thoughtworks.xstream.XStream*
+
+beanjava.lang.Object*3
+1
+%2+com.thoughtworks.xstream.io.xml.Dom4JWriter2Qmarshal(Ljava/lang/Object;Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;)øõ
+”
+‡C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/VersionedXmlDoc.java²% ²(40
+%5*io.onedev.server.migration.VersionedXmlDoc"*io.onedev.server.migration.VersionedXmlDoc»
+¸
+”
+‡C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/VersionedXmlDoc.java²! ²(9
+%6"Hio.onedev.server.migration.VersionedXmlDoc#<init>(Lorg/dom4j/Document;)V*2
+0
+%5*io.onedev.server.migration.VersionedXmlDoc*
+
+domorg.dom4j.Document
+
+”
+‡C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/VersionedXmlDoc.java² ²(::
+versionedDom*io.onedev.server.migration.VersionedXmlDoc"__id*2
+0
+%5*io.onedev.server.migration.VersionedXmlDoc*
+2
+1*ä
+startingBlock”
+‡C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/VersionedXmlDoc.java¯' ¯(>è
+å
+”
+‡C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/VersionedXmlDoc.java¯( ¯(1
+%10"
+__annotate*
+javax.annotation.Nullable*
+
+beanjava.lang.ObjectË
+È
+”
+‡C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/VersionedXmlDoc.java¯9 ¯(=
+beanjava.lang.Object"__annotation*
+
+%10*
+3*ò
+1”
+‡C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/VersionedXmlDoc.java¶	 ¶("Õ
+”
+‡C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/VersionedXmlDoc.java¶ ¶(<
+:
+versionedDom*io.onedev.server.migration.VersionedXmlDoc:
+beanjava.lang.ObjectB.",
+*io.onedev.server.migration.VersionedXmlDoc

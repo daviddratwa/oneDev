@@ -1,0 +1,175 @@
+
+\io.onedev.server.web.page.project.pullrequests.detail.PullRequestDetailPage$48#canOperate()Zµ
+¨C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/pullrequests/detail/PullRequestDetailPage.javaò	 ò	("13*©
+13µ
+¨C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/pullrequests/detail/PullRequestDetailPage.javaó	 ó	((ÎË
+µ
+¨C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/pullrequests/detail/PullRequestDetailPage.javaó	 ó	(*(
+%0"io.onedev.server.model.PullRequest"€io.onedev.server.web.page.project.pullrequests.detail.PullRequestDetailPage#getPullRequest()Lio/onedev/server/model/PullRequest;*RP
+Nio.onedev.server.web.page.project.pullrequests.detail.PullRequestDetailPage$482getPullRequest()œ
+™
+µ
+¨C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/pullrequests/detail/PullRequestDetailPage.javaó	 ó	(+-
+request"io.onedev.server.model.PullRequest"__id**
+(
+%0"io.onedev.server.model.PullRequestã
+à
+µ
+¨C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/pullrequests/detail/PullRequestDetailPage.javaô	, ô	(X7
+%11io.onedev.server.entitymanager.PullRequestManager"Hio.onedev.server.OneDev#getInstance(Ljava/lang/Class;)Ljava/lang/Object;*"
+io.onedev.server.OneDev*
+""Å
+Â
+µ
+¨C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/pullrequests/detail/PullRequestDetailPage.javaô	 ô	(YG
+pullRequestManager1io.onedev.server.entitymanager.PullRequestManager"__id*9
+7
+%11io.onedev.server.entitymanager.PullRequestManager³°
+µ
+¨C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/pullrequests/detail/PullRequestDetailPage.javaõ	 õ	(
+%2boolean",io.onedev.server.model.PullRequest#isOpen()Z*/
+-
+request"io.onedev.server.model.PullRequest2isOpen()*
+2
+4
+6
+8
+10
+12
+1*¿
+2µ
+¨C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/pullrequests/detail/PullRequestDetailPage.javaû	
+ û	(þû
+µ
+¨C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/pullrequests/detail/PullRequestDetailPage.javaû	  û	(:%
+%12io.onedev.server.model.Project"Uio.onedev.server.model.PullRequest#getTargetProject()Lio/onedev/server/model/Project;*/
+-
+request"io.onedev.server.model.PullRequest2getTargetProject()îë
+µ
+¨C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/pullrequests/detail/PullRequestDetailPage.javaû	  û	(J&
+%13org.eclipse.jgit.lib.Repository"Oio.onedev.server.model.Project#getRepository()Lorg/eclipse/jgit/lib/Repository;*'
+%
+%12io.onedev.server.model.Project2getRepository()€ý
+µ
+¨C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/pullrequests/detail/PullRequestDetailPage.javaü	 ü	(-
+%14&io.onedev.server.util.ProjectAndBranch"Vio.onedev.server.model.PullRequest#getSource()Lio/onedev/server/util/ProjectAndBranch;*/
+-
+request"io.onedev.server.model.PullRequest2getSource()øõ
+µ
+¨C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/pullrequests/detail/PullRequestDetailPage.javaü	 ü	()$
+%15org.eclipse.jgit.lib.ObjectId"Uio.onedev.server.util.ProjectAndRevision#getObjectId()Lorg/eclipse/jgit/lib/ObjectId;*/
+-
+%14&io.onedev.server.util.ProjectAndBranch2getObjectId()€ý
+µ
+¨C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/pullrequests/detail/PullRequestDetailPage.javaü	+ ü	(>-
+%16&io.onedev.server.util.ProjectAndBranch"Vio.onedev.server.model.PullRequest#getTarget()Lio/onedev/server/util/ProjectAndBranch;*/
+-
+request"io.onedev.server.model.PullRequest2getTarget()øõ
+µ
+¨C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/pullrequests/detail/PullRequestDetailPage.javaü	+ ü	(L$
+%17org.eclipse.jgit.lib.ObjectId"Uio.onedev.server.util.ProjectAndRevision#getObjectId()Lorg/eclipse/jgit/lib/ObjectId;*/
+-
+%16&io.onedev.server.util.ProjectAndBranch2getObjectId()Ž
+‹
+µ
+¨C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/pullrequests/detail/PullRequestDetailPage.javaû	
+ ü	(M
+%18boolean"›io.onedev.server.git.GitUtils#isMergedInto(Lorg/eclipse/jgit/lib/Repository;Ljava/util/Map;Lorg/eclipse/jgit/lib/ObjectId;Lorg/eclipse/jgit/lib/ObjectId;)Z*!"
+io.onedev.server.git.GitUtils*(
+&
+%13org.eclipse.jgit.lib.Repository*
+""*&
+$
+%15org.eclipse.jgit.lib.ObjectId*&
+$
+%17org.eclipse.jgit.lib.ObjectId*
+1*ö
+4µ
+¨C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/pullrequests/detail/PullRequestDetailPage.javaú		 ú	(ÿü
+µ
+¨C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/pullrequests/detail/PullRequestDetailPage.javaú	* ú	(=,
+%9&io.onedev.server.util.ProjectAndBranch"Vio.onedev.server.model.PullRequest#getTarget()Lio/onedev/server/util/ProjectAndBranch;*/
+-
+request"io.onedev.server.model.PullRequest2getTarget()€ý
+µ
+¨C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/pullrequests/detail/PullRequestDetailPage.javaú	? ú	(R-
+%10&io.onedev.server.util.ProjectAndBranch"Vio.onedev.server.model.PullRequest#getSource()Lio/onedev/server/util/ProjectAndBranch;*/
+-
+request"io.onedev.server.model.PullRequest2getSource()«¨
+µ
+¨C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/pullrequests/detail/PullRequestDetailPage.javaú		 ú	(S)
+%11"io.onedev.server.model.PullRequest"µio.onedev.server.entitymanager.PullRequestManager#findEffective(Lio/onedev/server/util/ProjectAndBranch;Lio/onedev/server/util/ProjectAndBranch;)Lio/onedev/server/model/PullRequest;*I
+G
+pullRequestManager1io.onedev.server.entitymanager.PullRequestManager*.
+,
+%9&io.onedev.server.util.ProjectAndBranch*/
+-
+%10&io.onedev.server.util.ProjectAndBranch2_findEffective(Lio/onedev/server/util/ProjectAndBranch;Lio/onedev/server/util/ProjectAndBranch;)*
+2
+1*µ
+6µ
+¨C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/pullrequests/detail/PullRequestDetailPage.javaù		 ù	(ÿü
+µ
+¨C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/pullrequests/detail/PullRequestDetailPage.javaù		 ù	(,
+%7&io.onedev.server.util.ProjectAndBranch"Vio.onedev.server.model.PullRequest#getSource()Lio/onedev/server/util/ProjectAndBranch;*/
+-
+request"io.onedev.server.model.PullRequest2getSource()êç
+µ
+¨C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/pullrequests/detail/PullRequestDetailPage.javaù		 ù	(1
+%8java.lang.String"Kio.onedev.server.util.ProjectAndRevision#getObjectName(Z)Ljava/lang/String;*.
+,
+%7&io.onedev.server.util.ProjectAndBranch*
+""2getObjectName(Z)*	
+2
+4
+1*É
+8µ
+¨C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/pullrequests/detail/PullRequestDetailPage.javaø		 ø	(ýú
+µ
+¨C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/pullrequests/detail/PullRequestDetailPage.javaø		 ø	(#$
+%6io.onedev.server.model.Project"Uio.onedev.server.model.PullRequest#getSourceProject()Lio/onedev/server/model/Project;*/
+-
+request"io.onedev.server.model.PullRequest2getSourceProject()*
+2
+4
+6
+1*¼
+10µ
+¨C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/pullrequests/detail/PullRequestDetailPage.java÷		 ÷	(ÿü
+µ
+¨C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/pullrequests/detail/PullRequestDetailPage.java÷		 ÷	(,
+%4&io.onedev.server.util.ProjectAndBranch"Vio.onedev.server.model.PullRequest#getTarget()Lio/onedev/server/util/ProjectAndBranch;*/
+-
+request"io.onedev.server.model.PullRequest2getTarget()êç
+µ
+¨C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/pullrequests/detail/PullRequestDetailPage.java÷		 ÷	(1
+%5java.lang.String"Kio.onedev.server.util.ProjectAndRevision#getObjectName(Z)Ljava/lang/String;*.
+,
+%4&io.onedev.server.util.ProjectAndBranch*
+""2getObjectName(Z)*
+2
+4
+6
+8
+1*Ö
+12µ
+¨C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/pullrequests/detail/PullRequestDetailPage.javaö		 ö	(‚
+ÿ
+µ
+¨C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/pullrequests/detail/PullRequestDetailPage.javaö		 ö	()
+%3boolean"Xio.onedev.server.security.SecurityUtils#canModify(Lio/onedev/server/model/PullRequest;)Z*+")
+'io.onedev.server.security.SecurityUtils*/
+-
+request"io.onedev.server.model.PullRequest*
+2
+4
+6
+8
+10
+1*þ
+1µ
+¨C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/pullrequests/detail/PullRequestDetailPage.javaõ	 ü	(N"À
+µ
+¨C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/pullrequests/detail/PullRequestDetailPage.javaõ	 ü	(N
+""BRP
+Nio.onedev.server.web.page.project.pullrequests.detail.PullRequestDetailPage$48

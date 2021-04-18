@@ -1,0 +1,74 @@
+
+ˆio.onedev.server.util.markdown.CommitProcessor#toHtml(Lio/onedev/server/model/Project;Lorg/eclipse/jgit/lib/ObjectId;)Ljava/lang/String;–
+‹C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/CommitProcessor.java ("1*ß
+1–
+‹C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/CommitProcessor.java (!ä
+á
+–
+‹C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/CommitProcessor.java ('2
+%0,org.apache.wicket.request.cycle.RequestCycle"`org.apache.wicket.request.cycle.RequestCycle#get()Lorg/apache/wicket/request/cycle/RequestCycle;*0".
+,org.apache.wicket.request.cycle.RequestCycle¤¡
+–
+‹C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/CommitProcessor.java? (N
+%1java.lang.String"9org.eclipse.jgit.lib.AnyObjectId#name()Ljava/lang/String;*+
+)
+commitIdorg.eclipse.jgit.lib.ObjectId2name()™
+–
+–
+‹C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/CommitProcessor.java (O?
+%29org.apache.wicket.request.mapper.parameter.PageParameters"²io.onedev.server.web.page.project.commits.CommitDetailPage#paramsOf(Lio/onedev/server/model/Project;Ljava/lang/String;)Lorg/apache/wicket/request/mapper/parameter/PageParameters;*>"<
+:io.onedev.server.web.page.project.commits.CommitDetailPage*+
+)
+projectio.onedev.server.model.Project*
+
+%1java.lang.String­ª
+–
+‹C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/CommitProcessor.java (P
+%3java.lang.CharSequence"™org.apache.wicket.request.cycle.RequestCycle#urlFor(Ljava/lang/Class;Lorg/apache/wicket/request/mapper/parameter/PageParameters;)Ljava/lang/CharSequence;*4
+2
+%0,org.apache.wicket.request.cycle.RequestCycle*
+""*A
+?
+%29org.apache.wicket.request.mapper.parameter.PageParameters2TurlFor(Ljava/lang/Class;Lorg/apache/wicket/request/mapper/parameter/PageParameters;)á
+Þ
+–
+‹C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/CommitProcessor.java (Q
+urljava.lang.CharSequence"__id*
+
+%3java.lang.CharSequence¤¡
+–
+‹C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/CommitProcessor.java `  (o
+%4java.lang.String"9org.eclipse.jgit.lib.AnyObjectId#name()Ljava/lang/String;*+
+)
+commitIdorg.eclipse.jgit.lib.ObjectId2name()¤¡
+–
+‹C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/CommitProcessor.java! !(*
+%5java.lang.String"9org.eclipse.jgit.lib.AnyObjectId#name()Ljava/lang/String;*+
+)
+commitIdorg.eclipse.jgit.lib.ObjectId2name()Ä
+Á
+–
+‹C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/CommitProcessor.java! !(+
+%6java.lang.String"Qio.onedev.server.git.GitUtils#abbreviateSHA(Ljava/lang/String;)Ljava/lang/String;*!"
+io.onedev.server.git.GitUtils*
+
+%5java.lang.String·
+´
+–
+‹C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/CommitProcessor.java 	 !(,
+%7java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*DB
+@<a href='%s' class='commit reference' data-reference='%s'>%s</a>*
+
+urljava.lang.CharSequence*
+
+%4java.lang.String*
+
+%6java.lang.String"³
+–
+‹C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/CommitProcessor.java  !(-
+
+%7java.lang.String:)
+projectio.onedev.server.model.Project:)
+commitIdorg.eclipse.jgit.lib.ObjectIdB20
+.io.onedev.server.util.markdown.CommitProcessor

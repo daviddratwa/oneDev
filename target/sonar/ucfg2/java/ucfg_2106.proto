@@ -1,0 +1,84 @@
+
+lio.onedev.server.entitymanager.impl.DefaultRoleManager#find(Ljava/lang/String;)Lio/onedev/server/model/Role;û
+ìC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultRoleManager.javaX X("startingBlock*ç
+startingBlockû
+ìC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultRoleManager.javaX X(â
+Ü
+û
+ìC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultRoleManager.javaV V(
+%6"
+__annotate*53
+1io.onedev.server.persistence.annotation.Sessional*
+
+namejava.lang.StringÍ
+Á
+û
+ìC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultRoleManager.javaW W(
+
+%7"
+__annotate*
+java.lang.Override*
+
+namejava.lang.String‹
+Ÿ
+û
+ìC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultRoleManager.javaX X(
+namejava.lang.String"__annotation*
+
+%6*
+
+%7*
+1*†
+1û
+ìC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultRoleManager.javaY" Y(-ôñ
+û
+ìC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultRoleManager.javaY" Y(/5
+%0/io.onedev.server.persistence.dao.EntityCriteria"qio.onedev.server.persistence.dao.BaseEntityManager#newCriteria()Lio/onedev/server/persistence/dao/EntityCriteria;*:8
+6io.onedev.server.entitymanager.impl.DefaultRoleManager2newCriteria()†
+ù
+û
+ìC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultRoleManager.javaY Y(0;
+criteria/io.onedev.server.persistence.dao.EntityCriteria"__id*7
+5
+%0/io.onedev.server.persistence.dao.EntityCriteriaí
+è
+û
+ìC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultRoleManager.javaZ Z(/'
+%1!org.hibernate.criterion.Criterion"sorg.hibernate.criterion.Restrictions#ilike(Ljava/lang/String;Ljava/lang/Object;)Lorg/hibernate/criterion/Criterion;*("&
+$org.hibernate.criterion.Restrictions*
+name*
+
+namejava.lang.String˚¯
+û
+ìC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultRoleManager.javaZ Z(05
+%2/io.onedev.server.persistence.dao.EntityCriteria"âio.onedev.server.persistence.dao.EntityCriteria#add(Lorg/hibernate/criterion/Criterion;)Lio/onedev/server/persistence/dao/EntityCriteria;*=
+;
+criteria/io.onedev.server.persistence.dao.EntityCriteria*)
+'
+%1!org.hibernate.criterion.Criterion2(add(Lorg/hibernate/criterion/Criterion;) «
+û
+ìC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultRoleManager.java[ [(
+
+%3void"@io.onedev.server.persistence.dao.EntityCriteria#setCacheable(Z)V*=
+;
+criteria/io.onedev.server.persistence.dao.EntityCriteria*
+""2setCacheable(Z)õ
+ò
+û
+ìC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultRoleManager.java\	 \(*
+%4$io.onedev.server.persistence.dao.Dao"__id*C*A8
+6io.onedev.server.entitymanager.impl.DefaultRoleManager"
+daoÛ
+û
+ìC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultRoleManager.java\	 \(!
+%5io.onedev.server.model.Role"Éio.onedev.server.persistence.dao.Dao#find(Lio/onedev/server/persistence/dao/EntityCriteria;)Lio/onedev/server/model/AbstractEntity;*,
+*
+%4$io.onedev.server.persistence.dao.Dao*=
+;
+criteria/io.onedev.server.persistence.dao.EntityCriteria27find(Lio/onedev/server/persistence/dao/EntityCriteria;)"∆
+û
+ìC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultRoleManager.java\ \(#
+!
+%5io.onedev.server.model.Role:
+namejava.lang.StringB:8
+6io.onedev.server.entitymanager.impl.DefaultRoleManager

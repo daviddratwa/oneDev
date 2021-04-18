@@ -1,0 +1,286 @@
+
+sio.onedev.server.web.avatar.DefaultAvatarManager#getAvatarUrl(Ljava/lang/Long;Ljava/lang/String;)Ljava/lang/String;ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.java8 8("startingBlock*ö	
+2ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.javaC C(§°
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.javaC C(*
+%20java.lang.String"8io.onedev.server.model.User#getEmail()Ljava/lang/String;*%
+#
+userio.onedev.server.model.User2
+getEmail()∏
+µ
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.javaC, C(9
+
+%21int"__id*
+""ﬁ
+€
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.javaC C(:
+%22java.lang.String"Rio.onedev.server.web.avatar.Gravatar#getURL(Ljava/lang/String;I)Ljava/lang/String;*("&
+$io.onedev.server.web.avatar.Gravatar*
+
+%20java.lang.String*
+
+
+%21int"∂
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.javaC C(;
+
+%22java.lang.String*€	
+3ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.javaB B(§
+°
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.javaB B(4
+%17-io.onedev.server.entitymanager.SettingManager"__id*H*F2
+0io.onedev.server.web.avatar.DefaultAvatarManager"
+settingManager≠™
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.javaB B((B
+%18;io.onedev.server.model.support.administration.SystemSetting"}io.onedev.server.entitymanager.SettingManager#getSystemSetting()Lio/onedev/server/model/support/administration/SystemSetting;*6
+4
+%17-io.onedev.server.entitymanager.SettingManager2getSystemSetting()€ÿ
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.javaB B(<
+%19boolean"Pio.onedev.server.model.support.administration.SystemSetting#isGravatarEnabled()Z*D
+B
+%18;io.onedev.server.model.support.administration.SystemSetting2isGravatarEnabled()*
+2
+1*€
+startingBlockò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.java8 8(<Ñ
+Å
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.java6 6(
+%26"
+__annotate*53
+1io.onedev.server.persistence.annotation.Sessional*
+
+userIdjava.lang.LongÂ
+‚
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.java7 7(
+
+%27"
+__annotate*
+java.lang.Override*
+
+userIdjava.lang.Longÿ
+’
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.java8! 8('
+userIdjava.lang.Long"__annotation*
+
+%26*
+
+%27ã
+à
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.java6 6(
+%28"
+__annotate*53
+1io.onedev.server.persistence.annotation.Sessional*!
+
+displayNamejava.lang.StringÏ
+È
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.java7 7(
+
+%29"
+__annotate*
+java.lang.Override*!
+
+displayNamejava.lang.Stringﬂ
+‹
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.java80 8(;
+displayNamejava.lang.String"__annotation*
+
+%28*
+
+%29*
+7
+8*é
+4ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.javaA A(≈
+¬
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.javaA A(
+%10java.lang.String"__id*
+""Ò
+Ó
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.javaA A(/
+%11java.lang.String"__concat*
+
+%10java.lang.String*
+uploaded/users/§°
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.javaA2 A(>
+%12java.lang.Long"=io.onedev.server.model.AbstractEntity#getId()Ljava/lang/Long;*%
+#
+userio.onedev.server.model.User2getId()ı
+Ú
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.javaA A(>
+%13java.lang.String"__concat*
+
+%11java.lang.String*
+
+%12java.lang.LongÔ
+Ï
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.javaA A(P
+%14java.lang.String"__concat*
+
+%13java.lang.String*
+.jpg?version=˘ˆ
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.javaAS A(n
+%15long"java.io.File#lastModified()J*
+
+uploadedFilejava.io.File2lastModified()Î
+Ë
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.javaA A(n
+%16java.lang.String"__concat*
+
+%14java.lang.String*
+
+%15long"∂
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.javaA A(o
+
+%16java.lang.String*È
+5ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.java> >(ø
+º
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.java> >(40
+%6*io.onedev.server.entitymanager.UserManager"Hio.onedev.server.OneDev#getInstance(Ljava/lang/Class;)Ljava/lang/Object;*"
+io.onedev.server.OneDev*
+""óî
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.java> >(A!
+%7io.onedev.server.model.User"lio.onedev.server.persistence.dao.EntityManager#load(Ljava/lang/Long;)Lio/onedev/server/model/AbstractEntity;*2
+0
+%6*io.onedev.server.entitymanager.UserManager*
+
+userIdjava.lang.Long2load(Ljava/lang/Long;)Ó
+Î
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.java> >(B#
+userio.onedev.server.model.User"__id*#
+!
+%7io.onedev.server.model.User¶£
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.java? ?((
+%8java.io.File"iio.onedev.server.web.avatar.DefaultAvatarManager#getUploaded(Lio/onedev/server/model/User;)Ljava/io/File;*42
+0io.onedev.server.web.avatar.DefaultAvatarManager*%
+#
+userio.onedev.server.model.User2*getUploaded(Lio/onedev/server/model/User;)ÿ
+’
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.java? ?()
+uploadedFilejava.io.File"__id*
+
+%8java.io.FileÔÏ
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.java@ @(
+%9boolean"java.io.File#exists()Z*
+
+uploadedFilejava.io.File2exists()*
+3
+4*ä
+6ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.java<
+ <(ƒ
+¡
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.java<
+ <(
+%4java.lang.String"__id*
+""Í
+Á
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.java<
+ <()
+%5java.lang.String"__concat*
+
+%4java.lang.String*
+
+onedev.png"µ
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.java< <(*
+
+%5java.lang.String*ó
+7ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.java; ;(¬
+ø
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.java; ;()
+%2java.lang.Long"__id*
+""©¶
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.java; ;(*
+%3boolean"*java.lang.Long#equals(Ljava/lang/Object;)Z*
+
+userIdjava.lang.Long*
+
+%2java.lang.Long2equals(Ljava/lang/Object;)*
+5
+6*à
+8ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.java:
+ :(ƒ
+¡
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.java:
+ :(
+%0java.lang.String"__id*
+""Ë
+Â
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.java:
+ :('
+%1java.lang.String"__concat*
+
+%0java.lang.String*
+
+user.png"µ
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.java: :((
+
+%1java.lang.String*¬
+
+1ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.javaE E(¢ü
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.javaE E((
+%23java.lang.String"7io.onedev.server.model.User#getName()Ljava/lang/String;*%
+#
+userio.onedev.server.model.User2	getName()§°
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.javaE* E(9
+%24java.lang.String"8io.onedev.server.model.User#getEmail()Ljava/lang/String;*%
+#
+userio.onedev.server.model.User2
+getEmail()ú
+ô
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.javaE E(:
+%25java.lang.String"wio.onedev.server.web.avatar.DefaultAvatarManager#generateAvatar(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*42
+0io.onedev.server.web.avatar.DefaultAvatarManager*
+
+%23java.lang.String*
+
+%24java.lang.String"∂
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/avatar/DefaultAvatarManager.javaE E(;
+
+%25java.lang.String:
+userIdjava.lang.Long:
+displayNamejava.lang.StringB42
+0io.onedev.server.web.avatar.DefaultAvatarManager

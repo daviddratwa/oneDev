@@ -1,0 +1,110 @@
+
+çio.onedev.server.web.component.project.comment.CommentInput$2#findIssues(Lio/onedev/server/model/Project;Ljava/lang/String;I)Ljava/util/List;£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/project/comment/CommentInput.javaR R( "startingBlock*µ	
+2£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/project/comment/CommentInput.javaV V(À
+»
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/project/comment/CommentInput.javaV V(21
+%2+io.onedev.server.entitymanager.IssueManager"Hio.onedev.server.OneDev#getInstance(Ljava/lang/Class;)Ljava/lang/Object;*"
+io.onedev.server.OneDev*
+""˙˜
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/project/comment/CommentInput.javaV V(O
+%3java.util.List"vio.onedev.server.entitymanager.IssueManager#query(Lio/onedev/server/model/Project;Ljava/lang/String;I)Ljava/util/List;*3
+1
+%2+io.onedev.server.entitymanager.IssueManager*+
+)
+projectio.onedev.server.model.Project*
+
+queryjava.lang.String*
+""2:query(Lio/onedev/server/model/Project;Ljava/lang/String;I)"æ
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/project/comment/CommentInput.javaV V(P
+
+%3java.util.List*ú
+3£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/project/comment/CommentInput.javaU U(Ë
+Â
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/project/comment/CommentInput.javaU U((
+%1boolean"Tio.onedev.server.security.SecurityUtils#canAccess(Lio/onedev/server/model/Project;)Z*+")
+'io.onedev.server.security.SecurityUtils*+
+)
+projectio.onedev.server.model.Project*
+2
+1*è
+startingBlock£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/project/comment/CommentInput.javaR  R(TÄ
+˝
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/project/comment/CommentInput.javaQ Q(
+%6"
+__annotate*
+java.lang.Override*+
+)
+projectio.onedev.server.model.Projectá
+Ñ
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/project/comment/CommentInput.javaR! R(*
+%7"
+__annotate*
+javax.annotation.Nullable*+
+)
+projectio.onedev.server.model.ProjectÚ
+Ô
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/project/comment/CommentInput.javaR3 R(:)
+projectio.onedev.server.model.Project"__annotation*
+
+%6*
+
+%7
+Ì
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/project/comment/CommentInput.javaQ Q(
+%8"
+__annotate*
+java.lang.Override*
+
+queryjava.lang.String⁄
+◊
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/project/comment/CommentInput.javaRC R(H
+queryjava.lang.String"__annotation*
+
+%8*
+3
+4*¿
+4£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/project/comment/CommentInput.javaT T(äá
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/project/comment/CommentInput.javaT T($
+%0io.onedev.server.model.Project"hio.onedev.server.web.component.project.comment.CommentInput#getProject()Lio/onedev/server/model/Project;*A?
+=io.onedev.server.web.component.project.comment.CommentInput$22getProject()Ç
+ˇ
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/project/comment/CommentInput.javaT T()
+projectio.onedev.server.model.Project"__id*&
+$
+%0io.onedev.server.model.Project*
+3*π
+1£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/project/comment/CommentInput.javaX X(Ÿ÷
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/project/comment/CommentInput.javaX X(
+%4java.util.ArrayList"java.util.ArrayListÎ
+Ë
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/project/comment/CommentInput.javaX X(
+%5"java.util.ArrayList#<init>()V*
+
+%4java.util.ArrayList"√
+£
+òC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/project/comment/CommentInput.javaX X(
+
+%4java.util.ArrayList:)
+projectio.onedev.server.model.Project:
+queryjava.lang.String:
+""BA?
+=io.onedev.server.web.component.project.comment.CommentInput$2

@@ -1,0 +1,172 @@
+
+fio.onedev.server.model.support.pullrequest.MergePreview#syncRef(Lio/onedev/server/model/PullRequest;)VŸ
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/pullrequest/MergePreview.javae e("9*’
+2Ÿ
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/pullrequest/MergePreview.javal( l(/Â¿
+Ÿ
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/pullrequest/MergePreview.javal< l(Q
+%15java.lang.String"Bio.onedev.server.model.PullRequest#getMergeRef()Ljava/lang/String;*/
+-
+request"io.onedev.server.model.PullRequest2getMergeRef()š
+Ÿ
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/pullrequest/MergePreview.javal( l(Y$
+%16org.eclipse.jgit.lib.ObjectId"^io.onedev.server.model.Project#getObjectId(Ljava/lang/String;Z)Lorg/eclipse/jgit/lib/ObjectId;*+
+)
+projectio.onedev.server.model.Project*
+
+%15java.lang.String*
+""2 getObjectId(Ljava/lang/String;Z)*
+0
+1*Æ
+3Ÿ
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/pullrequest/MergePreview.javal l(–
+“
+Ÿ
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/pullrequest/MergePreview.javal l(
+%14java.lang.String"__id*P*N9
+7io.onedev.server.model.support.pullrequest.MergePreview"
+mergeCommitHash*
+2
+0*–
+4Ÿ
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/pullrequest/MergePreview.javaj j(–“
+Ÿ
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/pullrequest/MergePreview.javaj j(%
+%12void"Rorg.eclipse.jgit.lib.RefUpdate#setNewObjectId(Lorg/eclipse/jgit/lib/AnyObjectId;)V*-
++
+	refUpdateorg.eclipse.jgit.lib.RefUpdate*+
+)
+mergedIdorg.eclipse.jgit.lib.ObjectId22setNewObjectId(Lorg/eclipse/jgit/lib/AnyObjectId;)Ð
+Í
+Ÿ
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/pullrequest/MergePreview.javak k( 
+%13void"Jio.onedev.server.git.GitUtils#updateRef(Lorg/eclipse/jgit/lib/RefUpdate;)V*!"
+io.onedev.server.git.GitUtils*-
++
+	refUpdateorg.eclipse.jgit.lib.RefUpdate*
+0*—
+
+5Ÿ
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/pullrequest/MergePreview.javai i(#Á¾
+Ÿ
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/pullrequest/MergePreview.javai@ i(U
+%9java.lang.String"Bio.onedev.server.model.PullRequest#getMergeRef()Ljava/lang/String;*/
+-
+request"io.onedev.server.model.PullRequest2getMergeRef()œ™
+Ÿ
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/pullrequest/MergePreview.javai, i(]$
+%10org.eclipse.jgit.lib.ObjectId"^io.onedev.server.model.Project#getObjectId(Ljava/lang/String;Z)Lorg/eclipse/jgit/lib/ObjectId;*+
+)
+projectio.onedev.server.model.Project*
+
+%9java.lang.String*
+""2 getObjectId(Ljava/lang/String;Z)„
+Ÿ
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/pullrequest/MergePreview.javai i(_
+%11boolean"Lorg.eclipse.jgit.lib.AnyObjectId#equals(Lorg/eclipse/jgit/lib/AnyObjectId;)Z*+
+)
+mergedIdorg.eclipse.jgit.lib.ObjectId*&
+$
+%10org.eclipse.jgit.lib.ObjectId2*equals(Lorg/eclipse/jgit/lib/AnyObjectId;)*
+3
+4*‡
+6Ÿ
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/pullrequest/MergePreview.javag g(bý
+ú
+Ÿ
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/pullrequest/MergePreview.javag g(b)
+mergedIdorg.eclipse.jgit.lib.ObjectId"__id*%
+#
+%2org.eclipse.jgit.lib.ObjectIdÛØ
+Ÿ
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/pullrequest/MergePreview.javah. h(E%
+%6org.eclipse.jgit.lib.Repository"Oio.onedev.server.model.Project#getRepository()Lorg/eclipse/jgit/lib/Repository;*+
+)
+projectio.onedev.server.model.Project2getRepository()Á¾
+Ÿ
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/pullrequest/MergePreview.javahG h(\
+%7java.lang.String"Bio.onedev.server.model.PullRequest#getMergeRef()Ljava/lang/String;*/
+-
+request"io.onedev.server.model.PullRequest2getMergeRef()²
+¯
+Ÿ
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/pullrequest/MergePreview.javah h(]$
+%8org.eclipse.jgit.lib.RefUpdate"io.onedev.server.git.GitUtils#getRefUpdate(Lorg/eclipse/jgit/lib/Repository;Ljava/lang/String;)Lorg/eclipse/jgit/lib/RefUpdate;*!"
+io.onedev.server.git.GitUtils*'
+%
+%6org.eclipse.jgit.lib.Repository*
+
+%7java.lang.String€
+ý
+Ÿ
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/pullrequest/MergePreview.javah h(^+
+	refUpdateorg.eclipse.jgit.lib.RefUpdate"__id*&
+$
+%8org.eclipse.jgit.lib.RefUpdate*
+3
+5*‘
+7Ÿ
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/pullrequest/MergePreview.javag] g(aä
+á
+Ÿ
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/pullrequest/MergePreview.javag] g(a#
+%2org.eclipse.jgit.lib.ObjectId"__id*
+
+%4
+<nulltype>*
+6*þ
+8Ÿ
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/pullrequest/MergePreview.javag2 g(:ðí
+Ÿ
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/pullrequest/MergePreview.javagF g(Z
+%5java.lang.String"^io.onedev.server.model.support.pullrequest.MergePreview#getMergeCommitHash()Ljava/lang/String;*;9
+7io.onedev.server.model.support.pullrequest.MergePreview2getMergeCommitHash()ä
+á
+Ÿ
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/pullrequest/MergePreview.javag2 g([#
+%3org.eclipse.jgit.lib.ObjectId"[org.eclipse.jgit.lib.ObjectId#fromString(Ljava/lang/String;)Lorg/eclipse/jgit/lib/ObjectId;*!"
+org.eclipse.jgit.lib.ObjectId*
+
+%5java.lang.String÷
+ô
+Ÿ
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/pullrequest/MergePreview.javag2 g([#
+%2org.eclipse.jgit.lib.ObjectId"__id*%
+#
+%3org.eclipse.jgit.lib.ObjectId*
+6*‹	
+9Ÿ
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/pullrequest/MergePreview.javaf f(çä
+Ÿ
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/pullrequest/MergePreview.javaf f(.$
+%0io.onedev.server.model.Project"Uio.onedev.server.model.PullRequest#getTargetProject()Lio/onedev/server/model/Project;*/
+-
+request"io.onedev.server.model.PullRequest2getTargetProject()þ
+û
+Ÿ
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/pullrequest/MergePreview.javaf f(/)
+projectio.onedev.server.model.Project"__id*&
+$
+%0io.onedev.server.model.Projectðí
+Ÿ
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/pullrequest/MergePreview.javag g(*
+%1java.lang.String"^io.onedev.server.model.support.pullrequest.MergePreview#getMergeCommitHash()Ljava/lang/String;*;9
+7io.onedev.server.model.support.pullrequest.MergePreview2getMergeCommitHash()*
+7
+8*¿
+0 "·
+Ÿ
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/pullrequest/MergePreview.javao o(
+implicit return*ý
+1Ÿ
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/pullrequest/MergePreview.javam m(Ð
+Í
+Ÿ
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/pullrequest/MergePreview.javam m( 
+%17void"Jio.onedev.server.git.GitUtils#deleteRef(Lorg/eclipse/jgit/lib/RefUpdate;)V*!"
+io.onedev.server.git.GitUtils*-
++
+	refUpdateorg.eclipse.jgit.lib.RefUpdate*
+0:-
+request"io.onedev.server.model.PullRequestB;9
+7io.onedev.server.model.support.pullrequest.MergePreview

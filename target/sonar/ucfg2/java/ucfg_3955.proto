@@ -1,0 +1,82 @@
+
+sio.onedev.server.entitymanager.impl.DefaultUserManager#findByEmail(Ljava/lang/String;)Lio/onedev/server/model/User; 
+“C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultUserManager.java… …("startingBlock*˜
+startingBlock 
+“C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultUserManager.java… …()Œ
+‰
+ 
+“C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultUserManager.javaƒ ƒ(
+%6"
+__annotate*53
+1io.onedev.server.persistence.annotation.Sessional*
+
+emailjava.lang.Stringí
+ê
+ 
+“C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultUserManager.java„ „(
+%7"
+__annotate*
+java.lang.Override*
+
+emailjava.lang.Stringß
+Ü
+ 
+“C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultUserManager.java…# …((
+emailjava.lang.String"__annotation*
+
+%6*
+
+%7*
+1*Ž
+1 
+“C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultUserManager.java†" †(-›˜
+ 
+“C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultUserManager.java†" †(/5
+%0/io.onedev.server.persistence.dao.EntityCriteria"qio.onedev.server.persistence.dao.BaseEntityManager#newCriteria()Lio/onedev/server/persistence/dao/EntityCriteria;*:8
+6io.onedev.server.entitymanager.impl.DefaultUserManager2newCriteria()¢
+Ÿ
+ 
+“C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultUserManager.java† †(0;
+criteria/io.onedev.server.persistence.dao.EntityCriteria"__id*7
+5
+%0/io.onedev.server.persistence.dao.EntityCriteriaÌ
+É
+ 
+“C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultUserManager.java‡" ‡(1
+%1java.lang.String"__id*
+""¥
+¢
+ 
+“C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultUserManager.java‡ ‡(9'
+%2!org.hibernate.criterion.Criterion"sorg.hibernate.criterion.Restrictions#ilike(Ljava/lang/String;Ljava/lang/Object;)Lorg/hibernate/criterion/Criterion;*("&
+$org.hibernate.criterion.Restrictions*
+
+%1java.lang.String*
+
+emailjava.lang.Stringýú
+ 
+“C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultUserManager.java‡ ‡(:5
+%3/io.onedev.server.persistence.dao.EntityCriteria"‰io.onedev.server.persistence.dao.EntityCriteria#add(Lorg/hibernate/criterion/Criterion;)Lio/onedev/server/persistence/dao/EntityCriteria;*=
+;
+criteria/io.onedev.server.persistence.dao.EntityCriteria*)
+'
+%2!org.hibernate.criterion.Criterion2(add(Lorg/hibernate/criterion/Criterion;)ÌÉ
+ 
+“C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultUserManager.javaˆ ˆ(
+
+%4void"@io.onedev.server.persistence.dao.EntityCriteria#setCacheable(Z)V*=
+;
+criteria/io.onedev.server.persistence.dao.EntityCriteria*
+""2setCacheable(Z)‘Ž
+ 
+“C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultUserManager.java‰	 ‰(!
+%5io.onedev.server.model.User"‘io.onedev.server.persistence.dao.BaseEntityManager#find(Lio/onedev/server/persistence/dao/EntityCriteria;)Lio/onedev/server/model/AbstractEntity;*:8
+6io.onedev.server.entitymanager.impl.DefaultUserManager*=
+;
+criteria/io.onedev.server.persistence.dao.EntityCriteria27find(Lio/onedev/server/persistence/dao/EntityCriteria;)"È
+ 
+“C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultUserManager.java‰ ‰(#
+!
+%5io.onedev.server.model.User:
+emailjava.lang.StringB:8
+6io.onedev.server.entitymanager.impl.DefaultUserManager

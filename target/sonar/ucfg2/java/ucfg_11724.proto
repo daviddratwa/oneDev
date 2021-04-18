@@ -1,0 +1,105 @@
+
+–io.onedev.server.util.jackson.hibernate.ManyToOneDeserializer#deserialize(Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;)Lio/onedev/server/model/AbstractEntity;•
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/jackson/hibernate/ManyToOneDeserializer.java (%"startingBlock*ê
+startingBlock•
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/jackson/hibernate/ManyToOneDeserializer.java% (Qå
+â
+•
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/jackson/hibernate/ManyToOneDeserializer.java ("
+%4"
+__annotate*
+java.lang.SuppressWarnings*-
++
+jp%com.fasterxml.jackson.core.JsonParserÑ
+Å
+•
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/jackson/hibernate/ManyToOneDeserializer.java (
+
+%5"
+__annotate*
+java.lang.Override*-
++
+jp%com.fasterxml.jackson.core.JsonParserˆ
+Û
+•
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/jackson/hibernate/ManyToOneDeserializer.java1 (3+
+jp%com.fasterxml.jackson.core.JsonParser"__annotation*
+
+%4*
+
+%5û
+õ
+•
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/jackson/hibernate/ManyToOneDeserializer.java ("
+%6"
+__annotate*
+java.lang.SuppressWarnings*?
+=
+ctxt5com.fasterxml.jackson.databind.DeserializationContextñ
+ì
+•
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/jackson/hibernate/ManyToOneDeserializer.java (
+
+%7"
+__annotate*
+java.lang.Override*?
+=
+ctxt5com.fasterxml.jackson.databind.DeserializationContextà
+Ö
+•
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/jackson/hibernate/ManyToOneDeserializer.javaL (P=
+ctxt5com.fasterxml.jackson.databind.DeserializationContext"__annotation*
+
+%6*
+
+%7*
+1*é
+1•
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/jackson/hibernate/ManyToOneDeserializer.java (≠™
+•
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/jackson/hibernate/ManyToOneDeserializer.java ()
+
+%0long"5com.fasterxml.jackson.core.JsonParser#getLongValue()J*-
++
+jp%com.fasterxml.jackson.core.JsonParser2getLongValue()€
+ÿ
+•
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/jackson/hibernate/ManyToOneDeserializer.java (*
+entityIdjava.lang.Long"__id*
+
+
+%0longÌÍ
+•
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/jackson/hibernate/ManyToOneDeserializer.javaW (d
+%1java.lang.Class"Wcom.fasterxml.jackson.databind.deser.std.StdDeserializer#handledType()Ljava/lang/Class;*A?
+=io.onedev.server.util.jackson.hibernate.ManyToOneDeserializer2handledType()È
+Ê
+•
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/jackson/hibernate/ManyToOneDeserializer.java (e
+
+valueClassjava.lang.Class"__id*
+
+%1java.lang.ClassÓ
+Î
+•
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/jackson/hibernate/ManyToOneDeserializer.java    (@*
+%2$io.onedev.server.persistence.dao.Dao"\io.onedev.commons.launcher.loader.AppLoader#getInstance(Ljava/lang/Class;)Ljava/lang/Object;*/"-
++io.onedev.commons.launcher.loader.AppLoader*
+""«ƒ
+•
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/jackson/hibernate/ManyToOneDeserializer.java    ([
+%3	!capture!"sio.onedev.server.persistence.dao.Dao#load(Ljava/lang/Class;Ljava/lang/Long;)Lio/onedev/server/model/AbstractEntity;*,
+*
+%2$io.onedev.server.persistence.dao.Dao*
+
+
+valueClassjava.lang.Class*
+
+entityIdjava.lang.Long2'load(Ljava/lang/Class;Ljava/lang/Long;)"ª
+•
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/jackson/hibernate/ManyToOneDeserializer.java   (\
+
+%3	!capture!:+
+jp%com.fasterxml.jackson.core.JsonParser:=
+ctxt5com.fasterxml.jackson.databind.DeserializationContextBA?
+=io.onedev.server.util.jackson.hibernate.ManyToOneDeserializer

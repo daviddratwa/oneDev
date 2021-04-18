@@ -1,0 +1,117 @@
+
+wio.onedev.server.web.util.SuggestionUtils$1#suggest(Lio/onedev/server/model/Project;Ljava/lang/String;)Ljava/util/List;ë
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaR  R('"startingBlock*Ù
+2ë
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaT  T('≥∞
+ë
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaT  T(;
+%1java.util.List"Bio.onedev.server.model.Project#getBranchRefInfos()Ljava/util/List;*+
+)
+projectio.onedev.server.model.Project2getBranchRefInfos()êç
+ë
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaT  U(
+%2java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*
+
+%1java.util.List2stream()ÿ’
+ë
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaT  V(;
+%3java.util.stream.Stream"Sjava.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;*
+
+%2java.util.stream.Stream*
+""2"map(Ljava/util/function/Function;)úô
+ë
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaT  W(
+%4java.util.stream.Stream"9java.util.stream.Stream#sorted()Ljava/util/stream/Stream;*
+
+%3java.util.stream.Stream2sorted()ú
+ô
+ë
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaX X(# 
+%5java.util.stream.Collector"@java.util.stream.Collectors#toList()Ljava/util/stream/Collector;*"
+java.util.stream.CollectorsÍÁ
+ë
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaT  X($
+%6java.util.List"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;*
+
+%4java.util.stream.Stream*"
+ 
+%5java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)‘
+—
+ë
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaT X(%
+branchNamesjava.util.List"__id*
+
+%6java.util.ListÖ
+Ç
+ë
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaY Y(;
+%7java.util.List"eio.onedev.server.web.util.SuggestionUtils#suggest(Ljava/util/List;Ljava/lang/String;)Ljava/util/List;*-"+
+)io.onedev.server.web.util.SuggestionUtils*
+
+branchNamesjava.util.List*
+
+	matchWithjava.lang.String"¨
+ë
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaY Y(<
+
+%7java.util.List*˙
+3ë
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaS S(ÿ
+’
+ë
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaS S(*
+%0boolean"Vio.onedev.server.security.SecurityUtils#canReadCode(Lio/onedev/server/model/Project;)Z*+")
+'io.onedev.server.security.SecurityUtils*+
+)
+projectio.onedev.server.model.Project*
+2
+1*¨
+startingBlockë
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaR' R(JÔ
+Ï
+ë
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaQ Q(
+%10"
+__annotate*
+java.lang.Override*+
+)
+projectio.onedev.server.model.ProjectŸ
+÷
+ë
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaR0 R(7)
+projectio.onedev.server.model.Project"__annotation*
+
+%10„
+‡
+ë
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaQ Q(
+%11"
+__annotate*
+java.lang.Override*
+
+	matchWithjava.lang.StringÕ
+ 
+ë
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaR@ R(I
+	matchWithjava.lang.String"__annotation*
+
+%11*
+3*Ò
+1ë
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.java[ [(«ƒ
+ë
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.java[ [(
+%8java.util.ArrayList"java.util.ArrayListŸ
+÷
+ë
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.java[ [(
+%9"java.util.ArrayList#<init>()V*
+
+%8java.util.ArrayList"±
+ë
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.java[ [(
+
+%8java.util.ArrayList:)
+projectio.onedev.server.model.Project:
+	matchWithjava.lang.StringB/-
++io.onedev.server.web.util.SuggestionUtils$1

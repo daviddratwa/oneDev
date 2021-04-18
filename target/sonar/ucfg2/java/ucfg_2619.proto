@@ -1,0 +1,63 @@
+
+=io.onedev.server.model.User#getGroups()Ljava/util/Collection;Ñ
+xC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/User.javaï ï(#"3*—
+2Ñ
+xC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/User.javaó ó(ùö
+Ñ
+xC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/User.javaó ó(
+%1java.util.Collection"Bio.onedev.server.model.User#getMemberships()Ljava/util/Collection;*
+io.onedev.server.model.User2getMemberships()âÜ
+Ñ
+xC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/User.javaó ó(%
+%2java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*
+
+%1java.util.Collection2stream()À»
+Ñ
+xC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/User.javaó ó(<
+%3java.util.stream.Stream"Sjava.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;*
+
+%2java.util.stream.Stream*
+""2"map(Ljava/util/function/Function;)è
+å
+Ñ
+xC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/User.javaóE ó(X 
+%4java.util.stream.Collector"@java.util.stream.Collectors#toList()Ljava/util/stream/Collector;*"
+java.util.stream.Collectors›⁄
+Ñ
+xC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/User.javaó ó(Y
+%5java.util.List"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;*
+
+%3java.util.stream.Stream*"
+ 
+%4java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)”
+–
+Ñ
+xC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/User.javaó ó(Y)
+io.onedev.server.model.User"
+groups"__id*
+
+%5java.util.List*
+1*Ó
+3Ñ
+xC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/User.javañ ñ(Ÿ
+÷
+Ñ
+xC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/User.javañ ñ(
+%0java.util.Collection"__id*+*)
+io.onedev.server.model.User"
+groups*
+2
+1*é
+1Ñ
+xC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/User.javaò	 ò(Ÿ
+÷
+Ñ
+xC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/User.javaò	 ò(
+%6java.util.Collection"__id*+*)
+io.onedev.server.model.User"
+groups"•
+Ñ
+xC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/User.javaò ò(
+
+%6java.util.CollectionB
+io.onedev.server.model.User

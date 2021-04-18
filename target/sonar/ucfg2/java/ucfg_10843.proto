@@ -1,0 +1,373 @@
+
+êio.onedev.server.util.markdown.ReferenceParser#parseReferences(Lorg/jsoup/nodes/Document;Lio/onedev/server/model/Project;)Ljava/util/Collection;ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.java4( 4(7"startingBlock*Á
+13ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaF F(¬ø
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaF F(0
+%7java.util.List"Gio.onedev.server.util.TextNodeVisitor#getMatchedNodes()Ljava/util/List;*2
+0
+visitor%io.onedev.server.util.TextNodeVisitor2getMatchedNodes()*
+2*È
+14ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.java5/ 5(>»≈
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.java53 5(<
+%0java.util.HashSet"java.util.HashSet⁄
+◊
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.java5/ 5(>
+%1"java.util.HashSet#<init>()V*
+
+%0java.util.HashSet·
+ﬁ
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.java5 5(?"
+
+referencesjava.util.Collection"__id*
+
+%0java.util.HashSetÜÉ
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.java7  7(/6
+%20io.onedev.server.util.markdown.ReferenceParser$1"0io.onedev.server.util.markdown.ReferenceParser$1ç
+ä
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.java7 A(
+%3"/io.onedev.server.util.TextNodeVisitor#<init>()V*8
+6
+%20io.onedev.server.util.markdown.ReferenceParser$1é
+ã
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.java7 A(0
+visitor%io.onedev.server.util.TextNodeVisitor"__id*8
+6
+%20io.onedev.server.util.markdown.ReferenceParser$1‚ﬂ
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaC! C(.$
+%4org.jsoup.select.NodeTraversor"org.jsoup.select.NodeTraversor∆
+√
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaC C(7
+%5"Forg.jsoup.select.NodeTraversor#<init>(Lorg/jsoup/select/NodeVisitor;)V*&
+$
+%4org.jsoup.select.NodeTraversor*2
+0
+visitor%io.onedev.server.util.TextNodeVisitor¯
+ı
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaC C(8,
+
+tranversororg.jsoup.select.NodeTraversor"__id*&
+$
+%4org.jsoup.select.NodeTraversor‰·
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaD D(
+
+%6void"@org.jsoup.select.NodeTraversor#traverse(Lorg/jsoup/nodes/Node;)V*.
+,
+
+tranversororg.jsoup.select.NodeTraversor*&
+$
+documentorg.jsoup.nodes.Document2 traverse(Lorg/jsoup/nodes/Node;)*
+13*ﬁ
+1ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javac	 c("ø
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javac c($
+"
+
+referencesjava.util.Collection*·
+2ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaF F(Ã
+…
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaF F( 
+nodeorg.jsoup.nodes.TextNode"__id*
+""Í
+Á
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaF F( 
+nodeorg.jsoup.nodes.TextNode"
+__arrayGet*
+
+%7java.util.List*
+""*
+1
+12*û
+3ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.java` `(˙
+˜
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.java` `(&
+%28void"^io.onedev.commons.utils.HtmlUtils#appendTail(Ljava/util/regex/Matcher;Lorg/jsoup/nodes/Node;)V*%"#
+!io.onedev.commons.utils.HtmlUtils*$
+"
+matcherjava.util.regex.Matcher*"
+ 
+nodeorg.jsoup.nodes.TextNode*
+2*ç
+startingBlockñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.java47 4(e˚
+¯
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.java4K 4(T
+%29"
+__annotate*
+javax.annotation.Nullable*+
+)
+projectio.onedev.server.model.Projectﬁ
+€
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.java4] 4(d)
+projectio.onedev.server.model.Project"__annotation*
+
+%29*
+14*ˆ
+4ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.java^ ^(üú
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.java^/ ^(?
+%25java.lang.String"2java.util.regex.Matcher#group(I)Ljava/lang/String;*$
+"
+matcherjava.util.regex.Matcher*22group(I)˛
+˚
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.java^/ ^(N
+%26java.lang.String"__concat*
+
+%25java.lang.String*"
+ 
+referenceTagjava.lang.StringÆ
+´
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.java^ ^(O
+%27void"wio.onedev.commons.utils.HtmlUtils#appendReplacement(Ljava/util/regex/Matcher;Lorg/jsoup/nodes/Node;Ljava/lang/String;)V*%"#
+!io.onedev.commons.utils.HtmlUtils*$
+"
+matcherjava.util.regex.Matcher*"
+ 
+nodeorg.jsoup.nodes.TextNode*
+
+%26java.lang.String*
+11*ç
+5ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.java\ \(!È
+Ê
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.java\ \(! 
+referenceTagjava.lang.String"__id*#
+!
+referenceTextjava.lang.String*
+4*
+6ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaXA X(Q˘ˆ
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaX- X(@0
+%21)io.onedev.server.util.ProjectScopedNumber")io.onedev.server.util.ProjectScopedNumberó
+î
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaX) X(c
+%22"cio.onedev.server.util.ProjectScopedNumber#<init>(Lio/onedev/server/model/Project;Ljava/lang/Long;)V*2
+0
+%21)io.onedev.server.util.ProjectScopedNumber*4
+2
+referenceProjectio.onedev.server.model.Project*#
+!
+referenceNumberjava.lang.Longí
+è
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaX X(d:
+referenceable)io.onedev.server.util.ProjectScopedNumber"__id*2
+0
+%21)io.onedev.server.util.ProjectScopedNumber†
+ù
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaY Y("
+%23boolean"
+__arrayAdd*$
+"
+
+referencesjava.util.Collection*: *<
+:
+referenceable)io.onedev.server.util.ProjectScopedNumberúô
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaZ Z(8
+%24java.lang.String"Üio.onedev.server.util.markdown.ReferenceParser#toHtml(Lio/onedev/server/util/ProjectScopedNumber;Ljava/lang/String;)Ljava/lang/String;*20
+.io.onedev.server.util.markdown.ReferenceParser*<
+:
+referenceable)io.onedev.server.util.ProjectScopedNumber*#
+!
+referenceTextjava.lang.String2EtoHtml(Lio/onedev/server/util/ProjectScopedNumber;Ljava/lang/String;)ﬂ
+‹
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaZ Z(8 
+referenceTagjava.lang.String"__id*
+
+%24java.lang.String*
+4*∆
+7ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaT T(Î
+Ë
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaT T(*
+%19java.lang.String"__concat*
+#*#
+!
+referenceNumberjava.lang.Longˇ
+¸
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaT T(*
+%20java.lang.String"__concat*#
+!
+referenceTextjava.lang.String*
+
+%19java.lang.String‡
+›
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaT T(*!
+referenceTextjava.lang.String"__id*
+
+%20java.lang.StringÃ
+…
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaV V( 
+referenceTagjava.lang.String"__id*
+""*
+5
+6*ß
+8ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaR R(É
+Ä
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaR R(2
+referenceProjectio.onedev.server.model.Project"__id*+
+)
+projectio.onedev.server.model.Project*
+7*â
+9ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaO O(¡
+æ
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaO O(@4
+%16-io.onedev.server.entitymanager.ProjectManager"Hio.onedev.server.OneDev#getInstance(Ljava/lang/Class;)Ljava/lang/Object;*"
+io.onedev.server.OneDev*
+""©¶
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaO O([%
+%17io.onedev.server.model.Project"fio.onedev.server.entitymanager.ProjectManager#find(Ljava/lang/String;)Lio/onedev/server/model/Project;*6
+4
+%16-io.onedev.server.entitymanager.ProjectManager**
+(
+referenceProjectNamejava.lang.String2find(Ljava/lang/String;)ˇ
+¸
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaO O([2
+referenceProjectio.onedev.server.model.Project"__id*'
+%
+%17io.onedev.server.model.Projectê
+ç
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaP P(*
+%18java.lang.String"__concat*#
+!
+referenceTextjava.lang.String**
+(
+referenceProjectNamejava.lang.String‡
+›
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaP P(*!
+referenceTextjava.lang.String"__id*
+
+%18java.lang.String*
+7*ª
+10ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaI I("üú
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaI I(+
+%12java.lang.String"2java.util.regex.Matcher#group(I)Ljava/lang/String;*$
+"
+matcherjava.util.regex.Matcher*22group(I)‡
+›
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaI I(,!
+referenceTextjava.lang.String"__id*
+
+%12java.lang.Stringüú
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaJ" J(2
+%13java.lang.String"2java.util.regex.Matcher#group(I)Ljava/lang/String;*$
+"
+matcherjava.util.regex.Matcher*22group(I)Á
+‰
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaJ J(3(
+referenceProjectNamejava.lang.String"__id*
+
+%13java.lang.Stringüú
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaK( K(8
+%14java.lang.String"2java.util.regex.Matcher#group(I)Ljava/lang/String;*$
+"
+matcherjava.util.regex.Matcher*22group(I)û
+õ
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaK K(9
+%15java.lang.Long":java.lang.Long#valueOf(Ljava/lang/String;)Ljava/lang/Long;*"
+java.lang.Long*
+
+%14java.lang.Stringﬁ
+€
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaK K(:!
+referenceNumberjava.lang.Long"__id*
+
+%15java.lang.Longﬁ
+€
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaM M(2
+referenceProjectio.onedev.server.model.Project"__id*
+""*
+8
+9*§
+11ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaH
+ H(˚¯
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaH
+ H(
+%11boolean"java.util.regex.Matcher#find()Z*$
+"
+matcherjava.util.regex.Matcher2find()*
+3
+10*™
+
+12ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaG G(Ç
+ˇ
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaG G(
+%8java.util.regex.Pattern"__id*?*=0
+.io.onedev.server.util.markdown.ReferenceParser"	
+pattern£†
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaG% G(8
+%9java.lang.String"9org.jsoup.nodes.TextNode#getWholeText()Ljava/lang/String;*"
+ 
+nodeorg.jsoup.nodes.TextNode2getWholeText()ÓÎ
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaG G(9
+%10java.util.regex.Matcher"Rjava.util.regex.Pattern#matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;*
+
+%8java.util.regex.Pattern*
+
+%9java.lang.String2!matcher(Ljava/lang/CharSequence;)Ë
+Â
+ñ
+ãC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/markdown/ReferenceParser.javaG G(:"
+matcherjava.util.regex.Matcher"__id* 
+
+%10java.util.regex.Matcher*
+11:$
+documentorg.jsoup.nodes.Document:)
+projectio.onedev.server.model.ProjectB20
+.io.onedev.server.util.markdown.ReferenceParser

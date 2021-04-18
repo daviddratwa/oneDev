@@ -1,0 +1,360 @@
+
+˚io.onedev.server.git.GitUtils#merge(Lorg/eclipse/jgit/lib/Repository;Lorg/eclipse/jgit/lib/ObjectId;Lorg/eclipse/jgit/lib/ObjectId;ZLorg/eclipse/jgit/lib/PersonIdent;Lorg/eclipse/jgit/lib/PersonIdent;Ljava/lang/String;Z)Lorg/eclipse/jgit/lib/ObjectId;Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java™ ™( "startingBlock*ã
+24Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java≠% ≠(6ˆ
+Û
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java≠% ≠(<
+%0boolean"-io.onedev.server.git.UseOursOnConflict#get()Z**"(
+&io.onedev.server.git.UseOursOnConflict¸
+˘
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.javaÆ Æ(-
+
+%1void".io.onedev.server.git.UseOursOnConflict#set(Z)V**"(
+&io.onedev.server.git.UseOursOnConflict*
+""*
+23*¢
+14Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java∑
+ ∑(àÖ
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java∑
+ ∑(.
+%13void"Torg.eclipse.jgit.lib.CommitBuilder#setCommitter(Lorg/eclipse/jgit/lib/PersonIdent;)V*4
+2
+mergedCommit"org.eclipse.jgit.lib.CommitBuilder*/
+-
+	committer org.eclipse.jgit.lib.PersonIdent20setCommitter(Lorg/eclipse/jgit/lib/PersonIdent;)*
+11
+12*ã
+15Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.javaµ
+ µ(;Û
+
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.javaµ
+ µ(;2
+mergedCommit"org.eclipse.jgit.lib.CommitBuilder"__id*+
+)
+%10"org.eclipse.jgit.lib.CommitBuilderˇ¸
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java∂
+ ∂((
+%12void"Qorg.eclipse.jgit.lib.CommitBuilder#setAuthor(Lorg/eclipse/jgit/lib/PersonIdent;)V*4
+2
+mergedCommit"org.eclipse.jgit.lib.CommitBuilder*,
+*
+author org.eclipse.jgit.lib.PersonIdent2-setAuthor(Lorg/eclipse/jgit/lib/PersonIdent;)*
+14*‚
+16Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.javaµ' µ(:€ÿ
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.javaµ+ µ(8)
+%10"org.eclipse.jgit.lib.CommitBuilder""org.eclipse.jgit.lib.CommitBuilderÓ
+Î
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.javaµ' µ(:
+%11",org.eclipse.jgit.lib.CommitBuilder#<init>()V*+
+)
+%10"org.eclipse.jgit.lib.CommitBuilder*
+15*Ø
+18Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java≥ ≥(JÍ
+Á
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java≥ ≥(J'
+mergerorg.eclipse.jgit.merge.Merger"__id*-
++
+%8%org.eclipse.jgit.merge.ThreeWayMerger©¶
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java¥
+ ¥(2
+%9boolean"Iorg.eclipse.jgit.merge.Merger#merge([Lorg/eclipse/jgit/lib/AnyObjectId;)Z*)
+'
+mergerorg.eclipse.jgit.merge.Merger*4
+2
+targetCommit"org.eclipse.jgit.revwalk.RevCommit*4
+2
+sourceCommit"org.eclipse.jgit.revwalk.RevCommit2*merge([Lorg/eclipse/jgit/lib/AnyObjectId;)*
+4
+16*∑
+19Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java≤ ≤(CÚ
+Ô
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java≤ ≤(C2
+targetCommit"org.eclipse.jgit.revwalk.RevCommit"__id**
+(
+%6"org.eclipse.jgit.revwalk.RevCommitŒ
+À
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java≥ ≥(-2
+%7,org.eclipse.jgit.merge.ThreeWayMergeStrategy"__id*
+""€ÿ
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java≥ ≥(I+
+%8%org.eclipse.jgit.merge.ThreeWayMerger"Åorg.eclipse.jgit.merge.ThreeWayMergeStrategy#newMerger(Lorg/eclipse/jgit/lib/Repository;Z)Lorg/eclipse/jgit/merge/ThreeWayMerger;*4
+2
+%7,org.eclipse.jgit.merge.ThreeWayMergeStrategy*/
+-
+
+repositoryorg.eclipse.jgit.lib.Repository*
+""2-newMerger(Lorg/eclipse/jgit/lib/Repository;Z)*
+18*≤
+startingBlockÜ
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java™  ¨( Ô
+Ï
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java© ©(
+%24"
+__annotate*
+javax.annotation.Nullable*/
+-
+
+repositoryorg.eclipse.jgit.lib.Repository“
+œ
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java™, ™(6-
+
+repositoryorg.eclipse.jgit.lib.Repository"__annotation*
+
+%24Ò
+Ó
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java© ©(
+%25"
+__annotate*
+javax.annotation.Nullable*1
+/
+targetCommitIdorg.eclipse.jgit.lib.ObjectId‘
+—
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java™A ™(O/
+targetCommitIdorg.eclipse.jgit.lib.ObjectId"__annotation*
+
+%25Ò
+Ó
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java© ©(
+%26"
+__annotate*
+javax.annotation.Nullable*1
+/
+sourceCommitIdorg.eclipse.jgit.lib.ObjectId‘
+—
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java™Z ™(h/
+sourceCommitIdorg.eclipse.jgit.lib.ObjectId"__annotation*
+
+%26Ô
+Ï
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java© ©(
+%27"
+__annotate*
+javax.annotation.Nullable*/
+-
+	committer org.eclipse.jgit.lib.PersonIdent“
+œ
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java´" ´(+-
+	committer org.eclipse.jgit.lib.PersonIdent"__annotation*
+
+%27Ï
+È
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java© ©(
+%28"
+__annotate*
+javax.annotation.Nullable*,
+*
+author org.eclipse.jgit.lib.PersonIdentœ
+Ã
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java´9 ´(?*
+author org.eclipse.jgit.lib.PersonIdent"__annotation*
+
+%28„
+‡
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java© ©(
+%29"
+__annotate*
+javax.annotation.Nullable*#
+!
+commitMessagejava.lang.String∆
+√
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java´H ´(U!
+commitMessagejava.lang.String"__annotation*
+
+%29*
+24*†
+4Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java¬ ¬("ë
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java¬ ¬(
+""*À
+5Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java¿ ¿("º
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java¿
+ ¿( 1
+/
+mergedCommitIdorg.eclipse.jgit.lib.ObjectId*Ö
+6Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.javaæ
+ æ(BÎ
+Ë
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.javaæ
+ æ(B/
+mergedCommitIdorg.eclipse.jgit.lib.ObjectId"__id*&
+$
+%19org.eclipse.jgit.lib.ObjectIdÉÄ
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.javaø
+ ø(
+%20void",org.eclipse.jgit.lib.ObjectInserter#flush()V*1
+/
+inserter#org.eclipse.jgit.lib.ObjectInserter2flush()*
+5*Œ
+7Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.javaæ$ æ(,∫∑
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.javaæ$ æ(A$
+%19org.eclipse.jgit.lib.ObjectId"oorg.eclipse.jgit.lib.ObjectInserter#insert(Lorg/eclipse/jgit/lib/CommitBuilder;)Lorg/eclipse/jgit/lib/ObjectId;*1
+/
+inserter#org.eclipse.jgit.lib.ObjectInserter*4
+2
+mergedCommit"org.eclipse.jgit.lib.CommitBuilder2,insert(Lorg/eclipse/jgit/lib/CommitBuilder;)*
+6*ç
+8Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.javaΩ
+ Ω(:˘ˆ
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.javaΩ
+ Ω(:
+%18void"Qorg.eclipse.jgit.lib.CommitBuilder#setTreeId(Lorg/eclipse/jgit/lib/AnyObjectId;)V*4
+2
+mergedCommit"org.eclipse.jgit.lib.CommitBuilder*&
+$
+%17org.eclipse.jgit.lib.ObjectId2-setTreeId(Lorg/eclipse/jgit/lib/AnyObjectId;)*
+7*‘
+9Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.javaΩ
+ Ω(¿Ω
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.javaΩ! Ω(9$
+%17org.eclipse.jgit.lib.ObjectId"Norg.eclipse.jgit.merge.Merger#getResultTreeId()Lorg/eclipse/jgit/lib/ObjectId;*)
+'
+mergerorg.eclipse.jgit.merge.Merger2getResultTreeId()*
+8* 
+20Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java± ±(CÚ
+Ô
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java± ±(C2
+sourceCommit"org.eclipse.jgit.revwalk.RevCommit"__id**
+(
+%5"org.eclipse.jgit.revwalk.RevCommitøº
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java≤ ≤(B(
+%6"org.eclipse.jgit.revwalk.RevCommit"torg.eclipse.jgit.revwalk.RevWalk#parseCommit(Lorg/eclipse/jgit/lib/AnyObjectId;)Lorg/eclipse/jgit/revwalk/RevCommit;*-
++
+revWalk org.eclipse.jgit.revwalk.RevWalk*1
+/
+targetCommitIdorg.eclipse.jgit.lib.ObjectId2/parseCommit(Lorg/eclipse/jgit/lib/AnyObjectId;)*
+19*»
+21Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java∞ ∞(?
+Ì
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java∞ ∞(?/
+inserter#org.eclipse.jgit.lib.ObjectInserter"__id*+
+)
+%4#org.eclipse.jgit.lib.ObjectInserterøº
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java± ±(B(
+%5"org.eclipse.jgit.revwalk.RevCommit"torg.eclipse.jgit.revwalk.RevWalk#parseCommit(Lorg/eclipse/jgit/lib/AnyObjectId;)Lorg/eclipse/jgit/revwalk/RevCommit;*-
++
+revWalk org.eclipse.jgit.revwalk.RevWalk*1
+/
+sourceCommitIdorg.eclipse.jgit.lib.ObjectId2/parseCommit(Lorg/eclipse/jgit/lib/AnyObjectId;)*
+20*Ì
+10Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.javaº
+ º(ÿ’
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.javaº
+ º(0
+%16void"Borg.eclipse.jgit.lib.CommitBuilder#setMessage(Ljava/lang/String;)V*4
+2
+mergedCommit"org.eclipse.jgit.lib.CommitBuilder*#
+!
+commitMessagejava.lang.String2setMessage(Ljava/lang/String;)*
+9*Ÿ
+22Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.javaØ Ø(4È
+Ê
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.javaØ Ø(4+
+revWalk org.eclipse.jgit.revwalk.RevWalk"__id*(
+&
+%2 org.eclipse.jgit.revwalk.RevWalk◊‘
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.java∞! ∞(?)
+%4#org.eclipse.jgit.lib.ObjectInserter"Xorg.eclipse.jgit.lib.Repository#newObjectInserter()Lorg/eclipse/jgit/lib/ObjectInserter;*/
+-
+
+repositoryorg.eclipse.jgit.lib.Repository2newObjectInserter()*
+21*ù
+11Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.javaª ª(áÑ
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.javaª ª(@
+%15void"vorg.eclipse.jgit.lib.CommitBuilder#setParentIds(Lorg/eclipse/jgit/lib/AnyObjectId;Lorg/eclipse/jgit/lib/AnyObjectId;)V*4
+2
+mergedCommit"org.eclipse.jgit.lib.CommitBuilder*4
+2
+targetCommit"org.eclipse.jgit.revwalk.RevCommit*4
+2
+sourceCommit"org.eclipse.jgit.revwalk.RevCommit2RsetParentIds(Lorg/eclipse/jgit/lib/AnyObjectId;Lorg/eclipse/jgit/lib/AnyObjectId;)*
+10*©
+23Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.javaØ) Ø(3÷”
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.javaØ! Ø((&
+%2 org.eclipse.jgit.revwalk.RevWalk" org.eclipse.jgit.revwalk.RevWalk∫
+∑
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.javaØ Ø(4
+%3"Korg.eclipse.jgit.revwalk.RevWalk#<init>(Lorg/eclipse/jgit/lib/Repository;)V*(
+&
+%2 org.eclipse.jgit.revwalk.RevWalk*/
+-
+
+repositoryorg.eclipse.jgit.lib.Repository*
+22*°
+12Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.javaπ π(ãà
+Ü
+zC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/GitUtils.javaπ π(1
+%14void"Sorg.eclipse.jgit.lib.CommitBuilder#setParentId(Lorg/eclipse/jgit/lib/AnyObjectId;)V*4
+2
+mergedCommit"org.eclipse.jgit.lib.CommitBuilder*4
+2
+targetCommit"org.eclipse.jgit.revwalk.RevCommit2/setParentId(Lorg/eclipse/jgit/lib/AnyObjectId;)*
+10:-
+
+repositoryorg.eclipse.jgit.lib.Repository:/
+targetCommitIdorg.eclipse.jgit.lib.ObjectId:/
+sourceCommitIdorg.eclipse.jgit.lib.ObjectId:
+"":-
+	committer org.eclipse.jgit.lib.PersonIdent:*
+author org.eclipse.jgit.lib.PersonIdent:!
+commitMessagejava.lang.String:
+""B!"
+io.onedev.server.git.GitUtils

@@ -1,0 +1,76 @@
+
+qio.onedev.server.rest.jersey.CatchAllExceptionMapper#toResponse(Ljava/lang/Throwable;)Ljavax/ws/rs/core/Response;ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/rest/jersey/CatchAllExceptionMapper.java ("2"1*¶
+2ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/rest/jersey/CatchAllExceptionMapper.java- (.ºπ
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/rest/jersey/CatchAllExceptionMapper.java (=
+%0javax.ws.rs.core.Response"Ljavax.ws.rs.WebApplicationException#getResponse()Ljavax/ws/rs/core/Response;*
+
+tjava.lang.Throwable2getResponse()"¬
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/rest/jersey/CatchAllExceptionMapper.java (>!
+
+%0javax.ws.rs.core.Response*±
+1ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/rest/jersey/CatchAllExceptionMapper.java (»
+≈
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/rest/jersey/CatchAllExceptionMapper.java (
+%1org.slf4j.Logger"__id*
+""àÖ
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/rest/jersey/CatchAllExceptionMapper.java (K
+
+%2void"@org.slf4j.Logger#error(Ljava/lang/String;Ljava/lang/Throwable;)V*
+
+%1org.slf4j.Logger*0.
+,Uncaught exception thrown by RESTful service*
+
+tjava.lang.Throwable2.error(Ljava/lang/String;Ljava/lang/Throwable;)ÿ
+’
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/rest/jersey/CatchAllExceptionMapper.java# (2&
+%3 javax.ws.rs.core.Response$Status"__id*
+""ÿ
+’
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/rest/jersey/CatchAllExceptionMapper.java# (H&
+%4 javax.ws.rs.core.Response$Status"__id*
+""ç
+ä
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/rest/jersey/CatchAllExceptionMapper.java (I/
+%5)javax.ws.rs.core.Response$ResponseBuilder"ojavax.ws.rs.core.Response#status(Ljavax/ws/rs/core/Response$Status;)Ljavax/ws/rs/core/Response$ResponseBuilder;*"
+javax.ws.rs.core.Response*(
+&
+%4 javax.ws.rs.core.Response$Status‰·
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/rest/jersey/CatchAllExceptionMapper.java (d/
+%6)javax.ws.rs.core.Response$ResponseBuilder"ojavax.ws.rs.core.Response$ResponseBuilder#entity(Ljava/lang/Object;)Ljavax/ws/rs/core/Response$ResponseBuilder;*1
+/
+%5)javax.ws.rs.core.Response$ResponseBuilder*OM
+KHttp response code 500: internal server error: check server log for details2entity(Ljava/lang/Object;)»
+≈
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/rest/jersey/CatchAllExceptionMapper.java ((
+%7java.lang.String"__id*
+""©¶
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/rest/jersey/CatchAllExceptionMapper.java ()/
+%8)javax.ws.rs.core.Response$ResponseBuilder"mjavax.ws.rs.core.Response$ResponseBuilder#type(Ljava/lang/String;)Ljavax/ws/rs/core/Response$ResponseBuilder;*1
+/
+%6)javax.ws.rs.core.Response$ResponseBuilder*
+
+%7java.lang.String2type(Ljava/lang/String;)Õ 
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/rest/jersey/CatchAllExceptionMapper.java (
+%9javax.ws.rs.core.Response"Ljavax.ws.rs.core.Response$ResponseBuilder#build()Ljavax/ws/rs/core/Response;*1
+/
+%8)javax.ws.rs.core.Response$ResponseBuilder2build()"¬
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/rest/jersey/CatchAllExceptionMapper.java (!
+
+%9javax.ws.rs.core.Response:
+tjava.lang.ThrowableB86
+4io.onedev.server.rest.jersey.CatchAllExceptionMapper

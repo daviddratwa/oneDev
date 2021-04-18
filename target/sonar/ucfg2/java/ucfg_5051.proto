@@ -1,0 +1,174 @@
+
+žio.onedev.server.entitymanager.impl.DefaultIssueManager#query(Lio/onedev/server/model/Project;Lio/onedev/server/search/entity/EntityQuery;IIZ)Ljava/util/List;¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java„ „("startingBlock*ö
+2¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaŒ Œ(¹
+¶
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaŒ Œ(6
+%80io.onedev.server.entitymanager.IssueFieldManager"__id*R*P9
+7io.onedev.server.entitymanager.impl.DefaultIssueManager"
+issueFieldManager‹ˆ
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaŒ Œ(+
+
+%9void"Xio.onedev.server.entitymanager.IssueFieldManager#populateFields(Ljava/util/Collection;)V*8
+6
+%80io.onedev.server.entitymanager.IssueFieldManager*
+
+issuesjava.util.List2&populateFields(Ljava/util/Collection;)*
+1*ª
+3¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java‹ ‹(øõ
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java‹ ‹(%
+%7boolean"java.util.List#isEmpty()Z*
+
+issuesjava.util.List2	isEmpty()*
+2
+1*§
+startingBlock¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java„ …(7ž
+›
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java‚ ‚(
+%10"
+__annotate*53
+1io.onedev.server.persistence.annotation.Sessional*+
+)
+projectio.onedev.server.model.Projectÿ
+ü
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaƒ ƒ(
+
+%11"
+__annotate*
+java.lang.Override*+
+)
+projectio.onedev.server.model.Project†
+ƒ
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java„ „(#
+%12"
+__annotate*
+javax.annotation.Nullable*+
+)
+projectio.onedev.server.model.Projectû
+ø
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java„, „(3)
+projectio.onedev.server.model.Project"__annotation*
+
+%10*
+
+%11*
+
+%12­
+ª
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java‚ ‚(
+%13"
+__annotate*53
+1io.onedev.server.persistence.annotation.Sessional*:
+8
+
+issueQuery*io.onedev.server.search.entity.EntityQueryŽ
+‹
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaƒ ƒ(
+
+%14"
+__annotate*
+java.lang.Override*:
+8
+
+issueQuery*io.onedev.server.search.entity.EntityQuery
+þ
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java„H „(R8
+
+issueQuery*io.onedev.server.search.entity.EntityQuery"__annotation*
+
+%13*
+
+%14*
+4*–
+4¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java†' †(9çä
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java†C †(O
+%0org.hibernate.Session"Vio.onedev.server.persistence.dao.BaseEntityManager#getSession()Lorg/hibernate/Session;*;9
+7io.onedev.server.entitymanager.impl.DefaultIssueManager2getSession()ø
+õ
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java†' †(\.
+%1(javax.persistence.criteria.CriteriaQuery"Ùio.onedev.server.entitymanager.impl.DefaultIssueManager#buildCriteriaQuery(Lio/onedev/server/model/Project;Lorg/hibernate/Session;Lio/onedev/server/search/entity/EntityQuery;)Ljavax/persistence/criteria/CriteriaQuery;*;9
+7io.onedev.server.entitymanager.impl.DefaultIssueManager*+
+)
+projectio.onedev.server.model.Project*
+
+%0org.hibernate.Session*:
+8
+
+issueQuery*io.onedev.server.search.entity.EntityQueryš
+—
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java† †(]9
+criteriaQuery(javax.persistence.criteria.CriteriaQuery"__id*0
+.
+%1(javax.persistence.criteria.CriteriaQueryçä
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java‡ ‡(#
+%2org.hibernate.Session"Vio.onedev.server.persistence.dao.BaseEntityManager#getSession()Lorg/hibernate/Session;*;9
+7io.onedev.server.entitymanager.impl.DefaultIssueManager2getSession()ÇÄ
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java‡ ‡(>
+%3org.hibernate.query.Query"horg.hibernate.Session#createQuery(Ljavax/persistence/criteria/CriteriaQuery;)Lorg/hibernate/query/Query;*
+
+%2org.hibernate.Session*;
+9
+criteriaQuery(javax.persistence.criteria.CriteriaQuery27createQuery(Ljavax/persistence/criteria/CriteriaQuery;)ô
+ñ
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java‡ ‡(?"
+queryorg.hibernate.query.Query"__id*!
+
+%3org.hibernate.query.QueryÑÎ
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaˆ ˆ(#
+%4org.hibernate.query.Query"Forg.hibernate.query.Query#setFirstResult(I)Lorg/hibernate/query/Query;*$
+"
+queryorg.hibernate.query.Query*
+""2setFirstResult(I)ÏÌ
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java‰ ‰(!
+%5org.hibernate.query.Query"Eorg.hibernate.query.Query#setMaxResults(I)Lorg/hibernate/query/Query;*$
+"
+queryorg.hibernate.query.Query*
+""2setMaxResults(I)¯¬
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaŠ Š(,
+%6java.util.List"9org.hibernate.query.Query#getResultList()Ljava/util/List;*$
+"
+queryorg.hibernate.query.Query2getResultList()ß
+Ü
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaŠ Š(-
+issuesjava.util.List"__id*
+
+%6java.util.List*
+3
+1*ê
+1¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaŽ	 Ž("À
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaŽ Ž(
+
+issuesjava.util.List:)
+projectio.onedev.server.model.Project:8
+
+issueQuery*io.onedev.server.search.entity.EntityQuery:
+"":
+"":
+""B;9
+7io.onedev.server.entitymanager.impl.DefaultIssueManager

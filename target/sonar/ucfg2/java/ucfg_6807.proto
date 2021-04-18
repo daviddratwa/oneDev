@@ -1,0 +1,511 @@
+
+Lio.onedev.server.entitymanager.impl.DefaultIssueChangeManager$2$1$1$1#run()V§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaä ä("47*Ö
+46§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaç ç(.…‚
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaç! ç(,-
+%1'io.onedev.server.util.match.PathMatcher"'io.onedev.server.util.match.PathMatcher—
+”
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaç ç(.
+%2"1io.onedev.server.util.match.PathMatcher#<init>()V*/
+-
+%1'io.onedev.server.util.match.PathMatcher*
+45*¸
+24§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaó ó(!œ™
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaó* ó(79
+%222io.onedev.server.search.entity.issue.StateCriteria"2io.onedev.server.search.entity.issue.StateCriteriaâ
+ß
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaó& ó(B
+%23"Nio.onedev.server.search.entity.issue.StateCriteria#<init>(Ljava/lang/String;)V*;
+9
+%222io.onedev.server.search.entity.issue.StateCriteria*
+
+	fromStatejava.lang.String*
+23*Ö
+47§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaæ æ(Ÿ
+œ
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaæ æ('
+
+%0void"7io.onedev.server.security.SecurityUtils#bindAsSystem()V*+")
+'io.onedev.server.security.SecurityUtils*
+46*¦
+25§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaò% ò(/ïì
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaò% ò(?
+%21java.util.List"Sio.onedev.server.model.support.issue.TransitionSpec#getFromStates()Ljava/util/List;*C
+A
+
+transition3io.onedev.server.model.support.issue.TransitionSpec2getFromStates()*
+22*®
+26§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javañ ñ(I÷
+ô
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javañ ñ(I$
+fromStateCriteriasjava.util.List"__id*
+
+%19java.util.ArrayList*
+25*ú
+27§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaï ï(@î
+ë
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaï ï(@
+	criteriasjava.util.List"__id*
+
+%17java.util.ArrayListŞÛ
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javañ; ñ(F
+%19java.util.ArrayList"java.util.ArrayListñ
+î
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javañ7 ñ(H
+%20"java.util.ArrayList#<init>()V*
+
+%19java.util.ArrayList*
+26*³
+28§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaî î(u§
+¤
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaî î(u8
+query/io.onedev.server.search.entity.issue.IssueQuery"__id*8
+6
+%16/io.onedev.server.search.entity.issue.IssueQueryŞÛ
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaï2 ï(=
+%17java.util.ArrayList"java.util.ArrayListñ
+î
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaï. ï(?
+%18"java.util.ArrayList#<init>()V*
+
+%17java.util.ArrayList*
+27*ã
+29§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaîT î(X¬
+©
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaî! î(t6
+%16/io.onedev.server.search.entity.issue.IssueQuery"Ÿio.onedev.server.search.entity.issue.IssueQuery#parse(Lio/onedev/server/model/Project;Ljava/lang/String;ZZZZZ)Lio/onedev/server/search/entity/issue/IssueQuery;*3"1
+/io.onedev.server.search.entity.issue.IssueQuery*+
+)
+projectio.onedev.server.model.Project*
+
+%15java.lang.String*
+""*
+""*
+""*
+""*
+""*
+28*Ó
+30§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaî! î(+œ™
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaî; î(R
+%15java.lang.String"kio.onedev.server.model.support.issue.transitiontrigger.PullRequestTrigger#getIssueQuery()Ljava/lang/String;*V
+T
+triggerIio.onedev.server.model.support.issue.transitiontrigger.PullRequestTrigger2getIssueQuery()*
+29*­
+32¨
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaí2 í(…òï
+¨
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaí2 í(…
+%14boolean"mio.onedev.server.util.patternset.PatternSet#matches(Lio/onedev/server/util/match/Matcher;Ljava/lang/String;)Z*4
+2
+%12+io.onedev.server.util.patternset.PatternSet*0
+.
+matcher#io.onedev.server.util.match.Matcher*
+
+%13java.lang.String2@matches(Lio/onedev/server/util/match/Matcher;Ljava/lang/String;)*
+2
+30*±
+
+10§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaû! û(-Ä
+Á
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaû! û(-2
+%36+io.onedev.server.entitymanager.IssueManager"__id*[*YG
+Eio.onedev.server.entitymanager.impl.DefaultIssueChangeManager$2$1$1$1"
+issueManagerÇ
+Ä
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaûG û(X
+
+%37int"__id*
+""êç
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaû! û(_
+%38java.util.List"’io.onedev.server.entitymanager.IssueManager#query(Lio/onedev/server/model/Project;Lio/onedev/server/search/entity/EntityQuery;IIZ)Ljava/util/List;*4
+2
+%36+io.onedev.server.entitymanager.IssueManager*+
+)
+projectio.onedev.server.model.Project*:
+8
+query/io.onedev.server.search.entity.issue.IssueQuery*2 *
+
+
+%37int*
+""2Vquery(Lio/onedev/server/model/Project;Lio/onedev/server/search/entity/EntityQuery;IIZ)*
+5*Š
+33§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaíb í(iÓĞ
+¨
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaík í(„
+%13java.lang.String"Fio.onedev.server.model.PullRequest#getTargetBranch()Ljava/lang/String;*/
+-
+request"io.onedev.server.model.PullRequest2getTargetBranch()*
+32*Ø
+34§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaí2 í(Y¡
+
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaí2 í(Y2
+%12+io.onedev.server.util.patternset.PatternSet"rio.onedev.server.util.patternset.PatternSet#parse(Ljava/lang/String;)Lio/onedev/server/util/patternset/PatternSet;*/"-
++io.onedev.server.util.patternset.PatternSet*
+
+%11java.lang.String*
+33*Ä
+12§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaø ø(U§
+¤
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaø ø(U8
+query/io.onedev.server.search.entity.issue.IssueQuery"__id*8
+6
+%33/io.onedev.server.search.entity.issue.IssueQueryã
+à
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaù ù('
+%35void"Nio.onedev.server.model.PullRequest#push(Lio/onedev/server/model/PullRequest;)V*&"$
+"io.onedev.server.model.PullRequest*/
+-
+request"io.onedev.server.model.PullRequest*
+10*Ï
+35§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaí2 í(<˜•
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaíC í(X
+%11java.lang.String"iio.onedev.server.model.support.issue.transitiontrigger.PullRequestTrigger#getBranches()Ljava/lang/String;*V
+T
+triggerIio.onedev.server.model.support.issue.transitiontrigger.PullRequestTrigger2getBranches()*
+34*˜
+13§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaø ø(U–“
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaø ø($6
+%33/io.onedev.server.search.entity.issue.IssueQuery"/io.onedev.server.search.entity.issue.IssueQueryÈ
+Å
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaø ø(U
+%34"}io.onedev.server.search.entity.issue.IssueQuery#<init>(Lio/onedev/server/search/entity/issue/IssueCriteria;Ljava/util/List;)V*8
+6
+%33/io.onedev.server.search.entity.issue.IssueQuery*;
+9
+%302io.onedev.server.search.entity.issue.IssueCriteria*
+
+%31java.util.ArrayList*
+12*‰
+14§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaøC ø(TŞÛ
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaøG ø(R
+%31java.util.ArrayList"java.util.ArrayListñ
+î
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaøC ø(T
+%32"java.util.ArrayList#<init>()V*
+
+%31java.util.ArrayList*
+13*±
+37§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaì* ì(VÛ
+Ø
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaì ì(WT
+triggerIio.onedev.server.model.support.issue.transitiontrigger.PullRequestTrigger"__id*P
+N
+%9Hio.onedev.server.model.support.issue.transitiontrigger.TransitionTrigger˜•
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaí í(&
+%10java.lang.String"iio.onedev.server.model.support.issue.transitiontrigger.PullRequestTrigger#getBranches()Ljava/lang/String;*V
+T
+triggerIio.onedev.server.model.support.issue.transitiontrigger.PullRequestTrigger2getBranches()*
+35
+30*ô
+15§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaø% ø(2½
+º
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaø% ø(A9
+%302io.onedev.server.search.entity.issue.IssueCriteria"|io.onedev.server.search.entity.issue.IssueCriteria#and(Ljava/util/List;)Lio/onedev/server/search/entity/issue/IssueCriteria;*6"4
+2io.onedev.server.search.entity.issue.IssueCriteria*
+
+	criteriasjava.util.List*
+14*”
+38§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaì? ì(IİÚ
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaì? ì(VN
+%9Hio.onedev.server.model.support.issue.transitiontrigger.TransitionTrigger"Šio.onedev.server.model.support.issue.TransitionSpec#getTrigger()Lio/onedev/server/model/support/issue/transitiontrigger/TransitionTrigger;*C
+A
+
+transition3io.onedev.server.model.support.issue.TransitionSpec2getTrigger()*
+37*à
+16§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.java÷ ÷(1©
+¦
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.java÷ ÷(1
+%29boolean"
+__arrayAdd*
+
+	criteriasjava.util.List*: *;
+9
+%282io.onedev.server.search.entity.issue.IssueCriteria*
+15*İ
+17§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.java÷ ÷(¦£
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.java÷ ÷(09
+%282io.onedev.server.search.entity.issue.IssueCriteria"qio.onedev.server.search.entity.issue.IssueQuery#getCriteria()Lio/onedev/server/search/entity/issue/IssueCriteria;*:
+8
+query/io.onedev.server.search.entity.issue.IssueQuery2getCriteria()*
+16*á
+19§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaö ö(¦£
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaö ö(%9
+%272io.onedev.server.search.entity.issue.IssueCriteria"qio.onedev.server.search.entity.issue.IssueQuery#getCriteria()Lio/onedev/server/search/entity/issue/IssueCriteria;*:
+8
+query/io.onedev.server.search.entity.issue.IssueQuery2getCriteria()*
+15
+17*Ç
+0 "¿
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaˆ	 ˆ(
+
+implicit return*Ö
+2§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaê ê()ş
+û
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaê ê()A
+
+transition3io.onedev.server.model.support.issue.TransitionSpec"__id*
+""œ
+™
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaê ê()A
+
+transition3io.onedev.server.model.support.issue.TransitionSpec"
+__arrayGet*
+
+%6java.util.List*
+""*
+41
+0*Å
+4§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.java€ €(
+Š
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.java€ €( 
+%44void")io.onedev.server.model.PullRequest#pop()V*&"$
+"io.onedev.server.model.PullRequest*
+2
+0*
+5§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaû û(â
+ß
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaû û(%
+issueio.onedev.server.model.Issue"__id*
+""
+ş
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaû û(%
+issueio.onedev.server.model.Issue"
+__arrayGet*
+
+%38java.util.List*
+""*
+4
+9*ç
+6§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaı0 ı(4²¯
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaü ı(5
+%43void"³io.onedev.server.entitymanager.impl.DefaultIssueChangeManager#changeState(Lio/onedev/server/model/Issue;Ljava/lang/String;Ljava/util/Map;Ljava/util/Collection;Ljava/lang/String;)V*IG
+Eio.onedev.server.entitymanager.impl.DefaultIssueChangeManager$2$1$1$1*'
+%
+issueio.onedev.server.model.Issue*
+
+%39java.lang.String*
+
+%40java.util.HashMap*
+
+%42java.util.List*
+""2tchangeState(Lio/onedev/server/model/Issue;Ljava/lang/String;Ljava/util/Map;Ljava/util/Collection;Ljava/lang/String;)*
+5*¨
+7§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaı ı(óğ
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaı ı(.
+%42java.util.List"Uio.onedev.server.model.support.issue.TransitionSpec#getRemoveFields()Ljava/util/List;*C
+A
+
+transition3io.onedev.server.model.support.issue.TransitionSpec2getRemoveFields()*
+6*ÿ
+8§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaü< ü(KÚ×
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaü@ ü(I
+%40java.util.HashMap"java.util.HashMapí
+ê
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaü< ü(K
+%41"java.util.HashMap#<init>()V*
+
+%40java.util.HashMap*
+7*¢
+9§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaü ü(íê
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaü# ü(:
+%39java.lang.String"Rio.onedev.server.model.support.issue.TransitionSpec#getToState()Ljava/lang/String;*C
+A
+
+transition3io.onedev.server.model.support.issue.TransitionSpec2getToState()*
+8*Š
+40§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaë ë(2ĞÍ
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaë ë(2
+%8java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*P
+N
+%7Hio.onedev.server.model.support.issue.transitiontrigger.TransitionTrigger2
+getClass()*
+2
+38*”
+41§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaë ë(İÚ
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaë ë('N
+%7Hio.onedev.server.model.support.issue.transitiontrigger.TransitionTrigger"Šio.onedev.server.model.support.issue.TransitionSpec#getTrigger()Lio/onedev/server/model/support/issue/transitiontrigger/TransitionTrigger;*C
+A
+
+transition3io.onedev.server.model.support.issue.TransitionSpec2getTrigger()*
+40*¨
+42§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaê+ ê(=ò
+ï
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaê+ ê(?
+%6java.util.List"bio.onedev.server.entitymanager.impl.DefaultIssueChangeManager#getTransitionSpecs()Ljava/util/List;*IG
+Eio.onedev.server.entitymanager.impl.DefaultIssueChangeManager$2$1$1$1*
+2*à
+20§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaõ õ(A©
+¦
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaõ õ(A
+%26boolean"
+__arrayAdd*
+
+	criteriasjava.util.List*: *;
+9
+%252io.onedev.server.search.entity.issue.IssueCriteria*
+19*½
+43§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaé é(8†
+ƒ
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaé é(8)
+projectio.onedev.server.model.Project"__id*&
+$
+%5io.onedev.server.model.Project*
+42*ü
+21§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaõ õ(Å
+Â
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaõ õ(@9
+%252io.onedev.server.search.entity.issue.IssueCriteria"{io.onedev.server.search.entity.issue.IssueCriteria#or(Ljava/util/List;)Lio/onedev/server/search/entity/issue/IssueCriteria;*6"4
+2io.onedev.server.search.entity.issue.IssueCriteria*&
+$
+fromStateCriteriasjava.util.List*
+20*·
+44§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaè è(D
+‹
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaè è(D-
+request"io.onedev.server.model.PullRequest"__id**
+(
+%4"io.onedev.server.model.PullRequestïì
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaé é(7$
+%5io.onedev.server.model.Project"Uio.onedev.server.model.PullRequest#getTargetProject()Lio/onedev/server/model/Project;*/
+-
+request"io.onedev.server.model.PullRequest2getTargetProject()*
+43*‘
+22§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaò ò(#Ú
+×
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaò ò(#
+	fromStatejava.lang.String"__id*
+""ù
+ö
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaò ò(#
+	fromStatejava.lang.String"
+__arrayGet*
+
+%21java.util.List*
+""*
+24
+21*À	
+45§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaç ç(/”
+‘
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaç ç(/.
+matcher#io.onedev.server.util.match.Matcher"__id*/
+-
+%1'io.onedev.server.util.match.PathMatcherÏ
+Ì
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaè! è(37
+%31io.onedev.server.entitymanager.PullRequestManager"__id*a*_G
+Eio.onedev.server.entitymanager.impl.DefaultIssueChangeManager$2$1$1$1"
+pullRequestManager 
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaè! è(C(
+%4"io.onedev.server.model.PullRequest"lio.onedev.server.persistence.dao.EntityManager#load(Ljava/lang/Long;)Lio/onedev/server/model/AbstractEntity;*9
+7
+%31io.onedev.server.entitymanager.PullRequestManager*
+""2load(Ljava/lang/Long;)*
+44*é
+23§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaó ó(C²
+¯
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaó ó(C
+%24boolean"
+__arrayAdd*&
+$
+fromStateCriteriasjava.util.List*: *;
+9
+%222io.onedev.server.search.entity.issue.StateCriteria*
+22BIG
+Eio.onedev.server.entitymanager.impl.DefaultIssueChangeManager$2$1$1$1

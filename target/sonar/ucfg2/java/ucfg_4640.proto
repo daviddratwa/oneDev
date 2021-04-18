@@ -1,0 +1,134 @@
+
+Gio.onedev.server.git.command.ListNumStatsCommand#call()Ljava/util/List;ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/command/ListNumStatsCommand.java& &("1*ç3
+1ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/command/ListNumStatsCommand.java' '(˝
+˙
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/command/ListNumStatsCommand.java' '("
+%0java.lang.String"__id*?*=2
+0io.onedev.server.git.command.ListNumStatsCommand"
+toRevÖ
+Ç
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/command/ListNumStatsCommand.java' '(A
+%1java.lang.String"icom.google.common.base.Preconditions#checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;*("&
+$com.google.common.base.Preconditions*
+
+%0java.lang.String*
+toRev has to be specified.ˇ
+¸
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/command/ListNumStatsCommand.java( (($
+%2java.lang.String"__id*A*?2
+0io.onedev.server.git.command.ListNumStatsCommand"	
+fromRevá
+Ñ
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/command/ListNumStatsCommand.java( ((E
+%3java.lang.String"icom.google.common.base.Preconditions#checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;*("&
+$com.google.common.base.Preconditions*
+
+%2java.lang.String* 
+fromRev has to be specified.ŒÀ
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/command/ListNumStatsCommand.java*% *(0
+%4java.util.ArrayList"java.util.ArrayList‡
+›
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/command/ListNumStatsCommand.java*! *(2
+%5"java.util.ArrayList#<init>()V*
+
+%4java.util.ArrayList‡
+›
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/command/ListNumStatsCommand.java* *(3
+fileChangesjava.util.List"__id*
+
+%4java.util.ArrayListÍÁ
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/command/ListNumStatsCommand.java, ,(1
+%6+io.onedev.commons.utils.command.Commandline"Zio.onedev.server.git.command.GitCommand#cmd()Lio/onedev/commons/utils/command/Commandline;*42
+0io.onedev.server.git.command.ListNumStatsCommand2cmd()ç
+ä
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/command/ListNumStatsCommand.java, ,(2
+cmd+io.onedev.commons.utils.command.Commandline"__id*3
+1
+%6+io.onedev.commons.utils.command.Commandlineˇ
+¸
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/command/ListNumStatsCommand.java/ /(
+%7java.lang.String"__id*A*?2
+0io.onedev.server.git.command.ListNumStatsCommand"	
+fromRev‚
+ﬂ
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/command/ListNumStatsCommand.java/ /($
+%8java.lang.String"__concat*
+
+%7java.lang.String*
+..˝
+˙
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/command/ListNumStatsCommand.java/' /(,
+%9java.lang.String"__id*?*=2
+0io.onedev.server.git.command.ListNumStatsCommand"
+toRevı
+Ú
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/command/ListNumStatsCommand.java/ /(,
+%10java.lang.String"__concat*
+
+%8java.lang.String*
+
+%9java.lang.StringàÖ
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/command/ListNumStatsCommand.java. /(-2
+%11+io.onedev.commons.utils.command.Commandline"uio.onedev.commons.utils.command.Commandline#addArgs([Ljava/lang/String;)Lio/onedev/commons/utils/command/Commandline;*4
+2
+cmd+io.onedev.commons.utils.command.Commandline*
+-c*
+diff.renameLimit=1000*
+diff*
+	--numstat*
+--find-renames*
+
+%10java.lang.String2addArgs([Ljava/lang/String;)çä
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/command/ListNumStatsCommand.java1 1(9
+%122io.onedev.server.git.command.ListNumStatsCommand$1"2io.onedev.server.git.command.ListNumStatsCommand$1ö
+ó
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/command/ListNumStatsCommand.java1 8(
+%13"6io.onedev.commons.utils.command.LineConsumer#<init>()V*;
+9
+%122io.onedev.server.git.command.ListNumStatsCommand$1çä
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/command/ListNumStatsCommand.java8	 8(9
+%142io.onedev.server.git.command.ListNumStatsCommand$2"2io.onedev.server.git.command.ListNumStatsCommand$2ö
+ó
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/command/ListNumStatsCommand.java8 ?(
+%15"6io.onedev.commons.utils.command.LineConsumer#<init>()V*;
+9
+%142io.onedev.server.git.command.ListNumStatsCommand$2Çˇ
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/command/ListNumStatsCommand.java1 ?(6
+%16/io.onedev.commons.utils.command.ExecutionResult"™io.onedev.commons.utils.command.Commandline#execute(Ljava/io/OutputStream;Lio/onedev/commons/utils/command/LineConsumer;)Lio/onedev/commons/utils/command/ExecutionResult;*4
+2
+cmd+io.onedev.commons.utils.command.Commandline*;
+9
+%122io.onedev.server.git.command.ListNumStatsCommand$1*;
+9
+%142io.onedev.server.git.command.ListNumStatsCommand$22Mexecute(Ljava/io/OutputStream;Lio/onedev/commons/utils/command/LineConsumer;)ºπ
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/command/ListNumStatsCommand.java1 ?(
+%17void"Bio.onedev.commons.utils.command.ExecutionResult#checkReturnCode()V*8
+6
+%16/io.onedev.commons.utils.command.ExecutionResult2checkReturnCode()"º
+ò
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/git/command/ListNumStatsCommand.javaA A(
+
+fileChangesjava.util.ListB42
+0io.onedev.server.git.command.ListNumStatsCommand

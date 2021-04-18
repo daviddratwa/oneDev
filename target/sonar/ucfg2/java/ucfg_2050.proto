@@ -1,0 +1,522 @@
+
+Sio.onedev.server.migration.DataMigrator#migrate10(Ljava/io/File;Ljava/util/Stack;)Vë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÈ È("29*»
+24ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÓ Ó(¸˘
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÓ Ó(
+%8java.lang.String"(java.io.File#getName()Ljava/lang/String;*
+
+filejava.io.File2	getName()§°
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÓ Ó(7
+%9boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
+
+%8java.lang.String*
+Projects.xml2startsWith(Ljava/lang/String;)*
+11
+23*¬
+25ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÌ Ì(°
+û
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÌ Ì(
+
+%7void"=io.onedev.commons.utils.FileUtils#deleteFile(Ljava/io/File;)V*%"#
+!io.onedev.commons.utils.FileUtils*
+
+filejava.io.File*
+11*ÿ
+26ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÏ Ï(¸˘
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÏ Ï(
+%5java.lang.String"(java.io.File#getName()Ljava/lang/String;*
+
+filejava.io.File2	getName()¥±
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÏ Ï(A
+%6boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
+
+%5java.lang.String* 
+CodeCommentStatusChanges.xml2startsWith(Ljava/lang/String;)*
+24
+25*—
+27ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÎ8 Î(<¸˘
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÎ8 Î(F
+%3java.lang.String"(java.io.File#getName()Ljava/lang/String;*
+
+filejava.io.File2	getName()≠™
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÎ8 Î(j
+%4boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
+
+%3java.lang.String*
+CodeCommentReplys.xml2startsWith(Ljava/lang/String;)*
+25
+26*Ã
+28ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÎ Î(¸˘
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÎ Î(
+%1java.lang.String"(java.io.File#getName()Ljava/lang/String;*
+
+filejava.io.File2	getName()®•
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÎ Î(4
+%2boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
+
+%1java.lang.String*
+CodeComments.xml2startsWith(Ljava/lang/String;)*
+25
+27*ü
+29ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÍ Í(˛˚
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÍ Í(%
+%0java.io.File[]"'java.io.File#listFiles()[Ljava/io/File;*
+
+dataDirjava.io.File2listFiles()*
+11*É
+
+10ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaˇ ˇ('∫∑
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaˇ5 ˇ(9
+%22java.io.File"java.io.Fileô
+ñ
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaˇ1 ˇ(Q
+%23"6java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V*
+
+%22java.io.File*
+
+dataDirjava.io.File*
+Configs.xmlÇ
+ˇ
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaˇ ˇ(R1
+%24*io.onedev.server.migration.VersionedXmlDoc"oio.onedev.server.migration.VersionedXmlDoc#fromFile(Ljava/io/File;)Lio/onedev/server/migration/VersionedXmlDoc;*.",
+*io.onedev.server.migration.VersionedXmlDoc*
+
+%22java.io.FileÖ
+Ç
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaˇ ˇ(S1
+dom*io.onedev.server.migration.VersionedXmlDoc"__id*3
+1
+%24*io.onedev.server.migration.VersionedXmlDoc*
+9*º
+11ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÍ Í(ª
+∏
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÍ Í(
+filejava.io.File"__id*
+""Ÿ
+÷
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÍ Í(
+filejava.io.File"
+__arrayGet*
+
+%0java.io.File[]*
+""*
+28
+10*Ç
+12ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.java¸ ¸(·ﬁ
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.java¸ ¸( 
+%21void"Hio.onedev.server.migration.VersionedXmlDoc#writeToFile(Ljava/io/File;Z)V*3
+1
+dom*io.onedev.server.migration.VersionedXmlDoc*
+
+filejava.io.File*
+""2writeToFile(Ljava/io/File;Z)*
+11*Õ
+13ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.java	 (√
+¿
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.java	 (
+elementorg.dom4j.Element"__id*
+""‚
+ﬂ
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.java	 (
+elementorg.dom4j.Element"
+__arrayGet*
+
+%12java.util.List*
+""*
+21
+12*Ì
+14ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÒ
+ Ò()”
+–
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÒ
+ Ò(),
+branchProtectionElementorg.dom4j.Element"__id*
+""Ú
+Ô
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÒ
+ Ò(),
+branchProtectionElementorg.dom4j.Element"
+__arrayGet*
+
+%14java.util.List*
+""*
+13
+20*È
+15ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaı ı((—
+Œ
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaı ı((*
+fileProtectionElementorg.dom4j.Element"__id*
+""
+Ì
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaı ı((*
+fileProtectionElementorg.dom4j.Element"
+__arrayGet*
+
+%18java.util.List*
+""*
+14
+17*Œ
+16ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.java¯ ¯(≠™
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.java¯ ¯(4
+%20void"+org.dom4j.Node#setName(Ljava/lang/String;)V*"
+ 
+exprElementorg.dom4j.Element*
+reviewRequirementSpec2setName(Ljava/lang/String;)*
+15*‹
+17ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaˆ ˆ(*Ÿ÷
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaˆ ˆ(K
+%19org.dom4j.Element"@org.dom4j.Element#element(Ljava/lang/String;)Lorg/dom4j/Element;*,
+*
+fileProtectionElementorg.dom4j.Element*
+reviewAppointmentExpr2element(Ljava/lang/String;)€
+ÿ
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaˆ ˆ(K 
+exprElementorg.dom4j.Element"__id*
+
+%19org.dom4j.Element*
+15
+16*˝
+18ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaı* ı(A’“
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaı* ı(\
+%17org.dom4j.Element"@org.dom4j.Element#element(Ljava/lang/String;)Lorg/dom4j/Element;*.
+,
+branchProtectionElementorg.dom4j.Element*
+fileProtections2element(Ljava/lang/String;)ÑÅ
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaı* ı(g
+%18java.util.List",org.dom4j.Element#elements()Ljava/util/List;*
+
+%17org.dom4j.Element2
+elements()*
+15*Œ
+19ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÙ Ù(≠™
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÙ Ù(3
+%16void"+org.dom4j.Node#setName(Ljava/lang/String;)V*"
+ 
+exprElementorg.dom4j.Element*
+reviewRequirementSpec2setName(Ljava/lang/String;)*
+18*±
+0 "©
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaê ê(
+implicit return* 
+1ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÄ Ä(√
+¿
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÄ Ä(
+elementorg.dom4j.Element"__id*
+""‚
+ﬂ
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÄ Ä(
+elementorg.dom4j.Element"
+__arrayGet*
+
+%26java.util.List*
+""*
+8
+0*›
+2ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaå å(∫∑
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaå å(
+%44java.io.File"java.io.Fileû
+õ
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaå å(:
+%45"6java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V*
+
+%44java.io.File*
+
+dataDirjava.io.File*
+CodeComments.xml‡›
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaå å(B
+%46void"Hio.onedev.server.migration.VersionedXmlDoc#writeToFile(Ljava/io/File;Z)V*3
+1
+dom*io.onedev.server.migration.VersionedXmlDoc*
+
+%44java.io.File*
+""2writeToFile(Ljava/io/File;Z)*
+1*ÿ
+3ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÜ
+ Ü(  
+«
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÜ
+ Ü( #
+commentElementorg.dom4j.Element"__id*
+""È
+Ê
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÜ
+ Ü( #
+commentElementorg.dom4j.Element"
+__arrayGet*
+
+%36java.util.List*
+""*
+2
+4*È
+4ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaá á(øº
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaá á(D
+%37void"+org.dom4j.Node#setName(Ljava/lang/String;)V*%
+#
+commentElementorg.dom4j.Element*(&
+$com.gitplex.server.model.CodeComment2setName(Ljava/lang/String;)¬ø
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaà à(%
+%38org.dom4j.Element"@org.dom4j.Element#element(Ljava/lang/String;)Lorg/dom4j/Element;*%
+#
+commentElementorg.dom4j.Element*	
+depot2element(Ljava/lang/String;)óî
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaà à(8
+%39void"+org.dom4j.Node#setName(Ljava/lang/String;)V*
+
+%38org.dom4j.Element*	
+project2setName(Ljava/lang/String;)≈¬
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaâ â((
+%40org.dom4j.Element"@org.dom4j.Element#element(Ljava/lang/String;)Lorg/dom4j/Element;*%
+#
+commentElementorg.dom4j.Element*
+
+resolved2element(Ljava/lang/String;)˝˙
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaâ â(1
+%41org.dom4j.Node"'org.dom4j.Node#detach()Lorg/dom4j/Node;*
+
+%40org.dom4j.Element2detach()«ƒ
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaä ä(*
+%42org.dom4j.Element"@org.dom4j.Element#element(Ljava/lang/String;)Lorg/dom4j/Element;*%
+#
+commentElementorg.dom4j.Element*
+
+commentPos2element(Ljava/lang/String;)óî
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaä ä(=
+%43void"+org.dom4j.Node#setName(Ljava/lang/String;)V*
+
+%42org.dom4j.Element*	
+markPos2setName(Ljava/lang/String;)*
+3*Ó
+5ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÜ" Ü(%»≈
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÜ" Ü(6
+%35org.dom4j.Element"Nio.onedev.server.migration.VersionedXmlDoc#getRootElement()Lorg/dom4j/Element;*3
+1
+dom*io.onedev.server.migration.VersionedXmlDoc2getRootElement()ÑÅ
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÜ" Ü(A
+%36java.util.List",org.dom4j.Element#elements()Ljava/util/List;*
+
+%35org.dom4j.Element2
+elements()*
+3*Ω
+6ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÖ Ö(ñ
+ì
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÖ Ö(<1
+%34*io.onedev.server.migration.VersionedXmlDoc"oio.onedev.server.migration.VersionedXmlDoc#fromFile(Ljava/io/File;)Lio/onedev/server/migration/VersionedXmlDoc;*.",
+*io.onedev.server.migration.VersionedXmlDoc*)
+'
+codeCommentsFromWeiFengjava.io.FileÖ
+Ç
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÖ Ö(<1
+dom*io.onedev.server.migration.VersionedXmlDoc"__id*3
+1
+%34*io.onedev.server.migration.VersionedXmlDoc*
+5*¬
+7ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÇ Ç( Ω∫
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÇ Ç(3
+%29org.dom4j.Element"@org.dom4j.Element#element(Ljava/lang/String;)Lorg/dom4j/Element;*
+
+elementorg.dom4j.Element*	
+setting2element(Ljava/lang/String;)√¿
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÇ Ç(N
+%30java.lang.String"Corg.dom4j.Element#elementText(Ljava/lang/String;)Ljava/lang/String;*
+
+%29org.dom4j.Element*
+storagePath2elementText(Ljava/lang/String;)Ÿ
+÷
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÇ Ç(O
+storagePathjava.lang.String"__id*
+
+%30java.lang.String∫∑
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÉ' É(+
+%31java.io.File"java.io.File™
+ß
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÉ# É(L
+%32":java.io.File#<init>(Ljava/lang/String;Ljava/lang/String;)V*
+
+%31java.io.File*!
+
+storagePathjava.lang.String*
+CodeComments.xml›
+⁄
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÉ É(M'
+codeCommentsFromWeiFengjava.io.File"__id*
+
+%31java.io.FileÙÒ
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÑ Ñ((
+%33boolean"java.io.File#exists()Z*)
+'
+codeCommentsFromWeiFengjava.io.File2exists()*
+6
+1*¸
+8ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÅ Å(øº
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÅ Å(!
+%27java.lang.String"Corg.dom4j.Element#elementText(Ljava/lang/String;)Ljava/lang/String;*
+
+elementorg.dom4j.Element*
+key2elementText(Ljava/lang/String;)òï
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÅ Å(2
+%28boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%27java.lang.String*
+
+SYSTEM2equals(Ljava/lang/Object;)*
+7
+1*Ó
+9ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÄ Ä(»≈
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÄ Ä(,
+%25org.dom4j.Element"Nio.onedev.server.migration.VersionedXmlDoc#getRootElement()Lorg/dom4j/Element;*3
+1
+dom*io.onedev.server.migration.VersionedXmlDoc2getRootElement()ÑÅ
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÄ Ä(7
+%26java.util.List",org.dom4j.Element#elements()Ljava/util/List;*
+
+%25org.dom4j.Element2
+elements()*
+1*ﬁ
+20ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÚ Ú(3€ÿ
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÚ Ú(T
+%15org.dom4j.Element"@org.dom4j.Element#element(Ljava/lang/String;)Lorg/dom4j/Element;*.
+,
+branchProtectionElementorg.dom4j.Element*
+reviewAppointmentExpr2element(Ljava/lang/String;)€
+ÿ
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÚ Ú(U 
+exprElementorg.dom4j.Element"__id*
+
+%15org.dom4j.Element*
+18
+19*Ô
+21ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÒ+ Ò(2«ƒ
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÒ+ Ò(O
+%13org.dom4j.Element"@org.dom4j.Element#element(Ljava/lang/String;)Lorg/dom4j/Element;*
+
+elementorg.dom4j.Element*
+branchProtections2element(Ljava/lang/String;)ÑÅ
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÒ+ Ò(Z
+%14java.util.List",org.dom4j.Element#elements()Ljava/util/List;*
+
+%13org.dom4j.Element2
+elements()*
+14*
+22ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.java (»≈
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.java (.
+%11org.dom4j.Element"Nio.onedev.server.migration.VersionedXmlDoc#getRootElement()Lorg/dom4j/Element;*3
+1
+dom*io.onedev.server.migration.VersionedXmlDoc2getRootElement()ÑÅ
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.java (9
+%12java.util.List",org.dom4j.Element#elements()Ljava/util/List;*
+
+%11org.dom4j.Element2
+elements()*
+13*¨
+23ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÔ Ô()É
+Ä
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÔ Ô(81
+%10*io.onedev.server.migration.VersionedXmlDoc"oio.onedev.server.migration.VersionedXmlDoc#fromFile(Ljava/io/File;)Lio/onedev/server/migration/VersionedXmlDoc;*.",
+*io.onedev.server.migration.VersionedXmlDoc*
+
+filejava.io.FileÖ
+Ç
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/migration/DataMigrator.javaÔ Ô(91
+dom*io.onedev.server.migration.VersionedXmlDoc"__id*3
+1
+%10*io.onedev.server.migration.VersionedXmlDoc*
+22:
+dataDirjava.io.File:
+versionsjava.util.StackB+)
+'io.onedev.server.migration.DataMigrator

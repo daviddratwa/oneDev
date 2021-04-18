@@ -1,0 +1,171 @@
+
+Cio.onedev.server.model.Project#getDefaultBranch()Ljava/lang/String;‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.javaƒ ƒ("23*ò
+14‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.java‰2 ‰(;³
+°
+‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.java‰2 ‰(C
+%6java.lang.String"__id*
+""¢Ÿ
+‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.java‰	 ‰(D
+%7boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
+
+%5java.lang.String*
+
+%6java.lang.String2startsWith(Ljava/lang/String;)*
+5
+12*Ÿ
+15‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.java‰	 ‰(&ˆ…
+‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.java‰	 ‰(&
+%5java.lang.String"4org.eclipse.jgit.lib.Ref#getName()Ljava/lang/String;* 
+
+%4org.eclipse.jgit.lib.Ref2	getName()*
+14*¸
+16‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.java‰	 ‰(¡ž
+‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.java‰	 ‰(
+%4org.eclipse.jgit.lib.Ref">org.eclipse.jgit.lib.Ref#getTarget()Lorg/eclipse/jgit/lib/Ref;*%
+#
+headReforg.eclipse.jgit.lib.Ref2getTarget()*
+15*“
+18‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.javaˆ	 ˆ(ùö
+‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.javaˆ	 ˆ(
+%3boolean"&org.eclipse.jgit.lib.Ref#isSymbolic()Z*%
+#
+headReforg.eclipse.jgit.lib.Ref2isSymbolic()*
+5
+16*ô
+19‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.java† †(2Ú
+×
+‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.java† †(2#
+headReforg.eclipse.jgit.lib.Ref"__id* 
+
+%2org.eclipse.jgit.lib.Ref*
+5
+18*Ë
+1‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.java“	 “(ú
+÷
+‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.java“	 “(&
+%16com.google.common.base.Optional"__id*=*; 
+io.onedev.server.model.Project"
+defaultBranchOptional–“
+‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.java“	 “('
+%17java.lang.String":com.google.common.base.Optional#orNull()Ljava/lang/Object;*(
+&
+%16com.google.common.base.Optional2orNull()"¥
+‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.java“ “((
+
+%17java.lang.String*
+4‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.java (.ú
+÷
+‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.java (.; 
+io.onedev.server.model.Project"
+defaultBranchOptional"__id*(
+&
+%13com.google.common.base.Optional*
+1*º
+5‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.java (%¥
+¢
+‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.java (.&
+%13com.google.common.base.Optional"Icom.google.common.base.Optional#absent()Lcom/google/common/base/Optional;*#"!
+com.google.common.base.Optional*
+4*
+6‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.java‹ ‹(bú
+÷
+‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.java‹ ‹(b; 
+io.onedev.server.model.Project"
+defaultBranchOptional"__id*(
+&
+%12com.google.common.base.Optional*
+1*ã
+7‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.java‹ ‹(bÎ
+Ë
+‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.java‹ ‹(b&
+%12com.google.common.base.Optional"Wcom.google.common.base.Optional#of(Ljava/lang/Object;)Lcom/google/common/base/Optional;*#"!
+com.google.common.base.Optional*
+
+%11java.lang.String*
+6*Ñ
+8‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.java‹) ‹(a¼
+¹
+‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.java‹) ‹(a
+%11java.lang.String"Torg.eclipse.jgit.lib.Repository#shortenRefName(Ljava/lang/String;)Ljava/lang/String;*#"!
+org.eclipse.jgit.lib.Repository*
+
+%10java.lang.String*
+7*ž
+9‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.java‹C ‹(`‰†
+‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.java‹C ‹(`
+%10java.lang.String"4org.eclipse.jgit.lib.Ref#getName()Ljava/lang/String;* 
+
+%9org.eclipse.jgit.lib.Ref2	getName()*
+8*ë
+20‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.java†* †(0ÔÑ
+‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.java† †(1
+%2org.eclipse.jgit.lib.Ref"Uorg.eclipse.jgit.lib.Repository#findRef(Ljava/lang/String;)Lorg/eclipse/jgit/lib/Ref;*'
+%
+%1org.eclipse.jgit.lib.Repository*
+HEAD2findRef(Ljava/lang/String;)*
+19*Ñ
+21‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.java† †(º·
+‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.java† †(!%
+%1org.eclipse.jgit.lib.Repository"Oio.onedev.server.model.Project#getRepository()Lorg/eclipse/jgit/lib/Repository;*" 
+io.onedev.server.model.Project2getRepository()*
+20*·
+10‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.java‹ ‹(%¡ž
+‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.java‹C ‹(V
+%9org.eclipse.jgit.lib.Ref">org.eclipse.jgit.lib.Ref#getTarget()Lorg/eclipse/jgit/lib/Ref;*%
+#
+headReforg.eclipse.jgit.lib.Ref2getTarget()*
+9*“
+23‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.java„ „(ù
+ö
+‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.java„ „(%
+%0com.google.common.base.Optional"__id*=*; 
+io.onedev.server.model.Project"
+defaultBranchOptional*
+21
+1*É
+12‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.javaŠ	 Š(¯¬
+‡
+{C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/Project.javaŠ	 Š(#
+%8org.eclipse.jgit.lib.ObjectId"Eorg.eclipse.jgit.lib.Ref#getObjectId()Lorg/eclipse/jgit/lib/ObjectId;*%
+#
+headReforg.eclipse.jgit.lib.Ref2getObjectId()*
+5
+10B" 
+io.onedev.server.model.Project

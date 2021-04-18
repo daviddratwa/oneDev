@@ -1,0 +1,431 @@
+
+§org.eclipse.jgit.merge.ResolveMerger#mergeTrees(Lorg/eclipse/jgit/treewalk/AbstractTreeIterator;Lorg/eclipse/jgit/revwalk/RevTree;Lorg/eclipse/jgit/revwalk/RevTree;Z)Z
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaé	 é	("14*Å
+13
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaö	 ö	(ƒ
+€
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaö	 ö	(5
+%18.org.eclipse.jgit.treewalk.NameConflictTreeWalk"__id*0*.&
+$org.eclipse.jgit.merge.ResolveMerger"
+tw“
+
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaö	 ö	(!4
+%19-org.eclipse.jgit.treewalk.WorkingTreeIterator"__id*A*?&
+$org.eclipse.jgit.merge.ResolveMerger"
+workingTreeIterator«¨
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaö	 ö	("
+
+%20int"]org.eclipse.jgit.treewalk.TreeWalk#addTree(Lorg/eclipse/jgit/treewalk/AbstractTreeIterator;)I*7
+5
+%18.org.eclipse.jgit.treewalk.NameConflictTreeWalk*6
+4
+%19-org.eclipse.jgit.treewalk.WorkingTreeIterator29addTree(Lorg/eclipse/jgit/treewalk/AbstractTreeIterator;)“
+
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java÷	 ÷	(4
+%21-org.eclipse.jgit.treewalk.WorkingTreeIterator"__id*A*?&
+$org.eclipse.jgit.merge.ResolveMerger"
+workingTreeIteratorƒ
+€
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java÷	+ ÷	(-5
+%22.org.eclipse.jgit.treewalk.NameConflictTreeWalk"__id*0*.&
+$org.eclipse.jgit.merge.ResolveMerger"
+twÁ¾
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java÷	 ÷	(6
+%23void"iorg.eclipse.jgit.treewalk.WorkingTreeIterator#setDirCacheIterator(Lorg/eclipse/jgit/treewalk/TreeWalk;I)V*6
+4
+%21-org.eclipse.jgit.treewalk.WorkingTreeIterator*7
+5
+%22.org.eclipse.jgit.treewalk.NameConflictTreeWalk*
+""2:setDirCacheIterator(Lorg/eclipse/jgit/treewalk/TreeWalk;I)*
+11*Ä3
+14
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaí	 í	(ü
+ù
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaí	 í	((
+%0"org.eclipse.jgit.dircache.DirCache"__id*6*4&
+$org.eclipse.jgit.merge.ResolveMerger"
+
+dircacheÕÒ
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaí	 í	(/
+%1)org.eclipse.jgit.dircache.DirCacheBuilder"Worg.eclipse.jgit.dircache.DirCache#builder()Lorg/eclipse/jgit/dircache/DirCacheBuilder;**
+(
+%0"org.eclipse.jgit.dircache.DirCache2	builder()‚
+ÿ
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaí	 í	(3&
+$org.eclipse.jgit.merge.ResolveMerger"	
+builder"__id*1
+/
+%1)org.eclipse.jgit.dircache.DirCacheBuilder‚
+ÿ
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaî	< î	(C/
+%2)org.eclipse.jgit.dircache.DirCacheBuilder"__id*5*3&
+$org.eclipse.jgit.merge.ResolveMerger"	
+builderüù
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaî	& î	(;5
+%3/org.eclipse.jgit.dircache.DirCacheBuildIterator"/org.eclipse.jgit.dircache.DirCacheBuildIteratorì
+é
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaî	" î	(D
+%4"dorg.eclipse.jgit.dircache.DirCacheBuildIterator#<init>(Lorg/eclipse/jgit/dircache/DirCacheBuilder;)V*7
+5
+%3/org.eclipse.jgit.dircache.DirCacheBuildIterator*1
+/
+%2)org.eclipse.jgit.dircache.DirCacheBuilder
+Œ
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaî	 î	(E:
+buildIt/org.eclipse.jgit.dircache.DirCacheBuildIterator"__id*7
+5
+%3/org.eclipse.jgit.dircache.DirCacheBuildIteratoró
+ğ
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javağ	  ğ	("%
+%5org.eclipse.jgit.lib.Repository"__id*0*.&
+$org.eclipse.jgit.merge.ResolveMerger"
+dbù
+ö
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javağ	$ ğ	(*'
+%6!org.eclipse.jgit.lib.ObjectReader"__id*4*2&
+$org.eclipse.jgit.merge.ResolveMerger"
+readerú÷
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javağ	 ğ	(4
+%7.org.eclipse.jgit.treewalk.NameConflictTreeWalk".org.eclipse.jgit.treewalk.NameConflictTreeWalk¤
+¡
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javağ	 ğ	(+
+%8"|org.eclipse.jgit.treewalk.NameConflictTreeWalk#<init>(Lorg/eclipse/jgit/lib/Repository;Lorg/eclipse/jgit/lib/ObjectReader;)V*6
+4
+%7.org.eclipse.jgit.treewalk.NameConflictTreeWalk*'
+%
+%5org.eclipse.jgit.lib.Repository*)
+'
+%6!org.eclipse.jgit.lib.ObjectReader‚
+ÿ
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javağ	 ğ	(+.&
+$org.eclipse.jgit.merge.ResolveMerger"
+tw"__id*6
+4
+%7.org.eclipse.jgit.treewalk.NameConflictTreeWalk‚
+ÿ
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javañ	 ñ	(4
+%9.org.eclipse.jgit.treewalk.NameConflictTreeWalk"__id*0*.&
+$org.eclipse.jgit.merge.ResolveMerger"
+tw°­
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javañ	 ñ	(
+
+%10int"]org.eclipse.jgit.treewalk.TreeWalk#addTree(Lorg/eclipse/jgit/treewalk/AbstractTreeIterator;)I*6
+4
+%9.org.eclipse.jgit.treewalk.NameConflictTreeWalk*<
+:
+baseTree.org.eclipse.jgit.treewalk.AbstractTreeIterator29addTree(Lorg/eclipse/jgit/treewalk/AbstractTreeIterator;)ƒ
+€
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaò	 ò	(5
+%11.org.eclipse.jgit.treewalk.NameConflictTreeWalk"__id*0*.&
+$org.eclipse.jgit.merge.ResolveMerger"
+tw‡„
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaò	 ò	(
+
+%12int"Oorg.eclipse.jgit.treewalk.TreeWalk#addTree(Lorg/eclipse/jgit/lib/AnyObjectId;)I*7
+5
+%11.org.eclipse.jgit.treewalk.NameConflictTreeWalk*.
+,
+headTree org.eclipse.jgit.revwalk.RevTree2+addTree(Lorg/eclipse/jgit/lib/AnyObjectId;)ƒ
+€
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaó	 ó	(5
+%13.org.eclipse.jgit.treewalk.NameConflictTreeWalk"__id*0*.&
+$org.eclipse.jgit.merge.ResolveMerger"
+twˆ…
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaó	 ó	(
+
+%14int"Oorg.eclipse.jgit.treewalk.TreeWalk#addTree(Lorg/eclipse/jgit/lib/AnyObjectId;)I*7
+5
+%13.org.eclipse.jgit.treewalk.NameConflictTreeWalk*/
+-
+	mergeTree org.eclipse.jgit.revwalk.RevTree2+addTree(Lorg/eclipse/jgit/lib/AnyObjectId;)ƒ
+€
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaô	 ô	(5
+%15.org.eclipse.jgit.treewalk.NameConflictTreeWalk"__id*0*.&
+$org.eclipse.jgit.merge.ResolveMerger"
+tw±®
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaô	 ô	("
+
+%16int"]org.eclipse.jgit.treewalk.TreeWalk#addTree(Lorg/eclipse/jgit/treewalk/AbstractTreeIterator;)I*7
+5
+%15.org.eclipse.jgit.treewalk.NameConflictTreeWalk*<
+:
+buildIt/org.eclipse.jgit.dircache.DirCacheBuildIterator29addTree(Lorg/eclipse/jgit/treewalk/AbstractTreeIterator;)“
+
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaõ	 õ	(4
+%17-org.eclipse.jgit.treewalk.WorkingTreeIterator"__id*A*?&
+$org.eclipse.jgit.merge.ResolveMerger"
+workingTreeIterator*
+13
+12*®
+0 "¦
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java›
+ ›
+(
+implicit return*
+1
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java™
+ ™
+(Ú
+×
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java™
+ ™
+(6&
+$org.eclipse.jgit.merge.ResolveMerger"
+
+resultTree"__id*
+"""™
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaš
+ š
+(
+""*Å
+2
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java–
+ –
+(ı
+ú
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java–
+ –
+()
+%40"org.eclipse.jgit.dircache.DirCache"__id*6*4&
+$org.eclipse.jgit.merge.ResolveMerger"
+
+dircache×Ô
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java–
+# –
+(6*
+%41#org.eclipse.jgit.lib.ObjectInserter"Vorg.eclipse.jgit.merge.Merger#getObjectInserter()Lorg/eclipse/jgit/lib/ObjectInserter;*(&
+$org.eclipse.jgit.merge.ResolveMerger2getObjectInserter()»¸
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java–
+ –
+(7$
+%42org.eclipse.jgit.lib.ObjectId"rorg.eclipse.jgit.dircache.DirCache#writeTree(Lorg/eclipse/jgit/lib/ObjectInserter;)Lorg/eclipse/jgit/lib/ObjectId;*+
+)
+%40"org.eclipse.jgit.dircache.DirCache*,
+*
+%41#org.eclipse.jgit.lib.ObjectInserter20writeTree(Lorg/eclipse/jgit/lib/ObjectInserter;)ú
+÷
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java–
+ –
+(76&
+$org.eclipse.jgit.merge.ResolveMerger"
+
+resultTree"__id*&
+$
+%42org.eclipse.jgit.lib.ObjectId"™
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java—
+ —
+(
+""*§
+3
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java•
+' •
+(-ˆ…
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java•
+' •
+(/
+%39boolean".org.eclipse.jgit.merge.ResolveMerger#failed()Z*(&
+$org.eclipse.jgit.merge.ResolveMerger2failed()*
+2
+1*·
+4
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java•
+ •
+(²¯
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java•
+ •
+(
+%37java.util.List"Gorg.eclipse.jgit.merge.ResolveMerger#getUnmergedPaths()Ljava/util/List;*(&
+$org.eclipse.jgit.merge.ResolveMerger2getUnmergedPaths()ãà
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java•
+ •
+("
+%38boolean"java.util.List#isEmpty()Z*
+
+%37java.util.List2	isEmpty()*
+3
+1*
+5
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java‘
+ ‘
+(
+ƒ
+€
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java‘
+ ‘
+(
+0
+%35)org.eclipse.jgit.dircache.DirCacheBuilder"__id*5*3&
+$org.eclipse.jgit.merge.ResolveMerger"	
+builder”‘
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java‘
+ ‘
+(
+%36void"3org.eclipse.jgit.dircache.DirCacheBuilder#finish()V*2
+0
+%35)org.eclipse.jgit.dircache.DirCacheBuilder2finish()×
+Ô
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java’
+ ’
+(3&
+$org.eclipse.jgit.merge.ResolveMerger"	
+builder"__id*
+""*
+4*ó
+6
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java
+ 
+(×
+Ô
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java
+ 
+(3&
+$org.eclipse.jgit.merge.ResolveMerger"	
+builder"__id*
+""*
+4*¦
+7
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java‹
+ ‹
+(‡„
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java‹
+ ‹
+(
+%32void"/org.eclipse.jgit.merge.ResolveMerger#cleanUp()V*(&
+$org.eclipse.jgit.merge.ResolveMerger2	cleanUp()õò
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaŒ
+ Œ
+(!2
+%33+org.eclipse.jgit.errors.IndexWriteException"+org.eclipse.jgit.errors.IndexWriteExceptionˆ
+…
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaŒ
+
+ Œ
+(#
+%34"5org.eclipse.jgit.errors.IndexWriteException#<init>()V*4
+2
+%33+org.eclipse.jgit.errors.IndexWriteException*
+0*¿
+8
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java„
+ „
+(ı
+ú
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java„
+ „
+(
+%29void"0org.eclipse.jgit.merge.ResolveMerger#checkout()V*(&
+$org.eclipse.jgit.merge.ResolveMergerƒ
+€
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaŠ
+ Š
+(0
+%30)org.eclipse.jgit.dircache.DirCacheBuilder"__id*5*3&
+$org.eclipse.jgit.merge.ResolveMerger"	
+builderš—
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaŠ
+ Š
+(
+%31boolean"6org.eclipse.jgit.dircache.BaseDirCacheEditor#commit()Z*2
+0
+%30)org.eclipse.jgit.dircache.DirCacheBuilder2commit()*
+6
+7*±
+10
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaı	
+ ı	("™
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaı	 ı	(
+""*Ë
+11
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaü	 ü	(ƒ
+€
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaü	 ü	(5
+%27.org.eclipse.jgit.treewalk.NameConflictTreeWalk"__id*0*.&
+$org.eclipse.jgit.merge.ResolveMerger"
+tw¡
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaü	 ü	()
+%28boolean"Zorg.eclipse.jgit.merge.ResolveMerger#mergeTreeWalk(Lorg/eclipse/jgit/treewalk/TreeWalk;Z)Z*(&
+$org.eclipse.jgit.merge.ResolveMerger*7
+5
+%27.org.eclipse.jgit.treewalk.NameConflictTreeWalk*
+""24mergeTreeWalk(Lorg/eclipse/jgit/treewalk/TreeWalk;Z)*
+
+5
+8
+10*¥
+12
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaù	 ù	(ƒ
+€
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaù	 ù	(5
+%24.org.eclipse.jgit.treewalk.NameConflictTreeWalk"__id*0*.&
+$org.eclipse.jgit.merge.ResolveMerger"
+twÖ
+Ó
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaù	 ù	(#2
+%25+org.eclipse.jgit.treewalk.filter.TreeFilter"__id*
+""¨¥
+
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaù	 ù	($
+%26void"\org.eclipse.jgit.treewalk.TreeWalk#setFilter(Lorg/eclipse/jgit/treewalk/filter/TreeFilter;)V*7
+5
+%24.org.eclipse.jgit.treewalk.NameConflictTreeWalk*4
+2
+%25+org.eclipse.jgit.treewalk.filter.TreeFilter28setFilter(Lorg/eclipse/jgit/treewalk/filter/TreeFilter;)*
+11::
+baseTree.org.eclipse.jgit.treewalk.AbstractTreeIterator:,
+headTree org.eclipse.jgit.revwalk.RevTree:-
+	mergeTree org.eclipse.jgit.revwalk.RevTree:
+""B(&
+$org.eclipse.jgit.merge.ResolveMerger

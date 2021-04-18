@@ -1,0 +1,195 @@
+
+}io.onedev.server.entitymanager.impl.DefaultProjectManager#onDeleteBranch(Lio/onedev/server/model/Project;Ljava/lang/String;)V£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaë ë("startingBlock*ó#
+2£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaì! ì(#±Æ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaì! ì(*5
+%3/io.onedev.server.model.support.BranchProtection"+java.util.Iterator#next()Ljava/lang/Object;*
+
+itjava.util.Iterator2next()ß
+§
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaì ì(+=
+
+protection/io.onedev.server.model.support.BranchProtection"__id*7
+5
+%3/io.onedev.server.model.support.BranchProtection‚ﬂ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaî, î(D
+%4java.lang.String"Oio.onedev.server.model.support.BranchProtection#getBranches()Ljava/lang/String;*?
+=
+
+protection/io.onedev.server.model.support.BranchProtection2getBranches()õ
+ò
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaî î(E1
+%5+io.onedev.server.util.patternset.PatternSet"rio.onedev.server.util.patternset.PatternSet#parse(Ljava/lang/String;)Lio/onedev/server/util/patternset/PatternSet;*/"-
++io.onedev.server.util.patternset.PatternSet*
+
+%4java.lang.Stringü
+ú
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaî î(F9
+
+patternSet+io.onedev.server.util.patternset.PatternSet"__id*3
+1
+%5+io.onedev.server.util.patternset.PatternSet‘—
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaï ï(
+%6java.util.Set"Hio.onedev.server.util.patternset.PatternSet#getIncludes()Ljava/util/Set;*;
+9
+
+patternSet+io.onedev.server.util.patternset.PatternSet2getIncludes()∏µ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaï ï(.
+%7boolean")java.util.Set#remove(Ljava/lang/Object;)Z*
+
+%6java.util.Set* 
+
+
+branchNamejava.lang.String2remove(Ljava/lang/Object;)‘—
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javañ ñ(
+%8java.util.Set"Hio.onedev.server.util.patternset.PatternSet#getExcludes()Ljava/util/Set;*;
+9
+
+patternSet+io.onedev.server.util.patternset.PatternSet2getExcludes()∏µ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javañ ñ(.
+%9boolean")java.util.Set#remove(Ljava/lang/Object;)Z*
+
+%8java.util.Set* 
+
+
+branchNamejava.lang.String2remove(Ljava/lang/Object;)’“
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaó ó(/
+%10java.lang.String"Hio.onedev.server.util.patternset.PatternSet#toString()Ljava/lang/String;*;
+9
+
+patternSet+io.onedev.server.util.patternset.PatternSet2
+toString()ÖÇ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaó ó(0
+%11void"Pio.onedev.server.model.support.BranchProtection#setBranches(Ljava/lang/String;)V*?
+=
+
+protection/io.onedev.server.model.support.BranchProtection*
+
+%10java.lang.String2setBranches(Ljava/lang/String;)„‡
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaò ò(
+%12java.lang.String"Oio.onedev.server.model.support.BranchProtection#getBranches()Ljava/lang/String;*?
+=
+
+protection/io.onedev.server.model.support.BranchProtection2getBranches()ˆÛ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaò ò((
+
+%13int"java.lang.String#length()I*
+
+%12java.lang.String2length()*
+3
+1*≤
+3£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaíR í(T˛˚
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaíR í(^
+%2boolean"java.util.Iterator#hasNext()Z*
+
+itjava.util.Iterator2	hasNext()*
+2
+0*›
+startingBlock£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaë ë(?§
+°
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaè è(
+%15"
+__annotate*97
+5io.onedev.server.persistence.annotation.Transactional*+
+)
+projectio.onedev.server.model.ProjectÅ
+˛
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaê ê(
+
+%16"
+__annotate*
+java.lang.Override*+
+)
+projectio.onedev.server.model.ProjectÙ
+Ò
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaë$ ë(+)
+projectio.onedev.server.model.Project"__annotation*
+
+%15*
+
+%16ô
+ñ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaè è(
+%17"
+__annotate*97
+5io.onedev.server.persistence.annotation.Transactional* 
+
+
+branchNamejava.lang.Stringˆ
+Û
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaê ê(
+
+%18"
+__annotate*
+java.lang.Override* 
+
+
+branchNamejava.lang.StringÈ
+Ê
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaë4 ë(>
+
+branchNamejava.lang.String"__annotation*
+
+%17*
+
+%18*
+4*ë
+4£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaí' í(.’“
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaí' í(E
+%0java.util.ArrayList"Jio.onedev.server.model.Project#getBranchProtections()Ljava/util/ArrayList;*+
+)
+projectio.onedev.server.model.Project2getBranchProtections()†ù
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaí' í(P
+%1java.util.Iterator"2java.util.ArrayList#iterator()Ljava/util/Iterator;*
+
+%0java.util.ArrayList2
+iterator()Â
+‚
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaí í(P
+itjava.util.Iterator"__id*
+
+%1java.util.Iterator*
+3*√
+0 "ª
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaõ õ(
+implicit return*´
+1£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaô ô(˙˜
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaô ô(
+%14void"java.util.Iterator#remove()V*
+
+itjava.util.Iterator2remove()*
+3:)
+projectio.onedev.server.model.Project:
+
+branchNamejava.lang.StringB=;
+9io.onedev.server.entitymanager.impl.DefaultProjectManager

@@ -1,0 +1,124 @@
+
+cio.onedev.server.web.component.issue.create.NewIssueEditor#newIssue()Lio/onedev/server/model/Issue;¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/issue/create/NewIssueEditor.javaŠ Š("3*„
+2¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/issue/create/NewIssueEditor.java“ “(²¯
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/issue/create/NewIssueEditor.java“ “(9
+%162io.onedev.server.search.entity.issue.IssueCriteria"|io.onedev.server.web.component.issue.create.NewIssueEditor#getTemplate()Lio/onedev/server/search/entity/issue/IssueCriteria;*><
+:io.onedev.server.web.component.issue.create.NewIssueEditor2getTemplate()š
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/issue/create/NewIssueEditor.java“ “(
+%17void"Xio.onedev.server.search.entity.issue.IssueCriteria#fill(Lio/onedev/server/model/Issue;)V*;
+9
+%162io.onedev.server.search.entity.issue.IssueCriteria*'
+%
+issueio.onedev.server.model.Issue2$fill(Lio/onedev/server/model/Issue;)*
+1*ñ-
+3¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/issue/create/NewIssueEditor.java‹ ‹(ìé
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/issue/create/NewIssueEditor.java‹ ‹("
+%0io.onedev.server.model.Issue"io.onedev.server.model.Issueş
+û
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/issue/create/NewIssueEditor.java‹ ‹(
+%1"&io.onedev.server.model.Issue#<init>()V*$
+"
+%0io.onedev.server.model.Issueı
+ú
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/issue/create/NewIssueEditor.java‹ ‹(%
+issueio.onedev.server.model.Issue"__id*$
+"
+%0io.onedev.server.model.Issue’
+
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/issue/create/NewIssueEditor.javaŒ Œ(
+%2java.lang.String"__id*H*F<
+:io.onedev.server.web.component.issue.create.NewIssueEditor"
+uuidÑÎ
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/issue/create/NewIssueEditor.javaŒ Œ(
+
+%3void"9io.onedev.server.model.Issue#setUUID(Ljava/lang/String;)V*'
+%
+issueio.onedev.server.model.Issue*
+
+%2java.lang.String2setUUID(Ljava/lang/String;)‡„
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/issue/create/NewIssueEditor.java ($
+%4io.onedev.server.model.Project"gio.onedev.server.web.component.issue.create.NewIssueEditor#getProject()Lio/onedev/server/model/Project;*><
+:io.onedev.server.web.component.issue.create.NewIssueEditor2getProject()ş
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/issue/create/NewIssueEditor.java ( 
+
+%5void"Jio.onedev.server.model.Issue#setProject(Lio/onedev/server/model/Project;)V*'
+%
+issueio.onedev.server.model.Issue*&
+$
+%4io.onedev.server.model.Project2,setProject(Lio/onedev/server/model/Project;)ĞÍ
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/issue/create/NewIssueEditor.java (
+%6java.util.Date"java.util.Dateâ
+ß
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/issue/create/NewIssueEditor.java ( 
+%7"java.util.Date#<init>()V*
+
+%6java.util.Date×Ô
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/issue/create/NewIssueEditor.java (!
+
+%8void"=io.onedev.server.model.Issue#setSubmitDate(Ljava/util/Date;)V*'
+%
+issueio.onedev.server.model.Issue*
+
+%6java.util.Date2setSubmitDate(Ljava/util/Date;)Ã
+À
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/issue/create/NewIssueEditor.java ("F
+%9@io.onedev.server.model.support.administration.GlobalIssueSetting"io.onedev.server.web.component.issue.create.NewIssueEditor#getIssueSetting()Lio/onedev/server/model/support/administration/GlobalIssueSetting;*><
+:io.onedev.server.web.component.issue.create.NewIssueEditorËÈ
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/issue/create/NewIssueEditor.java (85
+%10.io.onedev.server.model.support.issue.StateSpec"†io.onedev.server.model.support.administration.GlobalIssueSetting#getInitialStateSpec()Lio/onedev/server/model/support/issue/StateSpec;*H
+F
+%9@io.onedev.server.model.support.administration.GlobalIssueSetting2getInitialStateSpec()ÓĞ
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/issue/create/NewIssueEditor.java (B
+%11java.lang.String"Jio.onedev.server.model.support.issue.StateSpec#getName()Ljava/lang/String;*7
+5
+%10.io.onedev.server.model.support.issue.StateSpec2	getName()ÕÒ
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/issue/create/NewIssueEditor.java (C
+%12void":io.onedev.server.model.Issue#setState(Ljava/lang/String;)V*'
+%
+issueio.onedev.server.model.Issue*
+
+%11java.lang.String2setState(Ljava/lang/String;)Ë
+È
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/issue/create/NewIssueEditor.java (,"
+%13io.onedev.server.model.User"Nio.onedev.server.security.SecurityUtils#getUser()Lio/onedev/server/model/User;*+")
+'io.onedev.server.security.SecurityUtilsşû
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/issue/create/NewIssueEditor.java (-
+%14void"Iio.onedev.server.model.Issue#setSubmitter(Lio/onedev/server/model/User;)V*'
+%
+issueio.onedev.server.model.Issue*$
+"
+%13io.onedev.server.model.User2+setSubmitter(Lio/onedev/server/model/User;)²¯
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/issue/create/NewIssueEditor.java’ ’(9
+%152io.onedev.server.search.entity.issue.IssueCriteria"|io.onedev.server.web.component.issue.create.NewIssueEditor#getTemplate()Lio/onedev/server/search/entity/issue/IssueCriteria;*><
+:io.onedev.server.web.component.issue.create.NewIssueEditor2getTemplate()*
+2
+1*ı
+1¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/issue/create/NewIssueEditor.java”	 ”("Ğ
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/issue/create/NewIssueEditor.java” ”('
+%
+issueio.onedev.server.model.IssueB><
+:io.onedev.server.web.component.issue.create.NewIssueEditor

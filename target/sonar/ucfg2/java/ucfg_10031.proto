@@ -1,0 +1,173 @@
+
+]io.onedev.server.search.commit.RevisionCriteria#matches(Lio/onedev/server/event/RefUpdated;)Zó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.java3 3("startingBlock*Â
+13ó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.java8: 8(Bæª
+ó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.java8: 8(M
+%8java.lang.String"Dio.onedev.server.search.commit.Revision#getValue()Ljava/lang/String;*5
+3
+revision'io.onedev.server.search.commit.Revision2
+getValue()*
+12*ı
+14ó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.java8 8(1ŒÀ
+ó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.java8 8(1%
+%7org.eclipse.jgit.lib.Repository"Oio.onedev.server.model.Project#getRepository()Lorg/eclipse/jgit/lib/Repository;*&
+$
+%6io.onedev.server.model.Project2getRepository()*
+13*¯
+15ó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.java8 8(—Œ
+ó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.java8 8(!$
+%6io.onedev.server.model.Project"Pio.onedev.server.event.ProjectEvent#getProject()Lio/onedev/server/model/Project;*,
+*
+event!io.onedev.server.event.RefUpdated2getProject()*
+14*ô
+18ó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.java4" 4(+˝
+˙
+ó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.java4" 4(+
+%0java.util.List"__id*B*@1
+/io.onedev.server.search.commit.RevisionCriteria"
+	revisionsñì
+ó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.java4" 4(4
+%1java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*
+
+%0java.util.List2stream()Ê„
+ó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.java4" 4(]
+%2java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*
+
+%1java.util.stream.Stream*
+""2&filter(Ljava/util/function/Predicate;)¢
+ü
+ó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.java4f 4(y 
+%3java.util.stream.Collector"@java.util.stream.Collectors#toList()Ljava/util/stream/Collector;*"
+java.util.stream.CollectorsÌ
+ó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.java4" 4(z
+%4java.util.List"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;*
+
+%2java.util.stream.Stream*"
+ 
+%3java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)›
+⁄
+ó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.java4 4({ 
+untilRevisionsjava.util.List"__id*
+
+%4java.util.ListˆÛ
+ó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.java5 5(
+%5boolean"java.util.List#isEmpty()Z*"
+ 
+untilRevisionsjava.util.List2	isEmpty()*
+3
+1*¬
+1ó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.javaA
+ A("¢
+ó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.javaA A(
+""*¬
+2ó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.java?
+ ?("¢
+ó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.java? ?(
+""*ñ
+3ó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.java6 6(‡
+›
+ó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.java6 6(3
+revision'io.onedev.server.search.commit.Revision"__id*
+""ä
+á
+ó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.java6 6(3
+revision'io.onedev.server.search.commit.Revision"
+__arrayGet*"
+ 
+untilRevisionsjava.util.List*
+""*
+2
+15*ã
+startingBlockó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.java3 3()ˆ
+Û
+ó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.java2 2(
+
+%15"
+__annotate*
+java.lang.Override*,
+*
+event!io.onedev.server.event.RefUpdated‡
+›
+ó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.java3# 3((*
+event!io.onedev.server.event.RefUpdated"__annotation*
+
+%15*
+18*¬
+6ó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.java: :("¢
+ó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.java: :(
+""*’
+8ó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.java9 9(@≠™
+ó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.java9 9(@
+%12boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%10java.lang.String*
+
+%11java.lang.String2equals(Ljava/lang/Object;)*
+3
+6*Ÿ
+9ó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.java9- 9(2¥±
+ó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.java9- 9(?
+%11java.lang.String"@io.onedev.server.event.RefUpdated#getRefName()Ljava/lang/String;*,
+*
+event!io.onedev.server.event.RefUpdated2getRefName()*
+8*¿
+10ó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.java9 9(öó
+ó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.java9 9(%
+%10java.lang.String"4org.eclipse.jgit.lib.Ref#getName()Ljava/lang/String;*!
+
+reforg.eclipse.jgit.lib.Ref2	getName()*
+9*ê
+11ó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.java8 8(OÊ
+„
+ó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.java8 8(O
+reforg.eclipse.jgit.lib.Ref"__id* 
+
+%9org.eclipse.jgit.lib.Ref*
+3
+10*õ
+12ó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.java8 8(NÙÒ
+ó
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/commit/RevisionCriteria.java8 8(N
+%9org.eclipse.jgit.lib.Ref"Uorg.eclipse.jgit.lib.Repository#findRef(Ljava/lang/String;)Lorg/eclipse/jgit/lib/Ref;*'
+%
+%7org.eclipse.jgit.lib.Repository*
+
+%8java.lang.String2findRef(Ljava/lang/String;)*
+11:*
+event!io.onedev.server.event.RefUpdatedB31
+/io.onedev.server.search.commit.RevisionCriteria

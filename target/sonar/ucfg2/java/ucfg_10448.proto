@@ -1,0 +1,164 @@
+
+Eio.onedev.server.event.issue.IssueOpened#getNewUsers()Ljava/util/Map;ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/event/issue/IssueOpened.java$& $(1"7*‹
+2ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/event/issue/IssueOpened.java' '( 
+«
+ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/event/issue/IssueOpened.java' '($
+fieldio.onedev.server.util.Input"__id*
+""Ó
+Î
+ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/event/issue/IssueOpened.java' '($
+fieldio.onedev.server.util.Input"
+__arrayGet*
+
+%5java.util.Collection*
+""*
+5
+1*“
+3ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/event/issue/IssueOpened.java/ /(õò
+ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/event/issue/IssueOpened.java/ /(!
+%16java.lang.String"7io.onedev.server.util.Input#getName()Ljava/lang/String;*&
+$
+fieldio.onedev.server.util.Input2	getName()ñ
+ì
+ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/event/issue/IssueOpened.java/ /(0
+%17java.util.Collection"__mapSet*
+
+newUsersjava.util.Map*
+
+%16java.lang.String*
+
+usersOfFieldjava.util.Set*
+2*ﬂ
+4ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/event/issue/IssueOpened.java) )("öó
+ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/event/issue/IssueOpened.java) )(.
+%9java.util.List"7io.onedev.server.util.Input#getValues()Ljava/util/List;*&
+$
+fieldio.onedev.server.util.Input2getValues()êç
+ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/event/issue/IssueOpened.java) *(
+%10java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*
+
+%9java.util.List2stream()Ÿ÷
+ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/event/issue/IssueOpened.java) +(*
+%11java.util.stream.Stream"Sjava.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;* 
+
+%10java.util.stream.Stream*
+""2"map(Ljava/util/function/Function;)·ﬁ
+ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/event/issue/IssueOpened.java) ,(
+%12java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;* 
+
+%11java.util.stream.Stream*
+""2&filter(Ljava/util/function/Predicate;)õ
+ò
+ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/event/issue/IssueOpened.java- -(!!
+%13java.util.stream.Collector"?java.util.stream.Collectors#toSet()Ljava/util/stream/Collector;*"
+java.util.stream.CollectorsÎË
+ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/event/issue/IssueOpened.java) -("
+%14java.util.Set"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;* 
+
+%12java.util.stream.Stream*#
+!
+%13java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)”
+–
+ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/event/issue/IssueOpened.java) -(#
+usersOfFieldjava.util.Set"__id*
+
+%14java.util.SetÏÈ
+ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/event/issue/IssueOpened.java.	 .(
+%15boolean"java.util.Set#isEmpty()Z*
+
+usersOfFieldjava.util.Set2	isEmpty()*
+2
+3*†
+5ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/event/issue/IssueOpened.java( ((öó
+ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/event/issue/IssueOpened.java( ((
+%6java.lang.String"7io.onedev.server.util.Input#getType()Ljava/lang/String;*&
+$
+fieldio.onedev.server.util.Input2	getType()º
+π
+ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/event/issue/IssueOpened.java( ((,
+%7java.lang.String"__id*
+""£†
+ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/event/issue/IssueOpened.java( ((-
+%8boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%6java.lang.String*
+
+%7java.lang.String2equals(Ljava/lang/Object;)*
+2
+4*å
+6ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/event/issue/IssueOpened.java' '(∆√
+ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/event/issue/IssueOpened.java' '("
+%3io.onedev.server.model.Issue"Pio.onedev.server.event.issue.IssueEvent#getIssue()Lio/onedev/server/model/Issue;*,*
+(io.onedev.server.event.issue.IssueOpened2
+getIssue()°û
+ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/event/issue/IssueOpened.java' '(/
+%4java.util.Map"<io.onedev.server.model.Issue#getFieldInputs()Ljava/util/Map;*$
+"
+%3io.onedev.server.model.Issue2getFieldInputs()Å˛
+ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/event/issue/IssueOpened.java' '(8
+%5java.util.Collection",java.util.Map#values()Ljava/util/Collection;*
+
+%4java.util.Map2values()*
+2*‘
+
+7ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/event/issue/IssueOpened.java%+ %(:¬ø
+ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/event/issue/IssueOpened.java%/ %(8
+%0java.util.HashMap"java.util.HashMap‘
+—
+ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/event/issue/IssueOpened.java%+ %(:
+%1"java.util.HashMap#<init>()V*
+
+%0java.util.HashMap“
+œ
+ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/event/issue/IssueOpened.java% %(;
+newUsersjava.util.Map"__id*
+
+%0java.util.HashMap∑
+¥
+ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/event/issue/IssueOpened.java& &(A0
+%2*io.onedev.server.entitymanager.UserManager"Hio.onedev.server.OneDev#getInstance(Ljava/lang/Class;)Ljava/lang/Object;*"
+io.onedev.server.OneDev*
+""ã
+à
+ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/event/issue/IssueOpened.java& &(B9
+userManager*io.onedev.server.entitymanager.UserManager"__id*2
+0
+%2*io.onedev.server.entitymanager.UserManager*
+6*…
+1ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/event/issue/IssueOpened.java2	 2("∞
+ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/event/issue/IssueOpened.java2 2(
+
+newUsersjava.util.MapB,*
+(io.onedev.server.event.issue.IssueOpened

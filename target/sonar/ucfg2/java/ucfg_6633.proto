@@ -1,0 +1,193 @@
+
+lio.onedev.server.buildspec.job.trigger.BranchUpdateTrigger#touchedFile(Lio/onedev/server/event/RefUpdated;)Z¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaE E("12*ÿ
+2¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaT T("≠
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaT T(
+""*í
+3¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaP	 P(◊
+‘
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaP	 P(
+changedFilejava.lang.String"__id*
+""Ö
+Ç
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaP	 P(
+changedFilejava.lang.String"
+__arrayGet*&
+$
+changedFilesjava.util.Collection*
+""*
+2
+5*ÿ
+4¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaR R("≠
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaR R(
+""*Æ
+5¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaQ	 Q(˚¯
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaQ	 Q(1
+%16boolean"mio.onedev.server.util.patternset.PatternSet#matches(Lio/onedev/server/util/match/Matcher;Ljava/lang/String;)Z*;
+9
+
+patternSet+io.onedev.server.util.patternset.PatternSet*0
+.
+matcher#io.onedev.server.util.match.Matcher*!
+
+changedFilejava.lang.String2@matches(Lio/onedev/server/util/match/Matcher;Ljava/lang/String;)*
+3
+4*ñ!
+7¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaL& L(.·ﬁ
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaL? L(V$
+%7io.onedev.server.model.Project"Pio.onedev.server.event.ProjectEvent#getProject()Lio/onedev/server/model/Project;*1
+/
+
+refUpdated!io.onedev.server.event.RefUpdated2getProject()Ÿ÷
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaL? L(f%
+%8org.eclipse.jgit.lib.Repository"Oio.onedev.server.model.Project#getRepository()Lorg/eclipse/jgit/lib/Repository;*&
+$
+%7io.onedev.server.model.Project2getRepository()Â‚
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaM M(!#
+%9org.eclipse.jgit.lib.ObjectId"Qio.onedev.server.event.RefUpdated#getOldCommitId()Lorg/eclipse/jgit/lib/ObjectId;*1
+/
+
+refUpdated!io.onedev.server.event.RefUpdated2getOldCommitId()Ê„
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaM# M(>$
+%10org.eclipse.jgit.lib.ObjectId"Qio.onedev.server.event.RefUpdated#getNewCommitId()Lorg/eclipse/jgit/lib/ObjectId;*1
+/
+
+refUpdated!io.onedev.server.event.RefUpdated2getNewCommitId()á
+Ñ
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaL& M(?
+%11java.util.Collection"§io.onedev.server.git.GitUtils#getChangedFiles(Lorg/eclipse/jgit/lib/Repository;Lorg/eclipse/jgit/lib/ObjectId;Lorg/eclipse/jgit/lib/ObjectId;)Ljava/util/Collection;*!"
+io.onedev.server.git.GitUtils*'
+%
+%8org.eclipse.jgit.lib.Repository*%
+#
+%9org.eclipse.jgit.lib.ObjectId*&
+$
+%10org.eclipse.jgit.lib.ObjectIdÛ
+
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaL M(@$
+changedFilesjava.util.Collection"__id*
+
+%11java.util.CollectionÊ„
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaN- N(7
+%12java.lang.String"Wio.onedev.server.buildspec.job.trigger.BranchUpdateTrigger#getPaths()Ljava/lang/String;*><
+:io.onedev.server.buildspec.job.trigger.BranchUpdateTrigger2
+getPaths()ú
+ô
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaN N(82
+%13+io.onedev.server.util.patternset.PatternSet"rio.onedev.server.util.patternset.PatternSet#parse(Ljava/lang/String;)Lio/onedev/server/util/patternset/PatternSet;*/"-
++io.onedev.server.util.patternset.PatternSet*
+
+%12java.lang.Stringü
+ú
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaN N(99
+
+patternSet+io.onedev.server.util.patternset.PatternSet"__id*4
+2
+%13+io.onedev.server.util.patternset.PatternSetÅ˛
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaO O(%.
+%14'io.onedev.server.util.match.PathMatcher"'io.onedev.server.util.match.PathMatcherî
+ë
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaO O('
+%15"1io.onedev.server.util.match.PathMatcher#<init>()V*0
+.
+%14'io.onedev.server.util.match.PathMatcherê
+ç
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaO O((.
+matcher#io.onedev.server.util.match.Matcher"__id*0
+.
+%14'io.onedev.server.util.match.PathMatcher*
+3*ÿ
+8¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaJ J("≠
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaJ J(
+""*‘	
+9¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaI I(Â‚
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaI I()#
+%4org.eclipse.jgit.lib.ObjectId"Qio.onedev.server.event.RefUpdated#getNewCommitId()Lorg/eclipse/jgit/lib/ObjectId;*1
+/
+
+refUpdated!io.onedev.server.event.RefUpdated2getNewCommitId()∑
+¥
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaI1 I(B#
+%5org.eclipse.jgit.lib.ObjectId"Eorg.eclipse.jgit.lib.ObjectId#zeroId()Lorg/eclipse/jgit/lib/ObjectId;*!"
+org.eclipse.jgit.lib.ObjectIdˇ¸
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaI I(C
+%6boolean"Lorg.eclipse.jgit.lib.AnyObjectId#equals(Lorg/eclipse/jgit/lib/AnyObjectId;)Z*%
+#
+%4org.eclipse.jgit.lib.ObjectId*%
+#
+%5org.eclipse.jgit.lib.ObjectId2*equals(Lorg/eclipse/jgit/lib/AnyObjectId;)*
+7
+8*Ÿ
+10¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaH H("≠
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaH H(
+""*÷	
+11¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaG G(Â‚
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaG G("#
+%1org.eclipse.jgit.lib.ObjectId"Qio.onedev.server.event.RefUpdated#getOldCommitId()Lorg/eclipse/jgit/lib/ObjectId;*1
+/
+
+refUpdated!io.onedev.server.event.RefUpdated2getOldCommitId()∑
+¥
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaG* G(;#
+%2org.eclipse.jgit.lib.ObjectId"Eorg.eclipse.jgit.lib.ObjectId#zeroId()Lorg/eclipse/jgit/lib/ObjectId;*!"
+org.eclipse.jgit.lib.ObjectIdˇ¸
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaG G(<
+%3boolean"Lorg.eclipse.jgit.lib.AnyObjectId#equals(Lorg/eclipse/jgit/lib/AnyObjectId;)Z*%
+#
+%1org.eclipse.jgit.lib.ObjectId*%
+#
+%2org.eclipse.jgit.lib.ObjectId2*equals(Lorg/eclipse/jgit/lib/AnyObjectId;)*
+9
+10*ö
+12¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaF F(Â‚
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaF F(
+%0java.lang.String"Wio.onedev.server.buildspec.job.trigger.BranchUpdateTrigger#getPaths()Ljava/lang/String;*><
+:io.onedev.server.buildspec.job.trigger.BranchUpdateTrigger2
+getPaths()*
+11
+1*ÿ
+1¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaW
+ W("≠
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/trigger/BranchUpdateTrigger.javaW W(
+"":/
+
+refUpdated!io.onedev.server.event.RefUpdatedB><
+:io.onedev.server.buildspec.job.trigger.BranchUpdateTrigger

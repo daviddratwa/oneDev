@@ -1,0 +1,471 @@
+
+aio.onedev.server.entitymanager.impl.DefaultIssueManager#fixUndefinedFieldValues(Ljava/util/Map;)V°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaö ö($"startingBlock*à
+13°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java¢ ¢(-Ÿ
+÷
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java¢ ¢(-"
+renameEntryjava.util.Map$Entry"__id*
+""˜
+Ù
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java¢ ¢(-"
+renameEntryjava.util.Map$Entry"
+__arrayGet*
+
+%11java.util.Set*
+""*
+14
+12*Ñ
+14°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java£ £(ËÂ
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java£ £(
+%12org.hibernate.Session"Vio.onedev.server.persistence.dao.BaseEntityManager#getSession()Lorg/hibernate/Session;*;9
+7io.onedev.server.entitymanager.impl.DefaultIssueManager2getSession()øº
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java£ £(} 
+%13org.hibernate.query.Query"^org.hibernate.SharedSessionContract#createQuery(Ljava/lang/String;)Lorg/hibernate/query/Query;*
+
+%12org.hibernate.Session*SQ
+Oupdate IssueField set value=:newValue where name=:fieldName and value=:oldValue2createQuery(Ljava/lang/String;)ı
+Ú
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java£ £(~"
+queryorg.hibernate.query.Query"__id*"
+ 
+%13org.hibernate.query.Query§°
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java§$ §(<
+%14java.lang.String".java.util.Map$Entry#getKey()Ljava/lang/Object;*(
+&
+resolutionEntryjava.util.Map$Entry2getKey()∂≥
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java§ §(= 
+%15org.hibernate.query.Query"gorg.hibernate.query.Query#setParameter(Ljava/lang/String;Ljava/lang/Object;)Lorg/hibernate/query/Query;*$
+"
+queryorg.hibernate.query.Query*
+	fieldName*
+
+%14java.lang.String22setParameter(Ljava/lang/String;Ljava/lang/Object;)†ù
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java•# •(7
+%16java.lang.String".java.util.Map$Entry#getKey()Ljava/lang/Object;*$
+"
+renameEntryjava.util.Map$Entry2getKey()µ≤
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java• •(8 
+%17org.hibernate.query.Query"gorg.hibernate.query.Query#setParameter(Ljava/lang/String;Ljava/lang/Object;)Lorg/hibernate/query/Query;*$
+"
+queryorg.hibernate.query.Query*
+
+oldValue*
+
+%16java.lang.String22setParameter(Ljava/lang/String;Ljava/lang/Object;)§°
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java¶# ¶(9
+%18java.lang.String"0java.util.Map$Entry#getValue()Ljava/lang/Object;*$
+"
+renameEntryjava.util.Map$Entry2
+getValue()µ≤
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java¶ ¶(: 
+%19org.hibernate.query.Query"gorg.hibernate.query.Query#setParameter(Ljava/lang/String;Ljava/lang/Object;)Lorg/hibernate/query/Query;*$
+"
+queryorg.hibernate.query.Query*
+
+newValue*
+
+%18java.lang.String22setParameter(Ljava/lang/String;Ljava/lang/Object;)îë
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaß ß(
+
+%20int"(javax.persistence.Query#executeUpdate()I*$
+"
+queryorg.hibernate.query.Query2executeUpdate()*
+13* 	
+15°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java¢/ ¢(>ÏÈ
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java¢/ ¢(I[
+%9Uio.onedev.server.web.component.issue.workflowreconcile.UndefinedFieldValuesResolution"0java.util.Map$Entry#getValue()Ljava/lang/Object;*(
+&
+resolutionEntryjava.util.Map$Entry2
+getValue()ùö
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java¢/ ¢(V
+%10java.util.Map"qio.onedev.server.web.component.issue.workflowreconcile.UndefinedFieldValuesResolution#getRenames()Ljava/util/Map;*]
+[
+%9Uio.onedev.server.web.component.issue.workflowreconcile.UndefinedFieldValuesResolution2getRenames()äá
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java¢/ ¢(a
+%11java.util.Set"'java.util.Map#entrySet()Ljava/util/Set;*
+
+%10java.util.Map2
+entrySet()*
+13*Ç
+16°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaú ú(”
+–
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaú ú(
+deletionjava.lang.String"__id*
+""˜
+Ù
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaú ú(
+deletionjava.lang.String"
+__arrayGet*
+
+%2java.util.Collection*
+""*
+15
+17*Û
+17°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaù ù(Á‰
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaù ù(
+%3org.hibernate.Session"Vio.onedev.server.persistence.dao.BaseEntityManager#getSession()Lorg/hibernate/Session;*;9
+7io.onedev.server.entitymanager.impl.DefaultIssueManager2getSession()∞≠
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaù ù(p
+%4org.hibernate.query.Query"^org.hibernate.SharedSessionContract#createQuery(Ljava/lang/String;)Lorg/hibernate/query/Query;*
+
+%3org.hibernate.Session*FD
+Bdelete from IssueField where name=:fieldName and value=:fieldValue2createQuery(Ljava/lang/String;)Ù
+Ò
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaù ù(q"
+queryorg.hibernate.query.Query"__id*!
+
+%4org.hibernate.query.Query£†
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaû$ û(<
+%5java.lang.String".java.util.Map$Entry#getKey()Ljava/lang/Object;*(
+&
+resolutionEntryjava.util.Map$Entry2getKey()¥±
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaû û(=
+%6org.hibernate.query.Query"gorg.hibernate.query.Query#setParameter(Ljava/lang/String;Ljava/lang/Object;)Lorg/hibernate/query/Query;*$
+"
+queryorg.hibernate.query.Query*
+	fieldName*
+
+%5java.lang.String22setParameter(Ljava/lang/String;Ljava/lang/Object;)ª∏
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaü ü(.
+%7org.hibernate.query.Query"gorg.hibernate.query.Query#setParameter(Ljava/lang/String;Ljava/lang/Object;)Lorg/hibernate/query/Query;*$
+"
+queryorg.hibernate.query.Query*
+
+fieldValue*
+
+deletionjava.lang.String22setParameter(Ljava/lang/String;Ljava/lang/Object;)ìê
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java† †(	
+%8int"(javax.persistence.Query#executeUpdate()I*$
+"
+queryorg.hibernate.query.Query2executeUpdate()*
+16*Œ
+18°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaú ú((ÏÈ
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaú ú(3[
+%1Uio.onedev.server.web.component.issue.workflowreconcile.UndefinedFieldValuesResolution"0java.util.Map$Entry#getValue()Ljava/lang/Object;*(
+&
+resolutionEntryjava.util.Map$Entry2
+getValue()Æ´
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaú ú(B
+%2java.util.Collection"zio.onedev.server.web.component.issue.workflowreconcile.UndefinedFieldValuesResolution#getDeletions()Ljava/util/Collection;*]
+[
+%1Uio.onedev.server.web.component.issue.workflowreconcile.UndefinedFieldValuesResolution2getDeletions()*
+16*¬
+19°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaõJ õ(Uëé
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaõJ õ(`
+%0java.util.Set"'java.util.Map#entrySet()Ljava/util/Set;*
+
+resolutionsjava.util.Map2
+entrySet()*
+12*¡
+0 "π
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java∫ ∫(
+implicit return*»
+1°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaπ π(ôñ
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaπ π('
+%41void"\io.onedev.server.entitymanager.impl.DefaultIssueManager#fixUndefinedFields(Ljava/util/Map;)V*;9
+7io.onedev.server.entitymanager.impl.DefaultIssueManager*#
+!
+derivedDeletionsjava.util.Map2#fixUndefinedFields(Ljava/util/Map;)*
+0*…
+2°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java∑ ∑(ª
+∏
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java∑ ∑()G
+%37@io.onedev.server.model.support.administration.GlobalIssueSetting"ãio.onedev.server.entitymanager.impl.DefaultIssueManager#getIssueSetting()Lio/onedev/server/model/support/administration/GlobalIssueSetting;*;9
+7io.onedev.server.entitymanager.impl.DefaultIssueManager⁄◊
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java∑ ∑(N
+%38java.util.Collection"io.onedev.server.model.support.administration.GlobalIssueSetting#fixUndefinedFieldValues(Ljava/util/Map;)Ljava/util/Collection;*I
+G
+%37@io.onedev.server.model.support.administration.GlobalIssueSetting*
+
+resolutionsjava.util.Map2(fixUndefinedFieldValues(Ljava/util/Map;)ç
+ä
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java∑ ∑(O
+%39java.util.Map"rio.onedev.server.entitymanager.impl.DefaultIssueManager#getFieldResolutions(Ljava/util/Collection;)Ljava/util/Map;*;9
+7io.onedev.server.entitymanager.impl.DefaultIssueManager*
+
+%38java.util.CollectionË
+Â
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java∂ ∑(P!
+derivedDeletionsjava.util.Map"__id*
+
+%39java.util.MapÅ˛
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java∏ ∏(!
+%40boolean"java.util.Map#isEmpty()Z*#
+!
+derivedDeletionsjava.util.Map2	isEmpty()*
+0
+1*à
+3°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java≥ ≥(⁄
+◊
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java≥ ≥(#
+userio.onedev.server.model.User"__id*
+""˘
+ˆ
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java≥ ≥(#
+userio.onedev.server.model.User"
+__arrayGet*
+
+%33java.util.List*
+""*
+2
+4*¥	
+startingBlock°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaö$ ö(]˙
+˜
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaó ó(
+%42"
+__annotate*
+java.lang.SuppressWarnings*
+
+resolutionsjava.util.Mapï
+í
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaò ò(
+%43"
+__annotate*97
+5io.onedev.server.persistence.annotation.Transactional*
+
+resolutionsjava.util.MapÚ
+Ô
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaô ô(
+
+%44"
+__annotate*
+java.lang.Override*
+
+resolutionsjava.util.MapÓ
+Î
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaöQ ö(\
+resolutionsjava.util.Map"__annotation*
+
+%42*
+
+%43*
+
+%44*
+19*Ÿ
+
+4°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java¥ ¥(˚¯
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java¥. ¥(I2
+%34+io.onedev.server.model.support.QuerySetting"_io.onedev.server.model.User#getIssueQuerySetting()Lio/onedev/server/model/support/QuerySetting;*%
+#
+userio.onedev.server.model.User2getIssueQuerySetting()ﬁ€
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java¥. ¥(Z
+%35java.util.ArrayList"Qio.onedev.server.model.support.QuerySetting#getUserQueries()Ljava/util/ArrayList;*4
+2
+%34+io.onedev.server.model.support.QuerySetting2getUserQueries()À
+»
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java¥ ¥([
+%36void"ëio.onedev.server.entitymanager.impl.DefaultIssueManager#fixUndefinedFieldValues(Ljava/util/Map;Lio/onedev/server/model/Project;Ljava/util/List;)V*;9
+7io.onedev.server.entitymanager.impl.DefaultIssueManager*
+
+resolutionsjava.util.Map*
+""*
+
+%35java.util.ArrayList*
+3*§
+5°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java≥ ≥(Æ
+´
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java≥ ≥(1
+%32*io.onedev.server.entitymanager.UserManager"__id*L*J9
+7io.onedev.server.entitymanager.impl.DefaultIssueManager"
+userManagerƒ¡
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java≥ ≥(%
+%33java.util.List"Fio.onedev.server.persistence.dao.EntityManager#query()Ljava/util/List;*3
+1
+%32*io.onedev.server.entitymanager.UserManager2query()*
+3*®
+6°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java∞ ∞( Í
+Á
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java∞ ∞( 3
+setting(io.onedev.server.model.IssueQuerySetting"__id*
+""â
+Ü
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java∞ ∞( 3
+setting(io.onedev.server.model.IssueQuerySetting"
+__arrayGet*
+
+%28java.util.List*
+""*
+5
+7*Á
+
+7°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java± ±(ÍÁ
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java±( ±(<%
+%29io.onedev.server.model.Project"Uio.onedev.server.model.IssueQuerySetting#getProject()Lio/onedev/server/model/Project;*5
+3
+setting(io.onedev.server.model.IssueQuerySetting2getProject()‹Ÿ
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java±> ±(V
+%30java.util.ArrayList"Nio.onedev.server.model.IssueQuerySetting#getUserQueries()Ljava/util/ArrayList;*5
+3
+setting(io.onedev.server.model.IssueQuerySetting2getUserQueries()Ï
+È
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java± ±(W
+%31void"ëio.onedev.server.entitymanager.impl.DefaultIssueManager#fixUndefinedFieldValues(Ljava/util/Map;Lio/onedev/server/model/Project;Ljava/util/List;)V*;9
+7io.onedev.server.entitymanager.impl.DefaultIssueManager*
+
+resolutionsjava.util.Map*'
+%
+%29io.onedev.server.model.Project*
+
+%30java.util.ArrayList*
+6*À
+8°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java∞" ∞(:»
+≈
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java∞" ∞(:>
+%277io.onedev.server.entitymanager.IssueQuerySettingManager"__id*Y*W9
+7io.onedev.server.entitymanager.impl.DefaultIssueManager"
+issueQuerySettingManager—Œ
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java∞" ∞(B
+%28java.util.List"Fio.onedev.server.persistence.dao.EntityManager#query()Ljava/util/List;*@
+>
+%277io.onedev.server.entitymanager.IssueQuerySettingManager2query()*
+6*ï
+9°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java´ ´(‡
+›
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java´ ´()
+projectio.onedev.server.model.Project"__id*
+""ˇ
+¸
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java´ ´()
+projectio.onedev.server.model.Project"
+__arrayGet*
+
+%22java.util.List*
+""*
+8
+10*á
+10°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java¨ ¨(
+îë
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java¨ ¨(?
+%238io.onedev.server.model.support.issue.ProjectIssueSetting"jio.onedev.server.model.Project#getIssueSetting()Lio/onedev/server/model/support/issue/ProjectIssueSetting;*+
+)
+projectio.onedev.server.model.Project2getIssueSetting()ìê
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java¨ ¨(J
+%24void"Çio.onedev.server.model.support.issue.ProjectIssueSetting#fixUndefinedFieldValues(Lio/onedev/server/model/Project;Ljava/util/Map;)V*A
+?
+%238io.onedev.server.model.support.issue.ProjectIssueSetting*+
+)
+projectio.onedev.server.model.Project*
+
+resolutionsjava.util.Map2HfixUndefinedFieldValues(Lio/onedev/server/model/Project;Ljava/util/Map;)îë
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java≠ ≠(?
+%258io.onedev.server.model.support.build.ProjectBuildSetting"jio.onedev.server.model.Project#getBuildSetting()Lio/onedev/server/model/support/build/ProjectBuildSetting;*+
+)
+projectio.onedev.server.model.Project2getBuildSetting()ìê
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java≠ ≠(J
+%26void"Çio.onedev.server.model.support.build.ProjectBuildSetting#fixUndefinedFieldValues(Lio/onedev/server/model/Project;Ljava/util/Map;)V*A
+?
+%258io.onedev.server.model.support.build.ProjectBuildSetting*+
+)
+projectio.onedev.server.model.Project*
+
+resolutionsjava.util.Map2HfixUndefinedFieldValues(Lio/onedev/server/model/Project;Ljava/util/Map;)*
+9*Æ
+11°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java´ ´(&¥
+±
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java´ ´(&4
+%21-io.onedev.server.entitymanager.ProjectManager"__id*O*M9
+7io.onedev.server.entitymanager.impl.DefaultIssueManager"
+projectManager«ƒ
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.java´ ´(.
+%22java.util.List"Fio.onedev.server.persistence.dao.EntityManager#query()Ljava/util/List;*6
+4
+%21-io.onedev.server.entitymanager.ProjectManager2query()*
+9*è
+12°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaõ õ(H›
+⁄
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaõ õ(H&
+resolutionEntryjava.util.Map$Entry"__id*
+""˙
+˜
+°
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueManager.javaõ õ(H&
+resolutionEntryjava.util.Map$Entry"
+__arrayGet*
+
+%0java.util.Set*
+""*
+18
+11:
+resolutionsjava.util.MapB;9
+7io.onedev.server.entitymanager.impl.DefaultIssueManager

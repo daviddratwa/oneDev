@@ -1,0 +1,100 @@
+
+Üio.onedev.server.buildspec.job.DefaultJobManager#canPullCode(Ljavax/servlet/http/HttpServletRequest;Lio/onedev/server/model/Project;)Zö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/DefaultJobManager.javaû û("startingBlock*˙	
+2ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/DefaultJobManager.java£ £(–Õ
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/DefaultJobManager.java£ £(#
+%2java.lang.String"Lio.onedev.server.buildspec.job.JobContext#getProjectName()Ljava/lang/String;*6
+4
+context)io.onedev.server.buildspec.job.JobContext2getProjectName()¨©
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/DefaultJobManager.java£+ £(<
+%3java.lang.String":io.onedev.server.model.Project#getName()Ljava/lang/String;*+
+)
+projectio.onedev.server.model.Project2	getName()≠™
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/DefaultJobManager.java£ £(=
+%4boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%2java.lang.String*
+
+%3java.lang.String2equals(Ljava/lang/Object;)"•
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/DefaultJobManager.java£ £(>
+""*ê
+3ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/DefaultJobManager.java° °(%”–
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/DefaultJobManager.java° °(6/
+%1)io.onedev.server.buildspec.job.JobContext"~io.onedev.server.buildspec.job.DefaultJobManager#getJobContext(Ljava/lang/String;Z)Lio/onedev/server/buildspec/job/JobContext;*42
+0io.onedev.server.buildspec.job.DefaultJobManager*
+
+jobTokenjava.lang.String*
+""2"getJobContext(Ljava/lang/String;Z)è
+å
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/DefaultJobManager.java° °(74
+context)io.onedev.server.buildspec.job.JobContext"__id*1
+/
+%1)io.onedev.server.buildspec.job.JobContext*
+2
+1*˚
+startingBlockö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/DefaultJobManager.javaû û(H˛
+˚
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/DefaultJobManager.javaù ù(
+
+%5"
+__annotate*
+java.lang.Override*2
+0
+request%javax.servlet.http.HttpServletRequestË
+Â
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/DefaultJobManager.javaû/ û(60
+request%javax.servlet.http.HttpServletRequest"__annotation*
+
+%5˜
+Ù
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/DefaultJobManager.javaù ù(
+
+%6"
+__annotate*
+java.lang.Override*+
+)
+projectio.onedev.server.model.Project·
+ﬁ
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/DefaultJobManager.javaû@ û(G)
+projectio.onedev.server.model.Project"__annotation*
+
+%6*
+4*à
+4ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/DefaultJobManager.javaü ü(¸
+˘
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/DefaultJobManager.javaü ü()
+%0java.lang.String"fio.onedev.server.buildspec.job.Job#getToken(Ljavax/servlet/http/HttpServletRequest;)Ljava/lang/String;*&"$
+"io.onedev.server.buildspec.job.Job*2
+0
+request%javax.servlet.http.HttpServletRequestﬁ
+€
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/DefaultJobManager.javaü ü(*
+jobTokenjava.lang.String"__id*
+
+%0java.lang.String*
+3
+1*»
+1ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/DefaultJobManager.java•	 •("•
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/DefaultJobManager.java• •(
+"":0
+request%javax.servlet.http.HttpServletRequest:)
+projectio.onedev.server.model.ProjectB42
+0io.onedev.server.buildspec.job.DefaultJobManager

@@ -1,0 +1,311 @@
+
+qio.onedev.server.security.SecurityUtils#isAuthorizedWithRole(Lio/onedev/server/model/Project;Ljava/lang/String;)Z‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java• •(+"22*æ
+13‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java 
+  (âß
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java   (3%
+%10io.onedev.server.model.Project"Vio.onedev.server.model.GroupAuthorization#getProject()Lio/onedev/server/model/Project;*<
+:
+authorization)io.onedev.server.model.GroupAuthorization2getProject()ÜÙ
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java 
+  (4
+%11boolean"Aio.onedev.server.model.AbstractEntity#equals(Ljava/lang/Object;)Z*+
+)
+projectio.onedev.server.model.Project*'
+%
+%10io.onedev.server.model.Project2equals(Ljava/lang/Object;)*
+10
+12*Ú
+14‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaŸ, Ÿ(1¹¶
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaŸ, Ÿ(E
+%9java.util.Collection"Fio.onedev.server.model.Group#getAuthorizations()Ljava/util/Collection;*'
+%
+groupio.onedev.server.model.Group2getAuthorizations()*
+10*Æ
+15‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaž ž(¦£
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaž ž(&
+%8java.util.Collection"=io.onedev.server.model.User#getGroups()Ljava/util/Collection;*%
+#
+userio.onedev.server.model.User2getGroups()*
+9*Œ
+16‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaš	 š((à
+Ý
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaš	 š((9
+authorization(io.onedev.server.model.UserAuthorization"__id*
+""„
+
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaš	 š((9
+authorization(io.onedev.server.model.UserAuthorization"
+__arrayGet*
+
+%3java.util.Collection*
+""*
+15
+19*·
+17‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaœ œ("œ
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaœ œ(
+""*Ì
+18‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java›7 ›(DÓÐ
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java›7 ›(N!
+%6io.onedev.server.model.Role"Oio.onedev.server.model.UserAuthorization#getRole()Lio/onedev/server/model/Role;*;
+9
+authorization(io.onedev.server.model.UserAuthorization2	getRole()ÑÎ
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java›7 ›([
+%7boolean"Aio.onedev.server.model.AbstractEntity#equals(Ljava/lang/Object;)Z*#
+!
+%6io.onedev.server.model.Role*%
+#
+roleio.onedev.server.model.Role2equals(Ljava/lang/Object;)*
+16
+17*á
+19‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java›	 ›(ßÜ
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java› ›(2$
+%4io.onedev.server.model.Project"Uio.onedev.server.model.UserAuthorization#getProject()Lio/onedev/server/model/Project;*;
+9
+authorization(io.onedev.server.model.UserAuthorization2getProject()Ú×
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java›	 ›(3
+%5boolean"Aio.onedev.server.model.AbstractEntity#equals(Ljava/lang/Object;)Z*+
+)
+projectio.onedev.server.model.Project*&
+$
+%4io.onedev.server.model.Project2equals(Ljava/lang/Object;)*
+16
+18*
+1‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java® ®(	¾
+»
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java® ®(	
+%21org.slf4j.Logger"__id*
+""ð
+í
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java® ®(-
+%22java.lang.String"__concat*
+Undefined role: *
+
+roleNamejava.lang.String¢Ÿ
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java® ®(.
+%23void"+org.slf4j.Logger#error(Ljava/lang/String;)V*
+
+%21org.slf4j.Logger*
+
+%22java.lang.String2error(Ljava/lang/String;)"œ
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java¯ ¯(
+""*¶
+2‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java¬
+ ¬("œ
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java¬ ¬(
+""*Œ
+3‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java§	 §()á
+Þ
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java§	 §():
+authorization)io.onedev.server.model.GroupAuthorization"__id*
+""†
+ƒ
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java§	 §():
+authorization)io.onedev.server.model.GroupAuthorization"
+__arrayGet*
+
+%16java.util.Collection*
+""*
+2
+6*¶
+4‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java© ©("œ
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java© ©(
+""*Î
+5‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java¨7 ¨(DÖÓ
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java¨7 ¨(N"
+%19io.onedev.server.model.Role"Pio.onedev.server.model.GroupAuthorization#getRole()Lio/onedev/server/model/Role;*<
+:
+authorization)io.onedev.server.model.GroupAuthorization2	getRole()ÓÐ
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java¨7 ¨([
+%20boolean"Aio.onedev.server.model.AbstractEntity#equals(Ljava/lang/Object;)Z*$
+"
+%19io.onedev.server.model.Role*%
+#
+roleio.onedev.server.model.Role2equals(Ljava/lang/Object;)*
+3
+4*ã
+6‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java¨	 ¨(âß
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java¨ ¨(2%
+%17io.onedev.server.model.Project"Vio.onedev.server.model.GroupAuthorization#getProject()Lio/onedev/server/model/Project;*<
+:
+authorization)io.onedev.server.model.GroupAuthorization2getProject()ÜÙ
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java¨	 ¨(3
+%18boolean"Aio.onedev.server.model.AbstractEntity#equals(Ljava/lang/Object;)Z*+
+)
+projectio.onedev.server.model.Project*'
+%
+%17io.onedev.server.model.Project2equals(Ljava/lang/Object;)*
+3
+5*Ù
+7‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java§+ §(0º·
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java§+ §(D
+%16java.util.Collection"Fio.onedev.server.model.Group#getAuthorizations()Ljava/util/Collection;*'
+%
+groupio.onedev.server.model.Group2getAuthorizations()*
+3*«
+8‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java¥ ¥(º
+·
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java¥ ¥(72
+%14+io.onedev.server.entitymanager.GroupManager"Hio.onedev.server.OneDev#getInstance(Ljava/lang/Class;)Ljava/lang/Object;*"
+io.onedev.server.OneDev*
+""ÞÛ
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java¥ ¥(G#
+%15io.onedev.server.model.Group"Yio.onedev.server.entitymanager.GroupManager#findAnonymous()Lio/onedev/server/model/Group;*4
+2
+%14+io.onedev.server.entitymanager.GroupManager2findAnonymous()ë
+è
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java¥ ¥(H%
+groupio.onedev.server.model.Group"__id*%
+#
+%15io.onedev.server.model.Group*
+2
+7*â
+9‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaž	 ž(Ì
+É
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaž	 ž(%
+groupio.onedev.server.model.Group"__id*
+""ð
+í
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaž	 ž(%
+groupio.onedev.server.model.Group"
+__arrayGet*
+
+%8java.util.Collection*
+""*
+14
+8*×
+20‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaš* š(.¶³
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaš* š(B
+%3java.util.Collection"Eio.onedev.server.model.User#getAuthorizations()Ljava/util/Collection;*%
+#
+userio.onedev.server.model.User2getAuthorizations()*
+16*Å
+21‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java˜ ˜(·
+´
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java˜ ˜(!
+%2io.onedev.server.model.User"Nio.onedev.server.security.SecurityUtils#getUser()Lio/onedev/server/model/User;*+")
+'io.onedev.server.security.SecurityUtilsç
+ä
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java˜ ˜(#
+userio.onedev.server.model.User"__id*#
+!
+%2io.onedev.server.model.User*
+8
+20*
+10‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaŸ
+ Ÿ(*á
+Þ
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaŸ
+ Ÿ(*:
+authorization)io.onedev.server.model.GroupAuthorization"__id*
+""…
+‚
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaŸ
+ Ÿ(*:
+authorization)io.onedev.server.model.GroupAuthorization"
+__arrayGet*
+
+%9java.util.Collection*
+""*
+13
+9*Ó
+22‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java– –(¸
+µ
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java– –(30
+%0*io.onedev.server.entitymanager.RoleManager"Hio.onedev.server.OneDev#getInstance(Ljava/lang/Class;)Ljava/lang/Object;*"
+io.onedev.server.OneDev*
+""Š‡
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java– –(B!
+%1io.onedev.server.model.Role"`io.onedev.server.entitymanager.RoleManager#find(Ljava/lang/String;)Lio/onedev/server/model/Role;*2
+0
+%0*io.onedev.server.entitymanager.RoleManager*
+
+roleNamejava.lang.String2find(Ljava/lang/String;)ç
+ä
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java– –(C#
+roleio.onedev.server.model.Role"__id*#
+!
+%1io.onedev.server.model.Role*
+21
+1*·
+11‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java¡ ¡("œ
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java¡ ¡(
+""*Ñ
+12‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java 8  (EÖÓ
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java 8  (O"
+%12io.onedev.server.model.Role"Pio.onedev.server.model.GroupAuthorization#getRole()Lio/onedev/server/model/Role;*<
+:
+authorization)io.onedev.server.model.GroupAuthorization2	getRole()ÓÐ
+‘
+„C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java 8  (\
+%13boolean"Aio.onedev.server.model.AbstractEntity#equals(Ljava/lang/Object;)Z*$
+"
+%12io.onedev.server.model.Role*%
+#
+roleio.onedev.server.model.Role2equals(Ljava/lang/Object;)*
+10
+11:)
+projectio.onedev.server.model.Project:
+roleNamejava.lang.StringB+")
+'io.onedev.server.security.SecurityUtils

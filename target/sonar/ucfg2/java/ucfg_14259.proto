@@ -1,0 +1,389 @@
+
+œio.onedev.server.buildspec.job.log.DefaultLogManager#readLogSnippetReversely(Lio/onedev/server/model/Build;I)Lio/onedev/server/buildspec/job/log/LogSnippet;ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.javaµ µ(*"startingBlock*ª
+13ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java¿$ ¿()
+
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java¿+ ¿(@
+%20java.util.List"__id*M*K
+>
+recentSnippet-io.onedev.server.buildspec.job.log.LogSnippet"	
+entrieséæ
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java¿+ ¿(G
+
+%21int"java.util.List#size()I*
+
+%20java.util.List2size()*
+12*ú
+24ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java¹ ¹(ÌÉ
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java¹ ¹(/$
+%5io.onedev.server.model.Project"Iio.onedev.server.model.Build#getProject()Lio/onedev/server/model/Project;*'
+%
+buildio.onedev.server.model.Build2getProject()*
+23*Ê	
+14ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java¾ ¾(Š
+‡
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java¾ ¾(
+%16java.util.List"__id*G*E
+8
+snippet-io.onedev.server.buildspec.job.log.LogSnippet"	
+entries
+
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java¾ ¾(1
+%17java.util.List"__id*M*K
+>
+recentSnippet-io.onedev.server.buildspec.job.log.LogSnippet"	
+entries
+
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java¿ ¿(
+%18java.util.List"__id*M*K
+>
+recentSnippet-io.onedev.server.buildspec.job.log.LogSnippet"	
+entrieséæ
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java¿ ¿(#
+
+%19int"java.util.List#size()I*
+
+%18java.util.List2size()*
+13*É
+25ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java¶ ¶(«¨
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java¶4 ¶(A
+%0java.lang.Long"=io.onedev.server.model.AbstractEntity#getId()Ljava/lang/Long;*'
+%
+buildio.onedev.server.model.Build2getId()ó
+ð
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java¶) ¶(B
+%1java.lang.String"cio.onedev.server.buildspec.job.log.DefaultLogManager#getLockKey(Ljava/lang/Long;)Ljava/lang/String;*86
+4io.onedev.server.buildspec.job.log.DefaultLogManager*
+
+%0java.lang.Long‡
+„
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java¶ ¶(C.
+%2(java.util.concurrent.locks.ReadWriteLock"pio.onedev.commons.utils.LockUtils#getReadWriteLock(Ljava/lang/String;)Ljava/util/concurrent/locks/ReadWriteLock;*%"#
+!io.onedev.commons.utils.LockUtils*
+
+%1java.lang.StringßÜ
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java¶ ¶(N%
+%3java.util.concurrent.locks.Lock"Tjava.util.concurrent.locks.ReadWriteLock#readLock()Ljava/util/concurrent/locks/Lock;*0
+.
+%2(java.util.concurrent.locks.ReadWriteLock2
+readLock()ü
+ù
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java¶ ¶(O'
+lockjava.util.concurrent.locks.Lock"__id*'
+%
+%3java.util.concurrent.locks.LockŒ‰
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java· ·(
+
+%4void"'java.util.concurrent.locks.Lock#lock()V*)
+'
+lockjava.util.concurrent.locks.Lock2lock()*
+24*Í
+16ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java¼ ¼(*œ
+™
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java¼ ¼(*8
+snippet-io.onedev.server.buildspec.job.log.LogSnippet"__id*6
+4
+%12-io.onedev.server.buildspec.job.log.LogSnippet
+
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java½ ½(&
+%14java.util.List"__id*M*K
+>
+recentSnippet-io.onedev.server.buildspec.job.log.LogSnippet"	
+entrieséæ
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java½ ½(-
+
+%15int"java.util.List#size()I*
+
+%14java.util.List2size()*
+14
+10*Ö
+17ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java¼ ¼()‰†
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java¼ ¼('4
+%12-io.onedev.server.buildspec.job.log.LogSnippet"-io.onedev.server.buildspec.job.log.LogSnippetœ
+™
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java¼ ¼()
+%13"7io.onedev.server.buildspec.job.log.LogSnippet#<init>()V*6
+4
+%12-io.onedev.server.buildspec.job.log.LogSnippet*
+16*Ó
+18ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.javaº º(@¢
+Ÿ
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.javaº º(@>
+recentSnippet-io.onedev.server.buildspec.job.log.LogSnippet"__id*6
+4
+%11-io.onedev.server.buildspec.job.log.LogSnippet*
+3
+17*Â
+19ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.javaº º(?”
+‘
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.javaº º(?4
+%11-io.onedev.server.buildspec.job.log.LogSnippet"__mapGet*
+
+%9java.util.Map*
+
+%10java.lang.Long*
+18*€
+2ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.javaÇ Ç(3"Ù
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.javaÇ Ç(36
+4
+%37-io.onedev.server.buildspec.job.log.LogSnippet*ò
+3ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.javaÇ Ç("Æ
+Ã
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.javaÇ Ç(24
+%37-io.onedev.server.buildspec.job.log.LogSnippet"Œio.onedev.server.buildspec.job.log.DefaultLogManager#readLogSnippetReversely(Ljava/io/File;I)Lio/onedev/server/buildspec/job/log/LogSnippet;*86
+4io.onedev.server.buildspec.job.log.DefaultLogManager*
+
+logFilejava.io.File*
+""*
+2*¹
+startingBlockž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.javaµ* µ(B—
+”
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java³ ³(
+%39"
+__annotate*53
+1io.onedev.server.persistence.annotation.Sessional*'
+%
+buildio.onedev.server.model.Buildø
+õ
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java´ ´(
+
+%40"
+__annotate*
+java.lang.Override*'
+%
+buildio.onedev.server.model.Buildë
+è
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.javaµ1 µ(6%
+buildio.onedev.server.model.Build"__annotation*
+
+%39*
+
+%40*
+25*„
+4ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.javaÄ Ä(a"Ý
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.javaÅ Å(:
+8
+snippet-io.onedev.server.buildspec.job.log.LogSnippet*¢
+5ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.javaÄ4 Ä(AŠ
+‡
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.javaÄK Ä(Z
+%35java.util.List"__id*G*E
+8
+snippet-io.onedev.server.buildspec.job.log.LogSnippet"	
+entrieséæ
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.javaÄK Ä(a
+
+%36int"java.util.List#size()I*
+
+%35java.util.List2size()*
+4*¨
+6ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.javaÄ Ä(
+
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.javaÄ Ä(*
+%33java.util.List"__id*M*K
+>
+recentSnippet-io.onedev.server.buildspec.job.log.LogSnippet"	
+entrieséæ
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.javaÄ Ä(1
+
+%34int"java.util.List#size()I*
+
+%33java.util.List2size()*
+5*Å
+7ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.javaÂ Â(Š
+‡
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.javaÂ Â(
+%30java.util.List"__id*G*E
+8
+snippet-io.onedev.server.buildspec.job.log.LogSnippet"	
+entries
+
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.javaÂ Â(1
+%31java.util.List"__id*M*K
+>
+recentSnippet-io.onedev.server.buildspec.job.log.LogSnippet"	
+entriesù
+ö
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.javaÂ Â(2
+%32boolean"__arrayAddAll*
+
+%30java.util.List*: *
+
+%31java.util.List*
+6*®
+8ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.javaÁ Á(j†
+ƒ
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.javaÁ Á(j
+%28java.util.List"__id*C*A
+4
+%27-io.onedev.server.buildspec.job.log.LogSnippet"	
+entriesù
+ö
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.javaÁ Á(k
+%29boolean"__arrayAddAll*
+
+%24java.util.List*: *
+
+%28java.util.List*
+7*ò
+9ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.javaÁ= Á(aÆ
+Ã
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.javaÁ Á(b4
+%27-io.onedev.server.buildspec.job.log.LogSnippet"Œio.onedev.server.buildspec.job.log.DefaultLogManager#readLogSnippetReversely(Ljava/io/File;I)Lio/onedev/server/buildspec/job/log/LogSnippet;*86
+4io.onedev.server.buildspec.job.log.DefaultLogManager*
+
+logFilejava.io.File*
+""*
+8*Æ
+20ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java¹ ¹(LÙ
+Ö
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java¹ ¹(L
+logFilejava.io.File"__id*
+
+%8java.io.File
+Š
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.javaº º(,
+%9java.util.Map"__id*L*J6
+4io.onedev.server.buildspec.job.log.DefaultLogManager"
+recentSnippets¬©
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.javaº1 º(>
+%10java.lang.Long"=io.onedev.server.model.AbstractEntity#getId()Ljava/lang/Long;*'
+%
+buildio.onedev.server.model.Build2getId()*
+19*·
+21ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java¹ ¹(K‰
+†
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java¹ ¹(K
+%8java.io.File"oio.onedev.server.buildspec.job.log.DefaultLogManager#getLogFile(Ljava/lang/Long;Ljava/lang/Long;)Ljava/io/File;*86
+4io.onedev.server.buildspec.job.log.DefaultLogManager*
+
+%6java.lang.Long*
+
+
+%7long*
+20*¶
+10ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.javaÁ Á(Š
+‡
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.javaÁ Á(
+%24java.util.List"__id*G*E
+8
+snippet-io.onedev.server.buildspec.job.log.LogSnippet"	
+entries
+
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.javaÁE Á(Z
+%25java.util.List"__id*M*K
+>
+recentSnippet-io.onedev.server.buildspec.job.log.LogSnippet"	
+entrieséæ
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.javaÁE Á(a
+
+%26int"java.util.List#size()I*
+
+%25java.util.List2size()*
+9*¿
+22ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java¹9 ¹(>‘Ž
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java¹9 ¹(J
+
+%7long")io.onedev.server.model.Build#getNumber()J*'
+%
+buildio.onedev.server.model.Build2getNumber()*
+21*¦
+11ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java¾ ¿(Iù
+ö
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java¾ ¿(I
+%23boolean"__arrayAddAll*
+
+%16java.util.List*: *
+
+%22java.util.List*
+6*Ñ
+12ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java¾ ¿(H£ 
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java¾ ¿(H
+%22java.util.List"*java.util.List#subList(II)Ljava/util/List;*
+
+%17java.util.List*
+""*
+
+
+%21int2subList(II)*
+11*Ø
+23ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java¹ ¹(7ª§
+ž
+‘C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/buildspec/job/log/DefaultLogManager.java¹ ¹(7
+%6java.lang.Long"=io.onedev.server.model.AbstractEntity#getId()Ljava/lang/Long;*&
+$
+%5io.onedev.server.model.Project2getId()*
+22:%
+buildio.onedev.server.model.Build:
+""B86
+4io.onedev.server.buildspec.job.log.DefaultLogManager

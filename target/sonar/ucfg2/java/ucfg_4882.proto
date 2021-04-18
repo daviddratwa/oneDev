@@ -1,0 +1,55 @@
+
+Fio.onedev.server.util.ProjectAndRevision#getBranch()Ljava/lang/String;ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/ProjectAndRevision.java7 7("3*ü
+2ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/ProjectAndRevision.java:
+ :(òï
+ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/ProjectAndRevision.java: :(1
+%3java.lang.String"4org.eclipse.jgit.lib.Ref#getName()Ljava/lang/String;*'
+%
+	branchReforg.eclipse.jgit.lib.Ref2	getName()ª
+∏
+ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/ProjectAndRevision.java:
+ :(2
+%4java.lang.String"Nio.onedev.server.git.GitUtils#ref2branch(Ljava/lang/String;)Ljava/lang/String;*!"
+io.onedev.server.git.GitUtils*
+
+%3java.lang.String"≠
+ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/ProjectAndRevision.java: :(3
+
+%4java.lang.String*à
+3ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/ProjectAndRevision.java8 8(œÃ
+ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/ProjectAndRevision.java8 8($
+%0io.onedev.server.model.Project"Uio.onedev.server.util.ProjectAndRevision#getProject()Lio/onedev/server/model/Project;*,*
+(io.onedev.server.util.ProjectAndRevision2getProject()µ≤
+ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/ProjectAndRevision.java8, 8(9
+%1java.lang.String"Hio.onedev.server.util.ProjectAndRevision#getRevision()Ljava/lang/String;*,*
+(io.onedev.server.util.ProjectAndRevision2getRevision()ıÚ
+ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/ProjectAndRevision.java8 8(:
+%2org.eclipse.jgit.lib.Ref"Yio.onedev.server.model.Project#getBranchRef(Ljava/lang/String;)Lorg/eclipse/jgit/lib/Ref;*&
+$
+%0io.onedev.server.model.Project*
+
+%1java.lang.String2 getBranchRef(Ljava/lang/String;)Â
+‚
+ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/ProjectAndRevision.java8 8(;%
+	branchReforg.eclipse.jgit.lib.Ref"__id* 
+
+%2org.eclipse.jgit.lib.Ref*
+2
+1*¥
+1ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/ProjectAndRevision.java<
+ <("õ
+ê
+ÖC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/ProjectAndRevision.java< <(
+""B,*
+(io.onedev.server.util.ProjectAndRevision

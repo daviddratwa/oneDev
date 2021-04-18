@@ -1,0 +1,58 @@
+
+fio.onedev.server.security.SecurityUtils#canRunJob(Lio/onedev/server/model/Project;Ljava/lang/String;)Zë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java ( "1*î
+1ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaÒ	 Ò(≤
+Ø
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaÒ	 Ò(&
+%0 org.apache.shiro.subject.Subject"Morg.apache.shiro.SecurityUtils#getSubject()Lorg/apache/shiro/subject/Subject;*"" 
+org.apache.shiro.SecurityUtils˜Ù
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaÚ# Ú()1
+%1+io.onedev.server.security.permission.RunJob"+io.onedev.server.security.permission.RunJobâ
+Ü
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaÚ Ú(+
+%2"5io.onedev.server.security.permission.RunJob#<init>()V*3
+1
+%1+io.onedev.server.security.permission.RunJobÖÇ
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaÚ Ú(8
+%32io.onedev.server.security.permission.JobPermission"2io.onedev.server.security.permission.JobPermission†
+ù
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaÚ Ú(,
+%4"qio.onedev.server.security.permission.JobPermission#<init>(Ljava/lang/String;Lorg/apache/shiro/authz/Permission;)V*:
+8
+%32io.onedev.server.security.permission.JobPermission*
+
+jobNamejava.lang.String*3
+1
+%1+io.onedev.server.security.permission.RunJobçä
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaÒ& Ò(7<
+%56io.onedev.server.security.permission.ProjectPermission"6io.onedev.server.security.permission.ProjectPermissionÃ
+…
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaÒ" Ú(-
+%6"Éio.onedev.server.security.permission.ProjectPermission#<init>(Lio/onedev/server/model/Project;Lorg/apache/shiro/authz/Permission;)V*>
+<
+%56io.onedev.server.security.permission.ProjectPermission*+
+)
+projectio.onedev.server.model.Project*:
+8
+%32io.onedev.server.security.permission.JobPermissionñì
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaÒ	 Ú(.
+%7boolean"Rorg.apache.shiro.subject.Subject#isPermitted(Lorg/apache/shiro/authz/Permission;)Z*(
+&
+%0 org.apache.shiro.subject.Subject*>
+<
+%56io.onedev.server.security.permission.ProjectPermission20isPermitted(Lorg/apache/shiro/authz/Permission;)"ú
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaÒ Ú(/
+"":)
+projectio.onedev.server.model.Project:
+jobNamejava.lang.StringB+")
+'io.onedev.server.security.SecurityUtils

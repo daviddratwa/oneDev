@@ -1,0 +1,167 @@
+
+Üio.onedev.server.search.code.query.NGramLuceneQuery#build(Ljava/lang/String;Ljava/lang/String;I)Lorg/apache/lucene/search/PhraseQuery;õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/query/NGramLuceneQuery.java (!"15*Ë
+13õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/query/NGramLuceneQuery.java (Hû
+õ
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/query/NGramLuceneQuery.java (H<
+	tokenizer/org.apache.lucene.analysis.ngram.NGramTokenizer"__id*7
+5
+%4/org.apache.lucene.analysis.ngram.NGramTokenizerúô
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/query/NGramLuceneQuery.java( (@
+%6java.lang.String"0java.lang.String#toLowerCase()Ljava/lang/String;* 
+
+
+fieldValuejava.lang.String2toLowerCase()*
+12*‰
+14õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/query/NGramLuceneQuery.java5 (=âÜ
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/query/NGramLuceneQuery.java& (45
+%4/org.apache.lucene.analysis.ngram.NGramTokenizer"/org.apache.lucene.analysis.ngram.NGramTokenizer≠
+™
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/query/NGramLuceneQuery.java" (H
+%5";org.apache.lucene.analysis.ngram.NGramTokenizer#<init>(II)V*7
+5
+%4/org.apache.lucene.analysis.ngram.NGramTokenizer*
+""*
+""*
+13*
+15õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/query/NGramLuceneQuery.java (ÙÒ
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/query/NGramLuceneQuery.java (1	
+%0int"java.lang.String#length()I* 
+
+
+fieldValuejava.lang.String2length()ó
+î
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/query/NGramLuceneQuery.java (<
+
+%1void"6com.google.common.base.Preconditions#checkArgument(Z)V*("&
+$com.google.common.base.Preconditions*
+""ÉÄ
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/query/NGramLuceneQuery.java$ (72
+%2,org.apache.lucene.search.PhraseQuery$Builder",org.apache.lucene.search.PhraseQuery$Builderï
+í
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/query/NGramLuceneQuery.java  (9
+%3"6org.apache.lucene.search.PhraseQuery$Builder#<init>()V*4
+2
+%2,org.apache.lucene.search.PhraseQuery$Builderñ
+ì
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/query/NGramLuceneQuery.java (:7
+builder,org.apache.lucene.search.PhraseQuery$Builder"__id*4
+2
+%2,org.apache.lucene.search.PhraseQuery$Builder*
+14*Ü
+4õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/query/NGramLuceneQuery.java (B›⁄
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/query/NGramLuceneQuery.java (B3
+%16,org.apache.lucene.search.PhraseQuery$Builder"~org.apache.lucene.search.PhraseQuery$Builder#add(Lorg/apache/lucene/index/Term;)Lorg/apache/lucene/search/PhraseQuery$Builder;*9
+7
+builder,org.apache.lucene.search.PhraseQuery$Builder*%
+#
+%14org.apache.lucene.index.Term2#add(Lorg/apache/lucene/index/Term;)*
+9*Á
+5õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/query/NGramLuceneQuery.java (A‰·
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/query/NGramLuceneQuery.java (#
+%14org.apache.lucene.index.Term"org.apache.lucene.index.Term◊
+‘
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/query/NGramLuceneQuery.java (A
+%15"Jorg.apache.lucene.index.Term#<init>(Ljava/lang/String;Ljava/lang/String;)V*%
+#
+%14org.apache.lucene.index.Term*
+
+	fieldNamejava.lang.String*
+
+%13java.lang.String*
+4*Î
+6õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/query/NGramLuceneQuery.java (@¬ø
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/query/NGramLuceneQuery.java (@
+%13java.lang.String"3java.lang.CharSequence#toString()Ljava/lang/String;*E
+C
+%12<org.apache.lucene.analysis.tokenattributes.CharTermAttribute2
+toString()*
+5*‚
+7õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/query/NGramLuceneQuery.java (π∂
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/query/NGramLuceneQuery.java (5C
+%12<org.apache.lucene.analysis.tokenattributes.CharTermAttribute"horg.apache.lucene.util.AttributeSource#getAttribute(Ljava/lang/Class;)Lorg/apache/lucene/util/Attribute;*>
+<
+	tokenizer/org.apache.lucene.analysis.ngram.NGramTokenizer*
+""2getAttribute(Ljava/lang/Class;)*
+6*Ú
+9õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/query/NGramLuceneQuery.java
+ (∆√
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/query/NGramLuceneQuery.java
+ ($
+%11boolean"Aorg.apache.lucene.analysis.ngram.NGramTokenizer#incrementToken()Z*>
+<
+	tokenizer/org.apache.lucene.analysis.ngram.NGramTokenizer2incrementToken()*
+7
+1*€
+10õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/query/NGramLuceneQuery.java (±Æ
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/query/NGramLuceneQuery.java (
+%10void"8org.apache.lucene.analysis.ngram.NGramTokenizer#reset()V*>
+<
+	tokenizer/org.apache.lucene.analysis.ngram.NGramTokenizer2reset()*
+9*ñ
+11õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/query/NGramLuceneQuery.java (BÎË
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/query/NGramLuceneQuery.java (B
+
+%9void"Aorg.apache.lucene.analysis.Tokenizer#setReader(Ljava/io/Reader;)V*>
+<
+	tokenizer/org.apache.lucene.analysis.ngram.NGramTokenizer*
+
+%7java.io.StringReader2setReader(Ljava/io/Reader;)*
+10*í
+12õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/query/NGramLuceneQuery.java (A”–
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/query/NGramLuceneQuery.java ('
+%7java.io.StringReader"java.io.StringReaderë
+é
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/query/NGramLuceneQuery.java (A
+%8"0java.io.StringReader#<init>(Ljava/lang/String;)V*
+
+%7java.io.StringReader*
+
+%6java.lang.String*
+11*‚
+1õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/query/NGramLuceneQuery.java!	 !(ÓÎ
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/query/NGramLuceneQuery.java!	 !(+
+%19$org.apache.lucene.search.PhraseQuery"Zorg.apache.lucene.search.PhraseQuery$Builder#build()Lorg/apache/lucene/search/PhraseQuery;*9
+7
+builder,org.apache.lucene.search.PhraseQuery$Builder2build()"Õ
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/query/NGramLuceneQuery.java! !(-
++
+%19$org.apache.lucene.search.PhraseQuery:
+	fieldNamejava.lang.String:
+
+fieldValuejava.lang.String:
+""B7"5
+3io.onedev.server.search.code.query.NGramLuceneQuery

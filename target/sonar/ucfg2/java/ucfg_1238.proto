@@ -1,0 +1,124 @@
+
+Ïio.onedev.server.infomanager.DefaultPullRequestInfoManager#getComparisonBase(Lio/onedev/server/model/PullRequest;Lorg/eclipse/jgit/lib/ObjectId;Lorg/eclipse/jgit/lib/ObjectId;)Lorg/eclipse/jgit/lib/ObjectId;¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultPullRequestInfoManager.javaç ç(""startingBlock*¡
+startingBlock¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultPullRequestInfoManager.javaç" ç(_…
+‚
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultPullRequestInfoManager.javaæ æ(
+
+%9"
+__annotate*
+java.lang.Override*/
+-
+request"io.onedev.server.model.PullRequestï
+ì
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultPullRequestInfoManager.javaç/ ç(6-
+request"io.onedev.server.model.PullRequest"__annotation*
+
+%9ƒ
+€
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultPullRequestInfoManager.javaæ æ(
+
+%10"
+__annotate*
+java.lang.Override*,
+*
+	commitId1org.eclipse.jgit.lib.ObjectIdí
+ê
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultPullRequestInfoManager.javaçA ç(J*
+	commitId1org.eclipse.jgit.lib.ObjectId"__annotation*
+
+%10ƒ
+€
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultPullRequestInfoManager.javaæ æ(
+
+%11"
+__annotate*
+java.lang.Override*,
+*
+	commitId2org.eclipse.jgit.lib.ObjectIdí
+ê
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultPullRequestInfoManager.javaçU ç(^*
+	commitId2org.eclipse.jgit.lib.ObjectId"__annotation*
+
+%11*
+1*¸ 
+1¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultPullRequestInfoManager.javaè è(ìé
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultPullRequestInfoManager.javaè è(5$
+%0io.onedev.server.model.Project"Uio.onedev.server.model.PullRequest#getTargetProject()Lio/onedev/server/model/Project;*/
+-
+request"io.onedev.server.model.PullRequest2getTargetProject()°­
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultPullRequestInfoManager.javaè è(=
+%1java.lang.Long"=io.onedev.server.model.AbstractEntity#getId()Ljava/lang/Long;*&
+$
+%0io.onedev.server.model.Project2getId()“
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultPullRequestInfoManager.javaè è(H
+%2java.lang.String"+java.lang.Long#toString()Ljava/lang/String;*
+
+%1java.lang.Long2
+toString()¾»
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultPullRequestInfoManager.javaè è(I&
+%3 jetbrains.exodus.env.Environment"tio.onedev.server.infomanager.AbstractEnvironmentManager#getEnv(Ljava/lang/String;)Ljetbrains/exodus/env/Environment;*><
+:io.onedev.server.infomanager.DefaultPullRequestInfoManager*
+
+%2java.lang.String2getEnv(Ljava/lang/String;)ƒ
+€
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultPullRequestInfoManager.javaè è(J'
+env jetbrains.exodus.env.Environment"__id*(
+&
+%3 jetbrains.exodus.env.EnvironmentÐ
+Í
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultPullRequestInfoManager.javaé é(4
+%4java.lang.String"__id*
+""¦£
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultPullRequestInfoManager.javaé é(5 
+%5jetbrains.exodus.env.Store"’io.onedev.server.infomanager.AbstractEnvironmentManager#getStore(Ljetbrains/exodus/env/Environment;Ljava/lang/String;)Ljetbrains/exodus/env/Store;*><
+:io.onedev.server.infomanager.DefaultPullRequestInfoManager*)
+'
+env jetbrains.exodus.env.Environment*
+
+%4java.lang.String2>getStore(Ljetbrains/exodus/env/Environment;Ljava/lang/String;)ù
+ö
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultPullRequestInfoManager.javaé é(6#
+storejetbrains.exodus.env.Store"__id*"
+ 
+%5jetbrains.exodus.env.Store¬©
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultPullRequestInfoManager.javaë& ë(GB
+%6<io.onedev.server.infomanager.DefaultPullRequestInfoManager$7"<io.onedev.server.infomanager.DefaultPullRequestInfoManager$7’
+
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultPullRequestInfoManager.javaë" ö(
+%7"java.lang.Object#<init>()V*D
+B
+%6<io.onedev.server.infomanager.DefaultPullRequestInfoManager$7ÿü
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultPullRequestInfoManager.javaë	 ö(#
+%8org.eclipse.jgit.lib.ObjectId"wjetbrains.exodus.env.Environment#computeInTransaction(Ljetbrains/exodus/env/TransactionalComputable;)Ljava/lang/Object;*)
+'
+env jetbrains.exodus.env.Environment*D
+B
+%6<io.onedev.server.infomanager.DefaultPullRequestInfoManager$72DcomputeInTransaction(Ljetbrains/exodus/env/TransactionalComputable;)"Î
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultPullRequestInfoManager.javaë ö(%
+#
+%8org.eclipse.jgit.lib.ObjectId:-
+request"io.onedev.server.model.PullRequest:*
+	commitId1org.eclipse.jgit.lib.ObjectId:*
+	commitId2org.eclipse.jgit.lib.ObjectIdB><
+:io.onedev.server.infomanager.DefaultPullRequestInfoManager

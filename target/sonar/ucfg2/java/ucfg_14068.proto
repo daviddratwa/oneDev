@@ -1,0 +1,462 @@
+
+hio.onedev.server.entitymanager.impl.DefaultProjectManager#checkSanity(Lio/onedev/server/model/Project;)V£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java¬ ¬("36*¥	
+35£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java≈	 ≈(œ
+Ã
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java≈	 ≈(
+%2org.slf4j.Logger"__id*
+""ã
+à
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java≈ ≈(@
+%3java.lang.String"__concat*$"
+ Initializing git repository in '*
+
+gitDirjava.io.FileÔ
+Ï
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java≈ ≈(I
+%4java.lang.String"__concat*
+
+%3java.lang.String*
+'...Ø¨
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java≈	 ≈(J
+
+%5void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
+
+%2org.slf4j.Logger*
+
+%4java.lang.String2info(Ljava/lang/String;)*
+34*ç
+13£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java‡ ‡(<⁄◊
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java‡ ‡(<(
+%39!org.eclipse.jgit.lib.StoredConfig"Norg.eclipse.jgit.lib.Repository#getConfig()Lorg/eclipse/jgit/lib/StoredConfig;*(
+&
+%38org.eclipse.jgit.lib.Repository2getConfig()*
+12*…
+24£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÕ3 Õ(9ñì
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÕ Õ(:'
+%18 org.eclipse.jgit.api.InitCommand"_org.eclipse.jgit.api.InitCommand#setDirectory(Ljava/io/File;)Lorg/eclipse/jgit/api/InitCommand;*)
+'
+%17 org.eclipse.jgit.api.InitCommand*
+
+gitDirjava.io.File2setDirectory(Ljava/io/File;)*
+23*⁄
+36£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java√ √(±Æ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java√ √(#
+%0java.io.File"8io.onedev.server.model.Project#getGitDir()Ljava/io/File;*+
+)
+projectio.onedev.server.model.Project2getGitDir()›
+⁄
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java√ √($
+gitDirjava.io.File"__id*
+
+%0java.io.Fileèå
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaƒ ƒ(
+%1java.io.File[]"'java.io.File#listFiles()[Ljava/io/File;*
+
+gitDirjava.io.File2listFiles()*
+35
+27*ì
+14£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java‡ ‡( ‡›
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java‡ ‡(0&
+%38org.eclipse.jgit.lib.Repository"Oio.onedev.server.model.Project#getRepository()Lorg/eclipse/jgit/lib/Repository;*+
+)
+projectio.onedev.server.model.Project2getRepository()*
+13*Ê
+25£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÕ Õ(≥
+∞
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÕ Õ(%'
+%17 org.eclipse.jgit.api.InitCommand"Aorg.eclipse.jgit.api.Git#init()Lorg/eclipse/jgit/api/InitCommand;*"
+org.eclipse.jgit.api.Git*
+24*ã
+26£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÀ	 À(–
+Õ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÀ	 À(
+%12org.slf4j.Logger"__id*
+""˜
+Ù
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÀ À(+
+%13java.lang.String"__concat*
+Directory '*
+
+gitDirjava.io.Fileü
+ú
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÀ À(b
+%14java.lang.String"__concat*
+
+%13java.lang.String*64
+2' is not a valid git repository, reinitializing...≤Ø
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÀ	 À(c
+%15void"*org.slf4j.Logger#warn(Ljava/lang/String;)V*
+
+%12org.slf4j.Logger*
+
+%14java.lang.String2warn(Ljava/lang/String;)¥
+±
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÃ	 Ã(#
+%16void";io.onedev.commons.utils.FileUtils#cleanDir(Ljava/io/File;)V*%"#
+!io.onedev.commons.utils.FileUtils*
+
+gitDirjava.io.File*
+25*ñ'
+16£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java‘% ‘(+Ã…
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java‘  ‘($
+%24java.io.File"java.io.File§
+°
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java‘ ‘(5
+%25"6java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V*
+
+%24java.io.File*
+
+gitDirjava.io.File*	
+hooks‡
+›
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java‘ ‘(6
+hooksDirjava.io.File"__id*
+
+%24java.io.FileÃ…
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java÷- ÷(1
+%26java.io.File"java.io.File¨
+©
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java÷) ÷(J
+%27"6java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V*
+
+%26java.io.File*
+
+hooksDirjava.io.File*
+pre-receiveÌ
+Í
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java÷ ÷(K%
+gitPreReceiveHookFilejava.io.File"__id*
+
+%26java.io.Fileõ
+ò
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java◊E ◊(S
+%28java.lang.String"__id*Q*O;
+9io.onedev.server.entitymanager.impl.DefaultProjectManager"
+gitReceiveHook‚
+ﬂ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java◊7 ◊(o
+%29java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*
+
+%28java.lang.String*
+git-prereceive-callbackÒ
+Ó
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java◊ ◊(p
+%30void"Nio.onedev.commons.utils.FileUtils#writeFile(Ljava/io/File;Ljava/lang/String;)V*%"#
+!io.onedev.commons.utils.FileUtils*'
+%
+gitPreReceiveHookFilejava.io.File*
+
+%29java.lang.Stringúô
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÿ ÿ(5
+%31boolean"java.io.File#setExecutable(Z)Z*'
+%
+gitPreReceiveHookFilejava.io.File*
+""2setExecutable(Z)Ã…
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java⁄. ⁄(2
+%32java.io.File"java.io.File≠
+™
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java⁄* ⁄(L
+%33"6java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V*
+
+%32java.io.File*
+
+hooksDirjava.io.File*
+post-receiveÓ
+Î
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java⁄ ⁄(M&
+gitPostReceiveHookFilejava.io.File"__id*
+
+%32java.io.Fileõ
+ò
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java€F €(T
+%34java.lang.String"__id*Q*O;
+9io.onedev.server.entitymanager.impl.DefaultProjectManager"
+gitReceiveHook„
+‡
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java€8 €(q
+%35java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*
+
+%34java.lang.String*
+git-postreceive-callbackÚ
+Ô
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java€ €(r
+%36void"Nio.onedev.commons.utils.FileUtils#writeFile(Ljava/io/File;Ljava/lang/String;)V*%"#
+!io.onedev.commons.utils.FileUtils*(
+&
+gitPostReceiveHookFilejava.io.File*
+
+%35java.lang.Stringùö
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java‹ ‹(6
+%37boolean"java.io.File#setExecutable(Z)Z*(
+&
+gitPostReceiveHookFilejava.io.File*
+""2setExecutable(Z)*
+14*Â
+27£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java   (Æ
+´
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java   (&
+%11boolean"6io.onedev.server.git.GitUtils#isValid(Ljava/io/File;)Z*!"
+io.onedev.server.git.GitUtils*
+
+gitDirjava.io.File*
+26
+18*»
+17£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java”1 ”(?ë
+é
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java”1 ”(W
+%23boolean"kio.onedev.server.entitymanager.impl.DefaultProjectManager#isGitHookValid(Ljava/io/File;Ljava/lang/String;)Z*=;
+9io.onedev.server.entitymanager.impl.DefaultProjectManager*
+
+gitDirjava.io.File*
+post-receive*
+14
+16*«
+18£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java” ”(ê
+ç
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java” ”(,
+%22boolean"kio.onedev.server.entitymanager.impl.DefaultProjectManager#isGitHookValid(Ljava/io/File;Ljava/lang/String;)Z*=;
+9io.onedev.server.entitymanager.impl.DefaultProjectManager*
+
+gitDirjava.io.File*
+pre-receive*
+16
+17*√
+0 "ª
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÒ Ò(
+implicit return*…
+3£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÌ Ì(
+òï
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÌ Ì(
+%54void")org.eclipse.jgit.lib.StoredConfig#save()V*-
++
+config!org.eclipse.jgit.lib.StoredConfig2save()*
+0*¯
+6£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÈ È(
+ƒ¡
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÈ È(E
+%53void"`org.eclipse.jgit.lib.Config#setBoolean(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V*-
++
+config!org.eclipse.jgit.lib.StoredConfig*
+
+uploadpack*
+""*
+allowAnySHA1InWant*
+""2CsetBoolean(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)*
+3
+0*“
+8£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaË Ë(õò
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaË Ë(D
+%52boolean"Norg.eclipse.jgit.lib.Config#getBoolean(Ljava/lang/String;Ljava/lang/String;Z)Z*-
++
+config!org.eclipse.jgit.lib.StoredConfig*
+
+uploadpack*
+allowAnySHA1InWant*
+""21getBoolean(Ljava/lang/String;Ljava/lang/String;Z)*	
+3
+6
+0*Ò
+31£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java∆ ∆(Oæª
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java∆ ∆(O
+%9org.eclipse.jgit.api.Git"Aorg.eclipse.jgit.api.InitCommand#call()Lorg/eclipse/jgit/api/Git;*(
+&
+%8 org.eclipse.jgit.api.InitCommand2call()*
+18*ë
+32£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java∆C ∆(Gﬁ€
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java∆ ∆(H&
+%8 org.eclipse.jgit.api.InitCommand"Morg.eclipse.jgit.api.InitCommand#setBare(Z)Lorg/eclipse/jgit/api/InitCommand;*(
+&
+%7 org.eclipse.jgit.api.InitCommand*
+""2
+setBare(Z)*
+31*Ì
+10£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java‰ ‰(
+–
+Õ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java‰ ‰(6
+%47java.lang.String"__id*
+""–
+Õ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java‰> ‰(b
+%48java.lang.String"__id*
+""ˆ
+Û
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÂ Â(=
+%496org.eclipse.jgit.diff.DiffAlgorithm$SupportedAlgorithm"__id*
+""ˆ
+Û
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÂ Â("=
+%506org.eclipse.jgit.diff.DiffAlgorithm$SupportedAlgorithm"__id*
+""£†
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java‰ Â(#
+%51void"lorg.eclipse.jgit.lib.Config#setEnum(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Enum;)V*-
++
+config!org.eclipse.jgit.lib.StoredConfig*
+
+%47java.lang.String*
+""*
+
+%48java.lang.String*?
+=
+%506org.eclipse.jgit.diff.DiffAlgorithm$SupportedAlgorithm2OsetEnum(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Enum;)*
+8*Û
+22£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÕ Õ(O¿Ω
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÕ Õ(O
+%20org.eclipse.jgit.api.Git"Aorg.eclipse.jgit.api.InitCommand#call()Lorg/eclipse/jgit/api/Git;*)
+'
+%19 org.eclipse.jgit.api.InitCommand2call()*
+18*«
+33£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java∆3 ∆(9îë
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java∆ ∆(:&
+%7 org.eclipse.jgit.api.InitCommand"_org.eclipse.jgit.api.InitCommand#setDirectory(Ljava/io/File;)Lorg/eclipse/jgit/api/InitCommand;*(
+&
+%6 org.eclipse.jgit.api.InitCommand*
+
+gitDirjava.io.File2setDirectory(Ljava/io/File;)*
+32*•
+11£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java„" „(4ˆ
+Û
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java„" „(4=
+%456org.eclipse.jgit.diff.DiffAlgorithm$SupportedAlgorithm"__id*
+""ˆ
+Û
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java„" „(>=
+%466org.eclipse.jgit.diff.DiffAlgorithm$SupportedAlgorithm"__id*
+""*
+8
+10*Â
+34£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java∆ ∆(≤
+Ø
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java∆ ∆(%&
+%6 org.eclipse.jgit.api.InitCommand"Aorg.eclipse.jgit.api.Git#init()Lorg/eclipse/jgit/api/InitCommand;*"
+org.eclipse.jgit.api.Git*
+33*∫
+12£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java‡ ‡(=à
+Ö
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java‡ ‡(=+
+config!org.eclipse.jgit.lib.StoredConfig"__id**
+(
+%39!org.eclipse.jgit.lib.StoredConfig–
+Õ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java‚ ‚(9
+%40java.lang.String"__id*
+""–
+Õ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java‚A ‚(e
+%41java.lang.String"__id*
+""ˆ
+Û
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java„ „(=
+%426org.eclipse.jgit.diff.DiffAlgorithm$SupportedAlgorithm"__id*
+""ˆ
+Û
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java„ „(=
+%436org.eclipse.jgit.diff.DiffAlgorithm$SupportedAlgorithm"__id*
+""‰·
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java‚ „(=
+%446org.eclipse.jgit.diff.DiffAlgorithm$SupportedAlgorithm"{org.eclipse.jgit.lib.Config#getEnum(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Enum;)Ljava/lang/Enum;*-
++
+config!org.eclipse.jgit.lib.StoredConfig*
+
+%40java.lang.String*
+""*
+
+%41java.lang.String*?
+=
+%436org.eclipse.jgit.diff.DiffAlgorithm$SupportedAlgorithm2OgetEnum(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Enum;)*
+11*ì
+23£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÕC Õ(G‡›
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÕ Õ(H'
+%19 org.eclipse.jgit.api.InitCommand"Morg.eclipse.jgit.api.InitCommand#setBare(Z)Lorg/eclipse/jgit/api/InitCommand;*)
+'
+%18 org.eclipse.jgit.api.InitCommand*
+""2
+setBare(Z)*
+22:)
+projectio.onedev.server.model.ProjectB=;
+9io.onedev.server.entitymanager.impl.DefaultProjectManager

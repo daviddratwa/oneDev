@@ -1,0 +1,703 @@
+
+_io.onedev.server.util.diff.DiffMatchPatch#diff_cleanupSemanticLossless(Ljava/util/LinkedList;)Vì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaî î()"32*é
+24ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaû7 û(;Î
+Ë
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaû7 û(;5
+%10.io.onedev.server.util.diff.DiffMatchPatch$Diff"__id*
+
+%12
+<nulltype>*
+23*„
+25ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaû& û(-Æ´
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaû& û(45
+%11.io.onedev.server.util.diff.DiffMatchPatch$Diff"/java.util.ListIterator#next()Ljava/lang/Object;*#
+!
+pointerjava.util.ListIterator2next()è
+å
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaû& û(45
+%10.io.onedev.server.util.diff.DiffMatchPatch$Diff"__id*7
+5
+%11.io.onedev.server.util.diff.DiffMatchPatch$Diff*
+23*∏
+26ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaù ù(<ì
+ê
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaù ù(<:
+thisDiff.io.onedev.server.util.diff.DiffMatchPatch$Diff"__id*6
+4
+%6.io.onedev.server.util.diff.DiffMatchPatch$Diff˚¯
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaû û(#
+%9boolean"!java.util.ListIterator#hasNext()Z*#
+!
+pointerjava.util.ListIterator2	hasNext()*
+24
+25*å
+27ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaù7 ù(;È
+Ê
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaù7 ù(;4
+%6.io.onedev.server.util.diff.DiffMatchPatch$Diff"__id*
+
+%8
+<nulltype>*
+26*‡
+28ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaù& ù(-≠™
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaù& ù(44
+%7.io.onedev.server.util.diff.DiffMatchPatch$Diff"/java.util.ListIterator#next()Ljava/lang/Object;*#
+!
+pointerjava.util.ListIterator2next()ç
+ä
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaù& ù(44
+%6.io.onedev.server.util.diff.DiffMatchPatch$Diff"__id*6
+4
+%7.io.onedev.server.util.diff.DiffMatchPatch$Diff*
+26*∏
+29ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaú ú(<ì
+ê
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaú ú(<:
+prevDiff.io.onedev.server.util.diff.DiffMatchPatch$Diff"__id*6
+4
+%2.io.onedev.server.util.diff.DiffMatchPatch$Diff˚¯
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaù ù(#
+%5boolean"!java.util.ListIterator#hasNext()Z*#
+!
+pointerjava.util.ListIterator2	hasNext()*
+27
+28*å
+30ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaú7 ú(;È
+Ê
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaú7 ú(;4
+%2.io.onedev.server.util.diff.DiffMatchPatch$Diff"__id*
+
+%4
+<nulltype>*
+29*‡
+31ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaú& ú(-≠™
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaú& ú(44
+%3.io.onedev.server.util.diff.DiffMatchPatch$Diff"/java.util.ListIterator#next()Ljava/lang/Object;*#
+!
+pointerjava.util.ListIterator2next()ç
+ä
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaú& ú(44
+%2.io.onedev.server.util.diff.DiffMatchPatch$Diff"__id*6
+4
+%3.io.onedev.server.util.diff.DiffMatchPatch$Diff*
+29*µ
+32ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaï ï(∆
+√
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaï ï(
+	equality1java.lang.String"__id*
+""¡
+æ
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaï ï(
+editjava.lang.String"__id*
+""∆
+√
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaï ï($
+	equality2java.lang.String"__id*
+""…
+∆
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javañ ñ( 
+commonStringjava.lang.String"__id*
+"" 
+«
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaô ô(!
+bestEquality1java.lang.String"__id*
+""≈
+¬
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaô ô(!
+bestEditjava.lang.String"__id*
+"" 
+«
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaô ô(0!
+bestEquality2java.lang.String"__id*
+""ß§
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaõ õ(3
+%0java.util.ListIterator"=java.util.AbstractList#listIterator()Ljava/util/ListIterator;*
+
+diffsjava.util.LinkedList2listIterator()‚
+ﬂ
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaõ õ(4!
+pointerjava.util.ListIterator"__id*
+
+%0java.util.ListIterator˚¯
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaú ú(#
+%1boolean"!java.util.ListIterator#hasNext()Z*#
+!
+pointerjava.util.ListIterator2	hasNext()*
+30
+31*ï
+10ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaÕ	 Õ(Ì
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaÕ	 Õ(
+
+%47int"java.lang.String#length()I*#
+!
+bestEquality1java.lang.String2length()*
+8
+9*‹
+11ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaÀ	 À(Ä
+˝
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaÀ	 À(
+%45java.lang.String"__id*F*D
+:
+prevDiff.io.onedev.server.util.diff.DiffMatchPatch$Diff"
+text≥∞
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaÀ	 À(,
+%46boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%45java.lang.String*#
+!
+bestEquality1java.lang.String2equals(Ljava/lang/Object;)*
+4
+10*»
+12ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaƒ ƒ(„
+‡
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java≈ ≈(!
+bestEquality1java.lang.String"__id*
+
+	equality1java.lang.StringŸ
+÷
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java∆ ∆(
+bestEditjava.lang.String"__id*
+
+editjava.lang.String„
+‡
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java« «(!
+bestEquality2java.lang.String"__id*
+
+	equality2java.lang.String*
+16*£
+13ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaª ª(ÓÎ
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaª ª( 
+%37char"java.lang.String#charAt(I)C*
+
+editjava.lang.String*2 2	charAt(I)Ï
+È
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaª ª( 
+%38java.lang.String"__concat*
+
+	equality1java.lang.String*
+
+%37charŸ
+÷
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaª ª( 
+	equality1java.lang.String"__id*
+
+%38java.lang.Stringìê
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaº º(
+%39java.lang.String"/java.lang.String#substring(I)Ljava/lang/String;*
+
+editjava.lang.String*22substring(I)Û
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaº  º(3
+%40char"java.lang.String#charAt(I)C*
+
+	equality2java.lang.String*2 2	charAt(I)Ê
+„
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaº º(3
+%41java.lang.String"__concat*
+
+%39java.lang.String*
+
+%40char‘
+—
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaº º(3
+editjava.lang.String"__id*
+
+%41java.lang.Stringòï
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaΩ Ω('
+%42java.lang.String"/java.lang.String#substring(I)Ljava/lang/String;*
+
+	equality2java.lang.String*22substring(I)Ÿ
+÷
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaΩ Ω('
+	equality2java.lang.String"__id*
+
+%42java.lang.String˝
+˙
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaø ø(1
+
+%43int"jio.onedev.server.util.diff.DiffMatchPatch#diff_cleanupSemanticScore(Ljava/lang/String;Ljava/lang/String;)I*-+
+)io.onedev.server.util.diff.DiffMatchPatch*
+
+	equality1java.lang.String*
+
+editjava.lang.String˝
+˙
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java¿ ¿(5
+
+%44int"jio.onedev.server.util.diff.DiffMatchPatch#diff_cleanupSemanticScore(Ljava/lang/String;Ljava/lang/String;)I*-+
+)io.onedev.server.util.diff.DiffMatchPatch*
+
+editjava.lang.String*
+
+	equality2java.lang.String*
+16
+12*ã
+14ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java∫	 ∫(ÓÎ
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java∫	 ∫(
+%35char"java.lang.String#charAt(I)C*
+
+editjava.lang.String*2 2	charAt(I)Û
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java∫ ∫(.
+%36char"java.lang.String#charAt(I)C*
+
+	equality2java.lang.String*2 2	charAt(I)*
+13
+11*ì
+15ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaπ! π(*ÏÈ
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaπ! π(3
+
+%34int"java.lang.String#length()I*
+
+	equality2java.lang.String2length()*
+14
+11*é
+16ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaπ π(Á‰
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaπ π(
+
+%33int"java.lang.String#length()I*
+
+editjava.lang.String2length()*
+15
+11*»
+17ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java≥ ≥(„
+‡
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java≥ ≥(!
+bestEquality1java.lang.String"__id*
+
+	equality1java.lang.StringŸ
+÷
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java¥ ¥(
+bestEditjava.lang.String"__id*
+
+editjava.lang.String„
+‡
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaµ µ(!
+bestEquality2java.lang.String"__id*
+
+	equality2java.lang.String˝
+˙
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java∑ ∑(0
+
+%31int"jio.onedev.server.util.diff.DiffMatchPatch#diff_cleanupSemanticScore(Ljava/lang/String;Ljava/lang/String;)I*-+
+)io.onedev.server.util.diff.DiffMatchPatch*
+
+	equality1java.lang.String*
+
+editjava.lang.String˝
+˙
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java∏
+ ∏(4
+
+%32int"jio.onedev.server.util.diff.DiffMatchPatch#diff_cleanupSemanticScore(Ljava/lang/String;Ljava/lang/String;)I*-+
+)io.onedev.server.util.diff.DiffMatchPatch*
+
+editjava.lang.String*
+
+	equality2java.lang.String*
+16*¨
+18ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java´ ´(Á‰
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java´# ´(0
+
+%23int"java.lang.String#length()I*
+
+editjava.lang.String2length()ïí
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java´ ´(@
+%24java.lang.String"/java.lang.String#substring(I)Ljava/lang/String;*
+
+editjava.lang.String*
+""2substring(I)‹
+Ÿ
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java´ ´(@ 
+commonStringjava.lang.String"__id*
+
+%24java.lang.StringÏÈ
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java¨( ¨(:
+
+%25int"java.lang.String#length()I*
+
+	equality1java.lang.String2length()†ù
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java¨ ¨(J
+%26java.lang.String"0java.lang.String#substring(II)Ljava/lang/String;*
+
+	equality1java.lang.String*2 *
+""2substring(II)Ÿ
+÷
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java¨ ¨(J
+	equality1java.lang.String"__id*
+
+%26java.lang.StringÁ‰
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java≠- ≠(:
+
+%27int"java.lang.String#length()I*
+
+editjava.lang.String2length()õò
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java≠ ≠(J
+%28java.lang.String"0java.lang.String#substring(II)Ljava/lang/String;*
+
+editjava.lang.String*2 *
+""2substring(II)˚
+¯
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java≠ ≠(J
+%29java.lang.String"__concat*"
+ 
+commonStringjava.lang.String*
+
+%28java.lang.String‘
+—
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java≠ ≠(J
+editjava.lang.String"__id*
+
+%29java.lang.StringÅ
+˛
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaÆ Æ()
+%30java.lang.String"__concat*"
+ 
+commonStringjava.lang.String*
+
+	equality2java.lang.StringŸ
+÷
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaÆ Æ()
+	equality2java.lang.String"__id*
+
+%30java.lang.String*
+17*Ì
+19ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java§ §(Ä
+˝
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java§ §(
+%19java.lang.String"__id*F*D
+:
+prevDiff.io.onedev.server.util.diff.DiffMatchPatch$Diff"
+textŸ
+÷
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java§ §(
+	equality1java.lang.String"__id*
+
+%19java.lang.StringÄ
+˝
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java• •(
+%20java.lang.String"__id*F*D
+:
+thisDiff.io.onedev.server.util.diff.DiffMatchPatch$Diff"
+text‘
+—
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java• •(
+editjava.lang.String"__id*
+
+%20java.lang.StringÄ
+˝
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java¶ ¶(
+%21java.lang.String"__id*F*D
+:
+nextDiff.io.onedev.server.util.diff.DiffMatchPatch$Diff"
+textŸ
+÷
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java¶ ¶(
+	equality2java.lang.String"__id*
+
+%21java.lang.StringÆ´
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java© ©(5
+
+%22int"bio.onedev.server.util.diff.DiffMatchPatch#diff_commonSuffix(Ljava/lang/String;Ljava/lang/String;)I*-+
+)io.onedev.server.util.diff.DiffMatchPatch*
+
+	equality1java.lang.String*
+
+editjava.lang.String27diff_commonSuffix(Ljava/lang/String;Ljava/lang/String;)*
+17
+18*≥
+0 "´
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaÂ Â(
+implicit return*π
+1ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java„ „(7î
+ë
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java„ „(7:
+nextDiff.io.onedev.server.util.diff.DiffMatchPatch$Diff"__id*7
+5
+%57.io.onedev.server.util.diff.DiffMatchPatch$Diff*
+21
+0*å
+2ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java„3 „(7Î
+Ë
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java„3 „(75
+%57.io.onedev.server.util.diff.DiffMatchPatch$Diff"__id*
+
+%59
+<nulltype>*
+1*·
+3ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java„" „()Æ´
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java„" „(05
+%58.io.onedev.server.util.diff.DiffMatchPatch$Diff"/java.util.ListIterator#next()Ljava/lang/Object;*#
+!
+pointerjava.util.ListIterator2next()è
+å
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java„" „(05
+%57.io.onedev.server.util.diff.DiffMatchPatch$Diff"__id*7
+5
+%58.io.onedev.server.util.diff.DiffMatchPatch$Diff*
+1*ÿ
+4ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java· ·(ô
+ñ
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java· ·(:
+prevDiff.io.onedev.server.util.diff.DiffMatchPatch$Diff"__id*<
+:
+thisDiff.io.onedev.server.util.diff.DiffMatchPatch$Diffô
+ñ
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java‚ ‚(:
+thisDiff.io.onedev.server.util.diff.DiffMatchPatch$Diff"__id*<
+:
+nextDiff.io.onedev.server.util.diff.DiffMatchPatch$Diff¸˘
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java„ „(
+%56boolean"!java.util.ListIterator#hasNext()Z*#
+!
+pointerjava.util.ListIterator2	hasNext()*
+2
+3*–
+5ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java€ €(˜Ù
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java€ €(
+%55void" java.util.ListIterator#remove()V*#
+!
+pointerjava.util.ListIterator2remove()ô
+ñ
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java‹ ‹(:
+nextDiff.io.onedev.server.util.diff.DiffMatchPatch$Diff"__id*<
+:
+thisDiff.io.onedev.server.util.diff.DiffMatchPatch$Diffô
+ñ
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java› ›(:
+thisDiff.io.onedev.server.util.diff.DiffMatchPatch$Diff"__id*<
+:
+prevDiff.io.onedev.server.util.diff.DiffMatchPatch$Diff*
+4*´
+6ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaŸ Ÿ(ä
+á
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaŸ Ÿ(#D
+:
+nextDiff.io.onedev.server.util.diff.DiffMatchPatch$Diff"
+text"__id*#
+!
+bestEquality2java.lang.String*
+4*ú
+7ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java◊ ◊(Ö
+Ç
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java◊ ◊(D
+:
+thisDiff.io.onedev.server.util.diff.DiffMatchPatch$Diff"
+text"__id*
+
+bestEditjava.lang.StringÌ
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaÿ	 ÿ(
+
+%54int"java.lang.String#length()I*#
+!
+bestEquality2java.lang.String2length()*
+5
+6*•
+8ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java– –(∂≥
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java– –(5
+%48.io.onedev.server.util.diff.DiffMatchPatch$Diff"3java.util.ListIterator#previous()Ljava/lang/Object;*#
+!
+pointerjava.util.ListIterator2
+previous()∂≥
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java— —(5
+%49.io.onedev.server.util.diff.DiffMatchPatch$Diff"3java.util.ListIterator#previous()Ljava/lang/Object;*#
+!
+pointerjava.util.ListIterator2
+previous()∂≥
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java“ “(5
+%50.io.onedev.server.util.diff.DiffMatchPatch$Diff"3java.util.ListIterator#previous()Ljava/lang/Object;*#
+!
+pointerjava.util.ListIterator2
+previous()˜Ù
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java” ”(
+%51void" java.util.ListIterator#remove()V*#
+!
+pointerjava.util.ListIterator2remove()Æ´
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java‘ ‘(5
+%52.io.onedev.server.util.diff.DiffMatchPatch$Diff"/java.util.ListIterator#next()Ljava/lang/Object;*#
+!
+pointerjava.util.ListIterator2next()Æ´
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java’ ’(5
+%53.io.onedev.server.util.diff.DiffMatchPatch$Diff"/java.util.ListIterator#next()Ljava/lang/Object;*#
+!
+pointerjava.util.ListIterator2next()*
+7*´
+9ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaŒ Œ(ä
+á
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaŒ Œ(#D
+:
+prevDiff.io.onedev.server.util.diff.DiffMatchPatch$Diff"
+text"__id*#
+!
+bestEquality1java.lang.String*
+7*ö
+20ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java¢0 ¢(8®
+•
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java¢0 ¢(B:
+%163io.onedev.server.util.diff.DiffMatchPatch$Operation"__id*K*I
+:
+nextDiff.io.onedev.server.util.diff.DiffMatchPatch$Diff"
+	operation„
+‡
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java¢F ¢(O:
+%173io.onedev.server.util.diff.DiffMatchPatch$Operation"__id*
+""„
+‡
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java¢F ¢(U:
+%183io.onedev.server.util.diff.DiffMatchPatch$Operation"__id*
+""*
+4
+19*ö
+21ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java¢ ¢(®
+•
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java¢ ¢(:
+%133io.onedev.server.util.diff.DiffMatchPatch$Operation"__id*K*I
+:
+prevDiff.io.onedev.server.util.diff.DiffMatchPatch$Diff"
+	operation„
+‡
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java¢ ¢(&:
+%143io.onedev.server.util.diff.DiffMatchPatch$Operation"__id*
+""„
+‡
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.java¢ ¢(,:
+%153io.onedev.server.util.diff.DiffMatchPatch$Operation"__id*
+""*
+4
+20*∫
+23ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaû û(<î
+ë
+ì
+ÜC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/diff/DiffMatchPatch.javaû û(<:
+nextDiff.io.onedev.server.util.diff.DiffMatchPatch$Diff"__id*7
+5
+%10.io.onedev.server.util.diff.DiffMatchPatch$Diff*
+21
+0:
+diffsjava.util.LinkedListB-+
+)io.onedev.server.util.diff.DiffMatchPatch

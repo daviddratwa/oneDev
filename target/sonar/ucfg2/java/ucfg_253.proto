@@ -1,0 +1,137 @@
+
+io.onedev.server.entitymanager.impl.DefaultBuildManager#query(Lio/onedev/server/model/Project;Lio/onedev/server/search/entity/EntityQuery;II)Ljava/util/List;¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultBuildManager.javaé é("startingBlock*¡
+startingBlock¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultBuildManager.javaé ê(#
+š
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultBuildManager.javaç ç(
+%7"
+__annotate*53
+1io.onedev.server.persistence.annotation.Sessional*+
+)
+projectio.onedev.server.model.Projectþ
+û
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultBuildManager.javaè è(
+
+%8"
+__annotate*
+java.lang.Override*+
+)
+projectio.onedev.server.model.Project…
+‚
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultBuildManager.javaé é(#
+%9"
+__annotate*
+javax.annotation.Nullable*+
+)
+projectio.onedev.server.model.Projectø
+õ
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultBuildManager.javaé, é(3)
+projectio.onedev.server.model.Project"__annotation*
+
+%7*
+
+%8*
+
+%9­
+ª
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultBuildManager.javaç ç(
+%10"
+__annotate*53
+1io.onedev.server.persistence.annotation.Sessional*:
+8
+
+buildQuery*io.onedev.server.search.entity.EntityQueryŽ
+‹
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultBuildManager.javaè è(
+
+%11"
+__annotate*
+java.lang.Override*:
+8
+
+buildQuery*io.onedev.server.search.entity.EntityQuery
+þ
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultBuildManager.javaéH é(R8
+
+buildQuery*io.onedev.server.search.entity.EntityQuery"__annotation*
+
+%10*
+
+%11*
+1*ë
+1¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultBuildManager.javaë' ë(9çä
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultBuildManager.javaëC ë(O
+%0org.hibernate.Session"Vio.onedev.server.persistence.dao.BaseEntityManager#getSession()Lorg/hibernate/Session;*;9
+7io.onedev.server.entitymanager.impl.DefaultBuildManager2getSession()ø
+õ
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultBuildManager.javaë' ë(\.
+%1(javax.persistence.criteria.CriteriaQuery"Ùio.onedev.server.entitymanager.impl.DefaultBuildManager#buildCriteriaQuery(Lio/onedev/server/model/Project;Lorg/hibernate/Session;Lio/onedev/server/search/entity/EntityQuery;)Ljavax/persistence/criteria/CriteriaQuery;*;9
+7io.onedev.server.entitymanager.impl.DefaultBuildManager*+
+)
+projectio.onedev.server.model.Project*
+
+%0org.hibernate.Session*:
+8
+
+buildQuery*io.onedev.server.search.entity.EntityQueryš
+—
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultBuildManager.javaë ë(]9
+criteriaQuery(javax.persistence.criteria.CriteriaQuery"__id*0
+.
+%1(javax.persistence.criteria.CriteriaQueryçä
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultBuildManager.javaì ì(#
+%2org.hibernate.Session"Vio.onedev.server.persistence.dao.BaseEntityManager#getSession()Lorg/hibernate/Session;*;9
+7io.onedev.server.entitymanager.impl.DefaultBuildManager2getSession()ÇÄ
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultBuildManager.javaì ì(>
+%3org.hibernate.query.Query"horg.hibernate.Session#createQuery(Ljavax/persistence/criteria/CriteriaQuery;)Lorg/hibernate/query/Query;*
+
+%2org.hibernate.Session*;
+9
+criteriaQuery(javax.persistence.criteria.CriteriaQuery27createQuery(Ljavax/persistence/criteria/CriteriaQuery;)ô
+ñ
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultBuildManager.javaì ì(?"
+queryorg.hibernate.query.Query"__id*!
+
+%3org.hibernate.query.QueryÑÎ
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultBuildManager.javaí í(#
+%4org.hibernate.query.Query"Forg.hibernate.query.Query#setFirstResult(I)Lorg/hibernate/query/Query;*$
+"
+queryorg.hibernate.query.Query*
+""2setFirstResult(I)ÏÌ
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultBuildManager.javaî î(!
+%5org.hibernate.query.Query"Eorg.hibernate.query.Query#setMaxResults(I)Lorg/hibernate/query/Query;*$
+"
+queryorg.hibernate.query.Query*
+""2setMaxResults(I)¯¬
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultBuildManager.javaï	 ï(
+%6java.util.List"9org.hibernate.query.Query#getResultList()Ljava/util/List;*$
+"
+queryorg.hibernate.query.Query2getResultList()"¼
+¡
+”C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultBuildManager.javaï ï(
+
+%6java.util.List:)
+projectio.onedev.server.model.Project:8
+
+buildQuery*io.onedev.server.search.entity.EntityQuery:
+"":
+""B;9
+7io.onedev.server.entitymanager.impl.DefaultBuildManager

@@ -1,0 +1,121 @@
+
+gio.onedev.server.web.DefaultUrlManager#cloneUrlFor(Lio/onedev/server/model/Project;Z)Ljava/lang/String;Ž
+ƒC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/DefaultUrlManager.java/ /("startingBlock*²
+2Ž
+ƒC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/DefaultUrlManager.java1
+ 1(
+Œ
+Ž
+ƒC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/DefaultUrlManager.java1
+ 1(3
+%0-io.onedev.server.entitymanager.SettingManager"__id*>*<(
+&io.onedev.server.web.DefaultUrlManager"
+settingManager•’
+Ž
+ƒC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/DefaultUrlManager.java1
+ 1((>
+%18io.onedev.server.model.support.administration.SshSetting"wio.onedev.server.entitymanager.SettingManager#getSshSetting()Lio/onedev/server/model/support/administration/SshSetting;*5
+3
+%0-io.onedev.server.entitymanager.SettingManager2getSshSetting()ÙÖ
+Ž
+ƒC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/DefaultUrlManager.java1
+ 1(7
+%2java.lang.String"Yio.onedev.server.model.support.administration.SshSetting#getServerUrl()Ljava/lang/String;*@
+>
+%18io.onedev.server.model.support.administration.SshSetting2getServerUrl()×
+Ô
+Ž
+ƒC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/DefaultUrlManager.java1
+ 1(=
+%3java.lang.String"__concat*
+
+%2java.lang.String*
+/ 
+Ž
+ƒC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/DefaultUrlManager.java1@ 1(Q
+%4java.lang.String":io.onedev.server.model.Project#getName()Ljava/lang/String;*+
+)
+projectio.onedev.server.model.Project2	getName()ê
+ç
+Ž
+ƒC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/DefaultUrlManager.java1
+ 1(Q
+%5java.lang.String"__concat*
+
+%3java.lang.String*
+
+%4java.lang.String"«
+Ž
+ƒC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/DefaultUrlManager.java1 1(R
+
+%5java.lang.String*ð
+startingBlockŽ
+ƒC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/DefaultUrlManager.java/ /(8ì
+é
+Ž
+ƒC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/DefaultUrlManager.java. .(
+
+%12"
+__annotate*
+java.lang.Override*+
+)
+projectio.onedev.server.model.ProjectÖ
+Ó
+Ž
+ƒC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/DefaultUrlManager.java/# /(*)
+projectio.onedev.server.model.Project"__annotation*
+
+%12*
+2
+1*È
+1Ž
+ƒC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/DefaultUrlManager.java3
+ 3(
+Œ
+Ž
+ƒC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/DefaultUrlManager.java3
+ 3(3
+%6-io.onedev.server.entitymanager.SettingManager"__id*>*<(
+&io.onedev.server.web.DefaultUrlManager"
+settingManager¡ž
+Ž
+ƒC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/DefaultUrlManager.java3
+ 3(+A
+%7;io.onedev.server.model.support.administration.SystemSetting"}io.onedev.server.entitymanager.SettingManager#getSystemSetting()Lio/onedev/server/model/support/administration/SystemSetting;*5
+3
+%6-io.onedev.server.entitymanager.SettingManager2getSystemSetting()ßÜ
+Ž
+ƒC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/DefaultUrlManager.java3
+ 3(:
+%8java.lang.String"\io.onedev.server.model.support.administration.SystemSetting#getServerUrl()Ljava/lang/String;*C
+A
+%7;io.onedev.server.model.support.administration.SystemSetting2getServerUrl()×
+Ô
+Ž
+ƒC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/DefaultUrlManager.java3
+ 3(@
+%9java.lang.String"__concat*
+
+%8java.lang.String*
+/¡ž
+Ž
+ƒC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/DefaultUrlManager.java3C 3(T
+%10java.lang.String":io.onedev.server.model.Project#getName()Ljava/lang/String;*+
+)
+projectio.onedev.server.model.Project2	getName()ì
+é
+Ž
+ƒC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/DefaultUrlManager.java3
+ 3(T
+%11java.lang.String"__concat*
+
+%9java.lang.String*
+
+%10java.lang.String"¬
+Ž
+ƒC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/DefaultUrlManager.java3 3(U
+
+%11java.lang.String:)
+projectio.onedev.server.model.Project:
+""B*(
+&io.onedev.server.web.DefaultUrlManager

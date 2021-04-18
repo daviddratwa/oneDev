@@ -1,0 +1,91 @@
+
+dio.onedev.server.plugin.buildspec.node.NodeJobSuggestion#determineProjectVersion()Ljava/lang/String;¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaè è(-"7*ñ
+2¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaõ õ("Ã
+¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaõ õ(
+""*ñ
+3¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaò ò("Ã
+¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaò ò(
+""*í
+4¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javañ ñ(Á‰
+¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javañ ñ( 
+%5java.lang.String"Bcom.fasterxml.jackson.databind.JsonNode#asText()Ljava/lang/String;*8
+6
+versionNode'com.fasterxml.jackson.databind.JsonNode2asText()"ﬁ
+¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javañ ñ(!
+
+%5java.lang.String*‘
+5¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaî î(#…∆
+¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaî î(8-
+%4'com.fasterxml.jackson.databind.JsonNode"ncom.fasterxml.jackson.databind.JsonNode#findValue(Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JsonNode;*5
+3
+jsonNode'com.fasterxml.jackson.databind.JsonNode*	
+version2findValue(Ljava/lang/String;)∂
+≥
+¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaî î(96
+versionNode'com.fasterxml.jackson.databind.JsonNode"__id*/
+-
+%4'com.fasterxml.jackson.databind.JsonNode*
+3
+4*£
+6¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaí í(%ÔÏ
+¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaí& í(8$
+%1io.onedev.server.model.Project"Iio.onedev.server.model.Build#getProject()Lio/onedev/server/model/Project;*'
+%
+buildio.onedev.server.model.Build2getProject()ÔÏ
+¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaí: í(M#
+%2org.eclipse.jgit.lib.ObjectId"Iio.onedev.server.model.Build#getCommitId()Lorg/eclipse/jgit/lib/ObjectId;*'
+%
+buildio.onedev.server.model.Build2getCommitId()∑
+¥
+¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaí í(N-
+%3'com.fasterxml.jackson.databind.JsonNode"±io.onedev.server.plugin.buildspec.node.NodeJobSuggestion#getPackageJson(Lio/onedev/server/model/Project;Lorg/eclipse/jgit/lib/ObjectId;)Lcom/fasterxml/jackson/databind/JsonNode;*<":
+8io.onedev.server.plugin.buildspec.node.NodeJobSuggestion*&
+$
+%1io.onedev.server.model.Project*%
+#
+%2org.eclipse.jgit.lib.ObjectId≥
+∞
+¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaí í(O3
+jsonNode'com.fasterxml.jackson.databind.JsonNode"__id*/
+-
+%3'com.fasterxml.jackson.databind.JsonNode*
+2
+5*æ
+7¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaê ê(œ
+Ã
+¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaê ê("
+%0io.onedev.server.model.Build"@io.onedev.server.model.Build#get()Lio/onedev/server/model/Build;* "
+io.onedev.server.model.Buildö
+ó
+¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaê ê(%
+buildio.onedev.server.model.Build"__id*$
+"
+%0io.onedev.server.model.Build*
+6
+1*ñ
+1¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaù
+ ù("Ã
+¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaù ù(
+""B<":
+8io.onedev.server.plugin.buildspec.node.NodeJobSuggestion

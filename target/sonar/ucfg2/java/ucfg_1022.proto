@@ -1,0 +1,148 @@
+
+∂io.onedev.server.model.support.BranchProtection#isBuildRequiredForPush(Lio/onedev/server/model/Project;Lorg/eclipse/jgit/lib/ObjectId;Lorg/eclipse/jgit/lib/ObjectId;Ljava/util/Map;)Zô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.java≥ ≥(&"7*˝
+2ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.java∏ ∏(‘
+—
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.java∏ ∏(%
+buildio.onedev.server.model.Build"__id*
+""¸
+˘
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.java∏ ∏(%
+buildio.onedev.server.model.Build"
+__arrayGet* 
+
+buildsjava.util.Collection*
+""*
+5
+1*∆
+3ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.java∫ ∫("§
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.java∫ ∫(
+""*Ø
+4ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.javaπ8 π(=œÃ
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.javaπ8 π(I)
+%5#io.onedev.server.model.Build$Status"Mio.onedev.server.model.Build#getStatus()Lio/onedev/server/model/Build$Status;*'
+%
+buildio.onedev.server.model.Build2getStatus()ÿ
+’
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.javaπM π(S)
+%6#io.onedev.server.model.Build$Status"__id*
+""ÿ
+’
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.javaπM π(^)
+%7#io.onedev.server.model.Build$Status"__id*
+""*
+2
+3*û
+5ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.javaπ π(´®
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.javaπ! π(3
+%3java.lang.String";io.onedev.server.model.Build#getJobName()Ljava/lang/String;*'
+%
+buildio.onedev.server.model.Build2getJobName()∆√
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.javaπ π(4
+%4boolean"2java.util.Collection#contains(Ljava/lang/Object;)Z**
+(
+requiredJobNamesjava.util.Collection*
+
+%3java.lang.String2contains(Ljava/lang/Object;)*
+2
+4*ƒ
+7ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.javaµ( µ(7‡›
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.javaµ( µ(c
+%0java.util.Collection"ƒio.onedev.server.model.support.BranchProtection#getRequiredJobs(Lio/onedev/server/model/Project;Lorg/eclipse/jgit/lib/ObjectId;Lorg/eclipse/jgit/lib/ObjectId;Ljava/util/Map;)Ljava/util/Collection;*31
+/io.onedev.server.model.support.BranchProtection*+
+)
+projectio.onedev.server.model.Project*.
+,
+oldObjectIdorg.eclipse.jgit.lib.ObjectId*.
+,
+newObjectIdorg.eclipse.jgit.lib.ObjectId*
+
+gitEnvsjava.util.Map2~getRequiredJobs(Lio/onedev/server/model/Project;Lorg/eclipse/jgit/lib/ObjectId;Lorg/eclipse/jgit/lib/ObjectId;Ljava/util/Map;)Ì
+Í
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.javaµ µ(d(
+requiredJobNamesjava.util.Collection"__id*
+
+%0java.util.Collection¡
+æ
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.java∑ ∑(C1
+%1+io.onedev.server.entitymanager.BuildManager"Hio.onedev.server.OneDev#getInstance(Ljava/lang/Class;)Ljava/lang/Object;*"
+io.onedev.server.OneDev*
+""†ù
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.java∑ ∑(_
+%2java.util.Collection"àio.onedev.server.entitymanager.BuildManager#query(Lio/onedev/server/model/Project;Lorg/eclipse/jgit/lib/ObjectId;)Ljava/util/Collection;*3
+1
+%1+io.onedev.server.entitymanager.BuildManager*+
+)
+projectio.onedev.server.model.Project*.
+,
+newObjectIdorg.eclipse.jgit.lib.ObjectId2Fquery(Lio/onedev/server/model/Project;Lorg/eclipse/jgit/lib/ObjectId;)„
+‡
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.java∑ ∑(`
+buildsjava.util.Collection"__id*
+
+%2java.util.Collection*
+2*«
+1ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.javaº º(¢ü
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.javaº º(,
+%8java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;* 
+
+buildsjava.util.Collection2stream()‡›
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.javaº º(E
+%9java.util.stream.Stream"Sjava.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;*
+
+%8java.util.stream.Stream*
+""2"map(Ljava/util/function/Function;)§
+°
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.javaºN º(`!
+%10java.util.stream.Collector"?java.util.stream.Collectors#toSet()Ljava/util/stream/Collector;*"
+java.util.stream.CollectorsÛ
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.javaº º(a
+%11java.util.Set"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;*
+
+%9java.util.stream.Stream*#
+!
+%10java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)œÃ
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.javaº º(b
+%12boolean"7java.util.Collection#removeAll(Ljava/util/Collection;)Z**
+(
+requiredJobNamesjava.util.Collection*
+
+%11java.util.Set2!removeAll(Ljava/util/Collection;)áÑ
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.javaΩ
+ Ω($
+%13boolean"java.util.Collection#isEmpty()Z**
+(
+requiredJobNamesjava.util.Collection2	isEmpty()"§
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.javaΩ Ω(%
+"":)
+projectio.onedev.server.model.Project:,
+oldObjectIdorg.eclipse.jgit.lib.ObjectId:,
+newObjectIdorg.eclipse.jgit.lib.ObjectId:
+gitEnvsjava.util.MapB31
+/io.onedev.server.model.support.BranchProtection

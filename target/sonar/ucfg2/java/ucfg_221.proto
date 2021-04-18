@@ -1,0 +1,50 @@
+
+Zio.onedev.server.persistence.DefaultSessionManager$1$1#openObject()Lorg/hibernate/Session;ö
+èC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/DefaultSessionManager.java# #( "1*˛
+1ö
+èC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/DefaultSessionManager.java$ $(-õ
+ò
+ö
+èC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/DefaultSessionManager.java$ $(-
+%0javax.inject.Provider"__id*V*T8
+6io.onedev.server.persistence.DefaultSessionManager$1$1"
+persistManagerProvider®•
+ö
+èC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/DefaultSessionManager.java$ $(31
+%1+io.onedev.server.persistence.PersistManager"-javax.inject.Provider#get()Ljava/lang/Object;*
+
+%0javax.inject.Provider2get()ÌÍ
+ö
+èC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/DefaultSessionManager.java$ $(G"
+%2org.hibernate.SessionFactory"]io.onedev.server.persistence.PersistManager#getSessionFactory()Lorg/hibernate/SessionFactory;*3
+1
+%1+io.onedev.server.persistence.PersistManager2getSessionFactory()µ≤
+ö
+èC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/DefaultSessionManager.java$ $(U
+%3org.hibernate.Session"Aorg.hibernate.SessionFactory#openSession()Lorg/hibernate/Session;*$
+"
+%2org.hibernate.SessionFactory2openSession()Á
+‰
+ö
+èC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/DefaultSessionManager.java$ $(V 
+sessionorg.hibernate.Session"__id*
+
+%3org.hibernate.SessionÕ
+ 
+ö
+èC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/DefaultSessionManager.java&# &(3
+%4org.hibernate.FlushMode"__id*
+""ÏÈ
+ö
+èC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/DefaultSessionManager.java& &(4
+
+%5void"Gorg.hibernate.Session#setHibernateFlushMode(Lorg/hibernate/FlushMode;)V*"
+ 
+sessionorg.hibernate.Session*
+
+%4org.hibernate.FlushMode20setHibernateFlushMode(Lorg/hibernate/FlushMode;)"¡
+ö
+èC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/DefaultSessionManager.java( (("
+ 
+sessionorg.hibernate.SessionB:8
+6io.onedev.server.persistence.DefaultSessionManager$1$1

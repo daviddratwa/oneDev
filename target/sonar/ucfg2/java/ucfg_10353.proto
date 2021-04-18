@@ -1,0 +1,44 @@
+
+Zio.onedev.server.security.SecurityUtils#canManageIssues(Lio/onedev/server/model/Project;)Zë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java« «(&"1*Ä
+1ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java»	 »(≤
+Ø
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java»	 »(&
+%0 org.apache.shiro.subject.Subject"Morg.apache.shiro.SecurityUtils#getSubject()Lorg/apache/shiro/subject/Subject;*"" 
+org.apache.shiro.SecurityUtilsÉÄ
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java»E »(Q7
+%11io.onedev.server.security.permission.ManageIssues"1io.onedev.server.security.permission.ManageIssuesï
+í
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java»A »(S
+%2";io.onedev.server.security.permission.ManageIssues#<init>()V*9
+7
+%11io.onedev.server.security.permission.ManageIssuesçä
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java»& »(7<
+%36io.onedev.server.security.permission.ProjectPermission"6io.onedev.server.security.permission.ProjectPermissionÀ
+»
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java»" »(T
+%4"Éio.onedev.server.security.permission.ProjectPermission#<init>(Lio/onedev/server/model/Project;Lorg/apache/shiro/authz/Permission;)V*>
+<
+%36io.onedev.server.security.permission.ProjectPermission*+
+)
+projectio.onedev.server.model.Project*9
+7
+%11io.onedev.server.security.permission.ManageIssuesñì
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java»	 »(U
+%5boolean"Rorg.apache.shiro.subject.Subject#isPermitted(Lorg/apache/shiro/authz/Permission;)Z*(
+&
+%0 org.apache.shiro.subject.Subject*>
+<
+%36io.onedev.server.security.permission.ProjectPermission20isPermitted(Lorg/apache/shiro/authz/Permission;)"ú
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java» »(V
+"":)
+projectio.onedev.server.model.ProjectB+")
+'io.onedev.server.security.SecurityUtils

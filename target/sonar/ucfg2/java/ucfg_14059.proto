@@ -1,0 +1,361 @@
+
+Úio.onedev.server.entitymanager.impl.DefaultProjectManager#<init>(Lio/onedev/server/persistence/dao/Dao;Lio/onedev/server/infomanager/CommitInfoManager;Lio/onedev/server/entitymanager/BuildManager;Lio/onedev/server/web/avatar/AvatarManager;Lio/onedev/server/entitymanager/GroupManager;Lio/onedev/server/entitymanager/SettingManager;Lio/onedev/server/persistence/TransactionManager;Lio/onedev/server/persistence/SessionManager;Lio/onedev/commons/launcher/loader/ListenerRegistry;Lio/onedev/server/util/schedule/TaskScheduler;Lio/onedev/server/entitymanager/UserAuthorizationManager;Lio/onedev/server/entitymanager/RoleManager;)V£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÖ Ö( "startingBlock*£4
+startingBlock£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÖ  ä(Ñ
+Å
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÑ Ñ(
+%10"
+__annotate*
+javax.inject.Inject*-
++
+dao$io.onedev.server.persistence.dao.DaoÌ
+Í
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÖ% Ö((+
+dao$io.onedev.server.persistence.dao.Dao"__annotation*
+
+%10ú
+ô
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÑ Ñ(
+%11"
+__annotate*
+javax.inject.Inject*E
+C
+commitInfoManager.io.onedev.server.infomanager.CommitInfoManagerÖ
+Ç
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÖ< Ö(MC
+commitInfoManager.io.onedev.server.infomanager.CommitInfoManager"__annotation*
+
+%11î
+ë
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÑ Ñ(
+%12"
+__annotate*
+javax.inject.Inject*=
+;
+buildManager+io.onedev.server.entitymanager.BuildManager˝
+˙
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÜ Ü(;
+buildManager+io.onedev.server.entitymanager.BuildManager"__annotation*
+
+%12ì
+ê
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÑ Ñ(
+%13"
+__annotate*
+javax.inject.Inject*<
+:
+avatarManager)io.onedev.server.web.avatar.AvatarManager¸
+˘
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÜ/ Ü(<:
+avatarManager)io.onedev.server.web.avatar.AvatarManager"__annotation*
+
+%13î
+ë
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÑ Ñ(
+%14"
+__annotate*
+javax.inject.Inject*=
+;
+groupManager+io.onedev.server.entitymanager.GroupManager˝
+˙
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÜK Ü(W;
+groupManager+io.onedev.server.entitymanager.GroupManager"__annotation*
+
+%14ò
+ï
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÑ Ñ(
+%15"
+__annotate*
+javax.inject.Inject*A
+?
+settingManager-io.onedev.server.entitymanager.SettingManagerÅ
+˛
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaá á(#?
+settingManager-io.onedev.server.entitymanager.SettingManager"__annotation*
+
+%15û
+õ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÑ Ñ(
+%16"
+__annotate*
+javax.inject.Inject*G
+E
+transactionManager/io.onedev.server.persistence.TransactionManagerá
+Ñ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaá8 á(JE
+transactionManager/io.onedev.server.persistence.TransactionManager"__annotation*
+
+%16ñ
+ì
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÑ Ñ(
+%17"
+__annotate*
+javax.inject.Inject*?
+=
+sessionManager+io.onedev.server.persistence.SessionManagerˇ
+¸
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaà à(#=
+sessionManager+io.onedev.server.persistence.SessionManager"__annotation*
+
+%17ü
+ú
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÑ Ñ(
+%18"
+__annotate*
+javax.inject.Inject*H
+F
+listenerRegistry2io.onedev.commons.launcher.loader.ListenerRegistryà
+Ö
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaà6 à(FF
+listenerRegistry2io.onedev.commons.launcher.loader.ListenerRegistry"__annotation*
+
+%18ñ
+ì
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÑ Ñ(
+%19"
+__annotate*
+javax.inject.Inject*?
+=
+taskScheduler,io.onedev.server.util.schedule.TaskSchedulerˇ
+¸
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaâ â(!=
+taskScheduler,io.onedev.server.util.schedule.TaskScheduler"__annotation*
+
+%19¨
+©
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÑ Ñ(
+%20"
+__annotate*
+javax.inject.Inject*U
+S
+userAuthorizationManager7io.onedev.server.entitymanager.UserAuthorizationManagerï
+í
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaâ< â(TS
+userAuthorizationManager7io.onedev.server.entitymanager.UserAuthorizationManager"__annotation*
+
+%20í
+è
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaÑ Ñ(
+%21"
+__annotate*
+javax.inject.Inject*;
+9
+roleManager*io.onedev.server.entitymanager.RoleManager˚
+¯
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaä ä(9
+roleManager*io.onedev.server.entitymanager.RoleManager"__annotation*
+
+%21*
+11*°
+4£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaõ_ õ(c
+Ì
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaõ õ(d
+%7java.lang.String"corg.apache.commons.lang3.StringUtils#join(Ljava/lang/Iterable;Ljava/lang/String;)Ljava/lang/String;*("&
+$org.apache.commons.lang3.StringUtils*
+
+%6java.util.List*
+\n*
+1*º
+5£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaõ. õ(]ã
+à
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaõ. õ(]
+%6java.util.List"horg.apache.commons.io.IOUtils#readLines(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/util/List;*!"
+org.apache.commons.io.IOUtils*
+
+isjava.io.InputStream* 
+
+%5java.nio.charset.Charset*
+4*›
+6£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaõ õ((¨
+©
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaõD õ(\
+%5java.nio.charset.Charset"Cjava.nio.charset.Charset#defaultCharset()Ljava/nio/charset/Charset;*"
+java.nio.charset.Charset*
+5*ˇ
+7£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaô ô(aÁ
+‰
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaô ô(a
+isjava.io.InputStream"__id*
+
+%3java.io.InputStream‰
+·
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaö	 ö('
+%4java.io.InputStream"Wcom.google.common.base.Preconditions#checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;*("&
+$com.google.common.base.Preconditions*
+
+isjava.io.InputStream*
+6*ß
+8£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaôN ô(`ˆÛ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaô ô(a
+%3java.io.InputStream"Rjava.lang.ClassLoader#getResourceAsStream(Ljava/lang/String;)Ljava/io/InputStream;*
+
+%2java.lang.ClassLoader*
+git-receive-hook2'getResourceAsStream(Ljava/lang/String;)*
+7*€
+9£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaô ô(9™ß
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaô ô(9
+%2java.lang.ClassLoader"7java.lang.Class#getClassLoader()Ljava/lang/ClassLoader;*
+
+%1java.lang.Class2getClassLoader()*
+8*Î
+10£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaô ô(&π∂
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaô ô((
+%1java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*=;
+9io.onedev.server.entitymanager.impl.DefaultProjectManager2
+getClass()*
+9*Ç!
+11£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaã ã(
+µ
+≤
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaã ã(8
+%02io.onedev.server.persistence.dao.BaseEntityManager"bio.onedev.server.persistence.dao.BaseEntityManager#<init>(Lio/onedev/server/persistence/dao/Dao;)V*=;
+9io.onedev.server.entitymanager.impl.DefaultProjectManager*-
++
+dao$io.onedev.server.persistence.dao.Dao 
+«
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaç ç(2R;
+9io.onedev.server.entitymanager.impl.DefaultProjectManager"
+commitInfoManager"__id*E
+C
+commitInfoManager.io.onedev.server.infomanager.CommitInfoManagerΩ
+∫
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaé é((M;
+9io.onedev.server.entitymanager.impl.DefaultProjectManager"
+buildManager"__id*=
+;
+buildManager+io.onedev.server.entitymanager.BuildManagerΩ
+∫
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaè è((M;
+9io.onedev.server.entitymanager.impl.DefaultProjectManager"
+groupManager"__id*=
+;
+groupManager+io.onedev.server.entitymanager.GroupManagerΩ
+∫
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaê ê(*N;
+9io.onedev.server.entitymanager.impl.DefaultProjectManager"
+avatarManager"__id*<
+:
+avatarManager)io.onedev.server.web.avatar.AvatarManager√
+¿
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaë ë(,O;
+9io.onedev.server.entitymanager.impl.DefaultProjectManager"
+settingManager"__id*A
+?
+settingManager-io.onedev.server.entitymanager.SettingManagerÕ
+ 
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaí í(4S;
+9io.onedev.server.entitymanager.impl.DefaultProjectManager"
+transactionManager"__id*G
+E
+transactionManager/io.onedev.server.persistence.TransactionManager¡
+æ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaì ì(,O;
+9io.onedev.server.entitymanager.impl.DefaultProjectManager"
+sessionManager"__id*?
+=
+sessionManager+io.onedev.server.persistence.SessionManagerÃ
+…
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaî î(0Q;
+9io.onedev.server.entitymanager.impl.DefaultProjectManager"
+listenerRegistry"__id*H
+F
+listenerRegistry2io.onedev.commons.launcher.loader.ListenerRegistry¿
+Ω
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaï ï(*N;
+9io.onedev.server.entitymanager.impl.DefaultProjectManager"
+taskScheduler"__id*?
+=
+taskScheduler,io.onedev.server.util.schedule.TaskScheduler·
+ﬁ
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javañ ñ(@Y;
+9io.onedev.server.entitymanager.impl.DefaultProjectManager"
+userAuthorizationManager"__id*U
+S
+userAuthorizationManager7io.onedev.server.entitymanager.UserAuthorizationManager∫
+∑
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaó ó(&L;
+9io.onedev.server.entitymanager.impl.DefaultProjectManager"
+roleManager"__id*;
+9
+roleManager*io.onedev.server.entitymanager.RoleManager*
+10*√
+0 "ª
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.java† †(
+implicit return*À
+1£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaõ õ(dö
+ó
+£
+ñC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultProjectManager.javaõ õ(dO;
+9io.onedev.server.entitymanager.impl.DefaultProjectManager"
+gitReceiveHook"__id*
+
+%7java.lang.String*
+0:+
+dao$io.onedev.server.persistence.dao.Dao:C
+commitInfoManager.io.onedev.server.infomanager.CommitInfoManager:;
+buildManager+io.onedev.server.entitymanager.BuildManager::
+avatarManager)io.onedev.server.web.avatar.AvatarManager:;
+groupManager+io.onedev.server.entitymanager.GroupManager:?
+settingManager-io.onedev.server.entitymanager.SettingManager:E
+transactionManager/io.onedev.server.persistence.TransactionManager:=
+sessionManager+io.onedev.server.persistence.SessionManager:F
+listenerRegistry2io.onedev.commons.launcher.loader.ListenerRegistry:=
+taskScheduler,io.onedev.server.util.schedule.TaskScheduler:S
+userAuthorizationManager7io.onedev.server.entitymanager.UserAuthorizationManager:9
+roleManager*io.onedev.server.entitymanager.RoleManagerB=;
+9io.onedev.server.entitymanager.impl.DefaultProjectManager

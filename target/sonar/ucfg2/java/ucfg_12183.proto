@@ -1,0 +1,318 @@
+
+Hio.onedev.server.web.component.user.card.PersonCardPanel#onInitialize()V†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java ("8*°
+2†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java5 5(Û
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java5 5(.
+%37java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*$
+"
+builderjava.lang.StringBuilder*
+<i>No OneDev Account</i>2append(Ljava/lang/String;)*
+1*˛
+3†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java3 3(™ß
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java33 3(A
+%32java.lang.String"7io.onedev.server.model.User#getName()Ljava/lang/String;*%
+#
+userio.onedev.server.model.User2	getName()Œ
+À
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java3 3(B
+%33java.lang.String"Oorg.unbescape.html.HtmlEscape#escapeHtml5(Ljava/lang/String;)Ljava/lang/String;*!"
+org.unbescape.html.HtmlEscape*
+
+%32java.lang.StringÓ
+Î
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java3 3(B
+%34java.lang.String"__concat*
+<i>@*
+
+%33java.lang.StringÓ
+Î
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java3 3(K
+%35java.lang.String"__concat*
+
+%34java.lang.String*
+</i>Ì
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java3 3(L
+%36java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*$
+"
+builderjava.lang.StringBuilder*
+
+%35java.lang.String2append(Ljava/lang/String;)*
+1*á
+4†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java1 1(»
+≈
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java1 1(41
+%28*io.onedev.server.entitymanager.UserManager"Hio.onedev.server.OneDev#getInstance(Ljava/lang/Class;)Ljava/lang/Object;*"
+io.onedev.server.OneDev*
+""§
+°
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java1A 1(L'
+%29 org.eclipse.jgit.lib.PersonIdent"__id*M*K:
+8io.onedev.server.web.component.user.card.PersonCardPanel"
+personIdent√¿
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java1A 1(^
+%30java.lang.String"Dorg.eclipse.jgit.lib.PersonIdent#getEmailAddress()Ljava/lang/String;*)
+'
+%29 org.eclipse.jgit.lib.PersonIdent2getEmailAddress()§°
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java1 1(_"
+%31io.onedev.server.model.User"gio.onedev.server.entitymanager.UserManager#findByEmail(Ljava/lang/String;)Lio/onedev/server/model/User;*3
+1
+%28*io.onedev.server.entitymanager.UserManager*
+
+%30java.lang.String2findByEmail(Ljava/lang/String;)˜
+Ù
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java1 1(`#
+userio.onedev.server.model.User"__id*$
+"
+%31io.onedev.server.model.User*
+2
+3*°
+5†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java/ /(Û
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java/ /(.
+%27java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*$
+"
+builderjava.lang.StringBuilder*
+<i>No OneDev Account</i>2append(Ljava/lang/String;)*
+1*û
+6†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java- -(Ì
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java- -(+
+%26java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*$
+"
+builderjava.lang.StringBuilder*
+<i>System Account</i>2append(Ljava/lang/String;)*
+1*î
+
+7†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java, ,(§
+°
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java, ,('
+%22 org.eclipse.jgit.lib.PersonIdent"__id*M*K:
+8io.onedev.server.web.component.user.card.PersonCardPanel"
+personIdent≥∞
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java, ,(
+%23java.lang.String"<org.eclipse.jgit.lib.PersonIdent#getName()Ljava/lang/String;*)
+'
+%22 org.eclipse.jgit.lib.PersonIdent2	getName()Õ
+ 
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java,$ ,(/
+%24java.lang.String"__id*
+""∂≥
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java, ,(0
+%25boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%23java.lang.String*
+
+%24java.lang.String2equals(Ljava/lang/Object;)*
+5
+6*ß:
+8†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java   (Ì
+Í
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java   (
+
+%0void"1org.apache.wicket.MarkupContainer#onInitialize()V*
+""êç
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java"% "(76
+%10org.apache.wicket.markup.html.WebMarkupContainer"0org.apache.wicket.markup.html.WebMarkupContainer√
+¿
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java"! "(D
+%2"Lorg.apache.wicket.markup.html.WebMarkupContainer#<init>(Ljava/lang/String;)V*8
+6
+%10org.apache.wicket.markup.html.WebMarkupContainer*
+	container•
+¢
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java" "(E=
+	container0org.apache.wicket.markup.html.WebMarkupContainer"__id*8
+6
+%10org.apache.wicket.markup.html.WebMarkupContainer›⁄
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java# #('
+%3!org.apache.wicket.MarkupContainer"horg.apache.wicket.MarkupContainer#add([Lorg/apache/wicket/Component;)Lorg/apache/wicket/MarkupContainer;*<:
+8io.onedev.server.web.component.user.card.PersonCardPanel*?
+=
+	container0org.apache.wicket.markup.html.WebMarkupContainer2#add([Lorg/apache/wicket/Component;)£
+†
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java%) %(4&
+%4 org.eclipse.jgit.lib.PersonIdent"__id*M*K:
+8io.onedev.server.web.component.user.card.PersonCardPanel"
+personIdentåâ
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java% %(4
+%5.io.onedev.server.web.component.user.UserAvatar".io.onedev.server.web.component.user.UserAvatarà
+Ö
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java% %(5
+%6"lio.onedev.server.web.component.user.UserAvatar#<init>(Ljava/lang/String;Lorg/eclipse/jgit/lib/PersonIdent;)V*6
+4
+%5.io.onedev.server.web.component.user.UserAvatar*
+
+avatar*(
+&
+%4 org.eclipse.jgit.lib.PersonIdent◊‘
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java% %(6'
+%7!org.apache.wicket.MarkupContainer"horg.apache.wicket.MarkupContainer#add([Lorg/apache/wicket/Component;)Lorg/apache/wicket/MarkupContainer;*?
+=
+	container0org.apache.wicket.markup.html.WebMarkupContainer*6
+4
+%5.io.onedev.server.web.component.user.UserAvatar2#add([Lorg/apache/wicket/Component;)ﬁ€
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java' '(+
+%8java.lang.StringBuilder"java.lang.StringBuilder
+Ì
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java' '(-
+%9"!java.lang.StringBuilder#<init>()V*
+
+%8java.lang.StringBuilderÒ
+Ó
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java' '(."
+builderjava.lang.StringBuilder"__id*
+
+%8java.lang.StringBuilder§
+°
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java(2 ((='
+%10 org.eclipse.jgit.lib.PersonIdent"__id*M*K:
+8io.onedev.server.web.component.user.card.PersonCardPanel"
+personIdent≥∞
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java(2 ((G
+%11java.lang.String"<org.eclipse.jgit.lib.PersonIdent#getName()Ljava/lang/String;*)
+'
+%10 org.eclipse.jgit.lib.PersonIdent2	getName()Œ
+À
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java( ((H
+%12java.lang.String"Oorg.unbescape.html.HtmlEscape#escapeHtml5(Ljava/lang/String;)Ljava/lang/String;*!"
+org.unbescape.html.HtmlEscape*
+
+%11java.lang.StringÔ
+Ï
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java( ((H
+%13java.lang.String"__concat*	
+<div>*
+
+%12java.lang.StringÔ
+Ï
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java( )(
+%14java.lang.String"__concat*
+
+%13java.lang.String*	
+ <i>(ê
+ç
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java) )(
+%15java.lang.String"__id*I*G:
+8io.onedev.server.web.component.user.card.PersonCardPanel"	
+gitRoleˇ
+¸
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java( )(
+%16java.lang.String"__concat*
+
+%14java.lang.String*
+
+%15java.lang.Stringı
+Ú
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java( )(%
+%17java.lang.String"__concat*
+
+%16java.lang.String*
+)</i></div>Ì
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java( )(&
+%18java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*$
+"
+builderjava.lang.StringBuilder*
+
+%17java.lang.String2append(Ljava/lang/String;)§
+°
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java+ +(%'
+%19 org.eclipse.jgit.lib.PersonIdent"__id*M*K:
+8io.onedev.server.web.component.user.card.PersonCardPanel"
+personIdent√¿
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java+ +(7
+%20java.lang.String"Dorg.eclipse.jgit.lib.PersonIdent#getEmailAddress()Ljava/lang/String;*)
+'
+%19 org.eclipse.jgit.lib.PersonIdent2getEmailAddress()ƒ
+¡
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java+ +(8
+%21boolean"Gorg.apache.commons.lang3.StringUtils#isBlank(Ljava/lang/CharSequence;)Z*("&
+$org.apache.commons.lang3.StringUtils*
+
+%20java.lang.String*
+4
+7*¿
+0 "∏
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java8 8(
+implicit return*Ä
+1†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java7 7(ß§
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java7" 7(4
+%38java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*$
+"
+builderjava.lang.StringBuilder2
+toString()ÉÄ
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java7 7(0
+%39)org.apache.wicket.markup.html.basic.Label")org.apache.wicket.markup.html.basic.Label„
+‡
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java7 7(5
+%40"[org.apache.wicket.markup.html.basic.Label#<init>(Ljava/lang/String;Ljava/io/Serializable;)V*2
+0
+%39)org.apache.wicket.markup.html.basic.Label*
+info*
+
+%38java.lang.StringÛ
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java7 7(R"
+%41org.apache.wicket.Component"Qorg.apache.wicket.Component#setEscapeModelStrings(Z)Lorg/apache/wicket/Component;*2
+0
+%39)org.apache.wicket.markup.html.basic.Label*
+""2setEscapeModelStrings(Z)∆√
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/component/user/card/PersonCardPanel.java7 7(S(
+%42!org.apache.wicket.MarkupContainer"horg.apache.wicket.MarkupContainer#add([Lorg/apache/wicket/Component;)Lorg/apache/wicket/MarkupContainer;*?
+=
+	container0org.apache.wicket.markup.html.WebMarkupContainer*$
+"
+%41org.apache.wicket.Component2#add([Lorg/apache/wicket/Component;)*
+0B<:
+8io.onedev.server.web.component.user.card.PersonCardPanel

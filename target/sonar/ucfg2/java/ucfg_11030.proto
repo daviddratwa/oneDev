@@ -1,0 +1,81 @@
+
+8io.onedev.server.model.PullRequest#isMergedIntoTarget()Z‹
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/PullRequest.java« «(""3*…
+2‹
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/PullRequest.java­ ­(ÊÇ
+‹
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/PullRequest.java­, ­(>$
+%1io.onedev.server.model.Project"Uio.onedev.server.model.PullRequest#getTargetProject()Lio/onedev/server/model/Project;*&$
+"io.onedev.server.model.PullRequest2getTargetProject()Â¿
+‹
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/PullRequest.java­, ­(N%
+%2org.eclipse.jgit.lib.Repository"Oio.onedev.server.model.Project#getRepository()Lorg/eclipse/jgit/lib/Repository;*&
+$
+%1io.onedev.server.model.Project2getRepository()ÜÙ
+‹
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/PullRequest.java® ®(*.
+%3(io.onedev.server.model.PullRequestUpdate"^io.onedev.server.model.PullRequest#getLatestUpdate()Lio/onedev/server/model/PullRequestUpdate;*&$
+"io.onedev.server.model.PullRequest2getLatestUpdate()À½
+‹
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/PullRequest.java® ®(>
+%4java.lang.String"Nio.onedev.server.model.PullRequestUpdate#getHeadCommitHash()Ljava/lang/String;*0
+.
+%3(io.onedev.server.model.PullRequestUpdate2getHeadCommitHash()Ð
+Í
+‹
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/PullRequest.java® ®(?#
+%5org.eclipse.jgit.lib.ObjectId"[org.eclipse.jgit.lib.ObjectId#fromString(Ljava/lang/String;)Lorg/eclipse/jgit/lib/ObjectId;*!"
+org.eclipse.jgit.lib.ObjectId*
+
+%4java.lang.StringÌÉ
+‹
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/PullRequest.java®A ®(L,
+%6&io.onedev.server.util.ProjectAndBranch"Vio.onedev.server.model.PullRequest#getTarget()Lio/onedev/server/util/ProjectAndBranch;*&$
+"io.onedev.server.model.PullRequest2getTarget()ÌÉ
+‹
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/PullRequest.java®A ®(Z#
+%7org.eclipse.jgit.lib.ObjectId"Uio.onedev.server.util.ProjectAndRevision#getObjectId()Lorg/eclipse/jgit/lib/ObjectId;*.
+,
+%6&io.onedev.server.util.ProjectAndBranch2getObjectId()à
+Ý
+‹
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/PullRequest.java­ ®([
+%8boolean"›io.onedev.server.git.GitUtils#isMergedInto(Lorg/eclipse/jgit/lib/Repository;Ljava/util/Map;Lorg/eclipse/jgit/lib/ObjectId;Lorg/eclipse/jgit/lib/ObjectId;)Z*!"
+io.onedev.server.git.GitUtils*'
+%
+%2org.eclipse.jgit.lib.Repository*
+""*%
+#
+%5org.eclipse.jgit.lib.ObjectId*%
+#
+%7org.eclipse.jgit.lib.ObjectIdä
+á
+‹
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/PullRequest.java­ ®([:$
+"io.onedev.server.model.PullRequest"
+mergedIntoTarget"__id*
+
+%8boolean*
+1*Š
+3‹
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/PullRequest.java¬ ¬(î
+ë
+‹
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/PullRequest.java¬ ¬(
+%0java.lang.Boolean"__id*<*:$
+"io.onedev.server.model.PullRequest"
+mergedIntoTarget*
+2
+1*›
+1‹
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/PullRequest.java°	 °(î
+ë
+‹
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/PullRequest.java°	 °(
+%9java.lang.Boolean"__id*<*:$
+"io.onedev.server.model.PullRequest"
+mergedIntoTarget"–
+‹
+C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/PullRequest.java° °(
+""B&$
+"io.onedev.server.model.PullRequest

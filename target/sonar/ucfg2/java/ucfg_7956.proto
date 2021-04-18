@@ -1,0 +1,295 @@
+
+Zorg.eclipse.jgit.merge.ResolveMerger#mergeTreeWalk(Lorg/eclipse/jgit/treewalk/TreeWalk;Z)Zé
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java©
+ ©
+( "14*™
+13é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaÆ
+	 Æ
+(âÜ
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaÆ
+	 Æ
+(
+%4boolean"*org.eclipse.jgit.treewalk.TreeWalk#next()Z*0
+.
+treeWalk"org.eclipse.jgit.treewalk.TreeWalk2next()*
+1
+12*¥
+2é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaΩ
+ Ω
+(óî
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaΩ
+ Ω
+(
+%23void"2org.eclipse.jgit.treewalk.TreeWalk#enterSubtree()V*0
+.
+treeWalk"org.eclipse.jgit.treewalk.TreeWalk2enterSubtree()*
+13*Ç
+
+14é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java´
+# ´
+(%Ç
+ˇ
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java´
+# ´
+(%4
+%0.org.eclipse.jgit.treewalk.NameConflictTreeWalk"__id*0*.&
+$org.eclipse.jgit.merge.ResolveMerger"
+twõò
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java´
+# ´
+(4	
+%1int"2org.eclipse.jgit.treewalk.TreeWalk#getTreeCount()I*6
+4
+%0.org.eclipse.jgit.treewalk.NameConflictTreeWalk2getTreeCount()≠
+™
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java´
+7 ´
+(=	
+%2int"__id*
+""ëé
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java¨
+% ≠
+( 8
+%32org.eclipse.jgit.attributes.AttributesNodeProvider"rorg.eclipse.jgit.treewalk.TreeWalk#getAttributesNodeProvider()Lorg/eclipse/jgit/attributes/AttributesNodeProvider;*0
+.
+treeWalk"org.eclipse.jgit.treewalk.TreeWalk2getAttributesNodeProvider()*
+13*¥
+4é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaº
+ º
+(îë
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaº
+ º
+(
+%22boolean"/org.eclipse.jgit.treewalk.TreeWalk#isSubtree()Z*0
+.
+treeWalk"org.eclipse.jgit.treewalk.TreeWalk2isSubtree()*
+13
+2*∫
+5é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaπ
+ π
+(áÑ
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaπ
+ π
+(
+%21void"/org.eclipse.jgit.merge.ResolveMerger#cleanUp()V*(&
+$org.eclipse.jgit.merge.ResolveMerger2	cleanUp()"ô
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java∫
+ ∫
+(
+""*≤
+
+6é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaØ
+ ∏
+(ì	ê	
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaØ
+ ∏
+(
+%20boolean" org.eclipse.jgit.merge.ResolveMerger#processEntry(Lorg/eclipse/jgit/treewalk/CanonicalTreeParser;Lorg/eclipse/jgit/treewalk/CanonicalTreeParser;Lorg/eclipse/jgit/treewalk/CanonicalTreeParser;Lorg/eclipse/jgit/dircache/DirCacheBuildIterator;Lorg/eclipse/jgit/treewalk/WorkingTreeIterator;ZLorg/eclipse/jgit/attributes/Attributes;)Z*(&
+$org.eclipse.jgit.merge.ResolveMerger*5
+3
+%6-org.eclipse.jgit.treewalk.CanonicalTreeParser*5
+3
+%8-org.eclipse.jgit.treewalk.CanonicalTreeParser*6
+4
+%10-org.eclipse.jgit.treewalk.CanonicalTreeParser*8
+6
+%12/org.eclipse.jgit.dircache.DirCacheBuildIterator*6
+4
+%13-org.eclipse.jgit.treewalk.WorkingTreeIterator*
+""*/
+-
+%17&org.eclipse.jgit.attributes.Attributes2§processEntry(Lorg/eclipse/jgit/treewalk/CanonicalTreeParser;Lorg/eclipse/jgit/treewalk/CanonicalTreeParser;Lorg/eclipse/jgit/treewalk/CanonicalTreeParser;Lorg/eclipse/jgit/dircache/DirCacheBuildIterator;Lorg/eclipse/jgit/treewalk/WorkingTreeIterator;ZLorg/eclipse/jgit/attributes/Attributes;)*
+4
+5*Í
+7é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java∏
+	 ∏
+(—
+Œ
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java∏
+	 ∏
+(-
+%19&org.eclipse.jgit.attributes.Attributes"__id*
+""˙
+˜
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java∏
+	 ∏
+(-
+%17&org.eclipse.jgit.attributes.Attributes"__id*/
+-
+%19&org.eclipse.jgit.attributes.Attributes*
+6*˚
+8é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java∑
+	 ∑
+(‚ﬂ
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java∑
+	 ∑
+(!-
+%18&org.eclipse.jgit.attributes.Attributes"Zorg.eclipse.jgit.treewalk.TreeWalk#getAttributes()Lorg/eclipse/jgit/attributes/Attributes;*0
+.
+treeWalk"org.eclipse.jgit.treewalk.TreeWalk2getAttributes()˙
+˜
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java∑
+	 ∑
+(!-
+%17&org.eclipse.jgit.attributes.Attributes"__id*/
+-
+%18&org.eclipse.jgit.attributes.Attributes*
+6*Ö
+10é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaµ
+$ µ
+((Â
+‚
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaµ
+$ µ
+((4
+%13-org.eclipse.jgit.treewalk.WorkingTreeIterator"__id*
+
+%15
+<nulltype>*
+7
+8*˚
+11é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java¥
+ ¥
+(&Æ
+´
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java¥
+/ ¥
+(5
+
+%16int"__id*
+""üú
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java¥
+ µ
+(!4
+%14-org.eclipse.jgit.treewalk.WorkingTreeIterator"norg.eclipse.jgit.treewalk.TreeWalk#getTree(ILjava/lang/Class;)Lorg/eclipse/jgit/treewalk/AbstractTreeIterator;*0
+.
+treeWalk"org.eclipse.jgit.treewalk.TreeWalk*
+
+
+%16int*
+""2getTree(ILjava/lang/Class;)à
+Ö
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java¥
+ µ
+(!4
+%13-org.eclipse.jgit.treewalk.WorkingTreeIterator"__id*6
+4
+%14-org.eclipse.jgit.treewalk.WorkingTreeIterator*
+7
+8*Â
+12é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaØ
+ Ø
+(≠
+™
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java∞
+ ∞
+(	
+%5int"__id*
+""ùö
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java∞
+ ∞
+(83
+%6-org.eclipse.jgit.treewalk.CanonicalTreeParser"norg.eclipse.jgit.treewalk.TreeWalk#getTree(ILjava/lang/Class;)Lorg/eclipse/jgit/treewalk/AbstractTreeIterator;*0
+.
+treeWalk"org.eclipse.jgit.treewalk.TreeWalk*
+	
+%5int*
+""2getTree(ILjava/lang/Class;)≠
+™
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java±
+ ±
+(	
+%7int"__id*
+""ùö
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java±
+ ±
+(83
+%8-org.eclipse.jgit.treewalk.CanonicalTreeParser"norg.eclipse.jgit.treewalk.TreeWalk#getTree(ILjava/lang/Class;)Lorg/eclipse/jgit/treewalk/AbstractTreeIterator;*0
+.
+treeWalk"org.eclipse.jgit.treewalk.TreeWalk*
+	
+%7int*
+""2getTree(ILjava/lang/Class;)≠
+™
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java≤
+ ≤
+(	
+%9int"__id*
+""ûõ
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java≤
+ ≤
+(:4
+%10-org.eclipse.jgit.treewalk.CanonicalTreeParser"norg.eclipse.jgit.treewalk.TreeWalk#getTree(ILjava/lang/Class;)Lorg/eclipse/jgit/treewalk/AbstractTreeIterator;*0
+.
+treeWalk"org.eclipse.jgit.treewalk.TreeWalk*
+	
+%9int*
+""2getTree(ILjava/lang/Class;)Æ
+´
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java≥
+ ≥
+(
+
+%11int"__id*
+""°û
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.java≥
+ ≥
+(;6
+%12/org.eclipse.jgit.dircache.DirCacheBuildIterator"norg.eclipse.jgit.treewalk.TreeWalk#getTree(ILjava/lang/Class;)Lorg/eclipse/jgit/treewalk/AbstractTreeIterator;*0
+.
+treeWalk"org.eclipse.jgit.treewalk.TreeWalk*
+
+
+%11int*
+""2getTree(ILjava/lang/Class;)*
+10
+11*∞
+1é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaø
+	 ø
+("ô
+é
+ÅC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/ResolveMerger.javaø
+ ø
+(
+"":.
+treeWalk"org.eclipse.jgit.treewalk.TreeWalk:
+""B(&
+$org.eclipse.jgit.merge.ResolveMerger

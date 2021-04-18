@@ -1,0 +1,44 @@
+
+`io.onedev.server.security.SecurityUtils#canManageCodeComments(Lio/onedev/server/model/Project;)Zë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java” ”(,"1*û
+1ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java‘	 ‘(≤
+Ø
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java‘	 ‘(&
+%0 org.apache.shiro.subject.Subject"Morg.apache.shiro.SecurityUtils#getSubject()Lorg/apache/shiro/subject/Subject;*"" 
+org.apache.shiro.SecurityUtilsèå
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java‘E ‘(W=
+%17io.onedev.server.security.permission.ManageCodeComments"7io.onedev.server.security.permission.ManageCodeComments°
+û
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java‘A ‘(Y
+%2"Aio.onedev.server.security.permission.ManageCodeComments#<init>()V*?
+=
+%17io.onedev.server.security.permission.ManageCodeCommentsçä
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java‘& ‘(7<
+%36io.onedev.server.security.permission.ProjectPermission"6io.onedev.server.security.permission.ProjectPermission—
+Œ
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java‘" ‘(Z
+%4"Éio.onedev.server.security.permission.ProjectPermission#<init>(Lio/onedev/server/model/Project;Lorg/apache/shiro/authz/Permission;)V*>
+<
+%36io.onedev.server.security.permission.ProjectPermission*+
+)
+projectio.onedev.server.model.Project*?
+=
+%17io.onedev.server.security.permission.ManageCodeCommentsñì
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java‘	 ‘([
+%5boolean"Rorg.apache.shiro.subject.Subject#isPermitted(Lorg/apache/shiro/authz/Permission;)Z*(
+&
+%0 org.apache.shiro.subject.Subject*>
+<
+%36io.onedev.server.security.permission.ProjectPermission20isPermitted(Lorg/apache/shiro/authz/Permission;)"ú
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.java‘ ‘(\
+"":)
+projectio.onedev.server.model.ProjectB+")
+'io.onedev.server.security.SecurityUtils

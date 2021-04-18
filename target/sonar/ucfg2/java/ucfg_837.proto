@@ -1,0 +1,78 @@
+
+eio.onedev.server.persistence.dao.DefaultDao#count(Lio/onedev/server/persistence/dao/EntityCriteria;)Iì
+àC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/dao/DefaultDao.javaZ' Z(,"startingBlock*‹
+startingBlockì
+àC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/dao/DefaultDao.javaZ, Z(Nß
+§
+ì
+àC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/dao/DefaultDao.javaX X(
+%6"
+__annotate*53
+1io.onedev.server.persistence.annotation.Sessional*C
+A
+entityCriteria/io.onedev.server.persistence.dao.EntityCriteriaà
+Ö
+ì
+àC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/dao/DefaultDao.javaY Y(
+
+%7"
+__annotate*
+java.lang.Override*C
+A
+entityCriteria/io.onedev.server.persistence.dao.EntityCriteria˙
+˜
+ì
+àC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/dao/DefaultDao.javaZ? Z(MA
+entityCriteria/io.onedev.server.persistence.dao.EntityCriteria"__annotation*
+
+%6*
+
+%7*
+1*£
+1ì
+àC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/dao/DefaultDao.java[ [($∆√
+ì
+àC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/dao/DefaultDao.java[; [(G
+%0org.hibernate.Session"Oio.onedev.server.persistence.dao.DefaultDao#getSession()Lorg/hibernate/Session;*/-
++io.onedev.server.persistence.dao.DefaultDao2getSession()√¿
+ì
+àC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/dao/DefaultDao.java[ [(H
+%1org.hibernate.Criteria"vio.onedev.server.persistence.dao.EntityCriteria#getExecutableCriteria(Lorg/hibernate/Session;)Lorg/hibernate/Criteria;*C
+A
+entityCriteria/io.onedev.server.persistence.dao.EntityCriteria*
+
+%0org.hibernate.Session2.getExecutableCriteria(Lorg/hibernate/Session;)„
+‡
+ì
+àC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/dao/DefaultDao.java[ [(I"
+criteriaorg.hibernate.Criteria"__id*
+
+%1org.hibernate.Criteria¿
+Ω
+ì
+àC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/dao/DefaultDao.java\ \(/(
+%2"org.hibernate.criterion.Projection"Rorg.hibernate.criterion.Projections#rowCount()Lorg/hibernate/criterion/Projection;*'"%
+#org.hibernate.criterion.Projections¢ü
+ì
+àC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/dao/DefaultDao.java\ \(0
+%3org.hibernate.Criteria"borg.hibernate.Criteria#setProjection(Lorg/hibernate/criterion/Projection;)Lorg/hibernate/Criteria;*$
+"
+criteriaorg.hibernate.Criteria**
+(
+%2"org.hibernate.criterion.Projection23setProjection(Lorg/hibernate/criterion/Projection;)†ù
+ì
+àC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/dao/DefaultDao.java] ]((
+%4java.lang.Object"7org.hibernate.Criteria#uniqueResult()Ljava/lang/Object;*$
+"
+criteriaorg.hibernate.Criteria2uniqueResult()Ê„
+ì
+àC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/dao/DefaultDao.java]	 ](4	
+%5int"java.lang.Long#intValue()I*
+
+%4java.lang.Object2
+intValue()"û
+ì
+àC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/persistence/dao/DefaultDao.java] ](5
+"":A
+entityCriteria/io.onedev.server.persistence.dao.EntityCriteriaB/-
++io.onedev.server.persistence.dao.DefaultDao

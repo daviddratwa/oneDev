@@ -1,0 +1,160 @@
+
+tio.onedev.server.infomanager.AbstractEnvironmentManager#getEnv(Ljava/lang/String;)Ljetbrains/exodus/env/Environment;ü
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/AbstractEnvironmentManager.javaH H("5*◊%
+2ü
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/AbstractEnvironmentManager.javaM M(âÜ
+ü
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/AbstractEnvironmentManager.javaM M(
+
+%5void"Yio.onedev.server.infomanager.AbstractEnvironmentManager#checkVersion(Ljava/lang/String;)V*;9
+7io.onedev.server.infomanager.AbstractEnvironmentManager*
+
+envKeyjava.lang.String2 checkVersion(Ljava/lang/String;)˚¯
+ü
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/AbstractEnvironmentManager.javaN# N(4,
+%6&jetbrains.exodus.env.EnvironmentConfig"&jetbrains.exodus.env.EnvironmentConfigç
+ä
+ü
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/AbstractEnvironmentManager.javaN N(6
+%7"0jetbrains.exodus.env.EnvironmentConfig#<init>()V*.
+,
+%6&jetbrains.exodus.env.EnvironmentConfigç
+ä
+ü
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/AbstractEnvironmentManager.javaN N(70
+config&jetbrains.exodus.env.EnvironmentConfig"__id*.
+,
+%6&jetbrains.exodus.env.EnvironmentConfigéã
+ü
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/AbstractEnvironmentManager.javaO O($,
+%8&jetbrains.exodus.env.EnvironmentConfig"ejetbrains.exodus.env.EnvironmentConfig#setEnvCloseForcedly(Z)Ljetbrains/exodus/env/EnvironmentConfig;*2
+0
+config&jetbrains.exodus.env.EnvironmentConfig*
+""2setEnvCloseForcedly(Z)æ
+ª
+ü
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/AbstractEnvironmentManager.javaP$ P(8	
+%9int"__id*
+""ûõ
+ü
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/AbstractEnvironmentManager.javaP P(9-
+%10&jetbrains.exodus.env.EnvironmentConfig"jjetbrains.exodus.env.EnvironmentConfig#setMemoryUsagePercentage(I)Ljetbrains/exodus/env/EnvironmentConfig;*2
+0
+config&jetbrains.exodus.env.EnvironmentConfig*
+	
+%9int2setMemoryUsagePercentage(I)Ã…
+ü
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/AbstractEnvironmentManager.javaQ Q(*
+%11long"Iio.onedev.server.infomanager.AbstractEnvironmentManager#getLogFileSize()J*;9
+7io.onedev.server.infomanager.AbstractEnvironmentManager2getLogFileSize()åâ
+ü
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/AbstractEnvironmentManager.javaQ Q(+-
+%12&jetbrains.exodus.env.EnvironmentConfig"`jetbrains.exodus.env.EnvironmentConfig#setLogFileSize(J)Ljetbrains/exodus/env/EnvironmentConfig;*2
+0
+config&jetbrains.exodus.env.EnvironmentConfig*
+
+%11long2setLogFileSize(J)ôñ
+ü
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/AbstractEnvironmentManager.javaR# R(4
+%13java.io.File"cio.onedev.server.infomanager.AbstractEnvironmentManager#getEnvDir(Ljava/lang/String;)Ljava/io/File;*;9
+7io.onedev.server.infomanager.AbstractEnvironmentManager*
+
+envKeyjava.lang.String2getEnvDir(Ljava/lang/String;) 
+«
+ü
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/AbstractEnvironmentManager.javaR
+ R(='
+%14 jetbrains.exodus.env.Environment"ájetbrains.exodus.env.Environments#newInstance(Ljava/io/File;Ljetbrains/exodus/env/EnvironmentConfig;)Ljetbrains/exodus/env/Environment;*%"#
+!jetbrains.exodus.env.Environments*
+
+%13java.io.File*2
+0
+config&jetbrains.exodus.env.EnvironmentConfigˇ
+¸
+ü
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/AbstractEnvironmentManager.javaR R(='
+env jetbrains.exodus.env.Environment"__id*)
+'
+%14 jetbrains.exodus.env.Environmentà
+Ö
+ü
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/AbstractEnvironmentManager.javaS S(
+%15java.util.Map"__id*E*C9
+7io.onedev.server.infomanager.AbstractEnvironmentManager"
+envsπ
+∂
+ü
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/AbstractEnvironmentManager.javaS S('
+%16 jetbrains.exodus.env.Environment"__mapSet*
+
+%15java.util.Map*
+
+envKeyjava.lang.String*)
+'
+env jetbrains.exodus.env.Environment*
+1*«
+3ü
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/AbstractEnvironmentManager.javaK	 K(á
+Ñ
+ü
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/AbstractEnvironmentManager.javaK	 K(
+%3java.util.Map"__id*E*C9
+7io.onedev.server.infomanager.AbstractEnvironmentManager"
+envså
+â
+ü
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/AbstractEnvironmentManager.javaK	 K(&
+%4 jetbrains.exodus.env.Environment"__mapGet*
+
+%3java.util.Map*
+
+envKeyjava.lang.String˛
+˚
+ü
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/AbstractEnvironmentManager.javaK K('
+env jetbrains.exodus.env.Environment"__id*(
+&
+%4 jetbrains.exodus.env.Environment*
+2
+1*¥
+4ü
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/AbstractEnvironmentManager.javaJ! J(%á
+Ñ
+ü
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/AbstractEnvironmentManager.javaJ! J(%
+%2java.util.Map"__id*E*C9
+7io.onedev.server.infomanager.AbstractEnvironmentManager"
+envs*
+3*«
+5ü
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/AbstractEnvironmentManager.javaI I(á
+Ñ
+ü
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/AbstractEnvironmentManager.javaI I(
+%0java.util.Map"__id*E*C9
+7io.onedev.server.infomanager.AbstractEnvironmentManager"
+envså
+â
+ü
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/AbstractEnvironmentManager.javaI I($&
+%1 jetbrains.exodus.env.Environment"__mapGet*
+
+%0java.util.Map*
+
+envKeyjava.lang.String˛
+˚
+ü
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/AbstractEnvironmentManager.javaI I(%'
+env jetbrains.exodus.env.Environment"__id*(
+&
+%1 jetbrains.exodus.env.Environment*
+4
+1*ı
+1ü
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/AbstractEnvironmentManager.javaV	 V("Õ
+ü
+îC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/AbstractEnvironmentManager.javaV V()
+'
+env jetbrains.exodus.env.Environment:
+envKeyjava.lang.StringB;9
+7io.onedev.server.infomanager.AbstractEnvironmentManager

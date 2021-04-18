@@ -1,0 +1,155 @@
+
+gio.onedev.server.infomanager.DefaultCommitInfoManager#getCommitCount(Lio/onedev/server/model/Project;)Iü
+íC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultCommitInfoManager.javaå	 å	("startingBlock*ë$
+2ü
+íC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultCommitInfoManager.javaè	 è	(∞≠
+ü
+íC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultCommitInfoManager.javaè	 è	(+
+%3java.lang.Long"=io.onedev.server.model.AbstractEntity#getId()Ljava/lang/Long;*+
+)
+projectio.onedev.server.model.Project2getId()éã
+ü
+íC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultCommitInfoManager.javaè	 è	(6
+%4java.lang.String"+java.lang.Long#toString()Ljava/lang/String;*
+
+%3java.lang.Long2
+toString()¥±
+ü
+íC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultCommitInfoManager.javaè	 è	(7&
+%5 jetbrains.exodus.env.Environment"tio.onedev.server.infomanager.AbstractEnvironmentManager#getEnv(Ljava/lang/String;)Ljetbrains/exodus/env/Environment;*97
+5io.onedev.server.infomanager.DefaultCommitInfoManager*
+
+%4java.lang.String2getEnv(Ljava/lang/String;)˛
+˚
+ü
+íC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultCommitInfoManager.javaè	 è	(8'
+env jetbrains.exodus.env.Environment"__id*(
+&
+%5 jetbrains.exodus.env.EnvironmentÀ
+»
+ü
+íC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultCommitInfoManager.javaê	 ê	(,
+%6java.lang.String"__id*
+""úô
+ü
+íC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultCommitInfoManager.javaê	 ê	(- 
+%7jetbrains.exodus.env.Store"íio.onedev.server.infomanager.AbstractEnvironmentManager#getStore(Ljetbrains/exodus/env/Environment;Ljava/lang/String;)Ljetbrains/exodus/env/Store;*97
+5io.onedev.server.infomanager.DefaultCommitInfoManager*)
+'
+env jetbrains.exodus.env.Environment*
+
+%6java.lang.String2>getStore(Ljetbrains/exodus/env/Environment;Ljava/lang/String;)Ù
+Ò
+ü
+íC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultCommitInfoManager.javaê	 ê	(.#
+storejetbrains.exodus.env.Store"__id*"
+ 
+%7jetbrains.exodus.env.Storeüú
+ü
+íC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultCommitInfoManager.javaí	6 í	(V>
+%88io.onedev.server.infomanager.DefaultCommitInfoManager$14"8io.onedev.server.infomanager.DefaultCommitInfoManager$14â
+Ü
+ü
+íC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultCommitInfoManager.javaí	2 ò	(
+%9"java.lang.Object#<init>()V*@
+>
+%88io.onedev.server.infomanager.DefaultCommitInfoManager$14˚¯
+ü
+íC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultCommitInfoManager.javaí	 ò	(
+%10java.lang.Integer"jetbrains.exodus.env.Environment#computeInReadonlyTransaction(Ljetbrains/exodus/env/TransactionalComputable;)Ljava/lang/Object;*)
+'
+env jetbrains.exodus.env.Environment*@
+>
+%88io.onedev.server.infomanager.DefaultCommitInfoManager$142LcomputeInReadonlyTransaction(Ljetbrains/exodus/env/TransactionalComputable;)È
+Ê
+ü
+íC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultCommitInfoManager.javaí	 ò	( 
+commitCountjava.lang.Integer"__id*
+
+%10java.lang.Integeró
+î
+ü
+íC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultCommitInfoManager.javaô	 ô	(
+%11java.util.Map"__id*T*R7
+5io.onedev.server.infomanager.DefaultCommitInfoManager"
+totalCommitCountCache±Æ
+ü
+íC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultCommitInfoManager.javaô	 ô	(,
+%12java.lang.Long"=io.onedev.server.model.AbstractEntity#getId()Ljava/lang/Long;*+
+)
+projectio.onedev.server.model.Project2getId()û
+õ
+ü
+íC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultCommitInfoManager.javaô	 ô	(:
+%13java.lang.Integer"__mapSet*
+
+%11java.util.Map*
+
+%12java.lang.Long*"
+ 
+commitCountjava.lang.Integer*
+1*ﬁ	
+3ü
+íC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultCommitInfoManager.javaç	 ç	(-ñ
+ì
+ü
+íC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultCommitInfoManager.javaç	 ç	(-
+%0java.util.Map"__id*T*R7
+5io.onedev.server.infomanager.DefaultCommitInfoManager"
+totalCommitCountCache∞≠
+ü
+íC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultCommitInfoManager.javaç	2 ç	(A
+%1java.lang.Long"=io.onedev.server.model.AbstractEntity#getId()Ljava/lang/Long;*+
+)
+projectio.onedev.server.model.Project2getId()˜
+Ù
+ü
+íC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultCommitInfoManager.javaç	 ç	(B
+%2java.lang.Integer"__mapGet*
+
+%0java.util.Map*
+
+%1java.lang.LongË
+Â
+ü
+íC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultCommitInfoManager.javaç	 ç	(C 
+commitCountjava.lang.Integer"__id*
+
+%2java.lang.Integer*
+2
+1*»
+startingBlockü
+íC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultCommitInfoManager.javaå	 å	(+ú
+ô
+ü
+íC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultCommitInfoManager.javaä	 ä	(
+%14"
+__annotate*53
+1io.onedev.server.persistence.annotation.Sessional*+
+)
+projectio.onedev.server.model.Project˝
+˙
+ü
+íC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultCommitInfoManager.javaã	 ã	(
+
+%15"
+__annotate*
+java.lang.Override*+
+)
+projectio.onedev.server.model.Project
+Ì
+ü
+íC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultCommitInfoManager.javaå	# å	(*)
+projectio.onedev.server.model.Project"__annotation*
+
+%14*
+
+%15*
+3*“
+1ü
+íC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultCommitInfoManager.javaõ		 õ	("™
+ü
+íC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/infomanager/DefaultCommitInfoManager.javaõ	 õ	(
+"":)
+projectio.onedev.server.model.ProjectB97
+5io.onedev.server.infomanager.DefaultCommitInfoManager

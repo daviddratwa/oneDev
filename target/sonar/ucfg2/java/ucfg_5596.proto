@@ -1,0 +1,60 @@
+
+io.onedev.server.web.util.SuggestionUtils#suggestMilestones(Lio/onedev/server/model/Project;Ljava/lang/String;)Ljava/util/List;“
+†C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaí% í(6"1*˜
+1“
+†C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaî  î('¹¶
+“
+†C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaî  î(7
+%0java.util.Collection"Dio.onedev.server.model.Project#getMilestones()Ljava/util/Collection;*+
+)
+projectio.onedev.server.model.Project2getMilestones()˜•
+“
+†C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaî  ï(
+%1java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*
+
+%0java.util.Collection2stream()Ú×
+“
+†C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaî  ð(
+%2java.util.stream.Stream"Sjava.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;*
+
+%1java.util.stream.Stream*
+""2"map(Ljava/util/function/Function;)ž›
+“
+†C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaî  ñ(
+%3java.util.stream.Stream"9java.util.stream.Stream#sorted()Ljava/util/stream/Stream;*
+
+%2java.util.stream.Stream2sorted()ž
+›
+“
+†C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaò ò(  
+%4java.util.stream.Collector"@java.util.stream.Collectors#toList()Ljava/util/stream/Collector;*"
+java.util.stream.Collectorsìé
+“
+†C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaî  ò(!
+%5java.util.List"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;*
+
+%3java.util.stream.Stream*"
+ 
+%4java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)Ù
+Ö
+“
+†C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaî ò(" 
+milestoneNamesjava.util.List"__id*
+
+%5java.util.ListŠ
+‡
+“
+†C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaó	 ó(+
+%6java.util.List"eio.onedev.server.web.util.SuggestionUtils#suggest(Ljava/util/List;Ljava/lang/String;)Ljava/util/List;*-"+
+)io.onedev.server.web.util.SuggestionUtils*"
+ 
+milestoneNamesjava.util.List*
+
+	matchWithjava.lang.String"®
+“
+†C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/util/SuggestionUtils.javaó ó(,
+
+%6java.util.List:)
+projectio.onedev.server.model.Project:
+	matchWithjava.lang.StringB-"+
+)io.onedev.server.web.util.SuggestionUtils

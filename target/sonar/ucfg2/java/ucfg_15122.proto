@@ -1,0 +1,901 @@
+
+io.onedev.server.plugin.docker.DockerExecutor#startService(Ljava/lang/String;Lio/onedev/server/buildspec/job/JobService;Lio/onedev/server/util/SimpleLogger;)V·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java± ±("startingBlock*…
+24·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaı ı(¾»
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaı$ ı(6
+%55java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*$
+"
+builderjava.lang.StringBuilder2
+toString()*
+23*‹'
+25·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaè è(.öó
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaè è(,
+%43java.lang.StringBuilder"java.lang.StringBuilder‰
+†
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaè è(.
+%44"!java.lang.StringBuilder#<init>()V* 
+
+%43java.lang.StringBuilder‰
+†
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaè è(/"
+builderjava.lang.StringBuilder"__id* 
+
+%43java.lang.StringBuilderš
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaé é(2
+%45+io.onedev.commons.utils.command.Commandline"dio.onedev.commons.utils.command.Commandline#clearArgs()Lio/onedev/commons/utils/command/Commandline;*7
+5
+docker+io.onedev.commons.utils.command.Commandline2clearArgs()ñî
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaê ê(+2
+%46+io.onedev.commons.utils.command.Commandline"uio.onedev.commons.utils.command.Commandline#addArgs([Ljava/lang/String;)Lio/onedev/commons/utils/command/Commandline;*7
+5
+docker+io.onedev.commons.utils.command.Commandline*	
+inspect*#
+!
+containerNamejava.lang.String2addArgs([Ljava/lang/String;)ì
+é
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaë# ë(9
+%47java.nio.charset.Charset"__id*
+""´±
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaë# ë(@
+%48java.lang.String"1java.nio.charset.Charset#name()Ljava/lang/String;*!
+
+%47java.nio.charset.Charset2name()¨¥
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaë ë("7
+%490io.onedev.server.plugin.docker.DockerExecutor$19"0io.onedev.server.plugin.docker.DockerExecutor$19ä
+á
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaë ò(
+%50"Hio.onedev.commons.utils.command.LineConsumer#<init>(Ljava/lang/String;)V*9
+7
+%490io.onedev.server.plugin.docker.DockerExecutor$19*
+
+%48java.lang.String¨¥
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaò
+ ò(7
+%510io.onedev.server.plugin.docker.DockerExecutor$20"0io.onedev.server.plugin.docker.DockerExecutor$20·
+´
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaò ù(
+%52"6io.onedev.commons.utils.command.LineConsumer#<init>()V*9
+7
+%510io.onedev.server.plugin.docker.DockerExecutor$20 
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaë ù(6
+%53/io.onedev.commons.utils.command.ExecutionResult"ªio.onedev.commons.utils.command.Commandline#execute(Ljava/io/OutputStream;Lio/onedev/commons/utils/command/LineConsumer;)Lio/onedev/commons/utils/command/ExecutionResult;*7
+5
+docker+io.onedev.commons.utils.command.Commandline*9
+7
+%490io.onedev.server.plugin.docker.DockerExecutor$19*9
+7
+%510io.onedev.server.plugin.docker.DockerExecutor$202Mexecute(Ljava/io/OutputStream;Lio/onedev/commons/utils/command/LineConsumer;)ÛØ
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaë ù(
+%54void"Bio.onedev.commons.utils.command.ExecutionResult#checkReturnCode()V*8
+6
+%53/io.onedev.commons.utils.command.ExecutionResult2checkReturnCode()
+ş
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaû û(4
+	stateNode'com.fasterxml.jackson.databind.JsonNode"__id*
+""*
+24*Ç$
+27·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaÓ Ó(¨¥
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaÓ Ó(!7
+%320io.onedev.server.plugin.docker.DockerExecutor$17"0io.onedev.server.plugin.docker.DockerExecutor$17·
+´
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaÓ Ú(
+%33"6io.onedev.commons.utils.command.LineConsumer#<init>()V*9
+7
+%320io.onedev.server.plugin.docker.DockerExecutor$17¨¥
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaÚ	 Ú(7
+%340io.onedev.server.plugin.docker.DockerExecutor$18"0io.onedev.server.plugin.docker.DockerExecutor$18·
+´
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaÚ á(
+%35"6io.onedev.commons.utils.command.LineConsumer#<init>()V*9
+7
+%340io.onedev.server.plugin.docker.DockerExecutor$18 
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaÓ á(6
+%36/io.onedev.commons.utils.command.ExecutionResult"ªio.onedev.commons.utils.command.Commandline#execute(Ljava/io/OutputStream;Lio/onedev/commons/utils/command/LineConsumer;)Lio/onedev/commons/utils/command/ExecutionResult;*7
+5
+docker+io.onedev.commons.utils.command.Commandline*9
+7
+%320io.onedev.server.plugin.docker.DockerExecutor$17*9
+7
+%340io.onedev.server.plugin.docker.DockerExecutor$182Mexecute(Ljava/io/OutputStream;Lio/onedev/commons/utils/command/LineConsumer;)ÛØ
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaÓ á(
+%37void"Bio.onedev.commons.utils.command.ExecutionResult#checkReturnCode()V*8
+6
+%36/io.onedev.commons.utils.command.ExecutionResult2checkReturnCode()ûø
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaã ã(5
+%38void";io.onedev.server.util.SimpleLogger#log(Ljava/lang/String;)V*1
+/
+	jobLogger"io.onedev.server.util.SimpleLogger*&$
+"Waiting for service to be ready...2log(Ljava/lang/String;)åâ
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaå, å(A
+%39java.lang.String"Fio.onedev.server.buildspec.job.JobService#getImage()Ljava/lang/String;*9
+7
+
+jobService)io.onedev.server.buildspec.job.JobService2
+getImage()Ü
+Ù
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaå å(B
+%40java.lang.String"‚io.onedev.server.plugin.docker.DockerExecutor#getImageOS(Lio/onedev/server/util/SimpleLogger;Ljava/lang/String;)Ljava/lang/String;*1/
+-io.onedev.server.plugin.docker.DockerExecutor*1
+/
+	jobLogger"io.onedev.server.util.SimpleLogger*
+
+%39java.lang.StringÓĞ
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaå å(^
+%41boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*
+
+%40java.lang.String*	
+windows2$equalsIgnoreCase(Ljava/lang/String;)à
+İ
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaæ æ(B2
+%42+com.fasterxml.jackson.databind.ObjectMapper"Hio.onedev.server.OneDev#getInstance(Ljava/lang/Class;)Ljava/lang/Object;*"
+io.onedev.server.OneDev*
+""´
+±
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaæ æ(C9
+
+jsonReader+com.fasterxml.jackson.databind.ObjectMapper"__id*4
+2
+%42+com.fasterxml.jackson.databind.ObjectMapper*
+25
+0*½
+28·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaÏ Ï(æ
+ã
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaÏ Ï(
+tokenjava.lang.String"__id*
+""‰
+†
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaÏ Ï(
+tokenjava.lang.String"
+__arrayGet*
+
+%30java.lang.String[]*
+""*
+27
+29*£
+29·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaĞ Ğ(
+ÜÙ
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaĞ Ğ(2
+%31+io.onedev.commons.utils.command.Commandline"uio.onedev.commons.utils.command.Commandline#addArgs([Ljava/lang/String;)Lio/onedev/commons/utils/command/Commandline;*7
+5
+docker+io.onedev.commons.utils.command.Commandline*
+
+tokenjava.lang.String2addArgs([Ljava/lang/String;)*
+28*°
+30·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaÏ Ï(!íê
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaÏ3 Ï(L
+%29java.lang.String"Jio.onedev.server.buildspec.job.JobService#getArguments()Ljava/lang/String;*9
+7
+
+jobService)io.onedev.server.buildspec.job.JobService2getArguments()ù
+ö
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaÏ Ï(M
+%30java.lang.String[]"[io.onedev.commons.utils.StringUtils#parseQuoteTokens(Ljava/lang/String;)[Ljava/lang/String;*'"%
+#io.onedev.commons.utils.StringUtils*
+
+%29java.lang.String*
+28*ı
+
+31·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaÍ Í(åâ
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaÍ Í(&
+%26java.lang.String"Fio.onedev.server.buildspec.job.JobService#getImage()Ljava/lang/String;*9
+7
+
+jobService)io.onedev.server.buildspec.job.JobService2
+getImage()Ú×
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaÍ Í('2
+%27+io.onedev.commons.utils.command.Commandline"uio.onedev.commons.utils.command.Commandline#addArgs([Ljava/lang/String;)Lio/onedev/commons/utils/command/Commandline;*7
+5
+docker+io.onedev.commons.utils.command.Commandline*
+
+%26java.lang.String2addArgs([Ljava/lang/String;)íê
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaÎ Î(
+%28java.lang.String"Jio.onedev.server.buildspec.job.JobService#getArguments()Ljava/lang/String;*9
+7
+
+jobService)io.onedev.server.buildspec.job.JobService2getArguments()*
+27
+30*ß
+32·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaË Ë(ù
+ö
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaË Ë(,
+var%io.onedev.server.buildspec.job.EnvVar"__id*
+""˜
+•
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaË Ë(,
+var%io.onedev.server.buildspec.job.EnvVar"
+__arrayGet*
+
+%20java.util.List*
+""*
+31
+33*—
+
+10·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java (´±
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java (%.
+%78'com.fasterxml.jackson.databind.JsonNode"hcom.fasterxml.jackson.databind.JsonNode#get(Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JsonNode;*6
+4
+	stateNode'com.fasterxml.jackson.databind.JsonNode*
+
+Status2get(Ljava/lang/String;)ÖÓ
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java (.
+%79java.lang.String"Bcom.fasterxml.jackson.databind.JsonNode#asText()Ljava/lang/String;*0
+.
+%78'com.fasterxml.jackson.databind.JsonNode2asText()¾»
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java (?
+%80boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%79java.lang.String*
+
+exited2equals(Ljava/lang/Object;)*
+3
+9*ú
+33·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaÌ Ì(	ÔÑ
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaÌ Ì((
+%21java.lang.String"Aio.onedev.server.buildspec.job.EnvVar#getName()Ljava/lang/String;*.
+,
+var%io.onedev.server.buildspec.job.EnvVar2	getName()‚
+ÿ
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaÌ Ì(.
+%22java.lang.String"__concat*
+
+%21java.lang.String*
+=ÖÓ
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaÌ1 Ì(?
+%23java.lang.String"Bio.onedev.server.buildspec.job.EnvVar#getValue()Ljava/lang/String;*.
+,
+var%io.onedev.server.buildspec.job.EnvVar2
+getValue()–
+“
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaÌ Ì(?
+%24java.lang.String"__concat*
+
+%22java.lang.String*
+
+%23java.lang.Stringåâ
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaÌ Ì(@2
+%25+io.onedev.commons.utils.command.Commandline"uio.onedev.commons.utils.command.Commandline#addArgs([Ljava/lang/String;)Lio/onedev/commons/utils/command/Commandline;*7
+5
+docker+io.onedev.commons.utils.command.Commandline*	
+--env*
+
+%24java.lang.String2addArgs([Ljava/lang/String;)*
+32*¯
+11·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaš š(éæ
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaš š(&
+%77void";io.onedev.server.util.SimpleLogger#log(Ljava/lang/String;)V*1
+/
+	jobLogger"io.onedev.server.util.SimpleLogger*
+Service is ready2log(Ljava/lang/String;)*
+0*¬
+34·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaË Ë(åâ
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaË Ë(*
+%20java.util.List"Fio.onedev.server.buildspec.job.JobService#getEnvVars()Ljava/util/List;*9
+7
+
+jobService)io.onedev.server.buildspec.job.JobService2getEnvVars()*
+32*Ë
+12·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaŠ Š(#¨¥
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaŠ0 Š(<7
+%710io.onedev.server.plugin.docker.DockerExecutor$21"0io.onedev.server.plugin.docker.DockerExecutor$21·
+´
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaŠ, ‘(
+%72"6io.onedev.commons.utils.command.LineConsumer#<init>()V*9
+7
+%710io.onedev.server.plugin.docker.DockerExecutor$21¨¥
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java‘ ‘(7
+%730io.onedev.server.plugin.docker.DockerExecutor$22"0io.onedev.server.plugin.docker.DockerExecutor$22·
+´
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java‘ ˜(
+%74"6io.onedev.commons.utils.command.LineConsumer#<init>()V*9
+7
+%730io.onedev.server.plugin.docker.DockerExecutor$22 
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaŠ ˜(6
+%75/io.onedev.commons.utils.command.ExecutionResult"ªio.onedev.commons.utils.command.Commandline#execute(Ljava/io/OutputStream;Lio/onedev/commons/utils/command/LineConsumer;)Lio/onedev/commons/utils/command/ExecutionResult;*7
+5
+docker+io.onedev.commons.utils.command.Commandline*9
+7
+%710io.onedev.server.plugin.docker.DockerExecutor$21*9
+7
+%730io.onedev.server.plugin.docker.DockerExecutor$222Mexecute(Ljava/io/OutputStream;Lio/onedev/commons/utils/command/LineConsumer;)¸
+µ
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaŠ ˜(9
+result/io.onedev.commons.utils.command.ExecutionResult"__id*8
+6
+%75/io.onedev.commons.utils.command.ExecutionResultÙÖ
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java™ ™(
+
+%76int"@io.onedev.commons.utils.command.ExecutionResult#getReturnCode()I*;
+9
+result/io.onedev.commons.utils.command.ExecutionResult2getReturnCode()*
+3
+11*õ>
+35·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java² ²(ğí
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java² ²(+
+
+%0void";io.onedev.server.util.SimpleLogger#log(Ljava/lang/String;)V*1
+/
+	jobLogger"io.onedev.server.util.SimpleLogger*
+Pulling service image...2log(Ljava/lang/String;)‹
+ˆ
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java³ ³("1
+%1+io.onedev.commons.utils.command.Commandline"fio.onedev.server.plugin.docker.DockerExecutor#newDocker()Lio/onedev/commons/utils/command/Commandline;*1/
+-io.onedev.server.plugin.docker.DockerExecutor¯
+¬
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java³ ³(#5
+docker+io.onedev.commons.utils.command.Commandline"__id*3
+1
+%1+io.onedev.commons.utils.command.Commandlineäá
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java´ ´(.
+%2java.lang.String"Fio.onedev.server.buildspec.job.JobService#getImage()Ljava/lang/String;*9
+7
+
+jobService)io.onedev.server.buildspec.job.JobService2
+getImage()âß
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java´ ´(/1
+%3+io.onedev.commons.utils.command.Commandline"uio.onedev.commons.utils.command.Commandline#addArgs([Ljava/lang/String;)Lio/onedev/commons/utils/command/Commandline;*7
+5
+docker+io.onedev.commons.utils.command.Commandline*
+pull*
+
+%2java.lang.String2addArgs([Ljava/lang/String;)§¤
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaµ µ(!6
+%40io.onedev.server.plugin.docker.DockerExecutor$15"0io.onedev.server.plugin.docker.DockerExecutor$15µ
+²
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaµ ¼(
+%5"6io.onedev.commons.utils.command.LineConsumer#<init>()V*8
+6
+%40io.onedev.server.plugin.docker.DockerExecutor$15§¤
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java¼	 ¼(6
+%60io.onedev.server.plugin.docker.DockerExecutor$16"0io.onedev.server.plugin.docker.DockerExecutor$16µ
+²
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java¼ Ã(
+%7"6io.onedev.commons.utils.command.LineConsumer#<init>()V*8
+6
+%60io.onedev.server.plugin.docker.DockerExecutor$16š
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaµ Ã(5
+%8/io.onedev.commons.utils.command.ExecutionResult"ªio.onedev.commons.utils.command.Commandline#execute(Ljava/io/OutputStream;Lio/onedev/commons/utils/command/LineConsumer;)Lio/onedev/commons/utils/command/ExecutionResult;*7
+5
+docker+io.onedev.commons.utils.command.Commandline*8
+6
+%40io.onedev.server.plugin.docker.DockerExecutor$15*8
+6
+%60io.onedev.server.plugin.docker.DockerExecutor$162Mexecute(Ljava/io/OutputStream;Lio/onedev/commons/utils/command/LineConsumer;)ÙÖ
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaµ Ã(
+
+%9void"Bio.onedev.commons.utils.command.ExecutionResult#checkReturnCode()V*7
+5
+%8/io.onedev.commons.utils.command.ExecutionResult2checkReturnCode()öó
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaÅ Å(0
+%10void";io.onedev.server.util.SimpleLogger#log(Ljava/lang/String;)V*1
+/
+	jobLogger"io.onedev.server.util.SimpleLogger*!
+Creating service container...2log(Ljava/lang/String;)
+‹
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaÇ Ç(.
+%11java.lang.String"__concat*
+
+networkjava.lang.String*
+	-service-ãà
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaÇ1 Ç(E
+%12java.lang.String"Eio.onedev.server.buildspec.job.JobService#getName()Ljava/lang/String;*9
+7
+
+jobService)io.onedev.server.buildspec.job.JobService2	getName()–
+“
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaÇ Ç(E
+%13java.lang.String"__concat*
+
+%11java.lang.String*
+
+%12java.lang.String
+ş
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaÇ Ç(F!
+containerNamejava.lang.String"__id*
+
+%13java.lang.Stringš
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaÈ È(2
+%14+io.onedev.commons.utils.command.Commandline"dio.onedev.commons.utils.command.Commandline#clearArgs()Lio/onedev/commons/utils/command/Commandline;*7
+5
+docker+io.onedev.commons.utils.command.Commandline2clearArgs()’
+
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaÉ É(7
+%15java.lang.String"__concat*	
+--name=*#
+!
+containerNamejava.lang.String
+Œ
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaÉ9 É(O
+%16java.lang.String"__concat*
+
+--network=*
+
+networkjava.lang.Stringãà
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaÊ Ê(-
+%17java.lang.String"Eio.onedev.server.buildspec.job.JobService#getName()Ljava/lang/String;*9
+7
+
+jobService)io.onedev.server.buildspec.job.JobService2	getName()‘
+
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaÊ Ê(-
+%18java.lang.String"__concat*
+--network-alias=*
+
+%17java.lang.String¡
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaÉ Ê(.2
+%19+io.onedev.commons.utils.command.Commandline"uio.onedev.commons.utils.command.Commandline#addArgs([Ljava/lang/String;)Lio/onedev/commons/utils/command/Commandline;*7
+5
+docker+io.onedev.commons.utils.command.Commandline*
+run*
+-d*
+
+%15java.lang.String*
+
+%16java.lang.String*
+
+%18java.lang.String2addArgs([Ljava/lang/String;)*
+34*¹
+13·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaˆ ˆ(…‚
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaˆ  ˆ(E
+%69java.lang.String"Vio.onedev.server.buildspec.job.JobService#getReadinessCheckCommand()Ljava/lang/String;*9
+7
+
+jobService)io.onedev.server.buildspec.job.JobService2getReadinessCheckCommand()êç
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaˆ ˆ(F2
+%70+io.onedev.commons.utils.command.Commandline"uio.onedev.commons.utils.command.Commandline#addArgs([Ljava/lang/String;)Lio/onedev/commons/utils/command/Commandline;*7
+5
+docker+io.onedev.commons.utils.command.Commandline*
+sh*
+-c*
+
+%69java.lang.String2addArgs([Ljava/lang/String;)*
+12*º
+14·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java† †(…‚
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java†! †(F
+%67java.lang.String"Vio.onedev.server.buildspec.job.JobService#getReadinessCheckCommand()Ljava/lang/String;*9
+7
+
+jobService)io.onedev.server.buildspec.job.JobService2getReadinessCheckCommand()ëè
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java† †(G2
+%68+io.onedev.commons.utils.command.Commandline"uio.onedev.commons.utils.command.Commandline#addArgs([Ljava/lang/String;)Lio/onedev/commons/utils/command/Commandline;*7
+5
+docker+io.onedev.commons.utils.command.Commandline*
+cmd*
+/c*
+
+%67java.lang.String2addArgs([Ljava/lang/String;)*
+12*Ù
+15·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaƒ ƒ(
+š
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaƒ ƒ(2
+%65+io.onedev.commons.utils.command.Commandline"dio.onedev.commons.utils.command.Commandline#clearArgs()Lio/onedev/commons/utils/command/Commandline;*7
+5
+docker+io.onedev.commons.utils.command.Commandline2clearArgs()îë
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java„ „()2
+%66+io.onedev.commons.utils.command.Commandline"uio.onedev.commons.utils.command.Commandline#addArgs([Ljava/lang/String;)Lio/onedev/commons/utils/command/Commandline;*7
+5
+docker+io.onedev.commons.utils.command.Commandline*
+exec*#
+!
+containerNamejava.lang.String2addArgs([Ljava/lang/String;)*
+13
+14*š
+
+16·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java‚ ‚(´±
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java‚ ‚(.
+%62'com.fasterxml.jackson.databind.JsonNode"hcom.fasterxml.jackson.databind.JsonNode#get(Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JsonNode;*6
+4
+	stateNode'com.fasterxml.jackson.databind.JsonNode*
+
+Status2get(Ljava/lang/String;)ÖÓ
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java‚ ‚('
+%63java.lang.String"Bcom.fasterxml.jackson.databind.JsonNode#asText()Ljava/lang/String;*0
+.
+%62'com.fasterxml.jackson.databind.JsonNode2asText()¿¼
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java‚ ‚(9
+%64boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%63java.lang.String*	
+running2equals(Ljava/lang/Object;)*
+15
+10*ò
+17·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaı ı(V«
+¨
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaı ı(V4
+	stateNode'com.fasterxml.jackson.databind.JsonNode"__id*0
+.
+%59'com.fasterxml.jackson.databind.JsonNode*
+16*×
+0 "Ï
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java¾ ¾(
+implicit return*Í
+3·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java¹ ¹(
+„
+
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java¹ ¹(
+%109void"java.lang.Thread#sleep(J)V*"
+java.lang.Thread*2N*
+25
+0*Ç
+startingBlock·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java± ±(Y
+
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java° °(
+%112"
+__annotate*
+java.lang.SuppressWarnings*
+
+networkjava.lang.Stringò
+ï
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java±" ±()
+networkjava.lang.String"__annotation*
+
+%112¬
+©
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java° °(
+%113"
+__annotate*
+java.lang.SuppressWarnings*9
+7
+
+jobService)io.onedev.server.buildspec.job.JobService
+‹
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java±6 ±(@7
+
+jobService)io.onedev.server.buildspec.job.JobService"__annotation*
+
+%113¤
+¡
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java° °(
+%114"
+__annotate*
+java.lang.SuppressWarnings*1
+/
+	jobLogger"io.onedev.server.util.SimpleLogger†
+ƒ
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java±O ±(X/
+	jobLogger"io.onedev.server.util.SimpleLogger"__annotation*
+
+%114*
+35*¹2
+5·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java£ £(
+š
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java£ £(2
+%91+io.onedev.commons.utils.command.Commandline"dio.onedev.commons.utils.command.Commandline#clearArgs()Lio/onedev/commons/utils/command/Commandline;*7
+5
+docker+io.onedev.commons.utils.command.Commandline2clearArgs()îë
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java¤ ¤()2
+%92+io.onedev.commons.utils.command.Commandline"uio.onedev.commons.utils.command.Commandline#addArgs([Ljava/lang/String;)Lio/onedev/commons/utils/command/Commandline;*7
+5
+docker+io.onedev.commons.utils.command.Commandline*
+logs*#
+!
+containerNamejava.lang.String2addArgs([Ljava/lang/String;)ì
+é
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java¥$ ¥(:
+%93java.nio.charset.Charset"__id*
+""´±
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java¥$ ¥(A
+%94java.lang.String"1java.nio.charset.Charset#name()Ljava/lang/String;*!
+
+%93java.nio.charset.Charset2name()¨¥
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java¥ ¥(#7
+%950io.onedev.server.plugin.docker.DockerExecutor$23"0io.onedev.server.plugin.docker.DockerExecutor$23ä
+á
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java¥ ¬(
+%96"Hio.onedev.commons.utils.command.LineConsumer#<init>(Ljava/lang/String;)V*9
+7
+%950io.onedev.server.plugin.docker.DockerExecutor$23*
+
+%94java.lang.Stringì
+é
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java¬ ¬(.
+%97java.nio.charset.Charset"__id*
+""´±
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java¬ ¬(5
+%98java.lang.String"1java.nio.charset.Charset#name()Ljava/lang/String;*!
+
+%97java.nio.charset.Charset2name()¨¥
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java¬ ¬(7
+%990io.onedev.server.plugin.docker.DockerExecutor$24"0io.onedev.server.plugin.docker.DockerExecutor$24å
+â
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java¬ ³(
+%100"Hio.onedev.commons.utils.command.LineConsumer#<init>(Ljava/lang/String;)V*9
+7
+%990io.onedev.server.plugin.docker.DockerExecutor$24*
+
+%98java.lang.String¡
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java¥ ³(7
+%101/io.onedev.commons.utils.command.ExecutionResult"ªio.onedev.commons.utils.command.Commandline#execute(Ljava/io/OutputStream;Lio/onedev/commons/utils/command/LineConsumer;)Lio/onedev/commons/utils/command/ExecutionResult;*7
+5
+docker+io.onedev.commons.utils.command.Commandline*9
+7
+%950io.onedev.server.plugin.docker.DockerExecutor$23*9
+7
+%990io.onedev.server.plugin.docker.DockerExecutor$242Mexecute(Ljava/io/OutputStream;Lio/onedev/commons/utils/command/LineConsumer;)İÚ
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java¥ ³(
+%102void"Bio.onedev.commons.utils.command.ExecutionResult#checkReturnCode()V*9
+7
+%101/io.onedev.commons.utils.command.ExecutionResult2checkReturnCode()äá
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaµ< µ(P
+%103java.lang.String"Eio.onedev.server.buildspec.job.JobService#getName()Ljava/lang/String;*9
+7
+
+jobService)io.onedev.server.buildspec.job.JobService2	getName()Œ
+‰
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaµ. µ(P
+%104java.lang.String"__concat*
+	Service '*
+
+%103java.lang.Stringœ
+™
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaµ. µ(n
+%105java.lang.String"__concat*
+
+%104java.lang.String*
+' is stopped unexpectedlyÛ
+Ø
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaµ  µ(o
+%106java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*
+
+%105java.lang.String›˜
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaµ µ(1
+%107)io.onedev.commons.utils.ExplicitException")io.onedev.commons.utils.ExplicitExceptionİ
+Ú
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaµ
+ µ(p
+%108"Eio.onedev.commons.utils.ExplicitException#<init>(Ljava/lang/String;)V*3
+1
+%107)io.onedev.commons.utils.ExplicitException*
+
+%106java.lang.String*
+0*Â
+
+6·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java¡ ¡(³°
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java¡ ¡().
+%88'com.fasterxml.jackson.databind.JsonNode"hcom.fasterxml.jackson.databind.JsonNode#get(Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JsonNode;*6
+4
+	stateNode'com.fasterxml.jackson.databind.JsonNode*	
+Error2get(Ljava/lang/String;)ÖÓ
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java¡ ¡(2
+%89java.lang.String"Bcom.fasterxml.jackson.databind.JsonNode#asText()Ljava/lang/String;*0
+.
+%88'com.fasterxml.jackson.databind.JsonNode2asText()îë
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java¡ ¡(3
+%90void";io.onedev.server.util.SimpleLogger#log(Ljava/lang/String;)V*1
+/
+	jobLogger"io.onedev.server.util.SimpleLogger*
+
+%89java.lang.String2log(Ljava/lang/String;)*
+5*á	
+7·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java   (³°
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java   (#.
+%85'com.fasterxml.jackson.databind.JsonNode"hcom.fasterxml.jackson.databind.JsonNode#get(Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JsonNode;*6
+4
+	stateNode'com.fasterxml.jackson.databind.JsonNode*	
+Error2get(Ljava/lang/String;)ÖÓ
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java   (,
+%86java.lang.String"Bcom.fasterxml.jackson.databind.JsonNode#asText()Ljava/lang/String;*0
+.
+%85'com.fasterxml.jackson.databind.JsonNode2asText()Š‡
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java   (5
+
+%87int"java.lang.String#length()I*
+
+%86java.lang.String2length()*
+5
+6*«
+8·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaŸ Ÿ(æã
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaŸ Ÿ(#
+%84void";io.onedev.server.util.SimpleLogger#log(Ljava/lang/String;)V*1
+/
+	jobLogger"io.onedev.server.util.SimpleLogger*
+Out of memory2log(Ljava/lang/String;)*
+5*—
+
+9·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java (·´
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java (".
+%81'com.fasterxml.jackson.databind.JsonNode"hcom.fasterxml.jackson.databind.JsonNode#get(Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JsonNode;*6
+4
+	stateNode'com.fasterxml.jackson.databind.JsonNode*
+	OOMKilled2get(Ljava/lang/String;)ÖÓ
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java (+
+%82java.lang.String"Bcom.fasterxml.jackson.databind.JsonNode#asText()Ljava/lang/String;*0
+.
+%81'com.fasterxml.jackson.databind.JsonNode2asText()¼¹
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.java (:
+%83boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%82java.lang.String*
+true2equals(Ljava/lang/Object;)*
+7
+8*ô
+20·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaıN ı(U­ª
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaı ı(V.
+%59'com.fasterxml.jackson.databind.JsonNode"hcom.fasterxml.jackson.databind.JsonNode#get(Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JsonNode;*0
+.
+%58'com.fasterxml.jackson.databind.JsonNode*	
+State2get(Ljava/lang/String;)*
+17*†
+21·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaı ı(I¿¼
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaı ı(I.
+%58'com.fasterxml.jackson.databind.JsonNode"+java.util.Iterator#next()Ljava/lang/Object;*
+
+%57java.util.Iterator2next()*
+20*¥
+22·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaı ı(BŞÛ
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaı ı(B
+%57java.util.Iterator"Fcom.fasterxml.jackson.databind.JsonNode#iterator()Ljava/util/Iterator;*0
+.
+%56'com.fasterxml.jackson.databind.JsonNode2
+iterator()*
+21*
+23·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaı ı(7ÖÓ
+·
+ªC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-executor-docker/src/main/java/io/onedev/server/plugin/docker/DockerExecutor.javaı ı(7.
+%56'com.fasterxml.jackson.databind.JsonNode"qcom.fasterxml.jackson.databind.ObjectMapper#readTree(Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JsonNode;*;
+9
+
+jsonReader+com.fasterxml.jackson.databind.ObjectMapper*
+
+%55java.lang.String2readTree(Ljava/lang/String;)*
+22:
+networkjava.lang.String:7
+
+jobService)io.onedev.server.buildspec.job.JobService:/
+	jobLogger"io.onedev.server.util.SimpleLoggerB1/
+-io.onedev.server.plugin.docker.DockerExecutor

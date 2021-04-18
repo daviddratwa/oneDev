@@ -1,0 +1,227 @@
+
+ûio.onedev.server.security.realm.SsoAuthorizingRealm#newUser(Lio/onedev/server/model/support/administration/sso/SsoAuthenticated;)Lio/onedev/server/model/User;õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.java0 0("10*≈
+
+2õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.javaB B(®
+•
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.javaB B(3
+%24,io.onedev.server.entitymanager.SshKeyManager"__id*J*H5
+3io.onedev.server.security.realm.SsoAuthorizingRealm"
+sshKeyManagerëé
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.javaB& B(@
+%25java.util.Collection"lio.onedev.server.model.support.administration.authenticator.Authenticated#getSshKeys()Ljava/util/Collection;*U
+S
+authenticatedBio.onedev.server.model.support.administration.sso.SsoAuthenticated2getSshKeys()›⁄
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.javaB B(A
+%26void"nio.onedev.server.entitymanager.SshKeyManager#syncSshKeys(Lio/onedev/server/model/User;Ljava/util/Collection;)V*5
+3
+%24,io.onedev.server.entitymanager.SshKeyManager*%
+#
+userio.onedev.server.model.User*
+
+%25java.util.Collection2@syncSshKeys(Lio/onedev/server/model/User;Ljava/util/Collection;)*
+1*Ω
+3õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.javaA	 A(ëé
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.javaA	 A(#
+%23java.util.Collection"lio.onedev.server.model.support.administration.authenticator.Authenticated#getSshKeys()Ljava/util/Collection;*U
+S
+authenticatedBio.onedev.server.model.support.administration.sso.SsoAuthenticated2getSshKeys()*
+2
+1*–
+4õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.java? ?(∞
+≠
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.java? ?(7
+%210io.onedev.server.entitymanager.MembershipManager"__id*N*L5
+3io.onedev.server.security.realm.SsoAuthorizingRealm"
+membershipManagerÙÒ
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.java? ?(6
+%22void"vio.onedev.server.entitymanager.MembershipManager#syncMemberships(Lio/onedev/server/model/User;Ljava/util/Collection;)V*9
+7
+%210io.onedev.server.entitymanager.MembershipManager*%
+#
+userio.onedev.server.model.User*$
+"
+
+groupNamesjava.util.Collection2DsyncMemberships(Lio/onedev/server/model/User;Ljava/util/Collection;)*
+3*∆
+6õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.java= =(„‡
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.java=  =(<E
+%18>io.onedev.server.model.support.administration.sso.SsoConnector"ëio.onedev.server.model.support.administration.sso.SsoAuthenticated#getConnector()Lio/onedev/server/model/support/administration/sso/SsoConnector;*U
+S
+authenticatedBio.onedev.server.model.support.administration.sso.SsoAuthenticated2getConnector()˙˜
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.java=  =(N
+%19java.lang.String"bio.onedev.server.model.support.administration.sso.SsoConnector#getDefaultGroup()Ljava/lang/String;*G
+E
+%18>io.onedev.server.model.support.administration.sso.SsoConnector2getDefaultGroup()Õ
+ 
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.java= =(O
+%20java.util.HashSet"Qcom.google.common.collect.Sets#newHashSet([Ljava/lang/Object;)Ljava/util/HashSet;*"" 
+com.google.common.collect.Sets*
+
+%19java.lang.StringÁ
+‰
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.java= =(O"
+
+groupNamesjava.util.Collection"__id*
+
+%20java.util.HashSet*
+3
+4*è
+7õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.java< <()„‡
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.java< <(8E
+%16>io.onedev.server.model.support.administration.sso.SsoConnector"ëio.onedev.server.model.support.administration.sso.SsoAuthenticated#getConnector()Lio/onedev/server/model/support/administration/sso/SsoConnector;*U
+S
+authenticatedBio.onedev.server.model.support.administration.sso.SsoAuthenticated2getConnector()˙˜
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.java< <(J
+%17java.lang.String"bio.onedev.server.model.support.administration.sso.SsoConnector#getDefaultGroup()Ljava/lang/String;*G
+E
+%16>io.onedev.server.model.support.administration.sso.SsoConnector2getDefaultGroup()*	
+3
+4
+6*∏
+8õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.java7 7(Æ´
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.java7 7(,-
+%11&io.onedev.server.model.support.SsoInfo"wio.onedev.server.model.support.administration.sso.SsoAuthenticated#getSsoInfo()Lio/onedev/server/model/support/SsoInfo;*U
+S
+authenticatedBio.onedev.server.model.support.administration.sso.SsoAuthenticated2getSsoInfo()èå
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.java7 7(-
+%12void"Qio.onedev.server.model.User#setSsoInfo(Lio/onedev/server/model/support/SsoInfo;)V*%
+#
+userio.onedev.server.model.User*/
+-
+%11&io.onedev.server.model.support.SsoInfo24setSsoInfo(Lio/onedev/server/model/support/SsoInfo;)§
+°
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.java9 9(1
+%13*io.onedev.server.entitymanager.UserManager"__id*H*F5
+3io.onedev.server.security.realm.SsoAuthorizingRealm"
+userManageròï
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.java9 9(
+%14void"]io.onedev.server.persistence.dao.EntityManager#save(Lio/onedev/server/model/AbstractEntity;)V*3
+1
+%13*io.onedev.server.entitymanager.UserManager*%
+#
+userio.onedev.server.model.User2-save(Lio/onedev/server/model/AbstractEntity;)óî
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.java;" ;(?
+%15java.util.Collection"oio.onedev.server.model.support.administration.authenticator.Authenticated#getGroupNames()Ljava/util/Collection;*U
+S
+authenticatedBio.onedev.server.model.support.administration.sso.SsoAuthenticated2getGroupNames()Í
+Á
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.java; ;(@"
+
+groupNamesjava.util.Collection"__id*
+
+%15java.util.Collection*	
+3
+4
+7*Ñ
+9õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.java6 6(äá
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.java6 6(/
+%9java.lang.String"iio.onedev.server.model.support.administration.authenticator.Authenticated#getFullName()Ljava/lang/String;*U
+S
+authenticatedBio.onedev.server.model.support.administration.sso.SsoAuthenticated2getFullName()ŒÀ
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.java6 6(0
+%10void"<io.onedev.server.model.User#setFullName(Ljava/lang/String;)V*%
+#
+userio.onedev.server.model.User*
+
+%9java.lang.String2setFullName(Ljava/lang/String;)*
+8*æ
+10õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.java1 1(·ﬁ
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.java1 1(!
+%0io.onedev.server.model.User"io.onedev.server.model.UserÛ
+
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.java1 1(
+%1"%io.onedev.server.model.User#<init>()V*#
+!
+%0io.onedev.server.model.UserÒ
+Ó
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.java1 1(#
+userio.onedev.server.model.User"__id*#
+!
+%0io.onedev.server.model.UserÉÄ
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.java2 2(*
+%2java.lang.String"bio.onedev.server.model.support.administration.sso.SsoAuthenticated#getUserName()Ljava/lang/String;*U
+S
+authenticatedBio.onedev.server.model.support.administration.sso.SsoAuthenticated2getUserName()≈¬
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.java2 2(+
+
+%3void"8io.onedev.server.model.User#setName(Ljava/lang/String;)V*%
+#
+userio.onedev.server.model.User*
+
+%2java.lang.String2setName(Ljava/lang/String;)«
+ƒ
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.java3 3((
+%4java.lang.String"__id*
+""Õ 
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.java3 3()
+
+%5void"<io.onedev.server.model.User#setPassword(Ljava/lang/String;)V*%
+#
+userio.onedev.server.model.User*
+
+%4java.lang.String2setPassword(Ljava/lang/String;)ÑÅ
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.java4 4((
+%6java.lang.String"fio.onedev.server.model.support.administration.authenticator.Authenticated#getEmail()Ljava/lang/String;*U
+S
+authenticatedBio.onedev.server.model.support.administration.sso.SsoAuthenticated2
+getEmail()«ƒ
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.java4 4()
+
+%7void"9io.onedev.server.model.User#setEmail(Ljava/lang/String;)V*%
+#
+userio.onedev.server.model.User*
+
+%6java.lang.String2setEmail(Ljava/lang/String;)äá
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.java5 5(!
+%8java.lang.String"iio.onedev.server.model.support.administration.authenticator.Authenticated#getFullName()Ljava/lang/String;*U
+S
+authenticatedBio.onedev.server.model.support.administration.sso.SsoAuthenticated2getFullName()*
+8
+9*È
+1õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.javaC C("≈
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/SsoAuthorizingRealm.javaC C(%
+#
+userio.onedev.server.model.User:S
+authenticatedBio.onedev.server.model.support.administration.sso.SsoAuthenticatedB75
+3io.onedev.server.security.realm.SsoAuthorizingRealm

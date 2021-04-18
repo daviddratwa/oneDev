@@ -1,0 +1,261 @@
+
+Jio.onedev.server.entitymanager.impl.DefaultPullRequestManager$2$1$1#run()V§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaß ß("7*Ê
+2§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaí í(ÍÊ
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaí í(+
+%24void"fio.onedev.server.model.support.pullrequest.MergePreview#syncRef(Lio/onedev/server/model/PullRequest;)V*I
+G
+mergePreview7io.onedev.server.model.support.pullrequest.MergePreview*/
+-
+request"io.onedev.server.model.PullRequest2-syncRef(Lio/onedev/server/model/PullRequest;)ú÷
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaî î(7
+%25void"rio.onedev.server.model.PullRequest#setLastMergePreview(Lio/onedev/server/model/support/pullrequest/MergePreview;)V*/
+-
+request"io.onedev.server.model.PullRequest*I
+G
+mergePreview7io.onedev.server.model.support.pullrequest.MergePreview2NsetLastMergePreview(Lio/onedev/server/model/support/pullrequest/MergePreview;)²
+¯
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaï ï(+
+%26$io.onedev.server.persistence.dao.Dao"__id*P*NE
+Cio.onedev.server.entitymanager.impl.DefaultPullRequestManager$2$1$1"
+dao¤¡
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaï ï("
+%27void"Vio.onedev.server.persistence.dao.Dao#persist(Lio/onedev/server/model/AbstractEntity;)V*-
++
+%26$io.onedev.server.persistence.dao.Dao*/
+-
+request"io.onedev.server.model.PullRequest20persist(Lio/onedev/server/model/AbstractEntity;)Í
+Ê
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javað ð(9
+%282io.onedev.commons.launcher.loader.ListenerRegistry"__id*]*[E
+Cio.onedev.server.entitymanager.impl.DefaultPullRequestManager$2$1$1"
+listenerRegistryÀ½
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javað( ð(IK
+%29Dio.onedev.server.event.pullrequest.PullRequestMergePreviewCalculated"Dio.onedev.server.event.pullrequest.PullRequestMergePreviewCalculated¨
+¥
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javað$ ð(R
+%30"rio.onedev.server.event.pullrequest.PullRequestMergePreviewCalculated#<init>(Lio/onedev/server/model/PullRequest;)V*M
+K
+%29Dio.onedev.server.event.pullrequest.PullRequestMergePreviewCalculated*/
+-
+request"io.onedev.server.model.PullRequest®«
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javað ð(S
+%31void"Lio.onedev.commons.launcher.loader.ListenerRegistry#post(Ljava/lang/Object;)V*;
+9
+%282io.onedev.commons.launcher.loader.ListenerRegistry*M
+K
+%29Dio.onedev.server.event.pullrequest.PullRequestMergePreviewCalculated2post(Ljava/lang/Object;)*
+0*•
+3§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaì ì(´±
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaì/ ì(<
+%22java.lang.String"9org.eclipse.jgit.lib.AnyObjectId#name()Ljava/lang/String;*)
+'
+mergedorg.eclipse.jgit.lib.ObjectId2name()©¦
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaì ì(=
+%23void"_io.onedev.server.model.support.pullrequest.MergePreview#setMergeCommitHash(Ljava/lang/String;)V*I
+G
+mergePreview7io.onedev.server.model.support.pullrequest.MergePreview*
+
+%22java.lang.String2&setMergeCommitHash(Ljava/lang/String;)*
+2*2
+4§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaæ. æ(5ñî
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaæ. æ(A,
+%7&io.onedev.server.util.ProjectAndBranch"Vio.onedev.server.model.PullRequest#getTarget()Lio/onedev/server/util/ProjectAndBranch;*/
+-
+request"io.onedev.server.model.PullRequest2getTarget()ÒÏ
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaæ. æ(Q
+%8java.lang.String"Jio.onedev.server.util.ProjectAndRevision#getObjectName()Ljava/lang/String;*.
+,
+%7&io.onedev.server.util.ProjectAndBranch2getObjectName()þ
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaç ç().
+%9(io.onedev.server.model.PullRequestUpdate"^io.onedev.server.model.PullRequest#getLatestUpdate()Lio/onedev/server/model/PullRequestUpdate;*/
+-
+request"io.onedev.server.model.PullRequest2getLatestUpdate()ÝÚ
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaç ç(=
+%10java.lang.String"Nio.onedev.server.model.PullRequestUpdate#getHeadCommitHash()Ljava/lang/String;*0
+.
+%9(io.onedev.server.model.PullRequestUpdate2getHeadCommitHash()¤¡
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaç? ç(Y?
+%118io.onedev.server.model.support.pullrequest.MergeStrategy"oio.onedev.server.model.PullRequest#getMergeStrategy()Lio/onedev/server/model/support/pullrequest/MergeStrategy;*/
+-
+request"io.onedev.server.model.PullRequest2getMergeStrategy()¦£
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaæ! æ(->
+%127io.onedev.server.model.support.pullrequest.MergePreview"7io.onedev.server.model.support.pullrequest.MergePreviewª
+§
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaæ ç(`
+%13"±io.onedev.server.model.support.pullrequest.MergePreview#<init>(Ljava/lang/String;Ljava/lang/String;Lio/onedev/server/model/support/pullrequest/MergeStrategy;Ljava/lang/String;)V*@
+>
+%127io.onedev.server.model.support.pullrequest.MergePreview*
+
+%8java.lang.String*
+
+%10java.lang.String*A
+?
+%118io.onedev.server.model.support.pullrequest.MergeStrategy*
+""¾
+»
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaæ ç(`G
+mergePreview7io.onedev.server.model.support.pullrequest.MergePreview"__id*@
+>
+%127io.onedev.server.model.support.pullrequest.MergePreviewÔ
+Ñ
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaè è(
+%14org.slf4j.Logger"__id*
+""©¦
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaé é(#
+%15long"/io.onedev.server.model.PullRequest#getNumber()J*/
+-
+request"io.onedev.server.model.PullRequest2getNumber()À½
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaé% é(<
+%16java.lang.String":io.onedev.server.model.Project#getName()Ljava/lang/String;*1
+/
+targetProjectio.onedev.server.model.Project2	getName()ÕÒ
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaè é(=
+%17void"Oorg.slf4j.Logger#debug(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
+
+%14org.slf4j.Logger*DB
+@Calculating merge preview of pull request #{} in project '{}'...*
+
+%15long*
+
+%16java.lang.String2=debug(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)ÔÑ
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaê  ê(??
+%188io.onedev.server.model.support.pullrequest.MergeStrategy"„io.onedev.server.model.support.pullrequest.MergePreview#getMergeStrategy()Lio/onedev/server/model/support/pullrequest/MergeStrategy;*I
+G
+mergePreview7io.onedev.server.model.support.pullrequest.MergePreview2getMergeStrategy()ª§
+¨
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaês ê(†
+%19long"/io.onedev.server.model.PullRequest#getNumber()J*/
+-
+request"io.onedev.server.model.PullRequest2getNumber()…
+‚
+¨
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaêO ê(†
+%20java.lang.String"__concat*#!
+Merge preview of pull request #*
+
+%19longº·
+¨
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaê  ê(‡$
+%21org.eclipse.jgit.lib.ObjectId"•io.onedev.server.model.support.pullrequest.MergeStrategy#merge(Lio/onedev/server/model/PullRequest;Ljava/lang/String;)Lorg/eclipse/jgit/lib/ObjectId;*A
+?
+%188io.onedev.server.model.support.pullrequest.MergeStrategy*/
+-
+request"io.onedev.server.model.PullRequest*
+
+%20java.lang.String2=merge(Lio/onedev/server/model/PullRequest;Ljava/lang/String;)…
+‚
+¨
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaê ê(ˆ'
+mergedorg.eclipse.jgit.lib.ObjectId"__id*&
+$
+%21org.eclipse.jgit.lib.ObjectId*
+2
+3*—
+5§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaä) ä(0Ÿœ
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaä) ä(B=
+%67io.onedev.server.model.support.pullrequest.MergePreview"mio.onedev.server.model.PullRequest#getMergePreview()Lio/onedev/server/model/support/pullrequest/MergePreview;*/
+-
+request"io.onedev.server.model.PullRequest2getMergePreview()½
+º
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaä ä(CG
+mergePreview7io.onedev.server.model.support.pullrequest.MergePreview"__id*?
+=
+%67io.onedev.server.model.support.pullrequest.MergePreview*
+4
+1*õ
+6§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaã% ã(,½º
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaã% ã(A
+%5boolean"8io.onedev.server.model.PullRequest#isMergedIntoTarget()Z*/
+-
+request"io.onedev.server.model.PullRequest2isMergedIntoTarget()*
+5
+0*°
+7§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaà à(æã
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaà% à(1	
+%0int"java.util.Collection#size()I*
+""2size() 
+
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaà à(7
+
+%1void"3com.google.common.base.Preconditions#checkState(Z)V*("&
+$com.google.common.base.Preconditions*
+""²¯
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaá" á(1(
+%2"io.onedev.server.model.PullRequest"pio.onedev.server.persistence.dao.BaseEntityManager#load(Ljava/lang/Long;)Lio/onedev/server/model/AbstractEntity;*GE
+Cio.onedev.server.entitymanager.impl.DefaultPullRequestManager$2$1$1*
+""2load(Ljava/lang/Long;)Ž
+‹
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaá á(2-
+request"io.onedev.server.model.PullRequest"__id**
+(
+%2"io.onedev.server.model.PullRequestïì
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaâ$ â(>$
+%3io.onedev.server.model.Project"Uio.onedev.server.model.PullRequest#getTargetProject()Lio/onedev/server/model/Project;*/
+-
+request"io.onedev.server.model.PullRequest2getTargetProject()Œ
+‰
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaâ â(?/
+targetProjectio.onedev.server.model.Project"__id*&
+$
+%3io.onedev.server.model.Project¥¢
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaã ã( 
+%4boolean",io.onedev.server.model.PullRequest#isOpen()Z*/
+-
+request"io.onedev.server.model.PullRequest2isOpen()*
+6
+0*Ç
+0 "¿
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaõ õ(
+implicit return*‚
+1§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaò ò(ÍÊ
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaò ò(+
+%32void"fio.onedev.server.model.support.pullrequest.MergePreview#syncRef(Lio/onedev/server/model/PullRequest;)V*I
+G
+mergePreview7io.onedev.server.model.support.pullrequest.MergePreview*/
+-
+request"io.onedev.server.model.PullRequest2-syncRef(Lio/onedev/server/model/PullRequest;)*
+0BGE
+Cio.onedev.server.entitymanager.impl.DefaultPullRequestManager$2$1$1

@@ -1,0 +1,145 @@
+
+yio.onedev.server.model.support.issue.TransitionSpec#canTransitManually(Lio/onedev/server/model/Issue;Ljava/lang/String;)Zõ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/issue/TransitionSpec.java} }(""startingBlock*‡
+2ù
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/issue/TransitionSpec.javaÉ É('À»
+ù
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/issue/TransitionSpec.javaÉ. É(@$
+%9io.onedev.server.model.Project"Iio.onedev.server.model.Issue#getProject()Lio/onedev/server/model/Project;*'
+%
+issueio.onedev.server.model.Issue2getProject()»≈
+ù
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/issue/TransitionSpec.javaÑ Ñ(O
+%10Hio.onedev.server.model.support.issue.transitiontrigger.TransitionTrigger"äio.onedev.server.model.support.issue.TransitionSpec#getTrigger()Lio/onedev/server/model/support/issue/transitiontrigger/TransitionTrigger;*75
+3io.onedev.server.model.support.issue.TransitionSpec2getTrigger()åâ
+ù
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/issue/TransitionSpec.javaÑ Ñ("
+%11java.lang.String"jio.onedev.server.model.support.issue.transitiontrigger.TransitionTrigger#getIssueQuery()Ljava/lang/String;*Q
+O
+%10Hio.onedev.server.model.support.issue.transitiontrigger.TransitionTrigger2getIssueQuery()ù
+ö
+ù
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/issue/TransitionSpec.javaÉ Ñ(A6
+%12/io.onedev.server.search.entity.issue.IssueQuery"üio.onedev.server.search.entity.issue.IssueQuery#parse(Lio/onedev/server/model/Project;Ljava/lang/String;ZZZZZ)Lio/onedev/server/search/entity/issue/IssueQuery;*3"1
+/io.onedev.server.search.entity.issue.IssueQuery*&
+$
+%9io.onedev.server.model.Project*
+
+%11java.lang.String*
+""*
+""*
+""*
+""*
+""£
+†
+ù
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/issue/TransitionSpec.javaÉ Ñ(B>
+parsedQuery/io.onedev.server.search.entity.issue.IssueQuery"__id*8
+6
+%12/io.onedev.server.search.entity.issue.IssueQuery°û
+ù
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/issue/TransitionSpec.javaÖ Ö(%
+%13boolean"Xio.onedev.server.search.entity.issue.IssueQuery#matches(Lio/onedev/server/model/Issue;)Z*@
+>
+parsedQuery/io.onedev.server.search.entity.issue.IssueQuery*'
+%
+issueio.onedev.server.model.Issue2'matches(Lio/onedev/server/model/Issue;)"®
+ù
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/issue/TransitionSpec.javaÖ Ö(&
+""*ˇ
+3ù
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/issue/TransitionSpec.javaÅ9 Å(C«ƒ
+ù
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/issue/TransitionSpec.javaÅ9 Å(EN
+%6Hio.onedev.server.model.support.issue.transitiontrigger.TransitionTrigger"äio.onedev.server.model.support.issue.TransitionSpec#getTrigger()Lio/onedev/server/model/support/issue/transitiontrigger/TransitionTrigger;*75
+3io.onedev.server.model.support.issue.TransitionSpec2getTrigger()’
+“
+ù
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/issue/TransitionSpec.javaÅ Å(FX
+pressButtonIio.onedev.server.model.support.issue.transitiontrigger.PressButtonTrigger"__id*P
+N
+%6Hio.onedev.server.model.support.issue.transitiontrigger.TransitionTriggerÀ»
+ù
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/issue/TransitionSpec.javaÇ  Ç(2$
+%7io.onedev.server.model.Project"Iio.onedev.server.model.Issue#getProject()Lio/onedev/server/model/Project;*'
+%
+issueio.onedev.server.model.Issue2getProject()·ﬁ
+ù
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/issue/TransitionSpec.javaÇ Ç(3
+%8boolean"yio.onedev.server.model.support.issue.transitiontrigger.PressButtonTrigger#isAuthorized(Lio/onedev/server/model/Project;)Z*Z
+X
+pressButtonIio.onedev.server.model.support.issue.transitiontrigger.PressButtonTrigger*&
+$
+%7io.onedev.server.model.Project2.isAuthorized(Lio/onedev/server/model/Project;)*
+2
+1*ˇ
+startingBlockõ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/issue/TransitionSpec.java}" }(IÚ
+Ô
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/issue/TransitionSpec.java}0 }(9
+%14"
+__annotate*
+javax.annotation.Nullable*
+
+toStatejava.lang.String’
+“
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/issue/TransitionSpec.java}A }(H
+toStatejava.lang.String"__annotation*
+
+%14*
+7*ı
+4ù
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/issue/TransitionSpec.javaÄ Ä(«ƒ
+ù
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/issue/TransitionSpec.javaÄ Ä(N
+%5Hio.onedev.server.model.support.issue.transitiontrigger.TransitionTrigger"äio.onedev.server.model.support.issue.TransitionSpec#getTrigger()Lio/onedev/server/model/support/issue/transitiontrigger/TransitionTrigger;*75
+3io.onedev.server.model.support.issue.TransitionSpec2getTrigger()*
+3
+1*∂
+5õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/issue/TransitionSpec.java ("‘—
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/issue/TransitionSpec.java* (6
+%3java.lang.String"Rio.onedev.server.model.support.issue.TransitionSpec#getToState()Ljava/lang/String;*75
+3io.onedev.server.model.support.issue.TransitionSpec2getToState()≥∞
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/issue/TransitionSpec.java (7
+%4boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+toStatejava.lang.String*
+
+%3java.lang.String2equals(Ljava/lang/Object;)*
+4
+1*‚
+7õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/issue/TransitionSpec.java~ ~(÷”
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/issue/TransitionSpec.java~ ~(
+%0java.util.List"Sio.onedev.server.model.support.issue.TransitionSpec#getFromStates()Ljava/util/List;*75
+3io.onedev.server.model.support.issue.TransitionSpec2getFromStates()©¶
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/issue/TransitionSpec.java~ ~(/
+%1java.lang.String"9io.onedev.server.model.Issue#getState()Ljava/lang/String;*'
+%
+issueio.onedev.server.model.Issue2
+getState()Æ´
+õ
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/issue/TransitionSpec.java~ ~(0
+%2boolean",java.util.List#contains(Ljava/lang/Object;)Z*
+
+%0java.util.List*
+
+%1java.lang.String2contains(Ljava/lang/Object;)*	
+4
+5
+1*Œ
+1ù
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/issue/TransitionSpec.javaà	 à("®
+ù
+êC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/issue/TransitionSpec.javaà à(
+"":%
+issueio.onedev.server.model.Issue:
+toStatejava.lang.StringB75
+3io.onedev.server.model.support.issue.TransitionSpec

@@ -1,0 +1,72 @@
+
+jio.onedev.server.security.SecurityUtils#canAccessReport(Lio/onedev/server/model/Build;Ljava/lang/String;)Zë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaÎ Î(&"1*‚
+1ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaÏ	 Ï(≤
+Ø
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaÏ	 Ï(&
+%0 org.apache.shiro.subject.Subject"Morg.apache.shiro.SecurityUtils#getSubject()Lorg/apache/shiro/subject/Subject;*"" 
+org.apache.shiro.SecurityUtilsøº
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaÏ8 Ï(J$
+%1io.onedev.server.model.Project"Iio.onedev.server.model.Build#getProject()Lio/onedev/server/model/Project;*'
+%
+buildio.onedev.server.model.Build2getProject()£†
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaÌ Ì((
+%2java.lang.String";io.onedev.server.model.Build#getJobName()Ljava/lang/String;*'
+%
+buildio.onedev.server.model.Build2getJobName()èå
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaÌ. Ì(@=
+%37io.onedev.server.security.permission.AccessBuildReports"7io.onedev.server.security.permission.AccessBuildReports’
+“
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaÌ* Ì(L
+%4"Sio.onedev.server.security.permission.AccessBuildReports#<init>(Ljava/lang/String;)V*?
+=
+%37io.onedev.server.security.permission.AccessBuildReports* 
+
+
+reportNamejava.lang.StringÖÇ
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaÌ Ì(8
+%52io.onedev.server.security.permission.JobPermission"2io.onedev.server.security.permission.JobPermissionß
+§
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaÌ Ì(M
+%6"qio.onedev.server.security.permission.JobPermission#<init>(Ljava/lang/String;Lorg/apache/shiro/authz/Permission;)V*:
+8
+%52io.onedev.server.security.permission.JobPermission*
+
+%2java.lang.String*?
+=
+%37io.onedev.server.security.permission.AccessBuildReportsçä
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaÏ& Ï(7<
+%76io.onedev.server.security.permission.ProjectPermission"6io.onedev.server.security.permission.ProjectPermission«
+ƒ
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaÏ" Ì(N
+%8"Éio.onedev.server.security.permission.ProjectPermission#<init>(Lio/onedev/server/model/Project;Lorg/apache/shiro/authz/Permission;)V*>
+<
+%76io.onedev.server.security.permission.ProjectPermission*&
+$
+%1io.onedev.server.model.Project*:
+8
+%52io.onedev.server.security.permission.JobPermissionñì
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaÏ	 Ì(O
+%9boolean"Rorg.apache.shiro.subject.Subject#isPermitted(Lorg/apache/shiro/authz/Permission;)Z*(
+&
+%0 org.apache.shiro.subject.Subject*>
+<
+%76io.onedev.server.security.permission.ProjectPermission20isPermitted(Lorg/apache/shiro/authz/Permission;)"ú
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaÏ Ì(P
+"":%
+buildio.onedev.server.model.Build:
+
+reportNamejava.lang.StringB+")
+'io.onedev.server.security.SecurityUtils

@@ -1,0 +1,592 @@
+
+lio.onedev.server.security.realm.PasswordAuthorizingRealm$1#call()Lorg/apache/shiro/authc/AuthenticationInfo;†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javan n(!"48*™
+46†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaq q(2ˆ
+Û
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaq q(2#
+userio.onedev.server.model.User"__id*#
+!
+%2io.onedev.server.model.User*
+32
+45*ñ
+24¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaÅ, É(.Å
+˛
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaÅ, É(.
+%32java.lang.String"__concat*
+
+%29java.lang.String*
+
+%31java.lang.Stringèå
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaÅ Å(+5
+%33.org.apache.shiro.authc.AuthenticationException".org.apache.shiro.authc.AuthenticationExceptionœ
+Ã
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaÅ É(/
+%34"Jorg.apache.shiro.authc.AuthenticationException#<init>(Ljava/lang/String;)V*7
+5
+%33.org.apache.shiro.authc.AuthenticationException*
+
+%32java.lang.String*
+7*Ó
+47†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javap p(4‰
+·
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javap p(5
+userNamejava.lang.String"__id*
+
+%0java.lang.ObjectØ
+¨
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaq q(0
+%1*io.onedev.server.entitymanager.UserManager"__id*O*M<
+:io.onedev.server.security.realm.PasswordAuthorizingRealm$1"
+userManager•¢
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaq q(1!
+%2io.onedev.server.model.User"fio.onedev.server.entitymanager.UserManager#findByName(Ljava/lang/String;)Lio/onedev/server/model/User;*2
+0
+%1*io.onedev.server.entitymanager.UserManager*
+
+userNamejava.lang.String2findByName(Ljava/lang/String;)*
+46*˝
+25¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaÉ É(.À»
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaÉ É(.
+%31java.lang.String"Gio.onedev.server.model.support.SsoInfo#getConnector()Ljava/lang/String;*/
+-
+%30&io.onedev.server.model.support.SsoInfo2getConnector()*
+24*”
+48†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javap  p(%£†
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javap  p(4
+%0java.lang.Object"Korg.apache.shiro.authc.AuthenticationToken#getPrincipal()Ljava/lang/Object;*
+""2getPrincipal()*
+47*Ô
+26¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaÅ, Å(7˙
+˜
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaÅ, Å(B
+%26java.lang.String"__concat*
+	Account '*
+
+userNamejava.lang.Stringâ
+Ü
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaÅ, Ç(-
+%27java.lang.String"__concat*
+
+%26java.lang.String*!
+' is set to authenticate via œ
+Ã
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaÇ0 Ç(M
+%28java.lang.String"__id*
+""Å
+˛
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaÅ, Ç(M
+%29java.lang.String"__concat*
+
+%27java.lang.String*
+
+%28java.lang.Stringﬁ€
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaÉ É(-
+%30&io.onedev.server.model.support.SsoInfo"Pio.onedev.server.model.User#getSsoInfo()Lio/onedev/server/model/support/SsoInfo;*%
+#
+userio.onedev.server.model.User2getSsoInfo()*
+25*Å
+28¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaÄ Ä(-À»
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaÄ Ä(-
+%25java.lang.String"Gio.onedev.server.model.support.SsoInfo#getConnector()Ljava/lang/String;*/
+-
+%24&io.onedev.server.model.support.SsoInfo2getConnector()*
+26
+22*ê
+29¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaÄ Ä(ﬁ€
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaÄ Ä(-
+%24&io.onedev.server.model.support.SsoInfo"Pio.onedev.server.model.User#getSsoInfo()Lio/onedev/server/model/support/SsoInfo;*%
+#
+userio.onedev.server.model.User2getSsoInfo()*
+28*π
+31†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.java- (1Õ
+ 
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.java- (B
+%22java.lang.String"__id*
+""∂≥
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.java (C
+%23boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%21java.lang.String*
+
+%22java.lang.String2equals(Ljava/lang/Object;)*
+29
+8*È
+10¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaè, è(7˙
+˜
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaè, è(B
+%48java.lang.String"__concat*
+	Account '*
+
+userNamejava.lang.StringÖ
+Ç
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaè, è(`
+%49java.lang.String"__concat*
+
+%48java.lang.String*
+' is set to authenticate ˚
+¯
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaè, ê(
+%50java.lang.String"__concat*
+
+%49java.lang.String*
+externally but œ
+Ã
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaê" ê(I
+%51java.lang.String"__id*
+""Å
+˛
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaè, ê(I
+%52java.lang.String"__concat*
+
+%50java.lang.String*
+
+%51java.lang.String˚
+¯
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaè, ê(]
+%53java.lang.String"__concat*
+
+%52java.lang.String*
+ is not definedèå
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaè è(+5
+%54.org.apache.shiro.authc.AuthenticationException".org.apache.shiro.authc.AuthenticationExceptionœ
+Ã
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaè ê(^
+%55"Jorg.apache.shiro.authc.AuthenticationException#<init>(Ljava/lang/String;)V*7
+5
+%54.org.apache.shiro.authc.AuthenticationException*
+
+%53java.lang.String*
+7*‚
+32†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.java (≤Ø
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.java (%
+%21java.lang.String";io.onedev.server.model.User#getPassword()Ljava/lang/String;*%
+#
+userio.onedev.server.model.User2getPassword()*
+31*‹
+11¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaç ç(´
+®
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaç ç(,
+%47void"Æio.onedev.server.security.realm.PasswordAuthorizingRealm#updateUser(Lio/onedev/server/model/User;Lio/onedev/server/model/support/administration/authenticator/Authenticated;)V*><
+:io.onedev.server.security.realm.PasswordAuthorizingRealm$1*%
+#
+userio.onedev.server.model.User*\
+Z
+authenticatedIio.onedev.server.model.support.administration.authenticator.Authenticated*
+8*ù
+34†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.java}5 }(^˛
+˚
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.java}5 }(f
+%15java.lang.String"__concat*+)
+'Unable to find account data for token [*
+""ˆ
+Û
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.java}5 }(w
+%16java.lang.String"__concat*
+
+%15java.lang.String*
+] in realm [§
+°
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.java}5 }(~
+%17java.lang.String"__concat*
+
+%16java.lang.String*><
+:io.onedev.server.security.realm.PasswordAuthorizingRealm$1Ï
+È
+°
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.java}5 }(Ñ
+%18java.lang.String"__concat*
+
+%17java.lang.String*
+]çä
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.java} }(45
+%19.org.apache.shiro.authc.UnknownAccountException".org.apache.shiro.authc.UnknownAccountExceptionŒ
+À
+°
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.java} }(Ö
+%20"Jorg.apache.shiro.authc.UnknownAccountException#<init>(Ljava/lang/String;)V*7
+5
+%19.org.apache.shiro.authc.UnknownAccountException*
+
+%18java.lang.String*
+7*¶
+35†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.java{ {(U˜
+Ù
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.java{ {(U#
+userio.onedev.server.model.User"__id*$
+"
+%14io.onedev.server.model.User*
+8*£
+
+13¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaä- ä(6ı
+Ú
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaä- ä(>
+%43java.lang.String"__concat*	
+Email '*
+
+emailjava.lang.Stringñ
+ì
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaä- ã(;
+%44java.lang.String"__concat*
+
+%43java.lang.String*.,
+*' has already been used by another accountèå
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaä ä(,5
+%45.org.apache.shiro.authc.AuthenticationException".org.apache.shiro.authc.AuthenticationExceptionœ
+Ã
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaä ã(<
+%46"Jorg.apache.shiro.authc.AuthenticationException#<init>(Ljava/lang/String;)V*7
+5
+%45.org.apache.shiro.authc.AuthenticationException*
+
+%44java.lang.String*
+7*§
+36†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.java{ {(UÙ
+Ò
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.java{ {(U"
+%14io.onedev.server.model.User"Œio.onedev.server.security.realm.PasswordAuthorizingRealm#newUser(Ljava/lang/String;Lio/onedev/server/model/support/administration/authenticator/Authenticated;Ljava/lang/String;)Lio/onedev/server/model/User;*><
+:io.onedev.server.security.realm.PasswordAuthorizingRealm$1*
+
+userNamejava.lang.String*\
+Z
+authenticatedIio.onedev.server.model.support.administration.authenticator.Authenticated*
+
+%13java.lang.String*
+35*œ
+37†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.java{ {(üú
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.java{5 {(T
+%13java.lang.String"mio.onedev.server.model.support.administration.authenticator.Authenticator#getDefaultGroup()Ljava/lang/String;*\
+Z
+authenticatorIio.onedev.server.model.support.administration.authenticator.Authenticator2getDefaultGroup()*
+36*ì
+15¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaâ0 â(;≤
+Ø
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaâ0 â(;1
+%41*io.onedev.server.entitymanager.UserManager"__id*O*M<
+:io.onedev.server.security.realm.PasswordAuthorizingRealm$1"
+userManager®•
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaâ0 â(N"
+%42io.onedev.server.model.User"gio.onedev.server.entitymanager.UserManager#findByEmail(Ljava/lang/String;)Lio/onedev/server/model/User;*3
+1
+%41*io.onedev.server.entitymanager.UserManager*
+
+emailjava.lang.String2findByEmail(Ljava/lang/String;)*
+13
+11*ó
+
+39†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javax- x(6Ú
+Ô
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javax- x(>
+%9java.lang.String"__concat*	
+Email '*
+
+emailjava.lang.Stringì
+ê
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javax- y(;
+%10java.lang.String"__concat*
+
+%9java.lang.String*.,
+*' has already been used by another accountçä
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javax x(,5
+%11.org.apache.shiro.authc.AuthenticationException".org.apache.shiro.authc.AuthenticationExceptionÕ
+ 
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javax y(<
+%12"Jorg.apache.shiro.authc.AuthenticationException#<init>(Ljava/lang/String;)V*7
+5
+%11.org.apache.shiro.authc.AuthenticationException*
+
+%10java.lang.String*
+7*
+17¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaâ â(,∫∑
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaâ â(,
+%40boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+emailjava.lang.String*
+
+%39java.lang.String2equals(Ljava/lang/Object;)*
+15
+11*«
+18¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaà
+ à(2‰
+·
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaà
+ à(2
+emailjava.lang.String"__id*
+
+%38java.lang.StringÆ´
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaâ â(+
+%39java.lang.String"8io.onedev.server.model.User#getEmail()Ljava/lang/String;*%
+#
+userio.onedev.server.model.User2
+getEmail()*
+17*¶
+19¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaá
+ á(bﬁ
+€
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaá
+ á(bZ
+authenticatedIio.onedev.server.model.support.administration.authenticator.Authenticated"__id*R
+P
+%37Iio.onedev.server.model.support.administration.authenticator.Authenticatedìê
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaà à(1
+%38java.lang.String"fio.onedev.server.model.support.administration.authenticator.Authenticated#getEmail()Ljava/lang/String;*\
+Z
+authenticatedIio.onedev.server.model.support.administration.authenticator.Authenticated2
+getEmail()*
+18*¬
+0 "∫
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaù ù(
+implicit return*∆
+2¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaö. ö(Ièå
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaö ö(-5
+%61.org.apache.shiro.authc.AuthenticationException".org.apache.shiro.authc.AuthenticationExceptionÑ
+Å
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaö ö(M
+%62"_org.apache.shiro.authc.AuthenticationException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)V*7
+5
+%61.org.apache.shiro.authc.AuthenticationException*
+Error authenticating user*
+
+ejava.lang.Exception*
+0*ˇ
+3¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaô	 ô(œ
+Ã
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaô	 ô(
+%59org.slf4j.Logger"__id*
+""˝˙
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaô	 ô(5
+%60void"@org.slf4j.Logger#error(Ljava/lang/String;Ljava/lang/Throwable;)V*
+
+%59org.slf4j.Logger*
+Error authenticating user*
+
+ejava.lang.Exception2.error(Ljava/lang/String;Ljava/lang/Throwable;)*
+2*®
+5¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaó ó( ¯
+ı
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaó ó(-!
+%58java.lang.RuntimeException"cio.onedev.commons.utils.ExceptionUtils#unchecked(Ljava/lang/Throwable;)Ljava/lang/RuntimeException;**"(
+&io.onedev.commons.utils.ExceptionUtils*
+
+ejava.lang.Exception*
+0*ˇ
+6¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javañ	 ñ(œ
+Ã
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javañ	 ñ(
+%56org.slf4j.Logger"__id*
+""˝˙
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javañ	 ñ(5
+%57void"@org.slf4j.Logger#debug(Ljava/lang/String;Ljava/lang/Throwable;)V*
+
+%56org.slf4j.Logger*
+Authentication not passed*
+
+ejava.lang.Exception2.debug(Ljava/lang/String;Ljava/lang/Throwable;)*
+5*É
+7¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaî î(–
+Õ
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaî î(
+ejava.lang.Exception"__id*
+""*
+3
+6*˜
+8¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaì ì("Ã
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaì ì(%
+#
+userio.onedev.server.model.User*Ó
+41†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javav
+ v(2·
+ﬁ
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javav
+ v(2
+emailjava.lang.String"__id*
+
+%6java.lang.StringØ
+¨
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaw w(0
+%7*io.onedev.server.entitymanager.UserManager"__id*O*M<
+:io.onedev.server.security.realm.PasswordAuthorizingRealm$1"
+userManager§°
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaw w(,!
+%8io.onedev.server.model.User"gio.onedev.server.entitymanager.UserManager#findByEmail(Ljava/lang/String;)Lio/onedev/server/model/User;*2
+0
+%7*io.onedev.server.entitymanager.UserManager*
+
+emailjava.lang.String2findByEmail(Ljava/lang/String;)*
+37
+39*û
+42†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javau
+ u(b€
+ÿ
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javau
+ u(bZ
+authenticatedIio.onedev.server.model.support.administration.authenticator.Authenticated"__id*Q
+O
+%5Iio.onedev.server.model.support.administration.authenticator.Authenticatedêç
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javav v(1
+%6java.lang.String"fio.onedev.server.model.support.administration.authenticator.Authenticated#getEmail()Ljava/lang/String;*\
+Z
+authenticatedIio.onedev.server.model.support.administration.authenticator.Authenticated2
+getEmail()*
+41*§
+20¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaá( á(5ÚÔ
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaá( á(aP
+%37Iio.onedev.server.model.support.administration.authenticator.Authenticated"—io.onedev.server.model.support.administration.authenticator.Authenticator#authenticate(Lorg/apache/shiro/authc/UsernamePasswordToken;)Lio/onedev/server/model/support/administration/authenticator/Authenticated;*\
+Z
+authenticatorIio.onedev.server.model.support.administration.authenticator.Authenticator*
+""2<authenticate(Lorg/apache/shiro/authc/UsernamePasswordToken;)*
+19*ü
+43†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javau( u(5ÔÏ
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javau( u(aO
+%5Iio.onedev.server.model.support.administration.authenticator.Authenticated"—io.onedev.server.model.support.administration.authenticator.Authenticator#authenticate(Lorg/apache/shiro/authc/UsernamePasswordToken;)Lio/onedev/server/model/support/administration/authenticator/Authenticated;*\
+Z
+authenticatorIio.onedev.server.model.support.administration.authenticator.Authenticator*
+""2<authenticate(Lorg/apache/shiro/authc/UsernamePasswordToken;)*
+42*î
+21¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaÖ	 Ö(Iﬁ
+€
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaÖ	 Ö(IZ
+authenticatorIio.onedev.server.model.support.administration.authenticator.Authenticator"__id*R
+P
+%36Iio.onedev.server.model.support.administration.authenticator.Authenticator*
+20
+10*è
+44†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javas	 s(I€
+ÿ
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javas	 s(IZ
+authenticatorIio.onedev.server.model.support.administration.authenticator.Authenticator"__id*Q
+O
+%4Iio.onedev.server.model.support.administration.authenticator.Authenticator*
+43
+34*¡
+22¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaÖ' Ö(5∏
+µ
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaÖ' Ö(54
+%35-io.onedev.server.entitymanager.SettingManager"__id*R*P<
+:io.onedev.server.security.realm.PasswordAuthorizingRealm$1"
+settingManager‘—
+¢
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javaÖ' Ö(HP
+%36Iio.onedev.server.model.support.administration.authenticator.Authenticator"ãio.onedev.server.entitymanager.SettingManager#getAuthenticator()Lio/onedev/server/model/support/administration/authenticator/Authenticator;*6
+4
+%35-io.onedev.server.entitymanager.SettingManager2getAuthenticator()*
+21*∏
+45†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javas' s(5µ
+≤
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javas' s(53
+%3-io.onedev.server.entitymanager.SettingManager"__id*R*P<
+:io.onedev.server.security.realm.PasswordAuthorizingRealm$1"
+settingManager–Õ
+†
+ïC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/realm/PasswordAuthorizingRealm.javas' s(HO
+%4Iio.onedev.server.model.support.administration.authenticator.Authenticator"ãio.onedev.server.entitymanager.SettingManager#getAuthenticator()Lio/onedev/server/model/support/administration/authenticator/Authenticator;*5
+3
+%3-io.onedev.server.entitymanager.SettingManager2getAuthenticator()*
+44B><
+:io.onedev.server.security.realm.PasswordAuthorizingRealm$1

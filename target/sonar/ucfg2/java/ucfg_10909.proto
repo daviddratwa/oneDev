@@ -1,0 +1,257 @@
+
+jio.onedev.server.entitymanager.impl.DefaultPullRequestManager#check(Lio/onedev/server/model/PullRequest;)Vß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaº º("startingBlock*·
+35ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaø ø("ß§
+ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaø ø(,
+%2boolean"-io.onedev.server.model.PullRequest#isValid()Z*/
+-
+request"io.onedev.server.model.PullRequest2	isValid()*
+33
+0*Ò
+13ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.java‘ ˛(ª∏
+ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.java‘ ˛(
+%23void"Uio.onedev.server.persistence.TransactionManager#runAfterCommit(Ljava/lang/Runnable;)V*8
+6
+%20/io.onedev.server.persistence.TransactionManager*H
+F
+%21?io.onedev.server.entitymanager.impl.DefaultPullRequestManager$22$runAfterCommit(Ljava/lang/Runnable;)*
+0*ø
+
+14ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.java” ”('È
+Ê
+ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.java” ”('
+	requestIdjava.lang.Long"__id*
+
+%19java.lang.Long∆
+√
+ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.java‘ ‘(6
+%20/io.onedev.server.persistence.TransactionManager"__id*Y*W?
+=io.onedev.server.entitymanager.impl.DefaultPullRequestManager"
+transactionManager∂≥
+ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.java‘, ‘(4F
+%21?io.onedev.server.entitymanager.impl.DefaultPullRequestManager$2"?io.onedev.server.entitymanager.impl.DefaultPullRequestManager$2ö
+ó
+ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.java‘( ˛(
+%22"java.lang.Object#<init>()V*H
+F
+%21?io.onedev.server.entitymanager.impl.DefaultPullRequestManager$2*
+13*≠
+25ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaƒ/ ƒ(4ÚÔ
+ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaƒ ƒ(5#
+%9org.eclipse.jgit.lib.ObjectId"Vio.onedev.server.util.ProjectAndRevision#getObjectId(Z)Lorg/eclipse/jgit/lib/ObjectId;*.
+,
+%8&io.onedev.server.util.ProjectAndBranch*
+""2getObjectId(Z)*
+22
+23*ﬂ
+37ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaø ø(•¢
+ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaø ø(
+%1boolean",io.onedev.server.model.PullRequest#isOpen()Z*/
+-
+request"io.onedev.server.model.PullRequest2isOpen()*
+35
+0*Ù
+15ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.java” ”(Ω∫
+ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.java” ”(&
+%19java.lang.Long"=io.onedev.server.model.AbstractEntity#getId()Ljava/lang/Long;*/
+-
+request"io.onedev.server.model.PullRequest2getId()*
+14*®
+26ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaƒ ƒ(ÒÓ
+ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaƒ ƒ(",
+%8&io.onedev.server.util.ProjectAndBranch"Vio.onedev.server.model.PullRequest#getTarget()Lio/onedev/server/util/ProjectAndBranch;*/
+-
+request"io.onedev.server.model.PullRequest2getTarget()*
+25*ì
+38ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaæ æ(
+‹Ÿ
+ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaæ æ(
+
+%0void"Eio.onedev.server.model.PullRequest#setCheckError(Ljava/lang/String;)V*/
+-
+request"io.onedev.server.model.PullRequest*
+""2!setCheckError(Ljava/lang/String;)*
+37*⁄
+16ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.java— —(‘
+—
+ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.java— —(>
+%177io.onedev.server.entitymanager.PullRequestReviewManager"__id*_*]?
+=io.onedev.server.entitymanager.impl.DefaultPullRequestManager"
+pullRequestReviewManagerÃ…
+ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.java— —(3
+%18void"jio.onedev.server.entitymanager.PullRequestReviewManager#saveReviews(Lio/onedev/server/model/PullRequest;)V*@
+>
+%177io.onedev.server.entitymanager.PullRequestReviewManager*/
+-
+request"io.onedev.server.model.PullRequest21saveReviews(Lio/onedev/server/model/PullRequest;)*
+15*»
+27ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.java√ √(íè
+ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.java√ √(7
+
+%7void"~io.onedev.server.entitymanager.impl.DefaultPullRequestManager#discard(Lio/onedev/server/model/PullRequest;Ljava/lang/String;)V*A?
+=io.onedev.server.entitymanager.impl.DefaultPullRequestManager*/
+-
+request"io.onedev.server.model.PullRequest*" 
+Source branch no longer exists2?discard(Lio/onedev/server/model/PullRequest;Ljava/lang/String;)*
+0*À
+17ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaÀ À(1îë
+ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaÀ À(1
+%16void"Åio.onedev.server.entitymanager.impl.DefaultPullRequestManager#checkReviews(Lio/onedev/server/model/PullRequest;Ljava/util/List;)V*A?
+=io.onedev.server.entitymanager.impl.DefaultPullRequestManager*/
+-
+request"io.onedev.server.model.PullRequest*
+
+%15java.util.ArrayList2BcheckReviews(Lio/onedev/server/model/PullRequest;Ljava/util/List;)*
+16*Í
+18ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaÀ À(≥
+∞
+ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaÀ À(0
+%15java.util.ArrayList"Ccom.google.common.collect.Lists#newArrayList()Ljava/util/ArrayList;*#"!
+com.google.common.collect.Lists*
+17*≠
+29ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.java¬/ ¬(4ÚÔ
+ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.java¬ ¬(5#
+%6org.eclipse.jgit.lib.ObjectId"Vio.onedev.server.util.ProjectAndRevision#getObjectId(Z)Lorg/eclipse/jgit/lib/ObjectId;*.
+,
+%5&io.onedev.server.util.ProjectAndBranch*
+""2getObjectId(Z)*
+26
+27*·
+19ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.java… …(´
+®
+ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.java… …("
+%14void"sio.onedev.server.entitymanager.impl.DefaultPullRequestManager#closeAsMerged(Lio/onedev/server/model/PullRequest;Z)V*A?
+=io.onedev.server.entitymanager.impl.DefaultPullRequestManager*/
+-
+request"io.onedev.server.model.PullRequest*
+""*
+0*«
+0 "ø
+ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaç ç(
+implicit return*˘
+startingBlockß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaº º('¨
+©
+ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.java∫ ∫(
+%38"
+__annotate*97
+5io.onedev.server.persistence.annotation.Transactional*/
+-
+request"io.onedev.server.model.PullRequestâ
+Ü
+ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaª ª(
+
+%39"
+__annotate*
+java.lang.Override*/
+-
+request"io.onedev.server.model.PullRequest¸
+˘
+ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.javaº º(&-
+request"io.onedev.server.model.PullRequest"__annotation*
+
+%38*
+
+%39*
+38*®
+30ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.java¬ ¬(ÒÓ
+ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.java¬ ¬(",
+%5&io.onedev.server.util.ProjectAndBranch"Vio.onedev.server.model.PullRequest#getSource()Lio/onedev/server/util/ProjectAndBranch;*/
+-
+request"io.onedev.server.model.PullRequest2getSource()*
+29*…
+31ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.java¡ ¡(ìê
+ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.java¡ ¡(8
+
+%4void"~io.onedev.server.entitymanager.impl.DefaultPullRequestManager#discard(Lio/onedev/server/model/PullRequest;Ljava/lang/String;)V*A?
+=io.onedev.server.entitymanager.impl.DefaultPullRequestManager*/
+-
+request"io.onedev.server.model.PullRequest*#!
+Source project no longer exists2?discard(Lio/onedev/server/model/PullRequest;Ljava/lang/String;)*
+0*˘
+21ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.java»	 »(æª
+ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.java»	 »(%
+%13boolean"8io.onedev.server.model.PullRequest#isMergedIntoTarget()Z*/
+-
+request"io.onedev.server.model.PullRequest2isMergedIntoTarget()*
+18
+19*⁄
+22ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.java« «(‘
+—
+ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.java« «(>
+%117io.onedev.server.entitymanager.PullRequestUpdateManager"__id*_*]?
+=io.onedev.server.entitymanager.impl.DefaultPullRequestManager"
+pullRequestUpdateManagerÃ…
+ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.java« «(2
+%12void"jio.onedev.server.entitymanager.PullRequestUpdateManager#checkUpdate(Lio/onedev/server/model/PullRequest;)V*@
+>
+%117io.onedev.server.entitymanager.PullRequestUpdateManager*/
+-
+request"io.onedev.server.model.PullRequest21checkUpdate(Lio/onedev/server/model/PullRequest;)*
+21*™
+33ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.java¿ ¿(ÔÏ
+ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.java¿ ¿("$
+%3io.onedev.server.model.Project"Uio.onedev.server.model.PullRequest#getSourceProject()Lio/onedev/server/model/Project;*/
+-
+request"io.onedev.server.model.PullRequest2getSourceProject()*
+30
+31*…
+23ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.java≈ ≈(ìê
+ß
+öC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultPullRequestManager.java≈ ≈(7
+%10void"~io.onedev.server.entitymanager.impl.DefaultPullRequestManager#discard(Lio/onedev/server/model/PullRequest;Ljava/lang/String;)V*A?
+=io.onedev.server.entitymanager.impl.DefaultPullRequestManager*/
+-
+request"io.onedev.server.model.PullRequest*" 
+Target branch no longer exists2?discard(Lio/onedev/server/model/PullRequest;Ljava/lang/String;)*
+0:-
+request"io.onedev.server.model.PullRequestBA?
+=io.onedev.server.entitymanager.impl.DefaultPullRequestManager

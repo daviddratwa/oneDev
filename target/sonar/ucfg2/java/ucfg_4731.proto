@@ -1,0 +1,181 @@
+
+ºio.onedev.server.search.entity.project.OwnedByNoneCriteria#getPredicate(Ljavax/persistence/criteria/Root;Ljavax/persistence/criteria/CriteriaBuilder;)Ljavax/persistence/criteria/Predicate;¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/entity/project/OwnedByNoneCriteria.java ("startingBlock*≠	
+startingBlock¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/entity/project/OwnedByNoneCriteria.java (K˛
+˚
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/entity/project/OwnedByNoneCriteria.java (
+
+%19"
+__annotate*
+java.lang.Override*)
+'
+rootjavax.persistence.criteria.RootË
+Â
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/entity/project/OwnedByNoneCriteria.java- (1'
+rootjavax.persistence.criteria.Root"__annotation*
+
+%19å
+â
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/entity/project/OwnedByNoneCriteria.java (
+
+%20"
+__annotate*
+java.lang.Override*7
+5
+builder*javax.persistence.criteria.CriteriaBuilderˆ
+Û
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/entity/project/OwnedByNoneCriteria.javaC (J5
+builder*javax.persistence.criteria.CriteriaBuilder"__annotation*
+
+%20*
+1*ü>
+1¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/entity/project/OwnedByNoneCriteria.java% ()Œ
+À
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/entity/project/OwnedByNoneCriteria.java/ (O
+%0java.lang.String"__id*
+""·
+ﬁ
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/entity/project/OwnedByNoneCriteria.javaQ (^)
+%1#javax.persistence.criteria.JoinType"__id*
+""Ä˝
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/entity/project/OwnedByNoneCriteria.java% (_%
+%2javax.persistence.criteria.Join"~javax.persistence.criteria.From#join(Ljava/lang/String;Ljavax/persistence/criteria/JoinType;)Ljavax/persistence/criteria/Join;*)
+'
+rootjavax.persistence.criteria.Root*
+
+%0java.lang.String*+
+)
+%1#javax.persistence.criteria.JoinType2=join(Ljava/lang/String;Ljavax/persistence/criteria/JoinType;)ë
+é
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/entity/project/OwnedByNoneCriteria.java (`8
+userAuthorizationJoinjavax.persistence.criteria.Join"__id*'
+%
+%2javax.persistence.criteria.JoinŒ
+À
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/entity/project/OwnedByNoneCriteria.java0 (Q
+%3java.lang.String"__id*
+""·
+ﬁ
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/entity/project/OwnedByNoneCriteria.javaS (`)
+%4#javax.persistence.criteria.JoinType"__id*
+""Ä˝
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/entity/project/OwnedByNoneCriteria.java& (a%
+%5javax.persistence.criteria.Join"~javax.persistence.criteria.From#join(Ljava/lang/String;Ljavax/persistence/criteria/JoinType;)Ljavax/persistence/criteria/Join;*)
+'
+rootjavax.persistence.criteria.Root*
+
+%3java.lang.String*+
+)
+%4#javax.persistence.criteria.JoinType2=join(Ljava/lang/String;Ljavax/persistence/criteria/JoinType;)í
+è
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/entity/project/OwnedByNoneCriteria.java (b9
+groupAuthorizationJoinjavax.persistence.criteria.Join"__id*'
+%
+%5javax.persistence.criteria.JoinÉ
+Ä
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/entity/project/OwnedByNoneCriteria.java (9
+%6java.lang.String"__id*;*9*
+(io.onedev.server.model.UserAuthorization"
+	PROP_ROLEòï
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/entity/project/OwnedByNoneCriteria.java (:%
+%7javax.persistence.criteria.Path"Xjavax.persistence.criteria.Path#get(Ljava/lang/String;)Ljavax/persistence/criteria/Path;*:
+8
+userAuthorizationJoinjavax.persistence.criteria.Join*
+
+%6java.lang.String2get(Ljava/lang/String;)Ã
+…
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/entity/project/OwnedByNoneCriteria.java< (I
+%8java.lang.Long"__id*
+""§°
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/entity/project/OwnedByNoneCriteria.java (J*
+%9$javax.persistence.criteria.Predicate"ëjavax.persistence.criteria.CriteriaBuilder#equal(Ljavax/persistence/criteria/Expression;Ljava/lang/Object;)Ljavax/persistence/criteria/Predicate;*7
+5
+builder*javax.persistence.criteria.CriteriaBuilder*'
+%
+%7javax.persistence.criteria.Path*
+
+%8java.lang.Long2@equal(Ljavax/persistence/criteria/Expression;Ljava/lang/Object;)’“
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/entity/project/OwnedByNoneCriteria.java (K&
+%10javax.persistence.criteria.Join"ljavax.persistence.criteria.Join#on(Ljavax/persistence/criteria/Expression;)Ljavax/persistence/criteria/Join;*:
+8
+userAuthorizationJoinjavax.persistence.criteria.Join*,
+*
+%9$javax.persistence.criteria.Predicate2+on(Ljavax/persistence/criteria/Expression;)œ
+Ã
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/entity/project/OwnedByNoneCriteria.java- (I
+%11java.lang.String"__id*
+""õò
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/entity/project/OwnedByNoneCriteria.java (J&
+%12javax.persistence.criteria.Path"Xjavax.persistence.criteria.Path#get(Ljava/lang/String;)Ljavax/persistence/criteria/Path;*;
+9
+groupAuthorizationJoinjavax.persistence.criteria.Join*
+
+%11java.lang.String2get(Ljava/lang/String;)Õ
+ 
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/entity/project/OwnedByNoneCriteria.javaL (Y
+%13java.lang.Long"__id*
+""ß§
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/entity/project/OwnedByNoneCriteria.java (Z+
+%14$javax.persistence.criteria.Predicate"ëjavax.persistence.criteria.CriteriaBuilder#equal(Ljavax/persistence/criteria/Expression;Ljava/lang/Object;)Ljavax/persistence/criteria/Predicate;*7
+5
+builder*javax.persistence.criteria.CriteriaBuilder*(
+&
+%12javax.persistence.criteria.Path*
+
+%13java.lang.Long2@equal(Ljavax/persistence/criteria/Expression;Ljava/lang/Object;)◊‘
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/entity/project/OwnedByNoneCriteria.java ([&
+%15javax.persistence.criteria.Join"ljavax.persistence.criteria.Join#on(Ljavax/persistence/criteria/Expression;)Ljavax/persistence/criteria/Join;*;
+9
+groupAuthorizationJoinjavax.persistence.criteria.Join*-
++
+%14$javax.persistence.criteria.Predicate2+on(Ljavax/persistence/criteria/Expression;)ÒÓ
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/entity/project/OwnedByNoneCriteria.java (3+
+%16$javax.persistence.criteria.Predicate"Tjavax.persistence.criteria.Expression#isNull()Ljavax/persistence/criteria/Predicate;*:
+8
+userAuthorizationJoinjavax.persistence.criteria.Join2isNull()ÚÔ
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/entity/project/OwnedByNoneCriteria.java5 (T+
+%17$javax.persistence.criteria.Predicate"Tjavax.persistence.criteria.Expression#isNull()Ljavax/persistence/criteria/Predicate;*;
+9
+groupAuthorizationJoinjavax.persistence.criteria.Join2isNull()ËÂ
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/entity/project/OwnedByNoneCriteria.java	 (U+
+%18$javax.persistence.criteria.Predicate"§javax.persistence.criteria.CriteriaBuilder#and(Ljavax/persistence/criteria/Expression;Ljavax/persistence/criteria/Expression;)Ljavax/persistence/criteria/Predicate;*7
+5
+builder*javax.persistence.criteria.CriteriaBuilder*-
++
+%16$javax.persistence.criteria.Predicate*-
++
+%17$javax.persistence.criteria.Predicate2Sand(Ljavax/persistence/criteria/Expression;Ljavax/persistence/criteria/Expression;)"‘
+¢
+óC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/entity/project/OwnedByNoneCriteria.java (V-
++
+%18$javax.persistence.criteria.Predicate:'
+rootjavax.persistence.criteria.Root:5
+builder*javax.persistence.criteria.CriteriaBuilderB><
+:io.onedev.server.search.entity.project.OwnedByNoneCriteria

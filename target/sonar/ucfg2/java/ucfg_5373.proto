@@ -1,0 +1,44 @@
+
+aio.onedev.server.notification.IssueNotificationManager$2#getQuerySettings()Ljava/util/Collection;û
+ìC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/IssueNotificationManager.javay3 y(C"1*˛
+1û
+ìC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/IssueNotificationManager.javaz z(´
+®
+û
+ìC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/IssueNotificationManager.javaz z(0
+%0*io.onedev.server.entitymanager.UserManager"__id*M*K:
+8io.onedev.server.notification.IssueNotificationManager$2"
+userManagerøº
+û
+ìC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/IssueNotificationManager.javaz z(
+%1java.util.List"Fio.onedev.server.persistence.dao.EntityManager#query()Ljava/util/List;*2
+0
+%0*io.onedev.server.entitymanager.UserManager2query()ùö
+û
+ìC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/IssueNotificationManager.javaz z('
+%2java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*
+
+%1java.util.List2stream()Â‚
+û
+ìC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/IssueNotificationManager.javaz z(J
+%3java.util.stream.Stream"Sjava.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;*
+
+%2java.util.stream.Stream*
+""2"map(Ljava/util/function/Function;)©
+¶
+û
+ìC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/IssueNotificationManager.javazS z(f 
+%4java.util.stream.Collector"@java.util.stream.Collectors#toList()Ljava/util/stream/Collector;*"
+java.util.stream.Collectors˜Ù
+û
+ìC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/IssueNotificationManager.javaz z(g
+%5java.util.List"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;*
+
+%3java.util.stream.Stream*"
+ 
+%4java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)"π
+û
+ìC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/notification/IssueNotificationManager.javaz z(h
+
+%5java.util.ListB<:
+8io.onedev.server.notification.IssueNotificationManager$2

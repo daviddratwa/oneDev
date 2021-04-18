@@ -1,0 +1,54 @@
+
+nio.onedev.server.security.SecurityUtils#canEditIssueField(Lio/onedev/server/model/Project;Ljava/lang/String;)Zë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaç ç(("1*Ü
+1ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaé	 é(≤
+Ø
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaé	 é(&
+%0 org.apache.shiro.subject.Subject"Morg.apache.shiro.SecurityUtils#getSubject()Lorg/apache/shiro/subject/Subject;*"" 
+org.apache.shiro.SecurityUtils»
+≈
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaéT é(n
+%1java.util.HashSet"Qcom.google.common.collect.Sets#newHashSet([Ljava/lang/Object;)Ljava/util/HashSet;*"" 
+com.google.common.collect.Sets*
+
+	fieldNamejava.lang.StringáÑ
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaéE é(S9
+%23io.onedev.server.security.permission.EditIssueField"3io.onedev.server.security.permission.EditIssueField 
+«
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaéA é(o
+%3"Sio.onedev.server.security.permission.EditIssueField#<init>(Ljava/util/Collection;)V*;
+9
+%23io.onedev.server.security.permission.EditIssueField*
+
+%1java.util.HashSetçä
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaé& é(7<
+%46io.onedev.server.security.permission.ProjectPermission"6io.onedev.server.security.permission.ProjectPermissionÕ
+ 
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaé" é(p
+%5"Éio.onedev.server.security.permission.ProjectPermission#<init>(Lio/onedev/server/model/Project;Lorg/apache/shiro/authz/Permission;)V*>
+<
+%46io.onedev.server.security.permission.ProjectPermission*+
+)
+projectio.onedev.server.model.Project*;
+9
+%23io.onedev.server.security.permission.EditIssueFieldñì
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaé	 é(q
+%6boolean"Rorg.apache.shiro.subject.Subject#isPermitted(Lorg/apache/shiro/authz/Permission;)Z*(
+&
+%0 org.apache.shiro.subject.Subject*>
+<
+%46io.onedev.server.security.permission.ProjectPermission20isPermitted(Lorg/apache/shiro/authz/Permission;)"ú
+ë
+ÑC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/SecurityUtils.javaé é(r
+"":)
+projectio.onedev.server.model.Project:
+	fieldNamejava.lang.StringB+")
+'io.onedev.server.security.SecurityUtils

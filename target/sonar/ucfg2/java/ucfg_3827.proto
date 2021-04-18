@@ -1,0 +1,185 @@
+
+ƒio.onedev.server.model.support.inputspec.choiceinput.ChoiceInput#getPropertyDef(Lio/onedev/server/model/support/inputspec/InputSpec;Ljava/util/Map;Lio/onedev/server/model/support/inputspec/choiceinput/choiceprovider/ChoiceProvider;Lio/onedev/server/model/support/inputspec/choiceinput/defaultvalueprovider/DefaultValueProvider;Lio/onedev/server/model/support/inputspec/choiceinput/defaultmultivalueprovider/DefaultMultiValueProvider;)Ljava/lang/String;®
+ùC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/inputspec/choiceinput/ChoiceInput.java ($"11*”
+2®
+ùC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/inputspec/choiceinput/ChoiceInput.java, ,(ùö
+®
+ùC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/inputspec/choiceinput/ChoiceInput.java, ,(Y
+%17void"öio.onedev.server.model.support.inputspec.InputSpec#appendMethods(Ljava/lang/StringBuffer;ILjava/lang/String;Ljava/io/Serializable;Ljava/io/Serializable;)V*A
+?
+	inputSpec2io.onedev.server.model.support.inputspec.InputSpec*"
+ 
+bufferjava.lang.StringBuffer*
+""*
+
+String*f
+d
+choiceProviderRio.onedev.server.model.support.inputspec.choiceinput.choiceprovider.ChoiceProvider*x
+v
+defaultValueProvider^io.onedev.server.model.support.inputspec.choiceinput.defaultvalueprovider.DefaultValueProvider2fappendMethods(Ljava/lang/StringBuffer;ILjava/lang/String;Ljava/io/Serializable;Ljava/io/Serializable;)*
+1*Í
+3®
+ùC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/inputspec/choiceinput/ChoiceInput.java* *(¥±
+®
+ùC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/inputspec/choiceinput/ChoiceInput.java* *(d
+%16void"öio.onedev.server.model.support.inputspec.InputSpec#appendMethods(Ljava/lang/StringBuffer;ILjava/lang/String;Ljava/io/Serializable;Ljava/io/Serializable;)V*A
+?
+	inputSpec2io.onedev.server.model.support.inputspec.InputSpec*"
+ 
+bufferjava.lang.StringBuffer*
+""*
+List<String>*f
+d
+choiceProviderRio.onedev.server.model.support.inputspec.choiceinput.choiceprovider.ChoiceProvider*à
+Ö
+defaultMultiValueProviderhio.onedev.server.model.support.inputspec.choiceinput.defaultmultivalueprovider.DefaultMultiValueProvider2fappendMethods(Ljava/lang/StringBuffer;ILjava/lang/String;Ljava/io/Serializable;Ljava/io/Serializable;)*
+1*ê
+4®
+ùC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/inputspec/choiceinput/ChoiceInput.java' '(˘ˆ
+®
+ùC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/inputspec/choiceinput/ChoiceInput.java' '(B
+%14void"uio.onedev.server.model.support.inputspec.InputSpec#appendChoiceProvider(Ljava/lang/StringBuffer;ILjava/lang/String;)V*A
+?
+	inputSpec2io.onedev.server.model.support.inputspec.InputSpec*"
+ 
+bufferjava.lang.StringBuffer*
+""*
+@ChoiceProvider2AappendChoiceProvider(Ljava/lang/StringBuffer;ILjava/lang/String;)€ÿ
+®
+ùC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/inputspec/choiceinput/ChoiceInput.java) )(!
+%15boolean"Eio.onedev.server.model.support.inputspec.InputSpec#isAllowMultiple()Z*A
+?
+	inputSpec2io.onedev.server.model.support.inputspec.InputSpec2isAllowMultiple()*
+2
+3*£
+5®
+ùC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/inputspec/choiceinput/ChoiceInput.java% %(
+ÌÍ
+®
+ùC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/inputspec/choiceinput/ChoiceInput.java% %($
+%13java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*"
+ 
+bufferjava.lang.StringBuffer*
+    @NotEmpty\n2append(Ljava/lang/String;)*
+4*‹
+6®
+ùC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/inputspec/choiceinput/ChoiceInput.java# #(
+¶£
+®
+ùC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/inputspec/choiceinput/ChoiceInput.java# #(]
+%12java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*"
+ 
+bufferjava.lang.StringBuffer*LJ
+H    @Size(min=1, message=\"At least one option needs to be selected\")\n2append(Ljava/lang/String;)*
+4*î
+7®
+ùC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/inputspec/choiceinput/ChoiceInput.java" "(€ÿ
+®
+ùC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/inputspec/choiceinput/ChoiceInput.java" "("
+%11boolean"Eio.onedev.server.model.support.inputspec.InputSpec#isAllowMultiple()Z*A
+?
+	inputSpec2io.onedev.server.model.support.inputspec.InputSpec2isAllowMultiple()*
+5
+6*ƒ
+8®
+ùC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/inputspec/choiceinput/ChoiceInput.java (]ÎË
+®
+ùC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/inputspec/choiceinput/ChoiceInput.java (]
+
+%8void"lio.onedev.server.model.support.inputspec.InputSpec#appendField(Ljava/lang/StringBuffer;ILjava/lang/String;)V*A
+?
+	inputSpec2io.onedev.server.model.support.inputspec.InputSpec*"
+ 
+bufferjava.lang.StringBuffer*
+""*
+
+%5java.lang.String28appendField(Ljava/lang/StringBuffer;ILjava/lang/String;)≈¬
+®
+ùC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/inputspec/choiceinput/ChoiceInput.java   (2
+
+%9void"fio.onedev.server.model.support.inputspec.InputSpec#appendCommonAnnotations(Ljava/lang/StringBuffer;I)V*A
+?
+	inputSpec2io.onedev.server.model.support.inputspec.InputSpec*"
+ 
+bufferjava.lang.StringBuffer*
+""22appendCommonAnnotations(Ljava/lang/StringBuffer;I)’“
+®
+ùC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/inputspec/choiceinput/ChoiceInput.java! !(
+%10boolean"Bio.onedev.server.model.support.inputspec.InputSpec#isAllowEmpty()Z*A
+?
+	inputSpec2io.onedev.server.model.support.inputspec.InputSpec2isAllowEmpty()*
+4
+7*ú
+9®
+ùC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/inputspec/choiceinput/ChoiceInput.javaT (\Ê
+„
+®
+ùC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/inputspec/choiceinput/ChoiceInput.javaT (\
+%5java.lang.String"__id*
+
+%7java.lang.String*
+8*ù
+10®
+ùC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/inputspec/choiceinput/ChoiceInput.javaD (RÊ
+„
+®
+ùC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/inputspec/choiceinput/ChoiceInput.javaD (R
+%5java.lang.String"__id*
+
+%6java.lang.String*
+8*ﬂ
+11®
+ùC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/inputspec/choiceinput/ChoiceInput.java (‰·
+®
+ùC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/inputspec/choiceinput/ChoiceInput.java (-
+%0java.lang.String"Nio.onedev.server.model.support.inputspec.InputSpec#getName()Ljava/lang/String;*A
+?
+	inputSpec2io.onedev.server.model.support.inputspec.InputSpec2	getName()á
+Ñ
+®
+ùC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/inputspec/choiceinput/ChoiceInput.java (.
+%1java.lang.Integer"__mapGet*
+
+indexesjava.util.Map*
+
+%0java.lang.String‰·
+®
+ùC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/inputspec/choiceinput/ChoiceInput.java ((
+%2java.lang.StringBuffer"java.lang.StringBufferˆ
+Û
+®
+ùC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/inputspec/choiceinput/ChoiceInput.java (*
+%3" java.lang.StringBuffer#<init>()V*
+
+%2java.lang.StringBufferˆ
+Û
+®
+ùC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/inputspec/choiceinput/ChoiceInput.java (+ 
+bufferjava.lang.StringBuffer"__id*
+
+%2java.lang.StringBuffer⁄◊
+®
+ùC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/inputspec/choiceinput/ChoiceInput.java' (B
+%4boolean"Eio.onedev.server.model.support.inputspec.InputSpec#isAllowMultiple()Z*A
+?
+	inputSpec2io.onedev.server.model.support.inputspec.InputSpec2isAllowMultiple()*
+9
+10*¶
+1®
+ùC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/inputspec/choiceinput/ChoiceInput.java.	 .(¨©
+®
+ùC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/inputspec/choiceinput/ChoiceInput.java.	 .(
+%18java.lang.String"3java.lang.StringBuffer#toString()Ljava/lang/String;*"
+ 
+bufferjava.lang.StringBuffer2
+toString()"∆
+®
+ùC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/inputspec/choiceinput/ChoiceInput.java. .(
+
+%18java.lang.String:?
+	inputSpec2io.onedev.server.model.support.inputspec.InputSpec:
+indexesjava.util.Map:d
+choiceProviderRio.onedev.server.model.support.inputspec.choiceinput.choiceprovider.ChoiceProvider:v
+defaultValueProvider^io.onedev.server.model.support.inputspec.choiceinput.defaultvalueprovider.DefaultValueProvider:Ö
+defaultMultiValueProviderhio.onedev.server.model.support.inputspec.choiceinput.defaultmultivalueprovider.DefaultMultiValueProviderBD"B
+@io.onedev.server.model.support.inputspec.choiceinput.ChoiceInput

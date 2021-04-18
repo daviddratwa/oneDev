@@ -1,0 +1,195 @@
+
+íio.onedev.server.security.BearerAuthenticationFilter#onPreHandle(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljava/lang/Object;)Zú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/BearerAuthenticationFilter.java% %("startingBlock*’	
+2ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/BearerAuthenticationFilter.java. .(ìê
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/BearerAuthenticationFilter.java.  .(9:
+%113io.onedev.server.security.BearerAuthenticationToken"3io.onedev.server.security.BearerAuthenticationTokenÍ
+Á
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/BearerAuthenticationFilter.java. .(?
+%12"Zio.onedev.server.security.BearerAuthenticationToken#<init>(Lio/onedev/server/model/User;)V*<
+:
+%113io.onedev.server.security.BearerAuthenticationToken*%
+#
+userio.onedev.server.model.User®•
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/BearerAuthenticationFilter.java. .(@
+%13void"Uorg.apache.shiro.subject.Subject#login(Lorg/apache/shiro/authc/AuthenticationToken;)V*-
++
+subject org.apache.shiro.subject.Subject*<
+:
+%113io.onedev.server.security.BearerAuthenticationToken23login(Lorg/apache/shiro/authc/AuthenticationToken;)*
+1*‡
+3ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/BearerAuthenticationFilter.java+! +(,˚
+¯
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/BearerAuthenticationFilter.java+! +(M
+%8java.lang.String"korg.apache.commons.lang3.StringUtils#substringAfter(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*("&
+$org.apache.commons.lang3.StringUtils*!
+
+authzHeaderjava.lang.String*
+ ‚
+ﬂ
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/BearerAuthenticationFilter.java+ +(N
+
+tokenValuejava.lang.String"__id*
+
+%8java.lang.String•
+¢
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/BearerAuthenticationFilter.java, ,($0
+%9*io.onedev.server.entitymanager.UserManager"__id*I*G6
+4io.onedev.server.security.BearerAuthenticationFilter"
+userManager≤Ø
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/BearerAuthenticationFilter.java, ,(B"
+%10io.onedev.server.model.User"mio.onedev.server.entitymanager.UserManager#findByAccessToken(Ljava/lang/String;)Lio/onedev/server/model/User;*2
+0
+%9*io.onedev.server.entitymanager.UserManager* 
+
+
+tokenValuejava.lang.String2%findByAccessToken(Ljava/lang/String;)Û
+
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/BearerAuthenticationFilter.java, ,(C#
+userio.onedev.server.model.User"__id*$
+"
+%10io.onedev.server.model.User*
+2
+1*«
+startingBlockú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/BearerAuthenticationFilter.java% %(d¯
+ı
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/BearerAuthenticationFilter.java$ $(
+%14"
+__annotate*
+java.lang.Override*)
+'
+requestjavax.servlet.ServletRequest‚
+ﬂ
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/BearerAuthenticationFilter.java%. %(5'
+requestjavax.servlet.ServletRequest"__annotation*
+
+%14˙
+˜
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/BearerAuthenticationFilter.java$ $(
+%15"
+__annotate*
+java.lang.Override*+
+)
+responsejavax.servlet.ServletResponse‰
+·
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/BearerAuthenticationFilter.java%G %(O)
+responsejavax.servlet.ServletResponse"__annotation*
+
+%15
+Ì
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/BearerAuthenticationFilter.java$ $(
+%16"
+__annotate*
+java.lang.Override*!
+
+mappedValuejava.lang.Object⁄
+◊
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/BearerAuthenticationFilter.java%X %(c
+mappedValuejava.lang.Object"__annotation*
+
+%16*
+6*†
+4ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/BearerAuthenticationFilter.java*$ *(/»
+≈
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/BearerAuthenticationFilter.java*; *(R
+%5java.lang.String"__id*
+""Â
+‚
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/BearerAuthenticationFilter.java*; *(X
+%6java.lang.String"__concat*
+
+%5java.lang.String*
+ ¿Ω
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/BearerAuthenticationFilter.java*$ *(Y
+%7boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*!
+
+authzHeaderjava.lang.String*
+
+%6java.lang.String2startsWith(Ljava/lang/String;)*
+3
+1*á
+5ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/BearerAuthenticationFilter.java(* ((2î
+ë
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/BearerAuthenticationFilter.java(* ((B+
+%2%javax.servlet.http.HttpServletRequest"porg.apache.shiro.web.util.WebUtils#toHttp(Ljavax/servlet/ServletRequest;)Ljavax/servlet/http/HttpServletRequest;*&"$
+"org.apache.shiro.web.util.WebUtils*)
+'
+requestjavax.servlet.ServletRequestç
+ä
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/BearerAuthenticationFilter.java(	 ((C4
+httpRequest%javax.servlet.http.HttpServletRequest"__id*-
++
+%2%javax.servlet.http.HttpServletRequest»
+≈
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/BearerAuthenticationFilter.java)4 )(M
+%3java.lang.String"__id*
+""Çˇ
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/BearerAuthenticationFilter.java) )(N
+%4java.lang.String"Ujavax.servlet.http.HttpServletRequest#getHeader(Ljava/lang/String;)Ljava/lang/String;*6
+4
+httpRequest%javax.servlet.http.HttpServletRequest*
+
+%3java.lang.String2getHeader(Ljava/lang/String;)„
+‡
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/BearerAuthenticationFilter.java)	 )(O
+authzHeaderjava.lang.String"__id*
+
+%4java.lang.String*
+4
+1*ó
+6ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/BearerAuthenticationFilter.java& &($Ω
+∫
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/BearerAuthenticationFilter.java& &(1&
+%0 org.apache.shiro.subject.Subject"Morg.apache.shiro.SecurityUtils#getSubject()Lorg/apache/shiro/subject/Subject;*"" 
+org.apache.shiro.SecurityUtilsˇ
+¸
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/BearerAuthenticationFilter.java& &(2+
+subject org.apache.shiro.subject.Subject"__id*(
+&
+%0 org.apache.shiro.subject.Subject®•
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/BearerAuthenticationFilter.java' '( 
+%1boolean"3org.apache.shiro.subject.Subject#isAuthenticated()Z*-
++
+subject org.apache.shiro.subject.Subject2isAuthenticated()*
+5
+1*Ã
+1ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/BearerAuthenticationFilter.java2	 2("ß
+ú
+ëC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/security/BearerAuthenticationFilter.java2 2(
+"":'
+requestjavax.servlet.ServletRequest:)
+responsejavax.servlet.ServletResponse:
+mappedValuejava.lang.ObjectB86
+4io.onedev.server.security.BearerAuthenticationFilter

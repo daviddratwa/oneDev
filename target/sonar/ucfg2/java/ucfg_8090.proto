@@ -1,0 +1,153 @@
+
+vorg.eclipse.jgit.merge.MergeMessageFormatter#formatWithConflicts(Ljava/lang/String;Ljava/util/List;)Ljava/lang/String;î
+âC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeMessageFormatter.javag g(""14*ö
+14î
+âC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeMessageFormatter.javai i((“œ
+î
+âC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeMessageFormatter.javai i(&
+%0java.lang.StringBuilder"java.lang.StringBuilder‰
+·
+î
+âC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeMessageFormatter.javai i((
+%1"!java.lang.StringBuilder#<init>()V*
+
+%0java.lang.StringBuilder‡
+›
+î
+âC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeMessageFormatter.javai i()
+sbjava.lang.StringBuilder"__id*
+
+%0java.lang.StringBuilderµ≤
+î
+âC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeMessageFormatter.javaj j(&
+%2java.lang.String[]"=java.lang.String#split(Ljava/lang/String;)[Ljava/lang/String;*
+
+messagejava.lang.String*
+\n2split(Ljava/lang/String;)Ÿ
+÷
+î
+âC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeMessageFormatter.javaj j('
+linesjava.lang.String[]"__id*
+
+%2java.lang.String[]Ω
+∫
+î
+âC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeMessageFormatter.javak k(B	
+%3int"Oorg.eclipse.jgit.util.ChangeIdUtil#indexOfFirstFooterLine([Ljava/lang/String;)I*&"$
+"org.eclipse.jgit.util.ChangeIdUtil*
+
+linesjava.lang.String[]*
+
+7
+9
+12*õ
+3î
+âC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeMessageFormatter.javat t(Ê
+„
+î
+âC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeMessageFormatter.javat t(
+%11java.lang.String"
+__arrayGet*
+
+linesjava.lang.String[]*
+""ﬂ‹
+î
+âC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeMessageFormatter.javat t(
+%12java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*
+
+sbjava.lang.StringBuilder*
+
+%11java.lang.String2append(Ljava/lang/String;)´®
+î
+âC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeMessageFormatter.javat t(#
+%13java.lang.StringBuilder":java.lang.StringBuilder#append(C)Ljava/lang/StringBuilder;* 
+
+%12java.lang.StringBuilder*
+\n2	append(C)*
+3
+1*œ
+6î
+âC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeMessageFormatter.javar r(™ß
+î
+âC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeMessageFormatter.javar r(
+%10java.lang.StringBuilder":java.lang.StringBuilder#append(C)Ljava/lang/StringBuilder;*
+
+sbjava.lang.StringBuilder*
+\n2	append(C)*
+3
+1*µ
+7î
+âC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeMessageFormatter.javap p(ç
+ä
+î
+âC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeMessageFormatter.javap p(+
+
+%9void"lorg.eclipse.jgit.merge.MergeMessageFormatter#addConflictsMessage(Ljava/util/List;Ljava/lang/StringBuilder;)V*0".
+,org.eclipse.jgit.merge.MergeMessageFormatter*$
+"
+conflictingPathsjava.util.List*
+
+sbjava.lang.StringBuilder*	
+3
+6
+1*À
+8î
+âC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeMessageFormatter.javao o(©¶
+î
+âC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeMessageFormatter.javao o(
+%8java.lang.StringBuilder":java.lang.StringBuilder#append(C)Ljava/lang/StringBuilder;*
+
+sbjava.lang.StringBuilder*
+\n2	append(C)*
+7*è
+9î
+âC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeMessageFormatter.javan) n(0ÍÁ
+î
+âC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeMessageFormatter.javan) n(9	
+%7int"java.lang.String#length()I*
+
+messagejava.lang.String2length()*
+7
+8*õ
+12î
+âC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeMessageFormatter.javam m(Â
+‚
+î
+âC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeMessageFormatter.javam m(
+%4java.lang.String"
+__arrayGet*
+
+linesjava.lang.String[]*
+""›⁄
+î
+âC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeMessageFormatter.javam m(
+%5java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*
+
+sbjava.lang.StringBuilder*
+
+%4java.lang.String2append(Ljava/lang/String;)©¶
+î
+âC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeMessageFormatter.javam m(#
+%6java.lang.StringBuilder":java.lang.StringBuilder#append(C)Ljava/lang/StringBuilder;*
+
+%5java.lang.StringBuilder*
+\n2	append(C)*
+
+7
+9
+12*Ë
+1î
+âC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeMessageFormatter.javau	 u(ñì
+î
+âC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeMessageFormatter.javau	 u(
+%14java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*
+
+sbjava.lang.StringBuilder2
+toString()"≤
+î
+âC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/org/eclipse/jgit/merge/MergeMessageFormatter.javau u(
+
+%14java.lang.String:
+messagejava.lang.String:"
+conflictingPathsjava.util.ListB0.
+,org.eclipse.jgit.merge.MergeMessageFormatter

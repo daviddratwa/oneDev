@@ -1,0 +1,221 @@
+
+§io.onedev.server.search.code.DefaultSearchManager#getSymbols(Lorg/apache/lucene/search/IndexSearcher;Lorg/eclipse/jgit/lib/ObjectId;Ljava/lang/String;)Ljava/util/List;›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.java¶ ¶("startingBlock*Ì
+startingBlock›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.java¶ ¶(Y‚
+ÿ
+›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.javaµ µ(
+
+%23"
+__annotate*
+java.lang.Override*4
+2
+searcher&org.apache.lucene.search.IndexSearcherì
+é
+›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.java¶. ¶(62
+searcher&org.apache.lucene.search.IndexSearcher"__annotation*
+
+%23÷
+ô
+›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.javaµ µ(
+
+%24"
+__annotate*
+java.lang.Override*)
+'
+blobIdorg.eclipse.jgit.lib.ObjectIdá
+Þ
+›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.java¶A ¶(G'
+blobIdorg.eclipse.jgit.lib.ObjectId"__annotation*
+
+%24ì
+é
+›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.javaµ µ(
+
+%25"
+__annotate*
+java.lang.Override*
+
+blobPathjava.lang.StringÖ
+Ó
+›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.java¶P ¶(X
+blobPathjava.lang.String"__annotation*
+
+%25*
+7*Á
+4›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.javaÁ ß(˜•
+›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.javaÁ ß(
+%19void"torg.apache.lucene.search.IndexSearcher#search(Lorg/apache/lucene/search/Query;Lorg/apache/lucene/search/Collector;)V*4
+2
+searcher&org.apache.lucene.search.IndexSearcher*0
+.
+query%org.apache.lucene.search.BooleanQuery*<
+:
+%173io.onedev.server.search.code.DefaultSearchManager$22Lsearch(Lorg/apache/lucene/search/Query;Lorg/apache/lucene/search/Collector;)*
+1*Ø
+5›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.javaÁ Á(’
+›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.javaÁ Á(.:
+%173io.onedev.server.search.code.DefaultSearchManager$2"3io.onedev.server.search.code.DefaultSearchManager$2š
+—
+›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.javaÁ ß(
+%18"2org.apache.lucene.search.SimpleCollector#<init>()V*<
+:
+%173io.onedev.server.search.code.DefaultSearchManager$2*
+4*×8
+7›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.java·! ·(;…‚
+›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.java·% ·(93
+%0-org.apache.lucene.search.BooleanQuery$Builder"-org.apache.lucene.search.BooleanQuery$Builder—
+”
+›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.java·! ·(;
+%1"7org.apache.lucene.search.BooleanQuery$Builder#<init>()V*5
+3
+%0-org.apache.lucene.search.BooleanQuery$Builder˜
+•
+›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.java· ·(<8
+builder-org.apache.lucene.search.BooleanQuery$Builder"__id*5
+3
+%0-org.apache.lucene.search.BooleanQuery$Builderâ
+ß
+›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.java¸ ¸(1
+%2+io.onedev.server.search.code.FieldConstants"__id*
+""§¤
+›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.java¸ ¸(+
+%3java.lang.String"9org.eclipse.jgit.lib.AnyObjectId#name()Ljava/lang/String;*)
+'
+blobIdorg.eclipse.jgit.lib.ObjectId2name() 
+›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.java¸ ¸(,(
+%4"org.apache.lucene.search.TermQuery"iio.onedev.server.search.code.FieldConstants#query(Ljava/lang/String;)Lorg/apache/lucene/search/TermQuery;*3
+1
+%2+io.onedev.server.search.code.FieldConstants*
+
+%3java.lang.String2query(Ljava/lang/String;)ã
+à
+›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.java¸. ¸(82
+%5,org.apache.lucene.search.BooleanClause$Occur"__id*
+""üù
+›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.java¸ ¸(93
+%6-org.apache.lucene.search.BooleanQuery$Builder"°org.apache.lucene.search.BooleanQuery$Builder#add(Lorg/apache/lucene/search/Query;Lorg/apache/lucene/search/BooleanClause$Occur;)Lorg/apache/lucene/search/BooleanQuery$Builder;*:
+8
+builder-org.apache.lucene.search.BooleanQuery$Builder**
+(
+%4"org.apache.lucene.search.TermQuery*4
+2
+%5,org.apache.lucene.search.BooleanClause$Occur2Sadd(Lorg/apache/lucene/search/Query;Lorg/apache/lucene/search/BooleanClause$Occur;)â
+ß
+›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.java¹ ¹(1
+%7+io.onedev.server.search.code.FieldConstants"__id*
+""¦£
+›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.java¹ ¹('(
+%8"org.apache.lucene.search.TermQuery"iio.onedev.server.search.code.FieldConstants#query(Ljava/lang/String;)Lorg/apache/lucene/search/TermQuery;*3
+1
+%7+io.onedev.server.search.code.FieldConstants*
+
+blobPathjava.lang.String2query(Ljava/lang/String;)ã
+à
+›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.java¹) ¹(32
+%9,org.apache.lucene.search.BooleanClause$Occur"__id*
+""ýú
+›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.java¹ ¹(44
+%10-org.apache.lucene.search.BooleanQuery$Builder"°org.apache.lucene.search.BooleanQuery$Builder#add(Lorg/apache/lucene/search/Query;Lorg/apache/lucene/search/BooleanClause$Occur;)Lorg/apache/lucene/search/BooleanQuery$Builder;*:
+8
+builder-org.apache.lucene.search.BooleanQuery$Builder**
+(
+%8"org.apache.lucene.search.TermQuery*4
+2
+%9,org.apache.lucene.search.BooleanClause$Occur2Sadd(Lorg/apache/lucene/search/Query;Lorg/apache/lucene/search/BooleanClause$Occur;)òï
+›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.java» »(&,
+%11%org.apache.lucene.search.BooleanQuery"\org.apache.lucene.search.BooleanQuery$Builder#build()Lorg/apache/lucene/search/BooleanQuery;*:
+8
+builder-org.apache.lucene.search.BooleanQuery$Builder2build()‡
+„
+›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.java» »('.
+query%org.apache.lucene.search.BooleanQuery"__id*.
+,
+%11%org.apache.lucene.search.BooleanQuery¢
+Ÿ
+›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.java½ ½($0
+%12)io.onedev.server.search.code.IndexManager"__id*G*E3
+1io.onedev.server.search.code.DefaultSearchManager"
+indexManager©
+¦
+›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.java½5 ½(c0
+%13)io.onedev.commons.jsymbol.SymbolExtractor"}io.onedev.commons.jsymbol.SymbolExtractorRegistry#getExtractor(Ljava/lang/String;)Lio/onedev/commons/jsymbol/SymbolExtractor;*5"3
+1io.onedev.commons.jsymbol.SymbolExtractorRegistry*
+
+blobPathjava.lang.StringÚ×
+›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.java½ ½(d
+%14java.lang.String"xio.onedev.server.search.code.IndexManager#getIndexVersion(Lio/onedev/commons/jsymbol/SymbolExtractor;)Ljava/lang/String;*2
+0
+%12)io.onedev.server.search.code.IndexManager*2
+0
+%13)io.onedev.commons.jsymbol.SymbolExtractor2<getIndexVersion(Lio/onedev/commons/jsymbol/SymbolExtractor;)ä
+á
+›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.java½ ½(e 
+indexVersionjava.lang.String"__id*
+
+%14java.lang.String‚ÿ
+›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.java¾1 ¾(B2
+%15+java.util.concurrent.atomic.AtomicReference"+java.util.concurrent.atomic.AtomicReference¯
+¬
+›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.java¾- ¾(H
+%16"Gjava.util.concurrent.atomic.AtomicReference#<init>(Ljava/lang/Object;)V*4
+2
+%15+java.util.concurrent.atomic.AtomicReference*
+""˜
+•
+›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.java¾ ¾(I9
+
+symbolsRef+java.util.concurrent.atomic.AtomicReference"__id*4
+2
+%15+java.util.concurrent.atomic.AtomicReference*
+5
+1*Ÿ
+1›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.javaå	 å(Á¾
+›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.javaå	 å(
+%22java.util.List"Cjava.util.concurrent.atomic.AtomicReference#get()Ljava/lang/Object;*;
+9
+
+symbolsRef+java.util.concurrent.atomic.AtomicReference2get()"·
+›
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultSearchManager.javaå å(
+
+%22java.util.List:2
+searcher&org.apache.lucene.search.IndexSearcher:'
+blobIdorg.eclipse.jgit.lib.ObjectId:
+blobPathjava.lang.StringB53
+1io.onedev.server.search.code.DefaultSearchManager

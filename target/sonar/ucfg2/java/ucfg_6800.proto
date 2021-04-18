@@ -1,0 +1,386 @@
+
+´io.onedev.server.entitymanager.impl.DefaultIssueChangeManager#batchUpdate(Ljava/util/Iterator;Ljava/lang/String;Lcom/google/common/base/Optional;Ljava/util/Map;Ljava/lang/String;)V§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaí í("startingBlock*‘
+2§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaø ø(	ËÈ
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaø ø()&
+%6 io.onedev.server.model.Milestone":com.google.common.base.Optional#orNull()Ljava/lang/Object;*.
+,
+	milestonecom.google.common.base.Optional2orNull()‹
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaø ø(*
+
+%7void"Nio.onedev.server.model.Issue#setMilestone(Lio/onedev/server/model/Milestone;)V*'
+%
+issueio.onedev.server.model.Issue*(
+&
+%6 io.onedev.server.model.Milestone20setMilestone(Lio/onedev/server/model/Milestone;)*
+1*²&
+startingBlock§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaí ï(›
+˜
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaë ë(
+%26"
+__annotate*97
+5io.onedev.server.persistence.annotation.Transactional*
+
+issuesjava.util.Iteratorø
+õ
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaì ì(
+
+%27"
+__annotate*
+java.lang.Override*
+
+issuesjava.util.Iteratorë
+è
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaí3 í(9
+issuesjava.util.Iterator"__annotation*
+
+%26*
+
+%27˜
+•
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaë ë(
+%28"
+__annotate*97
+5io.onedev.server.persistence.annotation.Transactional*
+
+statejava.lang.Stringõ
+ò
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaì ì(
+
+%29"
+__annotate*
+java.lang.Override*
+
+statejava.lang.Stringü
+ù
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaí; í(D
+%30"
+__annotate*
+javax.annotation.Nullable*
+
+statejava.lang.Stringñ
+î
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaíL í(Q
+statejava.lang.String"__annotation*
+
+%28*
+
+%29*
+
+%30«
+¨
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaë ë(
+%31"
+__annotate*97
+5io.onedev.server.persistence.annotation.Transactional*.
+,
+	milestonecom.google.common.base.Optionalˆ
+…
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaì ì(
+
+%32"
+__annotate*
+java.lang.Override*.
+,
+	milestonecom.google.common.base.Optional
+Œ
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaî î(
+%33"
+__annotate*
+javax.annotation.Nullable*.
+,
+	milestonecom.google.common.base.Optional„
+
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaî! î(*,
+	milestonecom.google.common.base.Optional"__annotation*
+
+%31*
+
+%32*
+
+%33›
+˜
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaë ë(
+%34"
+__annotate*97
+5io.onedev.server.persistence.annotation.Transactional*
+
+fieldValuesjava.util.Mapø
+õ
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaì ì(
+
+%35"
+__annotate*
+java.lang.Override*
+
+fieldValuesjava.util.Mapë
+è
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaî@ î(K
+fieldValuesjava.util.Map"__annotation*
+
+%34*
+
+%35š
+—
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaë ë(
+%36"
+__annotate*97
+5io.onedev.server.persistence.annotation.Transactional*
+
+commentjava.lang.String÷
+ô
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaì ì(
+
+%37"
+__annotate*
+java.lang.Override*
+
+commentjava.lang.Stringş
+û
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaï ï(
+%38"
+__annotate*
+javax.annotation.Nullable*
+
+commentjava.lang.Stringó
+ğ
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaï ï(
+commentjava.lang.String"__annotation*
+
+%36*
+
+%37*
+
+%38*
+6*‘
+4§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaö ö(	ÙÖ
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaö ö(
+
+%5void":io.onedev.server.model.Issue#setState(Ljava/lang/String;)V*'
+%
+issueio.onedev.server.model.Issue*
+
+statejava.lang.String2setState(Ljava/lang/String;)*
+2
+1*€
+5§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javañ ñ(“
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javañ ñ(
+%1	!capture!"+java.util.Iterator#next()Ljava/lang/Object;*
+
+issuesjava.util.Iterator2next()í
+ê
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javañ ñ(%
+issueio.onedev.server.model.Issue"__id*
+
+%1	!capture!µ²
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaò ò(&
+%2java.lang.String"9io.onedev.server.model.Issue#getState()Ljava/lang/String;*'
+%
+issueio.onedev.server.model.Issue2
+getState()ì
+é
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaò ò('
+	prevStatejava.lang.String"__id*
+
+%2java.lang.StringİÚ
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaó ó(1&
+%3 io.onedev.server.model.Milestone"Mio.onedev.server.model.Issue#getMilestone()Lio/onedev/server/model/Milestone;*'
+%
+issueio.onedev.server.model.Issue2getMilestone()
+
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaó ó(21
+prevMilestone io.onedev.server.model.Milestone"__id*(
+&
+%3 io.onedev.server.model.Milestone»¸
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaô# ô(9
+%4java.util.Map"<io.onedev.server.model.Issue#getFieldInputs()Ljava/util/Map;*'
+%
+issueio.onedev.server.model.Issue2getFieldInputs()ç
+ä
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaô ô(:
+
+prevFieldsjava.util.Map"__id*
+
+%4java.util.Map*	
+2
+4
+1*¾
+6§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javağ	 ğ(†ƒ
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javağ	 ğ(
+%0boolean"java.util.Iterator#hasNext()Z*
+
+issuesjava.util.Iterator2	hasNext()*
+5
+0*Ç
+0 "¿
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.java† †(
+implicit return*î6
+1§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaú ú(âß
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaú ú($
+
+%8void"=io.onedev.server.model.Issue#setFieldValues(Ljava/util/Map;)V*'
+%
+issueio.onedev.server.model.Issue*
+
+fieldValuesjava.util.Map2setFieldValues(Ljava/util/Map;)Å
+Â
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaû û(6
+%90io.onedev.server.entitymanager.IssueFieldManager"__id*X*V?
+=io.onedev.server.entitymanager.impl.DefaultIssueChangeManager"
+issueFieldManager§¤
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaû û(&
+%10void"\io.onedev.server.entitymanager.IssueFieldManager#saveFields(Lio/onedev/server/model/Issue;)V*8
+6
+%90io.onedev.server.entitymanager.IssueFieldManager*'
+%
+issueio.onedev.server.model.Issue2*saveFields(Lio/onedev/server/model/Issue;)üù
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaı ı(')
+%11"io.onedev.server.model.IssueChange""io.onedev.server.model.IssueChange
+Œ
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaı ı()
+%12",io.onedev.server.model.IssueChange#<init>()V*+
+)
+%11"io.onedev.server.model.IssueChange
+‹
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaı ı(*,
+change"io.onedev.server.model.IssueChange"__id*+
+)
+%11"io.onedev.server.model.IssueChange‹ˆ
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaş ş(
+%13void"Lio.onedev.server.model.IssueChange#setIssue(Lio/onedev/server/model/Issue;)V*.
+,
+change"io.onedev.server.model.IssueChange*'
+%
+issueio.onedev.server.model.Issue2(setIssue(Lio/onedev/server/model/Issue;)ÔÑ
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaÿ ÿ(
+%14java.util.Date"java.util.Dateç
+ä
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaÿ ÿ(
+%15"java.util.Date#<init>()V*
+
+%14java.util.DateİÚ
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.javaÿ ÿ(
+%16void"=io.onedev.server.model.IssueChange#setDate(Ljava/util/Date;)V*.
+,
+change"io.onedev.server.model.IssueChange*
+
+%14java.util.Date2setDate(Ljava/util/Date;)Î
+Ë
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.java€ €()"
+%17io.onedev.server.model.User"Nio.onedev.server.security.SecurityUtils#getUser()Lio/onedev/server/model/User;*+")
+'io.onedev.server.security.SecurityUtils„
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.java€ €(*
+%18void"Jio.onedev.server.model.IssueChange#setUser(Lio/onedev/server/model/User;)V*.
+,
+change"io.onedev.server.model.IssueChange*$
+"
+%17io.onedev.server.model.User2&setUser(Lio/onedev/server/model/User;)¶³
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.java6 (F
+%19java.lang.String"9io.onedev.server.model.Issue#getState()Ljava/lang/String;*'
+%
+issueio.onedev.server.model.Issue2
+getState()ŞÛ
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.java‚ ‚('
+%20 io.onedev.server.model.Milestone"Mio.onedev.server.model.Issue#getMilestone()Lio/onedev/server/model/Milestone;*'
+%
+issueio.onedev.server.model.Issue2getMilestone()¼¹
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.java‚' ‚(=
+%21java.util.Map"<io.onedev.server.model.Issue#getFieldInputs()Ljava/util/Map;*'
+%
+issueio.onedev.server.model.Issue2getFieldInputs()À½
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.java (*K
+%22Dio.onedev.server.model.support.issue.changedata.IssueBatchUpdateData"Dio.onedev.server.model.support.issue.changedata.IssueBatchUpdateDataŞ
+Û
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.java ‚(G
+%23"æio.onedev.server.model.support.issue.changedata.IssueBatchUpdateData#<init>(Ljava/lang/String;Ljava/lang/String;Lio/onedev/server/model/Milestone;Lio/onedev/server/model/Milestone;Ljava/util/Map;Ljava/util/Map;Ljava/lang/String;)V*M
+K
+%22Dio.onedev.server.model.support.issue.changedata.IssueBatchUpdateData*
+
+	prevStatejava.lang.String*
+
+%19java.lang.String*3
+1
+prevMilestone io.onedev.server.model.Milestone*)
+'
+%20 io.onedev.server.model.Milestone*
+
+
+prevFieldsjava.util.Map*
+
+%21java.util.Map*
+
+commentjava.lang.Stringõò
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.java ‚(H
+%24void"nio.onedev.server.model.IssueChange#setData(Lio/onedev/server/model/support/issue/changedata/IssueChangeData;)V*.
+,
+change"io.onedev.server.model.IssueChange*M
+K
+%22Dio.onedev.server.model.support.issue.changedata.IssueBatchUpdateData2JsetData(Lio/onedev/server/model/support/issue/changedata/IssueChangeData;)ÄÁ
+§
+šC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/entitymanager/impl/DefaultIssueChangeManager.java„ „(
+%25void"iio.onedev.server.entitymanager.impl.DefaultIssueChangeManager#save(Lio/onedev/server/model/IssueChange;)V*A?
+=io.onedev.server.entitymanager.impl.DefaultIssueChangeManager*.
+,
+change"io.onedev.server.model.IssueChange2*save(Lio/onedev/server/model/IssueChange;)*
+6:
+issuesjava.util.Iterator:
+statejava.lang.String:,
+	milestonecom.google.common.base.Optional:
+fieldValuesjava.util.Map:
+commentjava.lang.StringBA?
+=io.onedev.server.entitymanager.impl.DefaultIssueChangeManager

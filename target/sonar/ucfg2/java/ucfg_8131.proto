@@ -1,0 +1,173 @@
+
+Áio.onedev.server.search.code.DefaultIndexManager#doIndex(Lio/onedev/server/model/Project;Lorg/eclipse/jgit/lib/ObjectId;Lorg/apache/lucene/store/Directory;Lorg/apache/lucene/search/IndexSearcher;)Lio/onedev/server/util/IndexResult;ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultIndexManager.java√ √("15*¨
+13ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultIndexManager.java∆ ∆(DÇ
+ˇ
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultIndexManager.java∆ ∆(D-
+writer#org.apache.lucene.index.IndexWriter"__id*+
+)
+%9#org.apache.lucene.index.IndexWriter*
+12*›
+14ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultIndexManager.java∆, ∆(5Ì
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultIndexManager.java∆  ∆(+)
+%9#org.apache.lucene.index.IndexWriter"#org.apache.lucene.index.IndexWriter¿
+Ω
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultIndexManager.java∆ ∆(D
+%10"{org.apache.lucene.index.IndexWriter#<init>(Lorg/apache/lucene/store/Directory;Lorg/apache/lucene/index/IndexWriterConfig;)V*+
+)
+%9#org.apache.lucene.index.IndexWriter*0
+.
+	directory!org.apache.lucene.store.Directory*;
+9
+writerConfig)org.apache.lucene.index.IndexWriterConfig*
+13*Œ
+15ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultIndexManager.javaƒK ƒ(Uπ
+∂
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultIndexManager.javaƒK ƒ(U	
+%0int"__id*
+""π
+∂
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultIndexManager.javaƒW ƒ(a	
+%1int"__id*
+""˛˚
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultIndexManager.javaƒ= ƒ(J0
+%2*io.onedev.server.search.code.NGramAnalyzer"*io.onedev.server.search.code.NGramAnalyzer¨
+©
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultIndexManager.javaƒ9 ƒ(b
+%3"6io.onedev.server.search.code.NGramAnalyzer#<init>(II)V*2
+0
+%2*io.onedev.server.search.code.NGramAnalyzer*
+	
+%0int*
+	
+%1int¸˘
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultIndexManager.javaƒ' ƒ(8/
+%4)org.apache.lucene.index.IndexWriterConfig")org.apache.lucene.index.IndexWriterConfigÁ
+‰
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultIndexManager.javaƒ# ƒ(c
+%5"Xorg.apache.lucene.index.IndexWriterConfig#<init>(Lorg/apache/lucene/analysis/Analyzer;)V*1
+/
+%4)org.apache.lucene.index.IndexWriterConfig*2
+0
+%2*io.onedev.server.search.code.NGramAnalyzerî
+ë
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultIndexManager.javaƒ ƒ(d9
+writerConfig)org.apache.lucene.index.IndexWriterConfig"__id*1
+/
+%4)org.apache.lucene.index.IndexWriterConfigË
+Â
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultIndexManager.java≈ ≈(#8
+%62org.apache.lucene.index.IndexWriterConfig$OpenMode"__id*
+""Ë
+Â
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultIndexManager.java≈ ≈(48
+%72org.apache.lucene.index.IndexWriterConfig$OpenMode"__id*
+""¶£
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultIndexManager.java≈ ≈(5/
+%8)org.apache.lucene.index.IndexWriterConfig"ñorg.apache.lucene.index.IndexWriterConfig#setOpenMode(Lorg/apache/lucene/index/IndexWriterConfig$OpenMode;)Lorg/apache/lucene/index/IndexWriterConfig;*;
+9
+writerConfig)org.apache.lucene.index.IndexWriterConfig*:
+8
+%72org.apache.lucene.index.IndexWriterConfig$OpenMode2AsetOpenMode(Lorg/apache/lucene/index/IndexWriterConfig$OpenMode;)*
+14*Ù
+6ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultIndexManager.javaÀ À("—
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultIndexManager.javaÀ À(2
+0
+indexResult!io.onedev.server.util.IndexResult*∆
+7ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultIndexManager.java… …(WÑ
+Å
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultIndexManager.java… …(W0
+indexResult!io.onedev.server.util.IndexResult"__id**
+(
+%16!io.onedev.server.util.IndexResultóî
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultIndexManager.java   (
+%17long"-org.apache.lucene.index.IndexWriter#commit()J*/
+-
+writer#org.apache.lucene.index.IndexWriter2commit()*
+6*“
+8ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultIndexManager.java…= …(C™
+ß
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultIndexManager.java… …(V(
+%16!io.onedev.server.util.IndexResult"Îio.onedev.server.search.code.DefaultIndexManager#index(Lorg/eclipse/jgit/lib/Repository;Lorg/eclipse/jgit/lib/AnyObjectId;Lorg/apache/lucene/index/IndexWriter;Lorg/apache/lucene/search/IndexSearcher;)Lio/onedev/server/util/IndexResult;*42
+0io.onedev.server.search.code.DefaultIndexManager*(
+&
+%15org.eclipse.jgit.lib.Repository*)
+'
+commitorg.eclipse.jgit.lib.ObjectId*/
+-
+writer#org.apache.lucene.index.IndexWriter*4
+2
+searcher&org.apache.lucene.search.IndexSearcher*
+7*ˇ
+9ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultIndexManager.java… …(#◊‘
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultIndexManager.java…$ …(;&
+%15org.eclipse.jgit.lib.Repository"Oio.onedev.server.model.Project#getRepository()Lorg/eclipse/jgit/lib/Repository;*+
+)
+projectio.onedev.server.model.Project2getRepository()*
+8*Ê
+10ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultIndexManager.java» »(bΩ∫
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultIndexManager.java» »(b
+%14void"Oorg.slf4j.Logger#debug(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
+
+%11org.slf4j.Logger*-+
+)Indexing commit (project: {}, commit: {})*
+
+%12java.lang.String*
+
+%13java.lang.String2=debug(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)*
+9*◊
+11ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultIndexManager.java»Q »(W≠™
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultIndexManager.java»Q »(a
+%13java.lang.String"<org.eclipse.jgit.lib.AnyObjectId#getName()Ljava/lang/String;*)
+'
+commitorg.eclipse.jgit.lib.ObjectId2	getName()*
+10*°
+12ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultIndexManager.java» »(
+«
+ƒ
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultIndexManager.java» »(
+
+%11org.slf4j.Logger"__id*
+""≠™
+ö
+çC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/search/code/DefaultIndexManager.java»> »(O
+%12java.lang.String":io.onedev.server.model.Project#getName()Ljava/lang/String;*+
+)
+projectio.onedev.server.model.Project2	getName()*
+11:)
+projectio.onedev.server.model.Project:'
+commitorg.eclipse.jgit.lib.ObjectId:.
+	directory!org.apache.lucene.store.Directory:2
+searcher&org.apache.lucene.search.IndexSearcherB42
+0io.onedev.server.search.code.DefaultIndexManager

@@ -1,0 +1,134 @@
+
+±io.onedev.server.plugin.buildspec.node.NodeJobSuggestion#getPackageJson(Lio/onedev/server/model/Project;Lorg/eclipse/jgit/lib/ObjectId;)Lcom/fasterxml/jackson/databind/JsonNode;¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaÄ Ä('"startingBlock*ø
+3¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaÜ Ü(*"ı
+¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaÜ Ü(*/
+-
+%8'com.fasterxml.jackson.databind.JsonNode*¬
+
+startingBlock¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaÄ' Ä(K¶
+£
+¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaˇ ˇ(
+
+%11"
+__annotate*
+javax.annotation.Nullable*+
+)
+projectio.onedev.server.model.Projectâ
+Ü
+¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaÄ0 Ä(7)
+projectio.onedev.server.model.Project"__annotation*
+
+%11¶
+£
+¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaˇ ˇ(
+
+%12"
+__annotate*
+javax.annotation.Nullable*+
+)
+commitIdorg.eclipse.jgit.lib.ObjectIdâ
+Ü
+¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaÄB Ä(J)
+commitIdorg.eclipse.jgit.lib.ObjectId"__annotation*
+
+%12*
+6*¥
+4¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaÜ Ü(Â‚
+¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaÜ Ü()-
+%8'com.fasterxml.jackson.databind.JsonNode"qcom.fasterxml.jackson.databind.ObjectMapper#readTree(Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JsonNode;*=
+;
+objectMapper+com.fasterxml.jackson.databind.ObjectMapper*
+
+contentjava.lang.String2readTree(Ljava/lang/String;)*
+3*Ω
+5¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaÉ É(‚ﬂ
+¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaÉ É("$
+%5io.onedev.server.git.Blob$Text"Cio.onedev.server.git.Blob#getText()Lio/onedev/server/git/Blob$Text;*#
+!
+blobio.onedev.server.git.Blob2	getText()‘—
+¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaÉ É(/
+%6java.lang.String"=io.onedev.server.git.Blob$Text#getContent()Ljava/lang/String;*&
+$
+%5io.onedev.server.git.Blob$Text2getContent()Ñ
+Å
+¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaÉ É(0
+contentjava.lang.String"__id*
+
+%6java.lang.StringÈ
+Ê
+¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaÑ Ñ(E1
+%7+com.fasterxml.jackson.databind.ObjectMapper"Hio.onedev.server.OneDev#getInstance(Ljava/lang/Class;)Ljava/lang/Object;*"
+io.onedev.server.OneDev*
+""ø
+º
+¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaÑ Ñ(F;
+objectMapper+com.fasterxml.jackson.databind.ObjectMapper"__id*3
+1
+%7+com.fasterxml.jackson.databind.ObjectMapper*
+4*ñ
+6¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaÅ Å(œÃ
+¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaÅ, Å(;
+%0java.lang.String"9org.eclipse.jgit.lib.AnyObjectId#name()Ljava/lang/String;*+
+)
+commitIdorg.eclipse.jgit.lib.ObjectId2name()‡
+›
+¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaÅM Å(_	
+%1int"__id*
+""çä
+¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaÅ" Å(+$
+%2io.onedev.server.git.BlobIdent"io.onedev.server.git.BlobIdentè
+å
+¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaÅ Å(`
+%3"_io.onedev.server.git.BlobIdent#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;)V*&
+$
+%2io.onedev.server.git.BlobIdent*
+
+%0java.lang.String*
+package.json*
+	
+%1int◊‘
+¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaÅ Å(h
+%4io.onedev.server.git.Blob"dio.onedev.server.model.Project#getBlob(Lio/onedev/server/git/BlobIdent;Z)Lio/onedev/server/git/Blob;*+
+)
+projectio.onedev.server.model.Project*&
+$
+%2io.onedev.server.git.BlobIdent*
+""2*getBlob(Lio/onedev/server/git/BlobIdent;Z)ì
+ê
+¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaÅ Å(i!
+blobio.onedev.server.git.Blob"__id*!
+
+%4io.onedev.server.git.Blob*
+5
+1*ñ
+1¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaã	 ã("Ã
+¡
+¥C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-plugin/server-plugin-buildspec-node/src/main/java/io/onedev/server/plugin/buildspec/node/NodeJobSuggestion.javaã ã(
+"":)
+projectio.onedev.server.model.Project:)
+commitIdorg.eclipse.jgit.lib.ObjectIdB<":
+8io.onedev.server.plugin.buildspec.node.NodeJobSuggestion

@@ -1,0 +1,116 @@
+
+{io.onedev.server.web.page.project.commits.CommitDetailPage#newProjectTitle(Ljava/lang/String;)Lorg/apache/wicket/Component;¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/commits/CommitDetailPage.javaƒ ƒ($"startingBlock*›
+startingBlock¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/commits/CommitDetailPage.javaƒ$ ƒ(8ø
+õ
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/commits/CommitDetailPage.java‚ ‚(
+
+%13"
+__annotate*
+java.lang.Override*!
+
+componentIdjava.lang.Stringâ
+ß
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/commits/CommitDetailPage.javaƒ, ƒ(7
+componentIdjava.lang.String"__annotation*
+
+%13*
+1*Ï,
+1¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/commits/CommitDetailPage.java„# „(.Œ‰
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/commits/CommitDetailPage.java„ „("2
+%0,org.apache.wicket.markup.html.panel.Fragment",org.apache.wicket.markup.html.panel.FragmentÞ
+Û
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/commits/CommitDetailPage.java„ „(I
+%1"}org.apache.wicket.markup.html.panel.Fragment#<init>(Ljava/lang/String;Ljava/lang/String;Lorg/apache/wicket/MarkupContainer;)V*4
+2
+%0,org.apache.wicket.markup.html.panel.Fragment*!
+
+componentIdjava.lang.String*
+projectTitleFrag*><
+:io.onedev.server.web.page.project.commits.CommitDetailPage 
+
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/commits/CommitDetailPage.java„ „(J8
+fragment,org.apache.wicket.markup.html.panel.Fragment"__id*4
+2
+%0,org.apache.wicket.markup.html.panel.Fragmentú÷
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/commits/CommitDetailPage.java†  †(,$
+%2io.onedev.server.model.Project"Zio.onedev.server.web.page.project.ProjectPage#getProject()Lio/onedev/server/model/Project;*><
+:io.onedev.server.web.page.project.commits.CommitDetailPage2getProject()Ü
+Ù
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/commits/CommitDetailPage.java† †(-?
+%39org.apache.wicket.request.mapper.parameter.PageParameters"“io.onedev.server.web.page.project.ProjectPage#paramsOf(Lio/onedev/server/model/Project;)Lorg/apache/wicket/request/mapper/parameter/PageParameters;*1"/
+-io.onedev.server.web.page.project.ProjectPage*&
+$
+%2io.onedev.server.model.Project¢Ÿ
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/commits/CommitDetailPage.java… …(-=
+%47org.apache.wicket.markup.html.link.BookmarkablePageLink"7org.apache.wicket.markup.html.link.BookmarkablePageLinkë
+è
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/commits/CommitDetailPage.java… †(.
+%5"Ÿorg.apache.wicket.markup.html.link.BookmarkablePageLink#<init>(Ljava/lang/String;Ljava/lang/Class;Lorg/apache/wicket/request/mapper/parameter/PageParameters;)V*?
+=
+%47org.apache.wicket.markup.html.link.BookmarkablePageLink*	
+commits*
+""*A
+?
+%39org.apache.wicket.request.mapper.parameter.PageParametersßÜ
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/commits/CommitDetailPage.java… †(/'
+%6!org.apache.wicket.MarkupContainer"horg.apache.wicket.MarkupContainer#add([Lorg/apache/wicket/Component;)Lorg/apache/wicket/MarkupContainer;*:
+8
+fragment,org.apache.wicket.markup.html.panel.Fragment*?
+=
+%47org.apache.wicket.markup.html.link.BookmarkablePageLink2#add([Lorg/apache/wicket/Component;)€
+ý
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/commits/CommitDetailPage.java‡> ‡(I(
+%7"org.eclipse.jgit.revwalk.RevCommit"jio.onedev.server.web.page.project.commits.CommitDetailPage#getCommit()Lorg/eclipse/jgit/revwalk/RevCommit;*><
+:io.onedev.server.web.page.project.commits.CommitDetailPage±®
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/commits/CommitDetailPage.java‡> ‡(P
+%8java.lang.String"9org.eclipse.jgit.lib.AnyObjectId#name()Ljava/lang/String;**
+(
+%7"org.eclipse.jgit.revwalk.RevCommit2name()Ò
+Ï
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/commits/CommitDetailPage.java‡' ‡(Q
+%9java.lang.String"Qio.onedev.server.git.GitUtils#abbreviateSHA(Ljava/lang/String;)Ljava/lang/String;*!"
+io.onedev.server.git.GitUtils*
+
+%8java.lang.String‡„
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/commits/CommitDetailPage.java‡ ‡(0
+%10)org.apache.wicket.markup.html.basic.Label")org.apache.wicket.markup.html.basic.Labelì
+é
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/commits/CommitDetailPage.java‡ ‡(R
+%11"[org.apache.wicket.markup.html.basic.Label#<init>(Ljava/lang/String;Ljava/io/Serializable;)V*2
+0
+%10)org.apache.wicket.markup.html.basic.Label*
+
+commitHash*
+
+%9java.lang.StringÓÐ
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/commits/CommitDetailPage.java‡ ‡(S(
+%12!org.apache.wicket.MarkupContainer"horg.apache.wicket.MarkupContainer#add([Lorg/apache/wicket/Component;)Lorg/apache/wicket/MarkupContainer;*:
+8
+fragment,org.apache.wicket.markup.html.panel.Fragment*2
+0
+%10)org.apache.wicket.markup.html.basic.Label2#add([Lorg/apache/wicket/Component;)"ã
+¤
+—C:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/web/page/project/commits/CommitDetailPage.javaˆ ˆ(:
+8
+fragment,org.apache.wicket.markup.html.panel.Fragment:
+componentIdjava.lang.StringB><
+:io.onedev.server.web.page.project.commits.CommitDetailPage

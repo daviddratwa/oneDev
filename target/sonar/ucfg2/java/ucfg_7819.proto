@@ -1,0 +1,189 @@
+
+Ëio.onedev.server.util.xstream.ReflectionConverter#unmarshallField(Lcom/thoughtworks/xstream/converters/UnmarshallingContext;Ljava/lang/Object;Ljava/lang/Class;Ljava/lang/reflect/Field;)Ljava/lang/Object;™
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/xstream/ReflectionConverter.java% %(!"startingBlock*¬
+2™
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/xstream/ReflectionConverter.java' '(!ëè
+™
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/xstream/ReflectionConverter.java'1 '(H
+%1java.lang.Object"Zcom.thoughtworks.xstream.converters.UnmarshallingContext#currentObject()Ljava/lang/Object;*E
+C
+context8com.thoughtworks.xstream.converters.UnmarshallingContext2currentObject()ÕÒ
+™
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/xstream/ReflectionConverter.java' '(U
+%2java.lang.Object"~com.thoughtworks.xstream.converters.UnmarshallingContext#convertAnother(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;*E
+C
+context8com.thoughtworks.xstream.converters.UnmarshallingContext*
+
+%1java.lang.Object*
+""23convertAnother(Ljava/lang/Object;Ljava/lang/Class;)Û
+Ø
+™
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/xstream/ReflectionConverter.java' '(V
+entityIdjava.lang.Long"__id*
+
+%2java.lang.Objectâ
+ß
+™
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/xstream/ReflectionConverter.java(
+ ((**
+%3$io.onedev.server.persistence.dao.Dao"\io.onedev.commons.launcher.loader.AppLoader#getInstance(Ljava/lang/Class;)Ljava/lang/Object;*/"-
++io.onedev.commons.launcher.loader.AppLoader*
+""™–
+™
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/xstream/ReflectionConverter.java(R ((a
+%4java.lang.Class"2java.lang.reflect.Field#getType()Ljava/lang/Class;*"
+ 
+fieldjava.lang.reflect.Field2	getType()³°
+™
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/xstream/ReflectionConverter.java(
+ ((l
+%5	!capture!"sio.onedev.server.persistence.dao.Dao#load(Ljava/lang/Class;Ljava/lang/Long;)Lio/onedev/server/model/AbstractEntity;*,
+*
+%3$io.onedev.server.persistence.dao.Dao*
+
+%4java.lang.Class*
+
+entityIdjava.lang.Long2'load(Ljava/lang/Class;Ljava/lang/Long;)"¯
+™
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/xstream/ReflectionConverter.java( ((m
+
+%5	!capture!*•
+3™
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/xstream/ReflectionConverter.java& &(ëè
+™
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/xstream/ReflectionConverter.java& &(*!
+%0javax.persistence.ManyToOne"Yjava.lang.reflect.Field#getAnnotation(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;*"
+ 
+fieldjava.lang.reflect.Field*
+""2 getAnnotation(Ljava/lang/Class;)*
+2
+1*ž
+startingBlock™
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/xstream/ReflectionConverter.java%! %(g˜
+•
+™
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/xstream/ReflectionConverter.java# #(/
+%7"
+__annotate*
+java.lang.SuppressWarnings*E
+C
+context8com.thoughtworks.xstream.converters.UnmarshallingContext
+
+™
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/xstream/ReflectionConverter.java$ $(
+
+%8"
+__annotate*
+java.lang.Override*E
+C
+context8com.thoughtworks.xstream.converters.UnmarshallingContext‚
+ÿ
+™
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/xstream/ReflectionConverter.java%7 %(>C
+context8com.thoughtworks.xstream.converters.UnmarshallingContext"__annotation*
+
+%7*
+
+%8ï
+ì
+™
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/xstream/ReflectionConverter.java# #(/
+%9"
+__annotate*
+java.lang.SuppressWarnings*
+
+resultjava.lang.Objectè
+å
+™
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/xstream/ReflectionConverter.java$ $(
+
+%10"
+__annotate*
+java.lang.Override*
+
+resultjava.lang.ObjectÚ
+×
+™
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/xstream/ReflectionConverter.java%G %(M
+resultjava.lang.Object"__annotation*
+
+%9*
+
+%10í
+ê
+™
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/xstream/ReflectionConverter.java# #(/
+%11"
+__annotate*
+java.lang.SuppressWarnings*
+
+typejava.lang.Classå
+â
+™
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/xstream/ReflectionConverter.java$ $(
+
+%12"
+__annotate*
+java.lang.Override*
+
+typejava.lang.ClassØ
+Õ
+™
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/xstream/ReflectionConverter.java%U %(Y
+typejava.lang.Class"__annotation*
+
+%11*
+
+%12ö
+ó
+™
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/xstream/ReflectionConverter.java# #(/
+%13"
+__annotate*
+java.lang.SuppressWarnings*"
+ 
+fieldjava.lang.reflect.Fieldî
+ë
+™
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/xstream/ReflectionConverter.java$ $(
+
+%14"
+__annotate*
+java.lang.Override*"
+ 
+fieldjava.lang.reflect.Fieldá
+Þ
+™
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/xstream/ReflectionConverter.java%a %(f 
+fieldjava.lang.reflect.Field"__annotation*
+
+%13*
+
+%14*
+3*¥
+1™
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/xstream/ReflectionConverter.java*
+ *(Ê
+Ç
+™
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/xstream/ReflectionConverter.java*
+ *(=
+%6java.lang.Object"äcom.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter#unmarshallField(Lcom/thoughtworks/xstream/converters/UnmarshallingContext;Ljava/lang/Object;Ljava/lang/Class;Ljava/lang/reflect/Field;)Ljava/lang/Object;*
+""*E
+C
+context8com.thoughtworks.xstream.converters.UnmarshallingContext*
+
+resultjava.lang.Object*
+
+typejava.lang.Class*"
+ 
+fieldjava.lang.reflect.Field"¶
+™
+ŽC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/util/xstream/ReflectionConverter.java* *(>
+
+%6java.lang.Object:C
+context8com.thoughtworks.xstream.converters.UnmarshallingContext:
+resultjava.lang.Object:
+typejava.lang.Class: 
+fieldjava.lang.reflect.FieldB53
+1io.onedev.server.util.xstream.ReflectionConverter

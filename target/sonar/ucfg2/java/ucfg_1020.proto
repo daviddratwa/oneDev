@@ -1,0 +1,142 @@
+
+Êio.onedev.server.model.support.BranchProtection#isReviewRequiredForPush(Lio/onedev/server/model/User;Lio/onedev/server/model/Project;Ljava/lang/String;Lorg/eclipse/jgit/lib/ObjectId;Lorg/eclipse/jgit/lib/ObjectId;Ljava/util/Map;)Zô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.javaú ú('"9*Ì
+2ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.java¢ ¢(Œ
+À
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.java¢ ¢(
+changedFilejava.lang.String"__id*
+""Ú
+Ô
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.java¢ ¢(
+changedFilejava.lang.String"
+__arrayGet*
+
+%5java.util.Collection*
+""*
+5
+1*∆
+3ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.java• •("§
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.java• •(
+""*˝
+4ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.java§- §(8‰·
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.java§- §(D
+%10java.util.Map"Tio.onedev.server.util.reviewrequirement.ReviewRequirement#getGroups()Ljava/util/Map;*J
+H
+requirement9io.onedev.server.util.reviewrequirement.ReviewRequirement2getGroups()ÏÈ
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.java§- §(N
+%11boolean"java.util.Map#isEmpty()Z*
+
+%10java.util.Map2	isEmpty()*
+2
+3*Œ
+5ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.java£ £("⁄◊
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.java£ £(/3
+%6-io.onedev.server.model.support.FileProtection"Ñio.onedev.server.model.support.BranchProtection#getFileProtection(Ljava/lang/String;)Lio/onedev/server/model/support/FileProtection;*31
+/io.onedev.server.model.support.BranchProtection*!
+
+changedFilejava.lang.String2%getFileProtection(Ljava/lang/String;)Ω∫
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.java£ £(L?
+%79io.onedev.server.util.reviewrequirement.ReviewRequirement"Öio.onedev.server.model.support.FileProtection#getParsedReviewRequirement()Lio/onedev/server/util/reviewrequirement/ReviewRequirement;*5
+3
+%6-io.onedev.server.model.support.FileProtection2getParsedReviewRequirement()≤
+Ø
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.java£ £(LH
+requirement9io.onedev.server.util.reviewrequirement.ReviewRequirement"__id*A
+?
+%79io.onedev.server.util.reviewrequirement.ReviewRequirement„‡
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.java§ §(
+%8java.util.List"Tio.onedev.server.util.reviewrequirement.ReviewRequirement#getUsers()Ljava/util/List;*J
+H
+requirement9io.onedev.server.util.reviewrequirement.ReviewRequirement2
+getUsers()ÏÈ
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.java§ §((
+%9boolean"java.util.List#isEmpty()Z*
+
+%8java.util.List2	isEmpty()*
+3
+4*Å
+6ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.java¢ ¢("⁄◊
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.java¢ ¢(U
+%5java.util.Collection"ìio.onedev.server.model.Project#getChangedFiles(Lorg/eclipse/jgit/lib/ObjectId;Lorg/eclipse/jgit/lib/ObjectId;Ljava/util/Map;)Ljava/util/Collection;*+
+)
+projectio.onedev.server.model.Project*.
+,
+oldObjectIdorg.eclipse.jgit.lib.ObjectId*.
+,
+newObjectIdorg.eclipse.jgit.lib.ObjectId*
+
+gitEnvsjava.util.Map2^getChangedFiles(Lorg/eclipse/jgit/lib/ObjectId;Lorg/eclipse/jgit/lib/ObjectId;Ljava/util/Map;)*
+2*∆
+7ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.java†
+ †("§
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.java† †(
+""*˙
+8ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.javaü, ü(7„‡
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.javaü, ü(C
+%3java.util.Map"Tio.onedev.server.util.reviewrequirement.ReviewRequirement#getGroups()Ljava/util/Map;*J
+H
+requirement9io.onedev.server.util.reviewrequirement.ReviewRequirement2getGroups()ÍÁ
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.javaü, ü(M
+%4boolean"java.util.Map#isEmpty()Z*
+
+%3java.util.Map2	isEmpty()*
+6
+7*Ò
+9ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.javaû" û(<Ω∫
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.javaû" û(>?
+%09io.onedev.server.util.reviewrequirement.ReviewRequirement"áio.onedev.server.model.support.BranchProtection#getParsedReviewRequirement()Lio/onedev/server/util/reviewrequirement/ReviewRequirement;*31
+/io.onedev.server.model.support.BranchProtection2getParsedReviewRequirement()≤
+Ø
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.javaû û(?H
+requirement9io.onedev.server.util.reviewrequirement.ReviewRequirement"__id*A
+?
+%09io.onedev.server.util.reviewrequirement.ReviewRequirement„‡
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.javaü ü(
+%1java.util.List"Tio.onedev.server.util.reviewrequirement.ReviewRequirement#getUsers()Ljava/util/List;*J
+H
+requirement9io.onedev.server.util.reviewrequirement.ReviewRequirement2
+getUsers()ÏÈ
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.javaü ü('
+%2boolean"java.util.List#isEmpty()Z*
+
+%1java.util.List2	isEmpty()*
+7
+8*∆
+1ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.java®	 ®("§
+ô
+åC:/Users/ddrat/OneDrive/Documents/POLYH21/LOG8371/test/oneDev/server-core/src/main/java/io/onedev/server/model/support/BranchProtection.java® ®(
+"":#
+userio.onedev.server.model.User:)
+projectio.onedev.server.model.Project:
+branchjava.lang.String:,
+oldObjectIdorg.eclipse.jgit.lib.ObjectId:,
+newObjectIdorg.eclipse.jgit.lib.ObjectId:
+gitEnvsjava.util.MapB31
+/io.onedev.server.model.support.BranchProtection
